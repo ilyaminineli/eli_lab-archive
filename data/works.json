@@ -2076,6 +2076,481 @@
         "enlightenment-i",
         "ritual-big-fridge"
       ]
+    },
+    {
+      "id": "daly-syndrome",
+      "title": "Daly Syndrome",
+      "year": "2019–present",
+      "medium": [
+        "animation",
+        "video",
+        "audio",
+        "cgi"
+      ],
+      "context": [
+        "personal work",
+        "long-form film",
+        "in development"
+      ],
+      "status": "confirmed",
+      "description": "Long-form animated psychological-horror film in development. Tobias encounters an audiovirus that destabilizes sound, memory, perception and reality.",
+      "sources": [
+        "https://github.com/ilyaminineli/Daly-Syndrome"
+      ],
+      "related_works": [
+        "ewp-project",
+        "multimedia-framework",
+        "pipeline-hub"
+      ]
+    },
+    {
+      "id": "desolation-odissey",
+      "title": "Desolation Odissey",
+      "year": "2010s–2020s",
+      "medium": [
+        "games"
+      ],
+      "context": [
+        "game",
+        "legacy"
+      ],
+      "status": "candidate",
+      "description": "Game/project record preserved by the historical Eli Lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "elysium",
+      "title": "Elysium",
+      "year": "2010s–2020s",
+      "medium": [
+        "games"
+      ],
+      "context": [
+        "game",
+        "legacy"
+      ],
+      "status": "candidate",
+      "description": "Game/project record from the historical Eli Lab site. Project-specific metadata remains to be recovered from source material.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "metaliminal",
+      "title": "Metaliminal",
+      "year": "2010s–2020s",
+      "medium": [
+        "games"
+      ],
+      "context": [
+        "game",
+        "legacy",
+        "liminal"
+      ],
+      "status": "candidate",
+      "description": "Experimental game/project trace. Current public repository contains only a gitignore, so the historical site remains the stronger source.",
+      "sources": [
+        "https://github.com/ilyaminineli/metaliminal",
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "sleepdom",
+      "title": "Sleepdom",
+      "year": "2020s",
+      "medium": [
+        "games"
+      ],
+      "context": [
+        "game",
+        "art-house"
+      ],
+      "status": "documented",
+      "description": "Art-house immersive sim action game.",
+      "sources": [
+        "https://github.com/ilyaminineli/sleepdom"
+      ]
+    },
+    {
+      "id": "night-mafia",
+      "title": "Night Mafia",
+      "year": "legacy",
+      "medium": [
+        "games"
+      ],
+      "context": [
+        "game",
+        "legacy"
+      ],
+      "status": "candidate",
+      "description": "Historical game page exists, but the current source text is placeholder-level and is not enough for a canonical project description.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "spring-story",
+      "title": "Весенняя Сказка / Spring Story",
+      "year": "2022",
+      "medium": [
+        "video"
+      ],
+      "context": [
+        "experimental video",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "YouTube work presented by the old video-art interface under the generic label “Abstract Shapes Animation.”",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=xTysVDBJwpE"
+      ]
+    },
+    {
+      "id": "winter-story",
+      "title": "Зимняя Сказка / Winter Story",
+      "year": "2021",
+      "medium": [
+        "video"
+      ],
+      "context": [
+        "experimental video",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "YouTube work presented by the old video-art interface under the generic label “Glitch Art Experiment.”",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=P-SJO5ZmFTo"
+      ]
+    },
+    {
+      "id": "muse-performance",
+      "title": "MUSE",
+      "year": "2019",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "live",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Performance with acoustic and electronic sound sources.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "pattern-industrial-fabrics",
+      "title": "PATTERN",
+      "year": "2021",
+      "medium": [
+        "art",
+        "exhibition"
+      ],
+      "context": [
+        "group exhibition"
+      ],
+      "status": "documented",
+      "description": "Group exhibition of industrial fabrics.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "aibolit-sashaeb",
+      "title": "Айболит / Aibolit",
+      "year": "2024–2025",
+      "medium": [
+        "exhibition",
+        "art",
+        "sound"
+      ],
+      "context": [
+        "collaboration",
+        "Parazit",
+        "gallery"
+      ],
+      "status": "documented",
+      "description": "Exhibition at Gallery Borey, Saint Petersburg, 24.12.2024–11.01.2025, documented by collaborator sasha e b as a joint presentation with Ilya Minin.",
+      "sources": [
+        "https://github.com/ilyaminineli/sashaeb"
+      ]
+    },
+    {
+      "id": "re-punk",
+      "title": "Re-Punk / Re-Punk Room",
+      "year": "2026",
+      "medium": [
+        "art",
+        "video",
+        "interactive",
+        "performance"
+      ],
+      "context": [
+        "exhibition",
+        "live-coding",
+        "Kasane Teto",
+        "repetition"
+      ],
+      "status": "documented",
+      "description": "Ilya Minin's Re-Punk contribution to the Переизобретая панк exhibition: repetition and variation, especially repeated drawings of Kasane Teto, paired with an immersive screen/projector setup and live-coding performance.",
+      "sources": [
+        "https://github.com/ilyaminineli/punk_exhibition"
+      ],
+      "external_sources": [
+        "https://t.me/s/artnagrada?before=7142"
+      ],
+      "related_works": [
+        "pereizobretenie-punk",
+        "iirai",
+        "pattern-generator"
+      ]
+    },
+    {
+      "id": "geztalt-j-2025",
+      "title": "ᏒᚣᚺᚺᚣJᚣ ᚹᛠᚣᛢᛈꖾᛕᚣ",
+      "year": "2025",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by geztålt.",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/j"
+      ],
+      "related_works": [
+        "geztalt"
+      ]
+    },
+    {
+      "id": "geztalt-person-2025",
+      "title": "人刄厂刄山长刄",
+      "year": "2025",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by geztålt.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "related_works": [
+        "geztalt"
+      ]
+    },
+    {
+      "id": "geztalt-delta-2025",
+      "title": "ΔҒϮΩϷΔϮΙ",
+      "year": "2025",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by geztålt.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "related_works": [
+        "geztalt"
+      ]
+    },
+    {
+      "id": "geztalt-ost-2025",
+      "title": "ᖘĬᙏꗞᙁ OST",
+      "year": "2025",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release",
+        "OST"
+      ],
+      "status": "documented",
+      "description": "Digital album by geztålt; released January 20, 2025.",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/ost"
+      ],
+      "related_works": [
+        "geztalt"
+      ]
+    },
+    {
+      "id": "geztalt-other-2025",
+      "title": "ᛔㄖ㇄丂⼕廾㠪乃𝓝ㄚ丿 ለቴር",
+      "year": "2025",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by geztålt visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "related_works": [
+        "geztalt"
+      ]
+    },
+    {
+      "id": "red-box",
+      "title": "unreleased sound: red box",
+      "year": "legacy",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "archive",
+        "unreleased"
+      ],
+      "status": "documented",
+      "description": "Unreleased sound record visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "life-in-one-second",
+      "title": "life in one second",
+      "year": "2021",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Digital release; Bandcamp contains the track “feg rune 432.”",
+      "sources": [
+        "https://eliasadams.bandcamp.com",
+        "https://eliasadams.bandcamp.com/track/feg-rune-432"
+      ]
+    },
+    {
+      "id": "redux-to-the-breath-2",
+      "title": "Redux To The Breath - Part 2",
+      "year": "legacy",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Digital release visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "rakkaani",
+      "title": "rakkaani",
+      "year": "legacy",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Digital release visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "amp",
+      "title": "amp",
+      "year": "legacy",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Digital release visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "patanormal",
+      "title": "patanormal",
+      "year": "legacy",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Digital release visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "bad-kase-of-indiscretion",
+      "title": "Bad Kase of Indiscretion",
+      "year": "legacy",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Digital release visible in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "valera-grandpa-music",
+      "title": "ヴァレラおじいちゃんへ の音楽集",
+      "year": "2026",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital release currently listed in the Bandcamp discography.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
     }
   ]
 }
