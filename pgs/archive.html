@@ -38,12 +38,17 @@
         </section>
 
         <section class="archive-index u-container">
-            <div class="archive-source-strip"><span>WORK DATABASE / 146 RECORDS / 142 PUBLIC</span><a href="video.html">VIDEO REGISTER
+            <div class="archive-source-strip"><span>WORK DATABASE / 148 RECORDS / 143 PUBLIC</span><a href="video.html">VIDEO REGISTER
                     / 126 SOURCE ROWS →</a><a href="../MATERIALS_CHART.md">MATERIALS / SOURCES →</a><a href="network.html">NETWORK / RELATIONS →</a></div>
             <div class="archive-toolbar">
                 <label class="terminal-field archive-search">SEARCH <input id="work-search" type="search" placeholder="title / medium / keyword"></label>
-                <div class="filter-group" role="group" aria-label="Filter works by medium">
+                <div class="filter-group" role="group" aria-label="Filter works and directory presets">
                     <button class="filter-button is-active" type="button" data-filter="all">All</button>
+                    <button class="filter-button filter-button--directory" type="button" data-filter="visual">Visual</button>
+                    <button class="filter-button filter-button--directory" type="button" data-filter="sound">Sound</button>
+                    <button class="filter-button filter-button--directory" type="button" data-filter="voice">Voice</button>
+                    <button class="filter-button filter-button--directory" type="button" data-filter="motion">Motion</button>
+                    <button class="filter-button filter-button--directory" type="button" data-filter="systems">Systems</button>
                     <button class="filter-button" type="button" data-filter="art">Art</button>
                     <button class="filter-button" type="button" data-filter="animation">Animation</button>
                     <button class="filter-button" type="button" data-filter="cgi">CGI / 3D</button>
@@ -57,7 +62,7 @@
                     <button class="filter-button" type="button" data-filter="performance">Performance</button>
                     <button class="filter-button" type="button" data-filter="documentation">Documentation</button>
                 </div>
-                <span class="archive-count" data-count></span>
+                <span class="archive-current" data-active-directory>ALL / WORKS</span><span class="archive-count" data-count></span>
             </div>
 
             <div class="archive-table" data-archive-table aria-live="polite"></div>
