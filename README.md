@@ -21,6 +21,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `ARCHIVE_MAP.md` — research ledger and multidisciplinary source map
 - `DESIGN_DIRECTION.md` — skeuomorphic console / blueprint design specification
 - `data/works.json` — curated structured work manifest
+- `Ilya-Minin-Eli.csv` — 126-row public YouTube source export
+- `VIDEO_CATALOG_MAP.md` — normalized video-title index and project-relationship discovery
 - `css/measures.css` — fluid typography, spacing and grid tokens
 - `css/style_main.css` — visual system and responsive layout
 - `scr/script_main.js` — navigation, year and archive filtering
