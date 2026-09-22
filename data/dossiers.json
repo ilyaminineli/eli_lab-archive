@@ -151,14 +151,34 @@
           "relation": "created-by"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Contemporary film / comedy series built from local-history research about Bogorodskoye.",
+        "Combines historical reconstruction with performance, theater, music, dancing, fairground traditions and intentionally chaotic video language.",
+        "The project was made by Yulia Baranyuk and Ilya Minin with a wider documented cast and crew."
+      ],
+      "materials": [
+        "local-history essays and articles",
+        "performance",
+        "historical reconstruction",
+        "film / video",
+        "music and sound"
+      ],
+      "chronology": [
+        {
+          "year": "2022",
+          "note": "Experimental film and comedy project based on collected Bogorodskoye local-history material."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Director of Photography: Hose.",
+        "Editing & Sound: Ilya Minin (Eli)."
+      ],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The source names Yulia Baranyuk, Anna Malakhova, Olga Romanova, Mel, Vasily Ivanov, Vladimir Pilikhovski, Sergey Bratkov and Oleg Ustinov in the cast."
+      ],
       "questions_to_resolve": []
     },
     "the-last-day-of-kasane-teto": {
@@ -997,14 +1017,35 @@
           "relation": "performed-with"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
-      "exhibitions": [],
+      "process": [
+        "Constructed from an actual Fuji-area journey, field recordings and fragments of memory rather than as a conventional travel documentary.",
+        "Roads, forests, shrines, tunnels, lakes, vending machines, voices and mechanical sounds are reorganized into an imagined audiovisual landscape.",
+        "UTAU voicebanks are integrated as remembered or returning voices within the landscape."
+      ],
+      "materials": [
+        "field recordings",
+        "travel photography / video",
+        "Akane Iirai",
+        "Eugene",
+        "Takismana",
+        "Fuji-area location recordings",
+        "Japanese folklore references"
+      ],
+      "chronology": [
+        {
+          "year": "2026",
+          "note": "Fuji Five Lakes / Aokigahara / Lake Saiko field journey and audiovisual reconstruction."
+        }
+      ],
+      "exhibitions": [
+        "Japan / Fuji-area fieldwork; SAIKONEON context"
+      ],
       "publications": [],
       "technical_notes": [],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The source description explicitly distinguishes the work from documentary representation of Japan; it is indexed as a transformation of journey into sound, memory and folklore."
+      ],
       "questions_to_resolve": []
     },
     "six-yokai": {
@@ -1024,14 +1065,32 @@
         "X1lK-y6ms2o"
       ],
       "credits": [],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Fictional yokai documentary built as an homage to Japanese folklore programs, kaidan broadcasts and forgotten educational television.",
+        "Six invented yokai are presented through oral traditions, old-record framing and deliberately unreliable archival language.",
+        "Created in Japan as part of the Saikoneon project and connected to the wider Fuji fieldwork branch."
+      ],
+      "materials": [
+        "fictional folklore archive",
+        "illustration",
+        "script",
+        "editing",
+        "Eugene voice",
+        "Fuji-area visual material"
+      ],
+      "chronology": [
+        {
+          "year": "2026",
+          "note": "Created in Japan during the Saikoneon project."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
       "technical_notes": [],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The source description explicitly states that the yokai, traditions and documents are fictional and not real Japanese folklore."
+      ],
       "questions_to_resolve": []
     },
     "in-her-20s": {
@@ -1054,14 +1113,32 @@
         "JpZqWAC6Mv0"
       ],
       "credits": [],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Original UTAU audiovisual work built from fragmented memory rather than linear narrative.",
+        "Hospital, ambulance, moons, medication, red-throat imagery, silence and disappearance are assembled into a shifting psychological landscape.",
+        "Akane Iirai carries the vocal performance."
+      ],
+      "materials": [
+        "UTAU vocal",
+        "Akane Iirai",
+        "Japanese lyrics",
+        "video montage",
+        "hospital / ambulance imagery",
+        "surreal visual fragments"
+      ],
+      "chronology": [
+        {
+          "year": "2026-07-16",
+          "note": "Main three-minute version and multiple short publication variants uploaded."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
       "technical_notes": [],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The archive treats the multiple short uploads as source variants of one canonical work."
+      ],
       "questions_to_resolve": []
     },
     "childs-sky": {
@@ -1080,14 +1157,31 @@
         "T4N2ELKcowI"
       ],
       "credits": [],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Original UTAU audiovisual work using fragments of childhood memory and an unreachable landscape.",
+        "Broken glass, voices, wind, fire, butterflies, white fingers, abandoned paths and a strange white trunk recur as unstable memory images.",
+        "Kasane Teto and Akane Iirai alternate as vocal presences."
+      ],
+      "materials": [
+        "Kasane Teto",
+        "Akane Iirai",
+        "Japanese lyrics",
+        "video montage",
+        "surreal environmental imagery"
+      ],
+      "chronology": [
+        {
+          "year": "2026-07-09",
+          "note": "Original audiovisual work published to YouTube."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
       "technical_notes": [],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The description frames the work as a memory-space rather than a literal childhood documentary."
+      ],
       "questions_to_resolve": []
     },
     "someones-voice": {
@@ -1106,9 +1200,22 @@
         "TJROlmgboT8"
       ],
       "credits": [],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Original UTAU work centered on a voice inside the head that gradually becomes more real than the speaker.",
+        "The piece belongs to the 2026 synthetic-voice branch around Akane Iirai."
+      ],
+      "materials": [
+        "UTAU vocal",
+        "Akane Iirai",
+        "audio",
+        "video"
+      ],
+      "chronology": [
+        {
+          "year": "2026-07-04",
+          "note": "Source video published in the current YouTube export."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
       "technical_notes": [],
@@ -1136,12 +1243,31 @@
         "t_9eOHFA1SI"
       ],
       "credits": [],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Original UTAU song built around Eugene as a voice that has been restored from fragments yet remains deliberately unfinished.",
+        "The Forest of White Bells and recurring images of fox footprints, bells, birds, red fruit and moonlight frame the search for warmth, freedom, a name or happiness.",
+        "The source describes the work as part of the broader ELI LAB exploration of UTAU, CGI, animation, sound art and audiovisual experiments."
+      ],
+      "materials": [
+        "Eugene / 友人",
+        "Japanese lyrics",
+        "UTAUV",
+        "voicebank retouching",
+        "character design",
+        "audio / video"
+      ],
+      "chronology": [
+        {
+          "year": "2026-06",
+          "note": "Multiple YouTube uploads document the release cluster."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Voicebank setup & retouching: Eikton.",
+        "Song / lyrics / tuning / character design: Ilya Minin (Eli)."
+      ],
       "selected_images": [],
       "archival_notes": [],
       "questions_to_resolve": []
@@ -1199,12 +1325,31 @@
         "KpAnmELow2I"
       ],
       "credits": [],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Started as a technical demonstration of Iirai and developed into a darker interpretation of the traditional children's game song.",
+        "Deep bass timbre, circular melody and hard-retuned synthetic vocals push the familiar material toward a ritualistic and unsettling atmosphere.",
+        "The source explicitly identifies the contrast between children's-song familiarity, synthetic voice, human imperfection and something ancient as intentional."
+      ],
+      "materials": [
+        "Iirai voicebank",
+        "traditional Kagome Kagome melody",
+        "UTAU",
+        "retuning",
+        "video",
+        "experimental arrangement"
+      ],
+      "chronology": [
+        {
+          "year": "2025-12-01",
+          "note": "Main publication cluster includes several short/variant uploads."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Voicebank retuning: Eikton.",
+        "The source distinguishes the traditional song from the new arrangement and video."
+      ],
       "selected_images": [],
       "archival_notes": [],
       "questions_to_resolve": []
@@ -1378,12 +1523,31 @@
           "relation": "performed-with"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
-      "exhibitions": [],
+      "process": [
+        "Collaborative live performance developed by Julia Baranyuk and Ilya Minin.",
+        "The Winzavod 'underground world' becomes part of the work, connecting movement, digital interaction and architecture.",
+        "The surviving YouTube item functions as live documentation of the 23 December 2022 performance."
+      ],
+      "materials": [
+        "live movement",
+        "digital interaction",
+        "Winzavod architecture",
+        "performance video",
+        "camera documentation"
+      ],
+      "chronology": [
+        {
+          "year": "2022-12-23",
+          "note": "Performance recorded at Winzavod Center for Contemporary Art, Moscow."
+        }
+      ],
+      "exhibitions": [
+        "Winzavod Center for Contemporary Art, Moscow"
+      ],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Camera: Vasiliy Ivanov."
+      ],
       "selected_images": [],
       "archival_notes": [],
       "questions_to_resolve": []
@@ -4410,14 +4574,32 @@
           "relation": "performed-with"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
-      "exhibitions": [],
+      "process": [
+        "Video-art collaboration with Varvara Kuleshova using hard montage and mnemonic imagery to alter the viewer's perception of the central figure.",
+        "The work combines visual and verbal hallucination, dreams and a continuous flow of remembered information.",
+        "Recorded at Fund SFERA during Kuleshova's exhibition about dichotomous thinking, dissonance and fluctuations of the inner world of artists."
+      ],
+      "materials": [
+        "video footage",
+        "hard montage",
+        "spoken / visual hallucination",
+        "Fund SFERA exhibition context"
+      ],
+      "chronology": [
+        {
+          "year": "2022-03-17",
+          "note": "Video published from the Fund SFERA / Varvara Kuleshova exhibition context."
+        }
+      ],
+      "exhibitions": [
+        "Fund SFERA — exhibition context documented in source description"
+      ],
       "publications": [],
       "technical_notes": [],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The source explicitly identifies Varvara Kuleshova and Ilya Minin as the video's authors."
+      ],
       "questions_to_resolve": []
     },
     "linearna-zaležnost": {
