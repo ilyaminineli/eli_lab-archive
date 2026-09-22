@@ -20,7 +20,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 
 The site is built as an editorial archive rather than a conventional portfolio. The selected page is the invitation; the archive is the backbone; individual medium pages provide room for context and project records; the CV stays secondary and concise.
 
-The current visual language is restrained and typographic: warm paper, dark ink, fine rules, mono metadata, a serif/sans pairing, generous whitespace and small shifts in scale. Placeholder media blocks are structural only and should be replaced by real project imagery as the archive is populated.
+The visual language is intentionally tactile: warm paper, dark ink, fine rules, mono metadata, serif/sans typography, transparent print textures, slight registration-style imperfections, paper shadows and restrained vermilion marks. It should feel closer to an artist publication, photocopied folder or hand-worked catalogue than a glossy agency portfolio. Placeholder media blocks are structural only and should be replaced by real project imagery as the archive is populated.
 
 ## Future data layer
 
