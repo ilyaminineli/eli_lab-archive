@@ -1,0 +1,18 @@
+{
+  "id": "sound-voice-generative",
+  "title": "Sound / Voice / Generative",
+  "description": "Experimental audio, live systems, voicebanks, procedural music and algorithmic composition.",
+  "workIds": [
+    "eporgaanisten-rakenteiden-kierratys",
+    "lab-announcement-3",
+    "belial",
+    "hiro",
+    "eugene",
+    "iirai",
+    "synthv-custom-scripts",
+    "pattern-generator",
+    "live-one-gog",
+    "agonal-machines",
+    "peredelano-conf-2023"
+  ]
+}
