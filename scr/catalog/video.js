@@ -2,8 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const list = document.querySelector("#video-list");
     const search = document.querySelector("#video-search");
     const yearSelect = document.querySelector("#video-year");
+    const linkFilter = document.querySelector("#video-link-filter");
     const count = document.querySelector("#video-count");
-    if (!list || !search || !yearSelect || !count) return;
+    if (!list || !search || !yearSelect || !linkFilter || !count) return;
 
     const parseCSV = (text) => {
         const rows = [];
@@ -40,18 +41,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const cleanDescription = (value) => escapeHTML(value).replace(/\n/g, "<br>");
 
-    fetch("../Ilya-Minin-Eli.csv")
-        .then((response) => {
-            if (!response.ok) throw new Error("CSV unavailable");
-            return response.text();
-        })
-        .then((csv) => {
-            const rows = parseCSV(csv);
-            const header = rows.shift();
-            const index = Object.fromEntries(header.map((name, i) => [name, i]));
-            const records = rows
-                .filter((r) => r.length >= header.length)
-                .map((r) => ({
+    Promise.all([
+        fetch("../Ilya-Minin-Eli.csv").then(r => r.ok ? r.text() : ""),
+        fetch("../data/video_relations.json").then(r => r.ok ? r.json() : { rows: [] }),
+        fetch("../data/works.json").then(r => r.ok ? r.json() : { works: [] })
+    ]).then(([csv, relationData, manifest]) => {
+        if (!csv) throw new Error("CSV unavailable");
+
+        const rows = parseCSV(csv);
+        const header = rows.shift();
+        const index = Object.fromEntries(header.map((name, i) => [name, i]));
+        const relationMap = new Map((relationData.rows || []).map(row => [row.videoId, row]));
+        const workMap = new Map((manifest.works || []).map(work => [work.id, work]));
+
+        const records = rows
+            .filter((r) => r.length >= header.length)
+            .map((r) => {
+                const relation = relationMap.get(r[index["Video ID"]]) || {};
+                const work = workMap.get(relation.canonicalWorkId);
+                return {
                     position: r[index.Position],
                     title: r[index["Video Title"]],
                     url: r[index["Video URL"]],
@@ -61,50 +69,54 @@ document.addEventListener("DOMContentLoaded", () => {
                     views: r[index.Views],
                     description: r[index.Description] || "",
                     thumbnail: r[index["Thumbnail URL"]] || "",
-                }));
+                    canonicalWorkId: relation.canonicalWorkId || "",
+                    canonicalWorkTitle: work?.title || "",
+                    candidateWorkId: relation.canonicalWorkId ? "" : (relation.match || ""),
+                };
+            });
 
-            [...new Set(records.map((r) => r.date?.slice(0, 4)).filter(Boolean))]
-                .sort((a, b) => Number(b) - Number(a))
-                .forEach((year) => yearSelect.insertAdjacentHTML("beforeend", `<option value="${year}">${year}</option>`));
+        [...new Set(records.map((r) => r.date?.slice(0, 4)).filter(Boolean))]
+            .sort((a, b) => Number(b) - Number(a))
+            .forEach((year) => yearSelect.insertAdjacentHTML("beforeend", '<option value="' + escapeHTML(year) + '">' + escapeHTML(year) + '</option>'));
 
-            const render = () => {
-                const query = search.value.trim().toLowerCase();
-                const year = yearSelect.value;
-                const visible = records.filter((item) => {
-                    const hay = `${item.title} ${item.description} ${item.id}`.toLowerCase();
-                    return (year === "all" || item.date?.startsWith(year)) && (!query || hay.includes(query));
-                });
+        const render = () => {
+            const query = search.value.trim().toLowerCase();
+            const year = yearSelect.value;
+            const filter = linkFilter.value;
+            const visible = records.filter((item) => {
+                const hay = [item.title, item.description, item.id, item.canonicalWorkTitle, item.candidateWorkId].join(" ").toLowerCase();
+                const statusMatch = filter === "all" || (filter === "canonical" && item.canonicalWorkId) || (filter === "unresolved" && !item.canonicalWorkId);
+                return statusMatch && (year === "all" || item.date?.startsWith(year)) && (!query || hay.includes(query));
+            });
 
-                count.textContent = `${String(visible.length).padStart(3, "0")} / ${records.length} records`;
-                list.innerHTML = visible.map((item) => `
-                    <details class="video-record">
-                        <summary>
-                            <span>${escapeHTML(item.date)}</span>
-                            <strong>${escapeHTML(item.title)}</strong>
-                            <span>${escapeHTML(item.duration)}</span>
-                            <span>${escapeHTML(item.id)}</span>
-                            <span class="record-open">+</span>
-                        </summary>
-                        <div class="video-record-body">
-                            <div class="video-record-preview">
-                                <img src="${escapeHTML(item.thumbnail)}" alt="" loading="lazy">
-                                <a class="text-link" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">OPEN YOUTUBE →</a>
-                            </div>
-                            <div class="video-record-copy">
-                                <div class="record-meta"><span>${tagFor(item)}</span><span>POSITION ${escapeHTML(item.position)}</span><span>VIEWS ${escapeHTML(item.views)}</span></div>
-                                <p>${cleanDescription(item.description) || "No description supplied in source export."}</p>
-                            </div>
-                        </div>
-                    </details>`).join("") || '<p class="small-note" style="padding:1rem">No matching records.</p>';
-            };
+            count.textContent = String(visible.length).padStart(3, "0") + " / " + String(records.length).padStart(3, "0") + " SOURCE ROWS";
 
-            search.addEventListener("input", render);
-            yearSelect.addEventListener("change", render);
-            render();
-        })
-        .catch((error) => {
-            console.error(error);
-            count.textContent = "SOURCE ERROR";
-            list.innerHTML = '<p class="small-note" style="padding:1rem">The CSV source could not be loaded. Open the source CSV below.</p>';
-        });
+            list.innerHTML = visible.map((item) => {
+                const canonical = item.canonicalWorkId
+                    ? '<a class="video-canonical-link" href="record.html?id=' + encodeURIComponent(item.canonicalWorkId) + '">WORK / ' + escapeHTML(item.canonicalWorkTitle) + ' ↗</a>'
+                    : '<span class="video-canonical-unresolved">' + (item.candidateWorkId ? 'CANDIDATE / ' + escapeHTML(item.candidateWorkId) : 'SOURCE-ONLY / UNRESOLVED') + '</span>';
+
+                return '<details class="video-record">' +
+                    '<summary><span>' + escapeHTML(item.date) + '</span><strong>' + escapeHTML(item.title) + '</strong><span>' +
+                    escapeHTML(item.duration) + '</span><span>' + escapeHTML(item.id) + '</span><span class="record-open">+</span></summary>' +
+                    '<div class="video-record-body">' +
+                    '<div class="video-record-preview"><img src="' + escapeHTML(item.thumbnail) + '" alt="" loading="lazy">' +
+                    '<a class="text-link" href="' + escapeHTML(item.url) + '" target="_blank" rel="noopener">OPEN YOUTUBE →</a>' +
+                    canonical + '</div>' +
+                    '<div class="video-record-copy"><div class="record-meta"><span>' + tagFor(item) + '</span><span>POSITION ' +
+                    escapeHTML(item.position) + '</span><span>VIEWS ' + escapeHTML(item.views) + '</span></div>' +
+                    '<p>' + (cleanDescription(item.description) || "No description supplied in source export.") + '</p></div>' +
+                    '</div></details>';
+            }).join("") || '<p class="small-note" style="padding:1rem">No matching source rows.</p>';
+        };
+
+        search.addEventListener("input", render);
+        yearSelect.addEventListener("change", render);
+        linkFilter.addEventListener("change", render);
+        render();
+    }).catch((error) => {
+        console.error(error);
+        count.textContent = "SOURCE ERROR";
+        list.innerHTML = '<p class="small-note" style="padding:1rem">The CSV source could not be loaded. Open the source CSV below.</p>';
+    });
 });
