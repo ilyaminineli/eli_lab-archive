@@ -69,7 +69,7 @@ Blue Neon + NO ONE IS LISTENING → Vocaloid Jazz Album → Kasane Teto / Chis-A
 
 The archive UI is now data-driven around one canonical public work layer. Navigation, search, status and record routing were audited together rather than page-by-page.
 
-- All 18 HTML pages use the same six-item primary navigation.
+- All 19 HTML pages use the same six-item primary navigation.
 - A global search page now indexes works and relationship entities.
 - Works, medium directories, People and Network have independent but compatible search behavior.
 - Network focus uses stable entity IDs instead of display names.
