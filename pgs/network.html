@@ -35,9 +35,13 @@
         </div>
 
         <div class="network-controls">
-            <label class="terminal-field">SEARCH <input id="network-search" type="search" placeholder="work / person / relation"></label>
+            <label class="terminal-field">SEARCH <input id="network-search" type="search" autocomplete="off" placeholder="work / person / group / place / relation"></label>
+            <label class="terminal-field">FOCUS <select id="network-focus"><option value="">ALL CONNECTED WORKS</option></select></label>
+            <button class="network-clear" id="network-clear" type="button">CLEAR</button>
             <span class="archive-count" id="network-count">—</span>
         </div>
+
+        <div class="network-path" id="network-path" aria-live="polite">VIEW / ALL CONNECTED WORKS</div>
 
         <div class="network-legend" aria-label="Network legend">
             <span><i class="network-dot network-dot--work"></i> WORK</span>
