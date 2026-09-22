@@ -116,7 +116,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             ['SOURCES', Boolean(work.sources?.length)],
             ['EXTERNAL', Boolean(work.external_sources?.length)],
             ['RELATIONS', Boolean(edges.length)],
-            ['VIDEOS', Boolean(sourceVideos.length)]
+            ['VIDEOS', Boolean(sourceVideos.length)],
+            ['MEDIA FOLDER', work.media_status === 'staged']
         ];
 
         const present = coverage.filter(item => item[1]).map(item => item[0]);
@@ -176,7 +177,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             '</strong>. This is a living archive; uncertainty and source hierarchy are intentionally preserved.</p>' +
             '</section>' +
 
-            '<div class="record-actions"><span class="record-media-path">MEDIA FOLDER / <a target="_blank" rel="noopener" href="https://github.com/ilyaminineli/eli_lab-archive/tree/main/' + encodeURI(work.media_dir || ('media/works/' + work.id + '/')) + '">' + escapeHTML(work.media_dir || ('media/works/' + work.id + '/')) + ' ↗</a></span>' +
+            '<div class="record-actions"><span class="record-media-path">' +
+            (work.media_status === 'staged'
+                ? 'MEDIA / <a target="_blank" rel="noopener" href="https://github.com/ilyaminineli/eli_lab-archive/tree/main/' + encodeURI(work.media_dir || ('media/works/' + work.id + '/')) + '">' + escapeHTML(work.media_dir || ('media/works/' + work.id + '/')) + ' ↗</a>'
+                : 'MEDIA / PLANNED — ' + escapeHTML(work.media_dir || ('media/works/' + work.id + '/'))) +
+            '</span>' +
             '<a class="text-link" href="archive.html">← BACK TO WORKS</a>' +
             '<a class="text-link" href="network.html?focus=' + encodeURIComponent(work.id) + '">OPEN IN NETWORK →</a></div>' +
             '</section>';
