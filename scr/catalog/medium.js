@@ -72,9 +72,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     : pageLabels[requestedMedium] || 'DIRECTORY';
 
             header.innerHTML =
-                '<div><span class="medium-catalog-kicker">CANONICAL PUBLIC WORKS</span>' +
+                '<div class="medium-catalog-title"><span class="medium-catalog-kicker">CANONICAL PUBLIC WORKS</span>' +
                 '<strong>' + escapeHTML(label) + '</strong></div>' +
-                '<div class="medium-catalog-meta"><span>' + String(selected.length).padStart(3, '0') + ' RECORDS</span>' +
+                '<div class="medium-catalog-tools">' +
+                '<label class="terminal-field">SEARCH <input class="medium-catalog-search" type="search" autocomplete="off" placeholder="title / description / keyword"></label>' +
+                '<span class="medium-catalog-count">' + String(selected.length).padStart(3, '0') + ' RECORDS</span>' +
                 '<a href="archive.html">ALL WORKS ↗</a></div>';
 
             catalog.before(header);
@@ -96,6 +98,45 @@ document.addEventListener('DOMContentLoaded', async () => {
                     (work.status ? ' / ' + escapeHTML(work.status) : '') +
                     '</p></div><span>↗</span></div></article>';
             }).join('') || '<p class="small-note">NO PUBLIC RECORDS IN THIS DIRECTORY.</p>';
+
+            catalog.querySelectorAll('.archive-work--dynamic').forEach((card) => {
+                const workId = card.id;
+                const work = selected.find(item => item.id === workId);
+                card.dataset.mediumWork = workId;
+                card.dataset.search = [
+                    work?.title, work?.description, work?.year,
+                    ...(work?.medium || []), ...(work?.context || [])
+                ].join(' ').toLowerCase();
+            });
+
+
+            const searchInput = header.querySelector('.medium-catalog-search');
+            const countNode = header.querySelector('.medium-catalog-count');
+            const searchParams = new URLSearchParams(location.search);
+            const queryParam = searchParams.get('q') || '';
+            if (searchInput) searchInput.value = queryParam;
+
+            const update = () => {
+                const query = (searchInput?.value || '').trim().toLowerCase();
+                let visible = 0;
+                catalog.querySelectorAll('[data-medium-work]').forEach((card) => {
+                    const haystack = card.dataset.search || '';
+                    const match = !query || haystack.includes(query);
+                    card.classList.toggle('is-hidden', !match);
+                    if (match) visible += 1;
+                });
+                if (countNode) countNode.textContent = String(visible).padStart(3, '0') + ' / ' + String(selected.length).padStart(3, '0') + ' RECORDS';
+            };
+
+            searchInput?.addEventListener('input', () => {
+                const next = new URL(location.href);
+                if (searchInput.value.trim()) next.searchParams.set('q', searchInput.value.trim());
+                else next.searchParams.delete('q');
+                history.replaceState(null, '', next);
+                update();
+            });
+
+            update();
         });
     } catch (error) {
         console.error(error);
