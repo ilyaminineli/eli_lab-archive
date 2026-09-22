@@ -151,6 +151,21 @@
       "id": "natalia-nikulenko",
       "name": "Natalia Nikulenkova",
       "type": "collaborator / artist"
+    },
+    {
+      "id": "kasane-teto",
+      "name": "Kasane Teto",
+      "type": "synthetic character / voice"
+    },
+    {
+      "id": "chis-a",
+      "name": "Chis-A",
+      "type": "synthetic voice"
+    },
+    {
+      "id": "alexander-zaloopin",
+      "name": "Alexander Zaloopin",
+      "type": "artist / performer"
     }
   ],
   "places": [
@@ -860,6 +875,96 @@
       "from": "captured-bodies-soundtrack",
       "relation": "archive-source",
       "to": "rodchenko-school"
+    },
+    {
+      "from": "who-is-eli",
+      "relation": "related-to",
+      "to": "jihanki"
+    },
+    {
+      "from": "who-is-eli",
+      "relation": "related-to",
+      "to": "eugene"
+    },
+    {
+      "from": "who-is-eli",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "who-is-eli",
+      "relation": "related-to",
+      "to": "kasane-teto"
+    },
+    {
+      "from": "who-is-eli",
+      "relation": "related-to",
+      "to": "multimedia-framework"
+    },
+    {
+      "from": "song-creator",
+      "relation": "supports",
+      "to": "vocaloid-jazz-album-2026"
+    },
+    {
+      "from": "vocaloid-jazz-album-2026",
+      "relation": "contains",
+      "to": "blue-neon"
+    },
+    {
+      "from": "vocaloid-jazz-album-2026",
+      "relation": "contains",
+      "to": "no-one-is-listening"
+    },
+    {
+      "from": "vocaloid-jazz-album-2026",
+      "relation": "uses",
+      "to": "kasane-teto"
+    },
+    {
+      "from": "vocaloid-jazz-album-2026",
+      "relation": "uses",
+      "to": "chis-a"
+    },
+    {
+      "from": "vocaloid-jazz-album-2026",
+      "relation": "potential-release-partner",
+      "to": "big-beat"
+    },
+    {
+      "from": "blue-neon",
+      "relation": "part-of",
+      "to": "vocaloid-jazz-album-2026"
+    },
+    {
+      "from": "no-one-is-listening",
+      "relation": "part-of",
+      "to": "vocaloid-jazz-album-2026"
+    },
+    {
+      "from": "parallel-vienna-alexander-zaloopin",
+      "relation": "features",
+      "to": "alexander-zaloopin"
+    },
+    {
+      "from": "parallel-vienna-alexander-zaloopin",
+      "relation": "part-of",
+      "to": "parallel-vienna-2026"
+    },
+    {
+      "from": "parallel-vienna-oleg-ustinov",
+      "relation": "features",
+      "to": "oleg-ustinov"
+    },
+    {
+      "from": "parallel-vienna-oleg-ustinov",
+      "relation": "part-of",
+      "to": "parallel-vienna-2026"
+    },
+    {
+      "from": "parallel-vienna-oleg-ustinov",
+      "relation": "archive-source",
+      "to": "oleg_ustinov_official"
     }
   ],
   "groups": [
@@ -902,6 +1007,11 @@
       "id": "borey",
       "name": "Gallery Borey",
       "type": "gallery"
+    },
+    {
+      "id": "big-beat",
+      "name": "Big Beat",
+      "type": "jazz label / release partner"
     }
   ]
 }
