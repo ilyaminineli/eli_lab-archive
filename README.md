@@ -19,6 +19,12 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/documentation.html` — documentation, exhibition and field records
 - `pgs/collaborations.html` — collaboration index
 - `ARCHIVE_MAP.md` — master index into modular research maps
+- `research/` — modular medium/theme/source/audit research blocks
+- `data/relations.json` — relationship graph
+- `data/aliases.json` — duplicate/alias registry
+- `data/sources.json` — source registry
+- `data/assets.json` — 595-image asset inventory
+- `data/video_relations.json` — YouTube-to-work join map
 - `DESIGN_DIRECTION.md` — skeuomorphic console / blueprint design specification
 - `data/works.json` — curated structured work manifest
 - `Ilya-Minin-Eli.csv` — 126-row public YouTube source export
@@ -27,6 +33,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `css/style_main.css` — visual system and responsive layout
 - `scr/script_main.js` — compatibility loader for shared site core
 - `scr/README.md` — modular JavaScript map
+- `scr/core/` — shared site behavior
+- `scr/catalog/` — work/video/medium/network/record renderers
 
 ## Design direction
 
