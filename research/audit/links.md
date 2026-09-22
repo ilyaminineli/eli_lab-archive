@@ -2,7 +2,7 @@
 
 The archive used to route records through hash anchors on category pages. That does not scale once the manifest contains dozens of works.
 
-Current category-page audit: **92** manifest records do not have a corresponding local anchor.
+The historical category-page audit found **92** manifest records without local anchors. Canonical routing is now being moved to `record.html?id=WORK_ID`, so these old anchor gaps are no longer the authoritative link path.
 
 Examples:
 - lab-announcement-3 → pgs/audio.html
