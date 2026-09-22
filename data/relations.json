@@ -20,7 +20,14 @@
     {
       "id": "ilya-minin",
       "name": "Ilya Minin (Eli)",
-      "type": "artist"
+      "type": "artist",
+      "aliases": [
+        "Ilya Minin",
+        "Илья Минин",
+        "イリヤ・ミニン",
+        "Eli",
+        "ELIAS ADAMS"
+      ]
     },
     {
       "id": "romaner",
@@ -30,27 +37,47 @@
     {
       "id": "e6",
       "name": "e/6",
-      "type": "collaborator"
+      "type": "collaborator",
+      "aliases": [
+        "e/6",
+        "e6"
+      ]
     },
     {
       "id": "spalah79",
       "name": "Spalah79 / Spalah",
-      "type": "collaborator"
+      "type": "collaborator",
+      "aliases": [
+        "Spalah"
+      ]
     },
     {
       "id": "blikk",
       "name": "Blikk / BVLKK",
-      "type": "collaborator"
+      "type": "collaborator",
+      "aliases": [
+        "@blikkcg",
+        "BVLKK",
+        "blikkcg"
+      ]
     },
     {
       "id": "marusia-izdebska",
-      "name": "Marusia Izdebska",
-      "type": "collaborator"
+      "name": "Marysia Izdebska",
+      "type": "collaborator",
+      "aliases": [
+        "Marusia Izdebska",
+        "Marysia Izdebska"
+      ]
     },
     {
       "id": "julia-baranyuk",
       "name": "Julia Baranyuk",
-      "type": "collaborator"
+      "type": "collaborator",
+      "aliases": [
+        "Yulia Baranyuk",
+        "Юлия Баранюк"
+      ]
     },
     {
       "id": "anna-yuytova",
@@ -95,12 +122,20 @@
     {
       "id": "possum-eugene",
       "name": "Possum Eugene",
-      "type": "voice provider"
+      "type": "voice provider",
+      "aliases": [
+        "Possum Eugene",
+        "ポス・ユージーン"
+      ]
     },
     {
       "id": "eikton",
       "name": "eikton",
-      "type": "technical collaborator"
+      "type": "technical collaborator",
+      "aliases": [
+        "Eikton",
+        "eikton"
+      ]
     },
     {
       "id": "schenchik",
@@ -204,14 +239,6 @@
       "aliases": []
     },
     {
-      "id": "marysia-izdebska",
-      "name": "Marysia Izdebska",
-      "type": "narration / voiceover",
-      "aliases": [
-        "Marusia Izdebska"
-      ]
-    },
-    {
       "id": "varvara-kuleshova",
       "name": "Varvara Kuleshova",
       "type": "artist / collaborator",
@@ -241,14 +268,6 @@
       "type": "special thanks / Japan field context",
       "aliases": [
         "三浦 正重"
-      ]
-    },
-    {
-      "id": "serval-sirius",
-      "name": "Serval Sirius",
-      "type": "performer / subject",
-      "aliases": [
-        "servaldays"
       ]
     },
     {
@@ -1051,7 +1070,7 @@
     {
       "from": "ewp-project",
       "relation": "narrated-by",
-      "to": "marysia-izdebska"
+      "to": "marusia-izdebska"
     },
     {
       "from": "fighting-postmodernism",
@@ -1072,11 +1091,6 @@
       "from": "linearna-zaležnost",
       "relation": "features",
       "to": "ivan-netkachev"
-    },
-    {
-      "from": "serval-man",
-      "relation": "features",
-      "to": "serval-sirius"
     },
     {
       "from": "trurly-fierndship",
@@ -1186,7 +1200,8 @@
       "type": "collective / music project",
       "aliases": [
         "geztalt",
-        "geztålt lab"
+        "geztålt lab",
+        "geztålt"
       ]
     }
   ]
