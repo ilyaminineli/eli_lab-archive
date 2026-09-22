@@ -2231,41 +2231,6 @@
       ]
     },
     {
-      "id": "muse-performance",
-      "title": "MUSE",
-      "year": "2019",
-      "medium": [
-        "performance",
-        "audio"
-      ],
-      "context": [
-        "live",
-        "legacy"
-      ],
-      "status": "documented",
-      "description": "Performance with acoustic and electronic sound sources.",
-      "sources": [
-        "https://github.com/ilyaminineli/eli_lab_official"
-      ]
-    },
-    {
-      "id": "pattern-industrial-fabrics",
-      "title": "PATTERN",
-      "year": "2021",
-      "medium": [
-        "art",
-        "exhibition"
-      ],
-      "context": [
-        "group exhibition"
-      ],
-      "status": "documented",
-      "description": "Group exhibition of industrial fabrics.",
-      "sources": [
-        "https://github.com/ilyaminineli/eli_lab_official"
-      ]
-    },
-    {
       "id": "aibolit-sashaeb",
       "title": "Айболит / Aibolit",
       "year": "2024–2025",
@@ -2550,26 +2515,6 @@
       "description": "Digital release currently listed in the Bandcamp discography.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
-    },
-    {
-      "id": "geztalt-human",
-      "title": "ᛔㄖ㇄丂⼕廾㠪乃𝓝ㄚ丿 ለቴር",
-      "year": "2025",
-      "medium": [
-        "audio"
-      ],
-      "context": [
-        "geztalt",
-        "release"
-      ],
-      "status": "documented",
-      "description": "Digital album by geztålt, listed in the current Bandcamp catalogue.",
-      "sources": [
-        "https://eliasadams.bandcamp.com"
-      ],
-      "related_works": [
-        "geztalt"
       ]
     }
   ]
