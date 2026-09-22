@@ -13,3 +13,8 @@ Private records use `visibility: "private"` and are excluded from public renderi
 
 ## Source rule
 Keep source URLs with the record. Search/social traces can be candidates; primary project repositories and institutional records should be preferred for canonical metadata.
+
+## Aliases and video joins
+- `aliases.json` — old titles and labels mapped to canonical work IDs.
+- `video_relations.json` — YouTube source-row joins to canonical works where a first-pass relationship is established.
+- `assets.json` — 595-image inventory from the historical visual archive.
