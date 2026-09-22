@@ -5,11 +5,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const id = new URLSearchParams(location.search).get('id');
 
     try {
-        const [worksResponse, relationsResponse, videoResponse, assetResponse] = await Promise.all([
+        const [worksResponse, relationsResponse, videoResponse, assetResponse, dossierResponse, videoLinksResponse] = await Promise.all([
             fetch('../data/works.json'),
             fetch('../data/relations.json'),
             fetch('../data/video_context.json'),
-            fetch('../data/asset_candidates.json')
+            fetch('../data/asset_candidates.json'),
+            fetch('../data/dossiers.json'),
+            fetch('../data/video_links.json')
         ]);
 
         if (!worksResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
@@ -21,6 +23,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             : { edges: [], people: [], places: [], groups: [] };
         const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
         const assetCandidates = assetResponse.ok ? await assetResponse.json() : { works: {} };
+        const dossiers = dossierResponse.ok ? await dossierResponse.json() : { works: {} };
+        const dossier = dossiers.works?.[id] || null;
+        const videoLinks = videoLinksResponse.ok ? await videoLinksResponse.json() : { links: [] };
 
         const work = works.find((item) => item.id === id);
 
@@ -110,6 +115,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 '<a class="source-video-open" target="_blank" rel="noopener" href="' + escapeHTML(video.url) + '">OPEN ↗</a>' +
                 '</article>';
         }).join('');
+        const linkedVideos = (videoLinks.links || []).filter(link =>
+            sourceVideos.some(video => video.videoId === link.sourceVideoId) || link.sourceCanonicalWorkId === work.id
+        );
         const coverage = [
             ['DESCRIPTION', Boolean(work.description)],
             ['IMAGE', Boolean(work.thumbnail)],
@@ -117,15 +125,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             ['EXTERNAL', Boolean(work.external_sources?.length)],
             ['RELATIONS', Boolean(edges.length)],
             ['VIDEOS', Boolean(sourceVideos.length)],
-            ['MEDIA FOLDER', work.media_status === 'staged']
+            ['MEDIA FOLDER', work.media_status === 'staged'],
+            ['DOSSIER', Boolean(dossier)]
         ];
 
         const present = coverage.filter(item => item[1]).map(item => item[0]);
         const missing = coverage.filter(item => !item[1]).map(item => item[0]);
 
         const expansionText = missing.length
-            ? 'This entry can be expanded with ' + missing.map(item => item.toLowerCase()).join(', ') + '. The next useful dossier layer is project-specific process, materials, credits, chronology or a media gallery.'
-            : 'Core metadata is present. The next useful dossier layer is project-specific process, materials, chronology and a fuller media gallery.';
+            ? 'This entry can be expanded with ' + missing.map(item => item.toLowerCase()).join(', ') + '. The dossier has reserved fields for process, materials, chronology, exhibitions, publications, technical notes and archival questions.'
+            : 'Core metadata is present. The dossier can now be expanded with project-specific process, materials, chronology, exhibitions, technical notes and a fuller media gallery.';
 
         main.innerHTML =
             '<section class="record-page u-container">' +
@@ -164,6 +173,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             (candidateAssetHTML ? '<section class="record-panel record-assets"><div class="panel-title">VISUAL ASSET CANDIDATES</div>' +
                 '<p class="small-note">These are filename/path matches from the 595-image visual inventory, not yet confirmed as canonical artwork. Review before promotion.</p>' +
                 '<div class="asset-candidates">' + candidateAssetHTML + '</div></section>' : '') +
+
+            '<section class="record-panel record-dossier"><div class="panel-title">DOSSIER / WORK FILE</div>' +
+            '<div class="dossier-grid">' +
+            '<div><span>PROCESS</span><strong>' + String(dossier?.process?.length || 0).padStart(2, '0') + ' NOTES</strong></div>' +
+            '<div><span>MATERIALS</span><strong>' + String(dossier?.materials?.length || 0).padStart(2, '0') + ' ITEMS</strong></div>' +
+            '<div><span>CHRONOLOGY</span><strong>' + String(dossier?.chronology?.length || 0).padStart(2, '0') + ' EVENTS</strong></div>' +
+            '<div><span>EXHIBITIONS</span><strong>' + String(dossier?.exhibitions?.length || 0).padStart(2, '0') + ' ENTRIES</strong></div>' +
+            '<div><span>TECHNICAL</span><strong>' + String(dossier?.technical_notes?.length || 0).padStart(2, '0') + ' NOTES</strong></div>' +
+            '<div><span>QUESTIONS</span><strong>' + String(dossier?.questions_to_resolve?.length || 0).padStart(2, '0') + ' OPEN</strong></div>' +
+            '</div></section>' +
+
+            (linkedVideos.length ? '<section class="record-panel record-linked-videos"><div class="panel-title">SOURCE LINKS / RELATED VIDEOS</div>' +
+                '<div class="linked-video-list">' + linkedVideos.map(link =>
+                '<a href="https://www.youtube.com/watch?v=' + encodeURIComponent(link.linkedVideoId) + '" target="_blank" rel="noopener">' +
+                '<span>→</span><strong>' + escapeHTML(link.linkedTitle || link.linkedVideoId) + '</strong>' +
+                '<em>' + escapeHTML(link.linkedCanonicalWorkId || 'SOURCE') + '</em></a>'
+                ).join('') + '</div></section>' : '') +
 
             '<section class="record-panel record-expansion"><div class="panel-title">ARCHIVE EXPANSION</div>' +
             '<p>' + escapeHTML(expansionText) + '</p>' +
