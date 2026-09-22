@@ -1,0 +1,23 @@
+{
+  "updated": "2026-09-23",
+  "system": "ELI_LAB ARCHIVE",
+  "state": "ONLINE",
+  "version": "01",
+  "records": {
+    "total": 148,
+    "public": 143,
+    "private": 5
+  },
+  "network": {
+    "relations": 152,
+    "people": 30,
+    "groups": 8,
+    "places": 10
+  },
+  "sources": 41,
+  "repositories": 47,
+  "visual_assets": 595,
+  "video_source_rows": 126,
+  "video_canonical_joins": 69,
+  "video_source_only": 57
+}
