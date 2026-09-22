@@ -17,6 +17,9 @@ This directory is the maintainer-facing research layer of the archive. It is int
 - [Digital memory / uncanny](themes/digital-memory-uncanny.md)
 - [Archive / systems](themes/archive-systems.md)
 - [Materiality / photography](themes/materiality-photography.md)
+- [Sound / voice / generative](themes/sound-voice-generative.md)
+- [Liminal / ritual / constructed folklore](themes/liminal-ritual-folklore.md)
+- [Collective authorship / production networks](themes/collective-authorship.md)
 
 ## Audits
 - [Duplicates](audit/duplicates.md)
