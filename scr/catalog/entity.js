@@ -8,14 +8,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     }[char]));
 
     try {
-        const [worksResponse, relationResponse] = await Promise.all([
+        const [worksResponse, relationResponse, observationResponse] = await Promise.all([
             fetch('../data/works.json'),
-            fetch('../data/relations.json')
+            fetch('../data/relations.json'),
+            fetch('../data/csv_entities.json')
         ]);
         if (!worksResponse.ok || !relationResponse.ok) throw new Error('ENTITY DATABASE UNAVAILABLE.');
 
         const works = (await worksResponse.json()).works.filter(w => w.visibility !== 'private');
         const graph = await relationResponse.json();
+        const observations = observationResponse.ok ? await observationResponse.json() : { entities: [] };
+        const observationById = new Map((observations.entities || []).map(item => [item.canonical_id, item]));
         const workById = new Map(works.map(w => [w.id, w]));
         const entities = new Map([
             ...(graph.people || []).map(e => [e.id, {...e,type:'person'}]),
@@ -23,6 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             ...(graph.places || []).map(e => [e.id, {...e,type:'place'}])
         ]);
         const entity = entities.get(id);
+        const observation = observationById.get(id);
 
         if (!entity) {
             main.innerHTML='<section class="page-intro u-container"><p class="eyebrow">404 / ENTITY NOT FOUND</p><h1>UNKNOWN<br><em>ENTITY.</em></h1><p class="page-lead">The requested network entity is not in the current archive graph.</p></section>';
@@ -65,6 +69,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const mediaNote=entity.type==='person'
             ? 'This is a source-derived collaborator index, not a biographical or personality profile. Roles below reflect explicit archive relations and published credits.'
             : 'This entity record is a structured network index. It describes its documented relationship to works and other entities without filling gaps with unsupported biography.';
+        const sourceForms = Array.from(new Set([...(entity.aliases || []), ...(observation?.source_forms || [])])).filter(name => name && name !== entity.name);
+        const observedRoles = observation?.roles_observed || [];
+        const personaNote = observation?.persona_notes || '';
+        const observationNotes = observation?.notes || '';
 
         main.innerHTML='<section class="entity-page u-container">'+
             '<header class="entity-head">'+
@@ -74,8 +82,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                 '<div class="entity-plate"><span>TYPE</span><strong>'+escapeHTML(entity.type.toUpperCase())+'</strong>'+
                 '<span>PROJECTS</span><strong>'+String(unique.size).padStart(2,'0')+'</strong></div>'+
             '</header>'+
-            '<section class="entity-panel"><div class="panel-title">SOURCE NAMES</div>'+
-            (aliases.length?'<div class="entity-aliases">'+aliases.map(a=>'<span>'+escapeHTML(a)+'</span>').join('')+'</div>':'<p class="small-note">No alternate names recorded.</p>')+
+            '<section class="entity-panel"><div class="panel-title">SOURCE NAMES / ROLES</div>'+
+            (sourceForms.length?'<div class="entity-aliases">'+sourceForms.map(a=>'<span>'+escapeHTML(a)+'</span>').join('')+'</div>':'<p class="small-note">No alternate names recorded.</p>')+
+            (observedRoles.length?'<div class="entity-observed"><span>OBSERVED ROLES</span><p>'+escapeHTML(observedRoles.join(' · '))+'</p></div>':'')+
+            (personaNote?'<div class="entity-observed"><span>PERSONA NOTE</span><p>'+escapeHTML(personaNote)+'</p></div>':'')+
+            (observationNotes?'<div class="entity-observed"><span>SOURCE NOTE</span><p>'+escapeHTML(observationNotes)+'</p></div>':'')+
             '</section>'+
             '<section class="entity-panel"><div class="panel-title">DOCUMENTED PROJECTS</div>'+
             (cards||'<p class="small-note">No public project relations recorded.</p>')+
