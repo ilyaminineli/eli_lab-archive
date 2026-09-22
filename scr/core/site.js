@@ -8,18 +8,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const nav = document.querySelector(".terminal-nav");
     if (nav && !nav.querySelector("[data-nav-map]")) {
-        nav.insertAdjacentHTML(
-            "beforeend",
-            '<a data-nav-map href="' + base + 'pgs/network.html"><span>03</span> MAP</a>'
-        );
+        const docsLink = nav.querySelector('a[href*="documentation.html"]');
+        const mapLink = '<a data-nav-map href="' + base + 'pgs/network.html"><span>03</span> MAP</a>';
+        if (docsLink) docsLink.insertAdjacentHTML("beforebegin", mapLink);
+        else nav.insertAdjacentHTML("beforeend", mapLink);
     }
 
     const mobileNav = document.querySelector("#mobile-nav");
     if (mobileNav && !mobileNav.querySelector("[data-nav-map]")) {
-        mobileNav.insertAdjacentHTML(
-            "beforeend",
-            '<a data-nav-map href="' + base + 'pgs/network.html">03 / Map</a>'
-        );
+        const mobileDocs = mobileNav.querySelector('a[href*="documentation.html"]');
+        const mobileMap = '<a data-nav-map href="' + base + 'pgs/network.html">03 / Map</a>';
+        if (mobileDocs) mobileDocs.insertAdjacentHTML("beforebegin", mobileMap);
+        else mobileNav.insertAdjacentHTML("beforeend", mobileMap);
     }
 
     const toggle = document.querySelector(".nav-toggle");
