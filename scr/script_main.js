@@ -3,6 +3,18 @@ document.addEventListener("DOMContentLoaded", () => {
         node.textContent = new Date().getFullYear();
     });
 
+    const workCount = document.querySelector("[data-work-count]");
+    if (workCount) {
+        fetch("data/works.json")
+            .then((response) => response.json())
+            .then((manifest) => {
+                workCount.textContent = String(manifest.works.length).padStart(2, "0");
+            })
+            .catch(() => {
+                workCount.textContent = "--";
+            });
+    }
+
     const toggle = document.querySelector(".nav-toggle");
     const mobileNav = document.querySelector("#mobile-nav");
 
