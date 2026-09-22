@@ -2698,6 +2698,24 @@
       "related_works": [
         "ewp-project"
       ]
+    },
+    {
+      "id": "captured-bodies-soundtrack",
+      "title": "Captured Bodies and Their Surroundings / soundtrack",
+      "year": "2021",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "collaboration",
+        "diploma project",
+        "soundtrack"
+      ],
+      "status": "documented",
+      "description": "Soundtrack for Natalia Nikulenkova's mixed-media/video diploma project, Captured Bodies and Their Surroundings.",
+      "sources": [
+        "https://mdfschool.ru/files/catalogs/catalog-2021.pdf"
+      ]
     }
   ]
 }
