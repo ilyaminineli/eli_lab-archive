@@ -11,12 +11,30 @@ document.addEventListener('DOMContentLoaded', async () => {
     }[char]));
 
     try {
-        const response = await fetch('../data/works.json');
-        if (!response.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
+        const [workResponse, relationResponse] = await Promise.all([
+            fetch('../data/works.json'),
+            fetch('../data/relations.json')
+        ]);
+        if (!workResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
 
-        const manifest = await response.json();
+        const manifest = await workResponse.json();
+        const graph = relationResponse.ok ? await relationResponse.json() : { edges: [], people: [], groups: [], places: [] };
         const publicWorks = manifest.works.filter((work) => work.visibility !== 'private');
         const workById = new Map(publicWorks.map((work) => [work.id, work]));
+        const entityNames = new Map([
+            ...(graph.people || []).map((item) => [item.id, item.name]),
+            ...(graph.groups || []).map((item) => [item.id, item.name]),
+            ...(graph.places || []).map((item) => [item.id, item.name]),
+            ...publicWorks.map((item) => [item.id, item.title])
+        ]);
+        const relationNames = new Map();
+        (graph.edges || []).forEach((edge) => {
+            const workId = workById.has(edge.from) ? edge.from : workById.has(edge.to) ? edge.to : null;
+            if (!workId) return;
+            const targetId = edge.from === workId ? edge.to : edge.from;
+            if (!relationNames.has(workId)) relationNames.set(workId, []);
+            relationNames.get(workId).push(entityNames.get(targetId) || targetId);
+        });
 
         const directoryFilters = {
             visual: (work) => (work.medium || []).some((m) => ['art', 'painting', 'drawing', 'installation', 'cgi'].includes(m)),
@@ -57,7 +75,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 work.title,
                 work.description,
                 ...(work.medium || []),
-                ...(work.context || [])
+                ...(work.context || []),
+                ...(work.sources || []),
+                ...(work.external_sources || []),
+                ...(relationNames.get(work.id) || [])
             ].join(' ').toLowerCase();
 
             return '<a class="archive-row" data-work data-work-id="' + escapeHTML(work.id) + '" data-medium="' +
