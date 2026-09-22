@@ -12,6 +12,7 @@
 - `data/assets.json` — 595-image visual inventory.
 - `data/sources.json` — structured source registry.
 - `data/client_orders.json` — private client-site traces excluded from the art-practice graph.
+- `data/site_status.json` — canonical UI status snapshot.
 - `data/video_relations.json` — first-pass YouTube-to-work joins.
 
 ## Start here
@@ -44,6 +45,7 @@
 - [YouTube duplicates / variants](research/audit/duplicates.md)
 - [Missing / ambiguous records](research/audit/gaps.md)
 - [Internal links](research/audit/links.md)
+- [Site UI / navigation / search](research/audit/site-ui.md)
 
 ## Strong relationship clusters
 ### Voice / synthetic media
