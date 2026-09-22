@@ -5,7 +5,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 ## Site architecture
 
 - `index.html` — curated landing page / selected works
-- `pgs/archive.html` — complete work index with medium filters
+- `pgs/archive.html` — complete work index with medium filters and provenance-aware search
 - `pgs/cv.html` — CV, practice and contact
 - `pgs/art.html` — art archive
 - `pgs/animation.html` — animation archive
@@ -17,9 +17,10 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/interactive.html` — interactive archive
 - `pgs/games.html` — games archive
 - `pgs/vocal.html` — vocal synthesis / voicebank archive
+- `pgs/search.html` — unified search across public works and network entities
 - `pgs/documentation.html` — documentation, exhibition and field records
 - `pgs/collaborations.html` — people / collaborator index
-- `pgs/network.html` — grouped project relationship map
+- `pgs/network.html` — grouped project relationship map with entity focus
 - `ARCHIVE_MAP.md` — master index into modular research maps
 - `research/` — modular medium/theme/source/audit research blocks
 - `data/relations.json` — relationship graph
@@ -28,6 +29,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `data/assets.json` — 595-image asset inventory
 - `data/repositories.json` — current 47-repository account inventory, including separately marked client/private-order repositories
 - `data/client_orders.json` — private client-site traces excluded from the art-practice graph
+- `data/site_status.json` — canonical system-status snapshot used by the interface
 - `data/video_relations.json` — YouTube-to-work join map
 - `DESIGN_DIRECTION.md` — skeuomorphic console / blueprint design specification
 - `data/works.json` — curated structured work manifest
@@ -37,8 +39,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `css/style_main.css` — visual system and responsive layout
 - `scr/script_main.js` — compatibility loader for shared site core
 - `scr/README.md` — modular JavaScript map
-- `scr/core/` — shared site behavior
-- `scr/catalog/` — work/video/medium/network/record renderers
+- `scr/core/` — shared site behavior and live system status
+- `scr/catalog/` — work/video/medium/network/people/search record renderers
 
 ## Design direction
 
