@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
         fetch("data/works.json")
             .then((response) => response.json())
             .then((manifest) => {
-                workCount.textContent = String(manifest.works.length).padStart(3, "0");
+                const publicWorks = manifest.works.filter((work) => work.visibility !== "private");
+                workCount.textContent = String(publicWorks.length).padStart(3, "0");
             })
             .catch(() => {
                 workCount.textContent = "--";
