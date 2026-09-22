@@ -24,6 +24,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `data/aliases.json` — duplicate/alias registry
 - `data/sources.json` — source registry
 - `data/assets.json` — 595-image asset inventory
+- `data/repositories.json` — current 47-repository account inventory, including separately marked client/private-order repositories
 - `data/video_relations.json` — YouTube-to-work join map
 - `DESIGN_DIRECTION.md` — skeuomorphic console / blueprint design specification
 - `data/works.json` — curated structured work manifest
@@ -48,8 +49,8 @@ The work metadata layer is now in place: `data/works.json`, `data/relations.json
 
 ## Current data snapshot
 
-- 146 structured work records (142 public + 4 private)
-- 151 relation edges
+- 148 structured work records (143 public + 5 private)
+- 152 relation edges
 - 595 indexed visual assets
 - 126 YouTube source rows
 - 105 normalized YouTube title signatures
