@@ -20,7 +20,6 @@ Use this as a compact source map. Detailed interpretation lives under `research/
 | Pattern Generator | generative graphics | research/mediums/visual.md + systems.md |
 | Pipeline Hub / Multimedia Framework | CG + production infrastructure | research/mediums/systems.md |
 | JIHANKI | interactive archive / Japan fieldwork | research/themes/japan-fuji-folklore.md |
-| PARAZIT | separate relational archive | research/themes/archive-systems.md |
 | EWP / Daly / Antokolskyj / Pleiir | moving image production | research/mediums/moving-image.md |
 | Games repositories | games / prototypes | research/mediums/games.md |
 | Bandcamp | discography / releases | research/mediums/sound.md + sources/web.md |
