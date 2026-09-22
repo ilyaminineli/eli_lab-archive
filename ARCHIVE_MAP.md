@@ -1,12 +1,13 @@
 # eli_lab archive map
 
-> Master index for the research archive. Detailed material is split into maintainable thematic and medium-specific files.
+> Master index for the research archive. Detailed material is split into maintainable thematic, medium, source and audit files.
 
 ## Current state
-- `data/works.json` — 108 total structured records; 1 is private and excluded from the public register.
+- `data/works.json` — 134 structured records; 133 public, 1 private.
+- `data/relations.json` — 137 explicit work/person/place/group relations.
+- `data/aliases.json` — canonical alias and old-label registry used to prevent duplicate work records.
 - `Ilya-Minin-Eli.csv` — 126 public YouTube source rows.
 - `VIDEO_CATALOG_MAP.md` — normalized YouTube discovery map.
-- `data/relations.json` — explicit work/person/place relationship graph.
 - `data/themes/` — thematic work indexes.
 
 ## Start here
@@ -24,16 +25,20 @@
 - [Digital memory / uncanny](research/themes/digital-memory-uncanny.md)
 - [Archive / systems](research/themes/archive-systems.md)
 - [Materiality / photography](research/themes/materiality-photography.md)
-
-## Audits
-- [Duplicate / variant audit](research/audit/duplicates.md)
-- [Missing / ambiguous material](research/audit/gaps.md)
-- [Internal link audit](research/audit/links.md)
+- [Liminal / ritual / constructed folklore](research/themes/liminal-ritual-folklore.md)
+- [Collective authorship / production networks](research/themes/collective-authorship.md)
 
 ## Sources
 - [GitHub registry](research/sources/github.md)
-- [Old website structure](research/sources/old-website.md)
-- [Web / institutional / social registry](research/sources/web.md)
+- [Web / institutional registry](research/sources/web.md)
+- [Social publishing](research/sources/social.md)
+- [YouTube source map](research/sources/youtube.md)
+- [Old eli_lab_official site](research/sources/old-website.md)
+
+## Audits
+- [YouTube duplicates / variants](research/audit/duplicates.md)
+- [Missing / ambiguous records](research/audit/gaps.md)
+- [Internal links](research/audit/links.md)
 
 ## Strong relationship clusters
 ### Voice / synthetic media
@@ -48,11 +53,14 @@ Pattern Generator → deterministic visual composition; Hiro → procedural lyri
 ### CGI / moving image
 EWP → Blender/pipeline → collaborators; Daly Syndrome → long-form film/pipeline; Antokolskyj → Anna Yuytova/GRIG Film; Pleiir → Spalah.
 
-### Exhibition / performance
-Rodchenko School → Refuge; Meatpacking → Untitled 1–4 / Untitled 3; Julia Baranyuk → Taming the Serpent / Re-inventing Punk / JIHANKI context.
+### Exhibition / collective work
+Rodchenko School → Refuge; Meatpacking → Untitled works; Julia Baranyuk → Taming the Serpent / Re-Punk / JIHANKI context; sasha e b → Aibolit.
+
+### Digital-memory / archive logic
+Found Tape → digital folklore → JIHANKI → WHO IS ELI? → archive-as-interface.
 
 ## Canonical rule
-One work should have one stable ID. Alternate uploads, screenings, exhibitions, collaborators, tools and themes become relations or child records instead of duplicate works.
+One work = one stable ID. Alternate titles, old website labels, shorts, teasers, screenings, exhibitions, collaborators, tools and themes become aliases or relations.
 
 ## Research rule
 `source → trace → candidate → verification → relation → public record`
