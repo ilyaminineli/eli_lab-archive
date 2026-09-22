@@ -1,7 +1,7 @@
 # Site UI / navigation / search audit — 2026-09-23
 
 ## Navigation
-All 18 HTML pages now use the same six primary items:
+All 19 HTML pages now use the same six primary items:
 
 1. INDEX
 2. WORKS
