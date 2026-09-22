@@ -2,6 +2,12 @@
 
 Use this as a compact source map. Detailed interpretation lives under `research/`.
 
+## Scale of current source archive
+
+- `eli_lab_official`: **595 image files** currently indexed in `data/assets.json`.
+- YouTube CSV: **126 source rows**.
+- Structured work manifest: **140 records** (139 public + 1 private).
+
 ## Primary material sources
 | Source | Medium / role | Archive destination |
 |---|---|---|
@@ -18,7 +24,7 @@ Use this as a compact source map. Detailed interpretation lives under `research/
 | EWP / Daly / Antokolskyj / Pleiir | moving image production | research/mediums/moving-image.md |
 | Games repositories | games / prototypes | research/mediums/games.md |
 | Bandcamp | discography / releases | research/mediums/sound.md + sources/web.md |
-| YouTube CSV | exhaustive video source register | VIDEO_CATALOG_MAP.md + pgs/video.html |
+| YouTube CSV | exhaustive 126-row video source register | VIDEO_CATALOG_MAP.md + pgs/video.html + data/video_relations.json |
 | Telegram | current social/media archive | research/sources/web.md + candidate works |
 | X / VK | social identity traces | research/sources/web.md |
 | VLADEY / Rodchenko / exhibition pages | institutional provenance | research/sources/web.md + performance.md |
