@@ -35,9 +35,15 @@
         "personal work"
       ],
       "status": "legacy",
-      "description": "Animation record from the historical archive.",
+      "description": "Experimental short film and comedy series about Bogorodskoye, created with Yulia Baranyuk in 2022. The project reconstructs local history through performance, theatre, music, dancing, fairground culture and deliberately chaotic contemporary video language, drawing on collected local-history essays and articles.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external": [
+        "https://www.youtube.com/watch?v=_KpvIF-fgs8"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=_KpvIF-fgs8"
       ]
     },
     {
@@ -637,8 +643,14 @@
         "anniversary"
       ],
       "status": "confirmed",
-      "description": "Surreal video work with multiple short anniversary/publication uploads and a main 1:42 version.",
+      "description": "Surreal audiovisual retrospective built around an eli_lab project about searching for meaning within chaos. The main 1:42 version combines music, aerial perspectives, descent and liminal spaces and was published with a set of short anniversary cuts dedicated to Basil Ivanov.",
       "sources": [
+        "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
+      ],
+      "external": [
+        "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
+      ],
+      "external_sources": [
         "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
       ]
     },
@@ -2903,6 +2915,114 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-mv-titler"
       ]
+    },
+    {
+      "id": "teto-2026-manifesto",
+      "title": "Kasane Teto's 2026 Manifesto",
+      "year": "2026",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "satire",
+        "vocal synthesis",
+        "internet culture"
+      ],
+      "status": "confirmed",
+      "description": "Surreal satirical New Year's address spoken through the character of Kasane Teto. The piece uses the language of fandom, internet communities, AI debates and fictional manifesto rhetoric to construct a deliberately unstable audiovisual speech.",
+      "sources": [
+        "https://www.youtube.com/watch?v=Bv-4aHjHbf0"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Bv-4aHjHbf0/hqdefault.jpg",
+      "source_video_ids": []
+    },
+    {
+      "id": "kuleshov-effect",
+      "title": "Эффект Кулешовой / Kuleshov Effect",
+      "year": "2022",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "collaboration",
+        "video art",
+        "exhibition",
+        "Fund SFERA"
+      ],
+      "status": "confirmed",
+      "description": "Video-art collaboration with Varvara Kuleshova, built around hard montage, mnemonic imagery, dream logic and the changing perception of a central character. The video was made at Fund SFERA during Kuleshova's exhibition about dichotomous thinking, dissonance and fluctuations of the inner world of artists.",
+      "sources": [
+        "https://www.youtube.com/watch?v=XKdVkUc8q80"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/XKdVkUc8q80/hqdefault.jpg",
+      "source_video_ids": []
+    },
+    {
+      "id": "linearna-zaležnost",
+      "title": "linearna zaležnosť",
+      "year": "2024",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "sound art",
+        "experimental music",
+        "medžuslovjansky"
+      ],
+      "status": "documented",
+      "description": "Experimental sound-art / music-video work presented under the title linearna zaležnosť. Its description frames linear dependency as the controlled progression and interplay of sound elements, with Ivan Netkachev credited as model.",
+      "sources": [
+        "https://www.youtube.com/watch?v=wvOA4AV6ytU"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/wvOA4AV6ytU/hqdefault.jpg",
+      "source_video_ids": []
+    },
+    {
+      "id": "serval-man",
+      "title": "Serval Man",
+      "year": "2024",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "collaboration",
+        "reel",
+        "geztålt"
+      ],
+      "status": "documented",
+      "description": "Short experimental reel featuring Serval Sirius, edited by Ilya Minin (Eli). The video uses the biological image of the serval and the fictionalized world around geztålt as a compact character / visual study.",
+      "sources": [
+        "https://www.youtube.com/watch?v=ypP4UKUWvpw"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ypP4UKUWvpw/hqdefault.jpg",
+      "source_video_ids": []
+    },
+    {
+      "id": "trurly-fierndship",
+      "title": "Trurly Fierndship",
+      "year": "2022",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "collaboration",
+        "geztålt",
+        "experimental"
+      ],
+      "status": "documented",
+      "description": "Experimental geztålt-era video work using friendship as a subject: companionship, misunderstanding, disagreement, laughter and tears are treated as contradictory parts of shared human relationships.",
+      "sources": [
+        "https://www.youtube.com/watch?v=B610CDVHkJY"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/B610CDVHkJY/hqdefault.jpg",
+      "source_video_ids": []
     }
   ]
 }
