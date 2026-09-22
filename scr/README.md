@@ -1,7 +1,7 @@
 # Script architecture
 
 ## core
-- `core/site.js` — year, shared navigation and homepage system count.
+- `core/site.js` — year, unified status UI, navigation behavior and homepage directory counts.
 
 ## catalog
 - `catalog/works.js` — public work manifest + archive filters.
@@ -9,6 +9,7 @@
 - `catalog/record.js` — canonical work record page.
 - `catalog/network.js` — grouped project relationship map.
 - `catalog/collaborations.js` — people / collaborator index.
+- `catalog/search.js` — unified public archive search.
 
 ## Compatibility
 - `script_main.js` remains the small site loader.
