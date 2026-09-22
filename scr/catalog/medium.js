@@ -22,14 +22,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     try {
-        const [workResponse, relationResponse] = await Promise.all([
+        const [workResponse, relationResponse, videoResponse] = await Promise.all([
             fetch('../data/works.json'),
-            fetch('../data/relations.json')
+            fetch('../data/relations.json'),
+            fetch('../data/video_context.json')
         ]);
         if (!workResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
 
         const manifest = await workResponse.json();
         const graph = relationResponse.ok ? await relationResponse.json() : { edges: [], people: [], groups: [], places: [] };
+        const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
         const works = manifest.works.filter((work) => work.visibility !== 'private');
         const entityNames = new Map([
             ...(graph.people || []).map((item) => [item.id, item.name]),
@@ -73,6 +75,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             return medium.includes(requestedMedium);
         };
+
+        const videoSearchText = new Map();
+        (videoContext.rows || []).forEach((video) => {
+            if (!video.canonicalWorkId) return;
+            if (!videoSearchText.has(video.canonicalWorkId)) videoSearchText.set(video.canonicalWorkId, []);
+            videoSearchText.get(video.canonicalWorkId).push(video.title, video.description, ...(video.links || []), ...(video.creditLines || []));
+        });
 
         catalogs.forEach((catalog) => {
             const requestedMedium = catalog.dataset.mediumCatalog;
@@ -126,7 +135,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     work?.title, work?.description, work?.year,
                     ...(work?.medium || []), ...(work?.context || []),
                     ...(work?.sources || []), ...(work?.external_sources || []),
-                    ...(relationNames.get(workId) || [])
+                    ...(relationNames.get(workId) || []),
+                    ...(videoSearchText.get(workId) || [])
                 ].join(' ').toLowerCase();
             });
 
