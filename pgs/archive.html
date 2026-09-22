@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eli_lab complete archive of works.">
+    <title>eli_lab — archive</title>
+    <link rel="stylesheet" href="../css/measures.css">
+    <link rel="stylesheet" href="../css/style_main.css">
+</head>
+<body>
+    <header class="site-header u-container">
+        <a class="wordmark" href="../index.html">eli_lab</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="../index.html">Selected</a><a class="is-active" href="archive.html">Archive</a><a href="cv.html">CV</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span class="sr-only">Menu</span></button>
+    </header>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="../index.html">Selected</a><a href="archive.html">Archive</a><a href="cv.html">CV</a>
+    </nav>
+
+    <main>
+        <section class="page-intro u-container">
+            <div><p class="eyebrow">archive / index</p><h1>All works,<br><em>in one place.</em></h1></div>
+            <p class="page-lead">A searchable, expandable index for finished works, ongoing projects, fragments and experiments.</p>
+        </section>
+
+        <section class="archive-index u-container">
+            <div class="archive-toolbar">
+                <div class="filter-group" role="group" aria-label="Filter works by medium">
+                    <button class="filter-button is-active" type="button" data-filter="all">All</button>
+                    <button class="filter-button" type="button" data-filter="art">Art</button>
+                    <button class="filter-button" type="button" data-filter="animation">Animation</button>
+                    <button class="filter-button" type="button" data-filter="audio">Audio</button>
+                    <button class="filter-button" type="button" data-filter="video">Video</button>
+                    <button class="filter-button" type="button" data-filter="software">Software</button>
+                </div>
+                <span class="archive-count" data-count></span>
+            </div>
+
+            <div class="archive-table">
+                <a class="archive-row" data-work data-medium="video" href="video.html#ain-t-no-sunshine"><span>2026</span><strong>Ain't No Sunshine</strong><span>Video</span><span>music video / moving image</span><span>↗</span></a>
+                <a class="archive-row" data-work data-medium="art" href="art.html#parallel-vienna"><span>2026</span><strong>Parallel Vienna 2026</strong><span>Art</span><span>identity / print / exhibition</span><span>↗</span></a>
+                <a class="archive-row" data-work data-medium="audio" href="audio.html#blue-neon"><span>2026</span><strong>Blue Neon</strong><span>Audio</span><span>song / jazz / vocal synth</span><span>↗</span></a>
+                <a class="archive-row" data-work data-medium="audio" href="audio.html#no-one-is-listening"><span>2026</span><strong>NO ONE IS LISTENING</strong><span>Audio</span><span>song / jazz / vocal synth</span><span>↗</span></a>
+                <a class="archive-row" data-work data-medium="software" href="software.html"><span>2026</span><strong>eli_lab systems</strong><span>Software</span><span>web / tools / archive infrastructure</span><span>↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer u-container"><span>© <span data-year></span> eli_lab</span><a href="../index.html">back to selected ↗</a></footer>
+    <script src="../scr/script_main.js"></script>
+</body>
+</html>
