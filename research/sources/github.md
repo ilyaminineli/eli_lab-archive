@@ -24,7 +24,7 @@ The machine-readable inventory is `data/repositories.json`. It records current v
 
 ### Archive / interface / publishing
 - `jihanki-site` — Japanese vending-machine archive.
-- `parazit-web` — relational archive/gallery system.
+- `parazit-web` — private client order / relational site system; excluded from the art-practice archive.
 - `who-is-eli` — archive/reconstruction film.
 - `eli_lab-multimedia-framework` — production/archive infrastructure.
 - `eli_lab_pipeline_hub` — Blender pipeline infrastructure.
@@ -37,7 +37,7 @@ The machine-readable inventory is `data/repositories.json`. It records current v
 ### Exhibition / collaborator sites
 - `punk_exhibition` — Переизобретая панк project site.
 - `sashaeb` — collaborator/project trace.
-- `oleg_ustinov_official` — separate artist website.
+- `oleg_ustinov_official` — private client order / separate artist website; excluded from the art-practice archive.
 
 ### Utilities / internal systems
 - `eli_lab-mv`, `eli_lab-mv-titler`, `eli_lab-the-poster`, `eli_lab-the-formatter`, `eli_lab-the-previewer` — media / publishing workflow tools.
