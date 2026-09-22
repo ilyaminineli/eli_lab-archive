@@ -1,15 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eli_lab digital archive</title>
+    <meta name="description" content="eli_lab — digital archive, selected works, media projects and CV.">
+    <title>eli_lab — archive</title>
+    <link rel="stylesheet" href="css/measures.css">
+    <link rel="stylesheet" href="css/style_main.css">
 </head>
-
 <body>
-    <title>eli_lab digital archive</title>
-    
-</body>
+    <header class="site-header u-container">
+        <a class="wordmark" href="index.html" aria-label="eli_lab home">eli_lab</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="is-active" href="index.html">Selected</a>
+            <a href="pgs/archive.html">Archive</a>
+            <a href="pgs/cv.html">CV</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+            <span></span><span></span><span class="sr-only">Menu</span>
+        </button>
+    </header>
 
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="index.html">Selected</a>
+        <a href="pgs/archive.html">Archive</a>
+        <a href="pgs/cv.html">CV</a>
+    </nav>
+
+    <main>
+        <section class="hero u-container">
+            <div>
+                <p class="eyebrow">artist / designer / musician / developer</p>
+                <h1>An archive of works<br><em>across mediums.</em></h1>
+            </div>
+            <div class="hero-meta">
+                <p>eli_lab is a living record of images, objects, sound, moving image, software and other experiments.</p>
+                <a class="text-link" href="pgs/archive.html">Enter the archive <span>↗</span></a>
+            </div>
+        </section>
+
+        <section class="section u-container" aria-labelledby="selected-title">
+            <div class="section-heading">
+                <span class="section-index">01</span>
+                <h2 id="selected-title">Selected works</h2>
+                <span class="section-rule"></span>
+            </div>
+
+            <div class="work-grid">
+                <article class="work-card work-card--wide">
+                    <a href="pgs/video.html#ain-t-no-sunshine" class="work-media work-media--01" aria-label="Open Ain't No Sunshine project">
+                        <span class="media-note">video / 2026</span>
+                    </a>
+                    <div class="work-info">
+                        <div>
+                            <h3>Ain't No Sunshine</h3>
+                            <p>music video / moving image</p>
+                        </div>
+                        <span class="work-number">01</span>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <a href="pgs/art.html#parallel-vienna" class="work-media work-media--02" aria-label="Open Parallel Vienna project">
+                        <span class="media-note">identity / print</span>
+                    </a>
+                    <div class="work-info">
+                        <div>
+                            <h3>Parallel Vienna 2026</h3>
+                            <p>art direction / graphic design</p>
+                        </div>
+                        <span class="work-number">02</span>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <a href="pgs/audio.html#blue-neon" class="work-media work-media--03" aria-label="Open Blue Neon project">
+                        <span class="media-note">audio / vocal synth</span>
+                    </a>
+                    <div class="work-info">
+                        <div>
+                            <h3>Blue Neon</h3>
+                            <p>song / jazz experiment</p>
+                        </div>
+                        <span class="work-number">03</span>
+                    </div>
+                </article>
+
+                <article class="work-card work-card--offset">
+                    <a href="pgs/software.html" class="work-media work-media--04" aria-label="Open software projects">
+                        <span class="media-note">software / web</span>
+                    </a>
+                    <div class="work-info">
+                        <div>
+                            <h3>eli_lab systems</h3>
+                            <p>software / experimental interfaces</p>
+                        </div>
+                        <span class="work-number">04</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--archive u-container" aria-labelledby="archive-title">
+            <div class="section-heading">
+                <span class="section-index">02</span>
+                <h2 id="archive-title">By medium</h2>
+                <span class="section-rule"></span>
+            </div>
+
+            <div class="medium-list">
+                <a href="pgs/art.html"><span>01</span><strong>Art</strong><em>visual works, drawing, illustration, print</em><span>↗</span></a>
+                <a href="pgs/animation.html"><span>02</span><strong>Animation</strong><em>motion, loops, experimental film</em><span>↗</span></a>
+                <a href="pgs/audio.html"><span>03</span><strong>Audio</strong><em>music, sound, vocal synth, recordings</em><span>↗</span></a>
+                <a href="pgs/video.html"><span>04</span><strong>Video</strong><em>music videos, films, moving image</em><span>↗</span></a>
+                <a href="pgs/software.html"><span>05</span><strong>Software</strong><em>websites, tools, code, interactive work</em><span>↗</span></a>
+            </div>
+        </section>
+
+        <section class="section section--cv u-container" aria-labelledby="cv-title">
+            <div class="cv-grid">
+                <div>
+                    <p class="eyebrow">03 / about</p>
+                    <h2 id="cv-title">Artist statement,<br><em>CV &amp; contact.</em></h2>
+                </div>
+                <div class="cv-copy">
+                    <p>This section is intentionally quiet. The archive remains the main body of the site; the CV provides context, chronology and selected professional information.</p>
+                    <a class="text-link" href="pgs/cv.html">Open CV <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer u-container">
+        <span>© <span data-year></span> eli_lab</span>
+        <span>digital archive / works / documents</span>
+        <a href="mailto:hello@eli-lab.example">contact ↗</a>
+    </footer>
+
+    <script src="scr/script_main.js"></script>
+</body>
 </html>
