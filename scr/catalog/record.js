@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const dossier = dossiers.works?.[id] || null;
         const videoLinks = videoLinksResponse.ok ? await videoLinksResponse.json() : { links: [] };
         const mediaManifest = mediaResponse.ok ? await mediaResponse.json() : { works: {} };
-        const mediaEntry = mediaManifest.works?.[id] || { folder: work?.media_dir || ('media/works/' + id + '/'), items: [] };
 
         const work = works.find((item) => item.id === id);
 
@@ -36,6 +35,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             main.innerHTML = '<section class="page-intro u-container"><p class="eyebrow">404 / RECORD NOT FOUND</p><h1>UNKNOWN<br><em>WORK.</em></h1><p class="page-lead">The requested record is not in the public archive.</p></section>';
             return;
         }
+
+        const mediaEntry = mediaManifest.works?.[id] || { folder: work.media_dir || ('media/works/' + id + '/'), items: [] };
 
         document.title = 'eli_lab — ' + work.title;
 
@@ -84,7 +85,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const mediaItems = Array.isArray(mediaEntry.items) ? mediaEntry.items : [];
         const mediaUrl = (path) => {
             const value = String(path || '');
-            if (/^https?:\\/\\//i.test(value)) return value;
+            if (/^https?:\/\//i.test(value)) return value;
             return '../' + value.replace(/^\\/+/, '');
         };
         const coverItem = mediaItems.find(item => item.role === 'cover') || mediaItems[0];
@@ -231,6 +232,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             (relatedWorkHTML ? '<section class="record-panel record-related"><div class="panel-title">RELATED WORKS</div><div class="related-work-list">' +
                 relatedWorkHTML + '</div></section>' : '') +
 
+            (mediaGalleryHTML || '') +
             (candidateAssetHTML ? '<section class="record-panel record-assets"><div class="panel-title">VISUAL ASSET CANDIDATES</div>' +
                 '<p class="small-note">These are filename/path matches from the 595-image visual inventory, not yet confirmed as canonical artwork. Review before promotion.</p>' +
                 '<div class="asset-candidates">' + candidateAssetHTML + '</div></section>' : '') +
