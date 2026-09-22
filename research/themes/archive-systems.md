@@ -19,4 +19,4 @@
 5. The transformed material becomes a new record.
 
 ## Important conceptual bridge
-WHO IS ELI? describes an archive that restores, classifies and reconstructs. JIHANKI treats the archive as a machine interface. PARAZIT treats archive entities as a relational graph. The new eli_lab archive can inherit those methods without copying their individual visual identities.
+WHO IS ELI? describes an archive that restores, classifies and reconstructs. JIHANKI treats the archive as a machine interface. The new eli_lab archive can inherit those methods without copying the individual visual identities of other systems.
