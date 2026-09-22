@@ -717,11 +717,6 @@
       "to": "sasha-e-b"
     },
     {
-      "from": "aibolit-sashaeb",
-      "relation": "exhibited-at",
-      "to": "parazit"
-    },
-    {
       "from": "refuge-2022",
       "relation": "created-by",
       "to": "ilya-minin"
@@ -860,6 +855,11 @@
       "from": "winter-story",
       "relation": "archive-source",
       "to": "eli_lab_official"
+    },
+    {
+      "from": "aibolit-sashaeb",
+      "relation": "exhibited-at",
+      "to": "borey"
     }
   ],
   "groups": [
@@ -897,6 +897,11 @@
       "id": "nen-records",
       "name": "NEN Records",
       "type": "label"
+    },
+    {
+      "id": "borey",
+      "name": "Gallery Borey",
+      "type": "gallery"
     }
   ]
 }
