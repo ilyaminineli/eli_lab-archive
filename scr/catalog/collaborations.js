@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const personaNote = observation?.persona_notes || '';
                 return '<article class="person-card' + (match ? '' : ' is-hidden') + '" data-person>' +
                     '<header class="person-head">' +
-                    '<div><p class="person-id">' + escapeHTML(person.id) + '</p><h2><a href="network.html?focus=' + encodeURIComponent(person.id) + '">' + escapeHTML(person.name) + '</a></h2>' +
+                    '<div><p class="person-id">' + escapeHTML(person.id) + '</p><h2><a href="entity.html?id=' + encodeURIComponent(person.id) + '">' + escapeHTML(person.name) + '</a></h2>' +
                     ((person.aliases || observation?.source_forms || []).length ? '<p class="person-aliases">SOURCE NAMES / ' + escapeHTML(Array.from(new Set([...(person.aliases || []), ...(observation?.source_forms || [])])).join(' · ')) + '</p>' : '') +
                     (observedRoles.length ? '<p class="person-roles">OBSERVED / ' + escapeHTML(observedRoles.join(' · ')) + '</p>' : '') +
                     (personaNote ? '<p class="person-persona">' + escapeHTML(personaNote) + '</p>' : '') +
