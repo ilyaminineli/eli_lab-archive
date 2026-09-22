@@ -1,34 +1,34 @@
 # Video catalogue relation map
 
-Source: **Ilya-Minin-Eli.csv** — 126 public YouTube rows, covering 2017–2026 in the supplied export.
+Source: **Ilya-Minin-Eli.csv** — 126 public YouTube rows, covering 2017–2026. The duplicate audit currently finds 6 repeated-title groups involving 27 source rows.
 
 This file preserves the YouTube export as a discovery layer. Repeated teaser/short uploads are intentionally not deleted from the CSV. The list below is a normalized title index for finding project relationships.
 
 ## Normalized video index
 
-- **Ain't No Sunshine (Bill Withers Cover) — Kasane Teto / Experimental MV | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=LhG2-rGY2eY) — related: ewp_project, mountain_remembers, in_her_20s
+- **Ain't No Sunshine (Bill Withers Cover) — Kasane Teto / Experimental MV | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=LhG2-rGY2eY) — related: ewp-project, mountain-remembers, in-her-20s
 - **Happy birthday, Miku! #hatsunemiku #kasaneteto #ilyaminin** — 2026 — [YouTube](https://www.youtube.com/watch?v=sVuzaGUlmkY)
 - **Miku's Birthday! #ilyaminin #haveitoldyoulatelythatiloveyou #kasaneteto #hatsunemiku** — 2026 — [YouTube](https://www.youtube.com/watch?v=lHztA4uf88E)
-- **山は覚えている｜The Mountain Remembers — Experimental MV | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=wpBQbRItMnc) — related: mountain_remembers
-- **EWP Project — Experimental CG Animated Short | 2023** — 2026 — [YouTube](https://www.youtube.com/watch?v=gL7di-eXDmE) — related: ewp_project
+- **山は覚えている｜The Mountain Remembers — Experimental MV | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=wpBQbRItMnc) — related: mountain-remembers
+- **EWP Project — Experimental CG Animated Short | 2023** — 2026 — [YouTube](https://www.youtube.com/watch?v=gL7di-eXDmE) — related: ewp-project
 - **富士山六大妖怪 — Six Yokai of Mount Fuji | Saikoneon** — 2026 — [YouTube](https://www.youtube.com/watch?v=X1lK-y6ms2o) — related: six_yokai
 - **20-s (二 十 歳) | Akane Iirai | UTAU Original #vocaloid #haveitoldyoulatelythatiloveyou #歌ってみた** — 2026 — [YouTube](https://www.youtube.com/watch?v=DoYyGbaN1tE)
-- **二十歳 (In Her 20-s) — Original UTAU / Experimental Video Art | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=OcFF8Med9fQ) — related: in_her_20s
-- **子供の空 (Child's Sky) — Kasane Teto & Akane Iirai | Original UTAU** — 2026 — [YouTube](https://www.youtube.com/watch?v=T4N2ELKcowI) — related: childs_sky
+- **二十歳 (In Her 20-s) — Original UTAU / Experimental Video Art | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=OcFF8Med9fQ) — related: in-her-20s
+- **子供の空 (Child's Sky) — Kasane Teto & Akane Iirai | Original UTAU** — 2026 — [YouTube](https://www.youtube.com/watch?v=T4N2ELKcowI) — related: childs-sky
 - **Is this the real love?** — 2026 — [YouTube](https://www.youtube.com/watch?v=f6sq_xcMmpQ)
 - **ｒｅａｌ　ＴＥＴＳＴＥＲ** — 2026 — [YouTube](https://www.youtube.com/watch?v=_fpZ53gjZJ0)
-- **だれかの声 (Someone's Voice) — feat. Akane Iirai (茜音イーライ) | Original UTAU** — 2026 — [YouTube](https://www.youtube.com/watch?v=TJROlmgboT8) — related: someones_voice
-- **しあわせがこわい / イリヤ・ミニン（エリ）feat. 友人 [I'm afraid of happiness / Ilya Minin (Eli) feat. Eugene]** — 2026 — [YouTube](https://www.youtube.com/watch?v=apbx1EJ1Mtg) — related: afraid_of_happiness
-- **しあわせがこわい — I’m Afraid of Happiness | Original UTAU feat. Eugene** — 2026 — [YouTube](https://www.youtube.com/watch?v=K9z59T5WcG0) — related: afraid_of_happiness
+- **だれかの声 (Someone's Voice) — feat. Akane Iirai (茜音イーライ) | Original UTAU** — 2026 — [YouTube](https://www.youtube.com/watch?v=TJROlmgboT8) — related: someones-voice
+- **しあわせがこわい / イリヤ・ミニン（エリ）feat. 友人 [I'm afraid of happiness / Ilya Minin (Eli) feat. Eugene]** — 2026 — [YouTube](https://www.youtube.com/watch?v=apbx1EJ1Mtg) — related: afraid-of-happiness
+- **しあわせがこわい — I’m Afraid of Happiness | Original UTAU feat. Eugene** — 2026 — [YouTube](https://www.youtube.com/watch?v=K9z59T5WcG0) — related: afraid-of-happiness
 - **Fighting Postmodernism (Official Basil Anniversary Video)** — 2026 — [YouTube](https://www.youtube.com/watch?v=AqV7BuZChlg)
 - **Fighting Postmodernism — A Surreal Journey | Ilya Minin (Eli)** — 2026 — [YouTube](https://www.youtube.com/watch?v=O0JdFj6ZYUQ)
 - **銀河に紡ぐラブレター～** — 2026 — [YouTube](https://www.youtube.com/watch?v=73vCFQFnsBs)
 - **Kasane Teto's 2026 Manifesto | Ilya Minin (Eli)** — 2025 — [YouTube](https://www.youtube.com/watch?v=Bv-4aHjHbf0)
-- **Kagome Kagome / Ilya Minin (Eli) feat. Iirai** — 2025 — [YouTube](https://www.youtube.com/watch?v=QrCdYSfzz0o) — related: kagome_kagome
-- **かごめかごめ (Kagome Kagome) — イーライ (Iirai) | UTAU / Experimental Music** — 2025 — [YouTube](https://www.youtube.com/watch?v=Z5YlhWNQC58) — related: kagome_kagome
-- **かごめかごめ / イリヤ・ミニン（エリ）feat. イーライ** — 2025 — [YouTube](https://www.youtube.com/watch?v=lVFrJuRRFgQ) — related: kagome_kagome
-- **Kasane Teto – Get Hit Below (Official Video)** — 2025 — [YouTube](https://www.youtube.com/watch?v=thTfSHRGUMk) — related: get_hit_below
-- **Get Hit Below — Kasane Teto (Synthesizer V) | geztålt × Ilya Minin (Eli)** — 2025 — [YouTube](https://www.youtube.com/watch?v=i-LO9ksv9MQ) — related: get_hit_below, geztalt
+- **Kagome Kagome / Ilya Minin (Eli) feat. Iirai** — 2025 — [YouTube](https://www.youtube.com/watch?v=QrCdYSfzz0o) — related: kagome-kagome
+- **かごめかごめ (Kagome Kagome) — イーライ (Iirai) | UTAU / Experimental Music** — 2025 — [YouTube](https://www.youtube.com/watch?v=Z5YlhWNQC58) — related: kagome-kagome
+- **かごめかごめ / イリヤ・ミニン（エリ）feat. イーライ** — 2025 — [YouTube](https://www.youtube.com/watch?v=lVFrJuRRFgQ) — related: kagome-kagome
+- **Kasane Teto – Get Hit Below (Official Video)** — 2025 — [YouTube](https://www.youtube.com/watch?v=thTfSHRGUMk) — related: get-hit-below
+- **Get Hit Below — Kasane Teto (Synthesizer V) | geztålt × Ilya Minin (Eli)** — 2025 — [YouTube](https://www.youtube.com/watch?v=i-LO9ksv9MQ) — related: get-hit-below, geztalt
 - **Kasane Teto – Teto? / Ilya Minin (Eli)** — 2025 — [YouTube](https://www.youtube.com/watch?v=dMIQJYp796A) — related: geztalt
 - **Kasane Teto – Teto? (Official Video)** — 2025 — [YouTube](https://www.youtube.com/watch?v=DAN_fcyEF2E)
 - **Kasane Teto - Fukkireta | geztålt – 吹っ切れた | Karaoke Version** — 2025 — [YouTube](https://www.youtube.com/watch?v=cK57_pyetCY) — related: geztalt
@@ -38,8 +38,8 @@ This file preserves the YouTube export as a discovery layer. Repeated teaser/sho
 - **DVAR - Pleiir (Unofficial Clip)** — 2025 — [YouTube](https://www.youtube.com/watch?v=fVjXju_4J5E) — related: pleiir
 - **Kasane Teto - Fukkireta | geztålt – 吹っ切れた** — 2025 — [YouTube](https://www.youtube.com/watch?v=yrhaxUmj_3A) — related: geztalt
 - **geztålt – Pjesma pro Ljubov (Official Video)** — 2025 — [YouTube](https://www.youtube.com/watch?v=ckv0rXGN2L0) — related: geztalt
-- **my liminal music to transfer you there - backrooms themed songs** — 2025 — [YouTube](https://www.youtube.com/watch?v=hjlXcHSFisY) — related: geztalt, metaliminal, taming_the_serpent
-- **Taming the Serpent — Live at Winzavod, 2022 | Performance Art** — 2024 — [YouTube](https://www.youtube.com/watch?v=InpJyuAuIyM) — related: taming_the_serpent
+- **my liminal music to transfer you there - backrooms themed songs** — 2025 — [YouTube](https://www.youtube.com/watch?v=hjlXcHSFisY) — related: geztalt, metaliminal, taming-the-serpent
+- **Taming the Serpent — Live at Winzavod, 2022 | Performance Art** — 2024 — [YouTube](https://www.youtube.com/watch?v=InpJyuAuIyM) — related: taming-the-serpent
 - **Kasane Teto - Dymohod | geztålt (Official Video)** — 2024 — [YouTube](https://www.youtube.com/watch?v=2fLbsIePb-U) — related: geztalt
 - **Kasane Teto - Mudak | geztålt (Official Video)** — 2024 — [YouTube](https://www.youtube.com/watch?v=zEs_ET6rTkk) — related: geztalt
 - **Serval Man – Ilya Minin (Eli), servaldays (Official Reel)** — 2024 — [YouTube](https://www.youtube.com/watch?v=ypP4UKUWvpw)
@@ -59,7 +59,7 @@ This file preserves the YouTube export as a discovery layer. Repeated teaser/sho
 - **geztålt — Sergaj (Official Video)** — 2024 — [YouTube](https://www.youtube.com/watch?v=c9MV8CoR-Ls) — related: geztalt
 - **Never meme #meme #mushorts** — 2024 — [YouTube](https://www.youtube.com/watch?v=a-ml9PY4dRg)
 - **Bored of #contemporaryart** — 2023 — [YouTube](https://www.youtube.com/watch?v=5Zc2ybLKIzE)
-- **EWP Project (Original Cut)** — 2023 — [YouTube](https://www.youtube.com/watch?v=997vBAqNjm0) — related: ewp_project
+- **EWP Project (Original Cut)** — 2023 — [YouTube](https://www.youtube.com/watch?v=997vBAqNjm0) — related: ewp-project
 - **Овощи — Игорь Яновский, Илья Минин (Eli) | Experimental Video** — 2023 — [YouTube](https://www.youtube.com/watch?v=HZJoPfHkqTU)
 - **CAKELINK!** — 2023 — [YouTube](https://www.youtube.com/watch?v=zmMRJ03uvOI)
 - **Автопати Agonal Machines за полторы минуты** — 2023 — [YouTube](https://www.youtube.com/watch?v=YavJ8I_g74I) — related: agonal_machines, geztalt
@@ -131,3 +131,8 @@ Each canonical work should be able to reference one or more YouTube source rows.
 ## Provenance note
 
 The normalized index is derived from titles and descriptions; it is a discovery aid, not a final authorship or chronology authority. Canonical work metadata should still be checked against the original repository, artist site, release page or exhibition record.
+
+
+## Canonical work join
+
+The normalized title map is a discovery layer. Canonical pages should use the stable IDs in `data/works.json` and route through `pgs/record.html?id=WORK_ID`. Short uploads and alternate cuts remain source-level variants.
