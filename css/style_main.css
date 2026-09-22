@@ -22,6 +22,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 a { color: inherit; text-decoration: none; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
 button, a { -webkit-tap-highlight-color: transparent; }
 ::selection { color: var(--paper); background: var(--ink); }
 
@@ -387,4 +388,9 @@ h1 em, h2 em {
     .cv-copy { padding-top: 0; }
     .site-footer { align-items: flex-start; flex-direction: column; justify-content: center; padding: var(--space-m) 0; }
     .timeline-row { grid-template-columns: 1fr; gap: .35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
 }
