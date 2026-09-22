@@ -20,4 +20,6 @@ Keep source URLs with the record. Search/social traces can be candidates; primar
 ## Aliases and video joins
 - `aliases.json` — old titles and labels mapped to canonical work IDs.
 - `video_relations.json` — YouTube source-row joins to canonical works where a first-pass relationship is established.
+- `video_context.json` — structured 126-row YouTube descriptions, source links and credit-line context for record pages.
+- `asset_candidates.json` — conservative machine-generated matches from the 595-image inventory; candidates require manual review.
 - `assets.json` — 595-image inventory from the historical visual archive.
