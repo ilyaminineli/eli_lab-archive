@@ -546,6 +546,756 @@
       "sources": [
         "https://t.me/ilyaminineli"
       ]
+    },
+    {
+      "id": "mountain-remembers",
+      "title": "山は覚えている / The Mountain Remembers",
+      "year": "2026",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "fieldwork",
+        "Japan",
+        "folklore"
+      ],
+      "status": "confirmed",
+      "description": "Experimental audiovisual work built from a Fuji-area journey, field recordings, memory and folklore; uses Akane Iirai, Eugene and Takismana.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official",
+        "https://www.youtube.com/watch?v=wpBQbRItMnc"
+      ],
+      "related_works": [
+        "jihanki"
+      ]
+    },
+    {
+      "id": "six-yokai",
+      "title": "富士山六大妖怪 / Six Yokai of Mount Fuji",
+      "year": "2026",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "personal work",
+        "Japan",
+        "folklore",
+        "fiction"
+      ],
+      "status": "confirmed",
+      "description": "Fictional folkloric video archive created in Japan as part of the Saikoneon project.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official",
+        "https://www.youtube.com/watch?v=X1lK-y6ms2o"
+      ],
+      "related_works": [
+        "jihanki",
+        "mountain-remembers"
+      ]
+    },
+    {
+      "id": "in-her-20s",
+      "title": "二十歳 / In Her 20-s",
+      "year": "2026",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "Original UTAU audiovisual work featuring Akane Iirai, built from hospital, ambulance, moon, medication and disappearance imagery.",
+      "sources": [
+        "https://www.youtube.com/watch?v=OcFF8Med9fQ"
+      ],
+      "related_works": [
+        "iirai"
+      ]
+    },
+    {
+      "id": "childs-sky",
+      "title": "子供の空 / Child's Sky",
+      "year": "2026",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "Original UTAU audiovisual work featuring Kasane Teto and Akane Iirai, using fragmented childhood memory and surreal landscape.",
+      "sources": [
+        "https://www.youtube.com/watch?v=T4N2ELKcowI"
+      ],
+      "related_works": [
+        "iirai"
+      ]
+    },
+    {
+      "id": "someones-voice",
+      "title": "だれかの声 / Someone's Voice",
+      "year": "2026",
+      "medium": [
+        "audio",
+        "video",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "Original UTAU work about a voice inside the head that begins to feel more real than the speaker.",
+      "sources": [
+        "https://www.youtube.com/watch?v=TJROlmgboT8"
+      ],
+      "related_works": [
+        "iirai"
+      ]
+    },
+    {
+      "id": "afraid-of-happiness",
+      "title": "しあわせがこわい / I'm Afraid of Happiness",
+      "year": "2026",
+      "medium": [
+        "audio",
+        "video",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "Original UTAU release featuring Eugene.",
+      "sources": [
+        "https://www.youtube.com/watch?v=K9z59T5WcG0"
+      ],
+      "related_works": [
+        "eugene"
+      ]
+    },
+    {
+      "id": "fighting-postmodernism",
+      "title": "Fighting Postmodernism",
+      "year": "2026",
+      "medium": [
+        "video"
+      ],
+      "context": [
+        "personal work",
+        "anniversary"
+      ],
+      "status": "confirmed",
+      "description": "Surreal video work with multiple short anniversary/publication uploads and a main 1:42 version.",
+      "sources": [
+        "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
+      ]
+    },
+    {
+      "id": "kagome-kagome",
+      "title": "かごめかごめ / Kagome Kagome",
+      "year": "2025",
+      "medium": [
+        "audio",
+        "video",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "UTAU / experimental music work connected to the Iirai voicebank.",
+      "sources": [
+        "https://www.youtube.com/watch?v=Z5YlhWNQC58"
+      ],
+      "related_works": [
+        "iirai"
+      ]
+    },
+    {
+      "id": "get-hit-below",
+      "title": "Get Hit Below",
+      "year": "2025",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "collaboration",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "Kasane Teto Synthesizer V work credited to geztålt × Ilya Minin (Eli).",
+      "sources": [
+        "https://www.youtube.com/watch?v=i-LO9ksv9MQ"
+      ]
+    },
+    {
+      "id": "tetopocalypsis",
+      "title": "Tetopocalyspsis",
+      "year": "2025",
+      "medium": [
+        "video",
+        "art",
+        "animation"
+      ],
+      "context": [
+        "gallery",
+        "personal work"
+      ],
+      "status": "confirmed",
+      "description": "Kasane Teto experimental gallery video / video-art work.",
+      "sources": [
+        "https://www.youtube.com/watch?v=LqmzfxUYRPI"
+      ]
+    },
+    {
+      "id": "fukkireta",
+      "title": "Fukkireta / 吹っ切れた",
+      "year": "2025",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "release",
+        "music video"
+      ],
+      "status": "confirmed",
+      "description": "geztålt / Kasane Teto music-video and karaoke-version cluster.",
+      "sources": [
+        "https://www.youtube.com/watch?v=yrhaxUmj_3A"
+      ]
+    },
+    {
+      "id": "pjesma-pro-ljubov",
+      "title": "Pjesma pro Ljubov",
+      "year": "2025",
+      "medium": [
+        "video",
+        "audio"
+      ],
+      "context": [
+        "release",
+        "geztalt"
+      ],
+      "status": "confirmed",
+      "description": "Experimental music video using mixed-media collage, cutting, Dada techniques and Gestalt associations.",
+      "sources": [
+        "https://www.youtube.com/watch?v=ckv0rXGN2L0"
+      ]
+    },
+    {
+      "id": "taming-the-serpent",
+      "title": "Taming the Serpent",
+      "year": "2022",
+      "medium": [
+        "performance",
+        "video"
+      ],
+      "context": [
+        "collaboration",
+        "performance",
+        "exhibition"
+      ],
+      "status": "confirmed",
+      "description": "Collaborative performance by Julia Baranyuk and Ilya Minin (Eli), recorded at Winzavod in 2022.",
+      "sources": [
+        "https://www.youtube.com/watch?v=InpJyuAuIyM"
+      ],
+      "related_works": [
+        "live-one-gog"
+      ]
+    },
+    {
+      "id": "showreel-2024",
+      "title": "Showreel 2024",
+      "year": "2024",
+      "medium": [
+        "video",
+        "cgi",
+        "animation"
+      ],
+      "context": [
+        "portfolio",
+        "archive"
+      ],
+      "status": "confirmed",
+      "description": "Artist showreel presenting contemporary-art, CG and moving-image practice.",
+      "sources": [
+        "https://www.youtube.com/watch?v=kUCLW8sF78U"
+      ]
+    },
+    {
+      "id": "mudak",
+      "title": "Mudak",
+      "year": "2024",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "release",
+        "music video"
+      ],
+      "status": "confirmed",
+      "description": "geztålt / Kasane Teto music-video cluster.",
+      "sources": [
+        "https://www.youtube.com/watch?v=zEs_ET6rTkk"
+      ]
+    },
+    {
+      "id": "dymohod",
+      "title": "Dymohod",
+      "year": "2024",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "release",
+        "music video"
+      ],
+      "status": "confirmed",
+      "description": "Kasane Teto music video credited to geztålt.",
+      "sources": [
+        "https://www.youtube.com/watch?v=2fLbsIePb-U"
+      ]
+    },
+    {
+      "id": "muyskaya-depressiya",
+      "title": "Мужская депрессия / Male Depression",
+      "year": "2022",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "collaboration",
+        "video art"
+      ],
+      "status": "confirmed",
+      "description": "Video art by Ilya Minin (Eli) and sasha e b about emotional isolation and loss of connection.",
+      "sources": [
+        "https://www.youtube.com/watch?v=RgT3XGULiKA"
+      ]
+    },
+    {
+      "id": "greater-than-lesser",
+      "title": "Greater Than Lesser",
+      "year": "2024",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "video art",
+        "personal work"
+      ],
+      "status": "confirmed",
+      "description": "Experimental video art exploring perception, feeling and the relationship between seeing less and loving less.",
+      "sources": [
+        "https://www.youtube.com/watch?v=UuNT2WaKdqg"
+      ]
+    },
+    {
+      "id": "vegetables",
+      "title": "Овощи / Vegetables",
+      "year": "2023",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "collaboration",
+        "experimental"
+      ],
+      "status": "confirmed",
+      "description": "Short experimental audiovisual work by Ilya Minin (Eli) and Igor Yanovsky.",
+      "sources": [
+        "https://www.youtube.com/watch?v=HZJoPfHkqTU"
+      ]
+    },
+    {
+      "id": "agonal-machines",
+      "title": "Agonal Machines",
+      "year": "2023",
+      "medium": [
+        "performance",
+        "video",
+        "audio"
+      ],
+      "context": [
+        "performance",
+        "live",
+        "documentation"
+      ],
+      "status": "confirmed",
+      "description": "Video documentation of Agonal Machines performances at Lachesis, Moscow, including geztålt and other performers.",
+      "sources": [
+        "https://www.youtube.com/watch?v=HSd6hCtQogI"
+      ]
+    },
+    {
+      "id": "industrial-sanitation",
+      "title": "Industrial Sanitation and Occupational Hygiene",
+      "year": "2022",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "video art",
+        "collage"
+      ],
+      "status": "confirmed",
+      "description": "Mixed collage video using cutting, Dada technique, Gestalt associations and psychological elements.",
+      "sources": [
+        "https://www.youtube.com/watch?v=5xEy5C2iNIY"
+      ]
+    },
+    {
+      "id": "enlightenment-i",
+      "title": "Enlightenment I",
+      "year": "2022",
+      "medium": [
+        "video",
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "geztålt video/audio work titled Enlightenment I.",
+      "sources": [
+        "https://www.youtube.com/watch?v=j1hq6xUp420"
+      ]
+    },
+    {
+      "id": "ritual-big-fridge",
+      "title": "Ритуал для Большого Холодильника / Ritual for the Big Refrigerator",
+      "year": "2022",
+      "medium": [
+        "video",
+        "performance"
+      ],
+      "context": [
+        "ritual",
+        "experimental"
+      ],
+      "status": "confirmed",
+      "description": "Experimental ritual video centered on the refrigerator as a strange household deity.",
+      "sources": [
+        "https://www.youtube.com/watch?v=omNsIl61tlY"
+      ]
+    },
+    {
+      "id": "evocation-turtur",
+      "title": "Evocation Turtur — The Great Turtle Summoning Ritual",
+      "year": "2022",
+      "medium": [
+        "video",
+        "performance"
+      ],
+      "context": [
+        "ritual",
+        "performance"
+      ],
+      "status": "confirmed",
+      "description": "Long-form experimental ritual/performance document recorded in Moscow in 2022.",
+      "sources": [
+        "https://www.youtube.com/watch?v=4Z-8Cek0qP4"
+      ]
+    },
+    {
+      "id": "who-is-vova-lilo",
+      "title": "Who is Vova Lilo? The Myth of a Man",
+      "year": "2022",
+      "medium": [
+        "video"
+      ],
+      "context": [
+        "mockumentary",
+        "archive"
+      ],
+      "status": "confirmed",
+      "description": "Mockumentary investigating a mysterious figure in the Saint Petersburg underground.",
+      "sources": [
+        "https://www.youtube.com/watch?v=uYuEx85d8s0"
+      ]
+    },
+    {
+      "id": "w-video-collage",
+      "title": "W",
+      "year": "2022",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "video art",
+        "archive"
+      ],
+      "status": "confirmed",
+      "description": "Early experimental video collage using archive materials from the web.",
+      "sources": [
+        "https://www.youtube.com/watch?v=5YdNlRgHuuk"
+      ]
+    },
+    {
+      "id": "baron",
+      "title": "Баронъ",
+      "year": "2022",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "experimental film",
+        "digital folklore"
+      ],
+      "status": "confirmed",
+      "description": "Experimental film / digital folklore work.",
+      "sources": [
+        "https://www.youtube.com/watch?v=JchqmZXJ6vQ"
+      ]
+    },
+    {
+      "id": "bessonitsa",
+      "title": "Бессоница / Insomnia",
+      "year": "2022",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "experimental",
+        "digital folklore"
+      ],
+      "status": "confirmed",
+      "description": "Experimental video framed through invented curse and digital folklore.",
+      "sources": [
+        "https://www.youtube.com/watch?v=C3VIPDPRKlg"
+      ]
+    },
+    {
+      "id": "found-tape",
+      "title": "Found Tape",
+      "year": "2020",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "found footage",
+        "fiction"
+      ],
+      "status": "confirmed",
+      "description": "Fictional found-tape video about a green cassette carrying a deadly curse.",
+      "sources": [
+        "https://www.youtube.com/watch?v=w5zqAkpGa_c"
+      ]
+    },
+    {
+      "id": "estetish-tape",
+      "title": "estetish tape",
+      "year": "2020",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "release",
+        "sampling",
+        "hauntology"
+      ],
+      "status": "confirmed",
+      "description": "Lab ADAMS MACHINE tape-oriented work tagged sampling, hauntology, tape mixing and minimalism.",
+      "sources": [
+        "https://www.youtube.com/watch?v=cKYk2ivIVfE"
+      ]
+    },
+    {
+      "id": "balance-2020",
+      "title": "balance 2020",
+      "year": "2020",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "release",
+        "experimental",
+        "ambient",
+        "drone"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS work associated with BEZDNA and an ambient / drone / techno / noise palette.",
+      "sources": [
+        "https://www.youtube.com/watch?v=WZVXwfq9-GM"
+      ]
+    },
+    {
+      "id": "receiver-2019",
+      "title": "receiver",
+      "year": "2019",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "release"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS release / clip associated with Lab ADAMS MACHINE and the Patanormal project.",
+      "sources": [
+        "https://www.youtube.com/watch?v=Z85lawGhz7c"
+      ]
+    },
+    {
+      "id": "nature-2019",
+      "title": "nature",
+      "year": "2019",
+      "medium": [
+        "video",
+        "art"
+      ],
+      "context": [
+        "video art",
+        "Japan",
+        "haiku"
+      ],
+      "status": "confirmed",
+      "description": "Experimental video art structured around Japanese haiku.",
+      "sources": [
+        "https://www.youtube.com/watch?v=zHZmUDA9Yao"
+      ]
+    },
+    {
+      "id": "rebirth",
+      "title": "REBIRTH",
+      "year": "2019",
+      "medium": [
+        "video",
+        "cgi",
+        "audio"
+      ],
+      "context": [
+        "experimental film",
+        "legacy"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS debut short film exploring cycles of transformation through abstract digital aesthetics.",
+      "sources": [
+        "https://www.youtube.com/watch?v=sFDSXxvOOHw"
+      ]
+    },
+    {
+      "id": "arctic-2019",
+      "title": "arctic",
+      "year": "2019",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "release",
+        "ambient"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS music/video sequence inspired by new-age visual albums and videotapes.",
+      "sources": [
+        "https://www.youtube.com/watch?v=QR332-HNIPU"
+      ]
+    },
+    {
+      "id": "frr",
+      "title": "FRR",
+      "year": "2019",
+      "medium": [
+        "video",
+        "audio"
+      ],
+      "context": [
+        "legacy",
+        "experimental"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS experimental audiovisual work.",
+      "sources": [
+        "https://www.youtube.com/watch?v=nWsUhtZun9g"
+      ]
+    },
+    {
+      "id": "pticess",
+      "title": "PTICESS",
+      "year": "2019",
+      "medium": [
+        "video",
+        "audio"
+      ],
+      "context": [
+        "legacy",
+        "experimental"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS experimental video work.",
+      "sources": [
+        "https://www.youtube.com/watch?v=Vs-0XkFOY_c"
+      ]
+    },
+    {
+      "id": "insects-2018",
+      "title": "1nsects",
+      "year": "2018",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "release",
+        "ambient"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS single released through BAOS.",
+      "sources": [
+        "https://www.youtube.com/watch?v=ZmDWPp12Pak"
+      ]
+    },
+    {
+      "id": "idiopathic",
+      "title": "Idiopathic (with age-dependent debut)",
+      "year": "2018",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "release",
+        "legacy"
+      ],
+      "status": "confirmed",
+      "description": "ELIAS ADAMS release/clip associated with Brain Activity in Order to the Sky.",
+      "sources": [
+        "https://www.youtube.com/watch?v=_9U7qgEkcpA"
+      ]
     }
   ]
 }
