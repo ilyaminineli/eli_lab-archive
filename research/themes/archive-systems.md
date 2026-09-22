@@ -2,7 +2,6 @@
 
 ## Central projects
 - JIHANKI
-- PARAZIT
 - eli_lab Multimedia Framework
 - eli_lab Pipeline Hub
 - eli_lab Pattern Generator
