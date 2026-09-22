@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const entityLink = (entityId) => {
             if (byId[entityId]) return 'record.html?id=' + encodeURIComponent(entityId);
-            return 'network.html?focus=' + encodeURIComponent(entityId);
+            return 'entity.html?id=' + encodeURIComponent(entityId);
         };
 
         const relationLabel = (relation) =>
