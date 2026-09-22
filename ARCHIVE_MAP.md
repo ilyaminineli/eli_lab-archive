@@ -11,6 +11,7 @@
 - `data/themes/` — thematic work indexes.
 - `data/assets.json` — 595-image visual inventory.
 - `data/sources.json` — structured source registry.
+- `data/client_orders.json` — private client-site traces excluded from the art-practice graph.
 - `data/video_relations.json` — first-pass YouTube-to-work joins.
 
 ## Start here
