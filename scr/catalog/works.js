@@ -20,6 +20,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         const manifest = await response.json();
         const publicWorks = manifest.works.filter((work) => work.visibility !== 'private');
 
+        const directoryFilters = {
+            visual: (work) => (work.medium || []).some((m) => ['art', 'painting', 'drawing', 'installation', 'cgi'].includes(m)),
+            sound: (work) => (work.medium || []).includes('audio'),
+            voice: (work) => (work.medium || []).includes('vocal'),
+            motion: (work) => (work.medium || []).some((m) => ['animation', 'video'].includes(m)),
+            systems: (work) => (work.medium || []).some((m) => ['software', 'interactive'].includes(m)),
+            games: (work) => (work.medium || []).includes('games'),
+            documentation: (work) => {
+                const medium = work.medium || [];
+                const context = work.context || [];
+                return medium.some((m) => ['performance', 'exhibition', 'documentation'].includes(m)) ||
+                    context.some((c) => ['performance', 'exhibition', 'screening', 'lecture', 'documentation', 'fieldwork', 'archive'].includes(c));
+            }
+        };
+
+        const params = new URLSearchParams(location.search);
+        const requestedDirectory = params.get('medium');
+        if (requestedDirectory && directoryFilters[requestedDirectory]) {
+            const activeButton = document.querySelector('[data-filter="' + requestedDirectory + '"]');
+            if (activeButton) {
+                filters.forEach((item) => item.classList.remove('is-active'));
+                activeButton.classList.add('is-active');
+            }
+        }
+
         const rows = publicWorks.map((work) => {
             const searchText = [
                 work.title,
@@ -50,8 +75,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             allRows.forEach((row) => {
                 const media = row.dataset.medium || '';
                 const hay = row.dataset.search || '';
-                const matchFilter = filter === 'all' || media.split(' ').includes(filter) ||
-                    (filter === 'documentation' && /(performance|exhibition|screening|lecture|documentation|fieldwork)/.test(media));
+                const requestedMatch = requestedDirectory && directoryFilters[requestedDirectory]
+                    ? directoryFilters[requestedDirectory](publicWorks.find((work) => work.id === row.getAttribute('data-work-id')) || {})
+                    : false;
+                const matchFilter = requestedMatch || filter === 'all' || media.split(' ').includes(filter) ||
+                    (filter === 'documentation' && /(performance|exhibition|screening|lecture|documentation|fieldwork|archive)/.test(media));
                 const matchSearch = !query || hay.includes(query);
                 const match = matchFilter && matchSearch;
                 row.classList.toggle('is-hidden', !match);
