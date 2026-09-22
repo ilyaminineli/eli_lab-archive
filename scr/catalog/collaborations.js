@@ -20,14 +20,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     try {
-        const [workResponse, relationResponse] = await Promise.all([
+        const [workResponse, relationResponse, observationResponse] = await Promise.all([
             fetch('../data/works.json'),
-            fetch('../data/relations.json')
+            fetch('../data/relations.json'),
+            fetch('../data/csv_entities.json')
         ]);
         if (!workResponse.ok || !relationResponse.ok) throw new Error('PEOPLE DATABASE UNAVAILABLE.');
 
         const works = (await workResponse.json()).works.filter(work => work.visibility !== 'private');
         const graph = await relationResponse.json();
+        const observations = observationResponse.ok ? await observationResponse.json() : { entities: [] };
+        const observationById = new Map((observations.entities || []).map(entity => [entity.canonical_id, entity]));
         const workById = new Map(works.map(work => [work.id, work]));
 
         const people = (graph.people || []).map(person => {
@@ -78,10 +81,16 @@ document.addEventListener('DOMContentLoaded', async () => {
                         '<em>' + escapeHTML(item.roles.join(' / ')) + '</em><b>↗</b></a>'
                     ).join('') || '<p class="small-note">No public project relations recorded.</p>';
 
+                const observation = observationById.get(person.id);
+                const observedRoles = observation?.roles_observed || [];
+                const personaNote = observation?.persona_notes || '';
                 return '<article class="person-card' + (match ? '' : ' is-hidden') + '" data-person>' +
                     '<header class="person-head">' +
                     '<div><p class="person-id">' + escapeHTML(person.id) + '</p><h2><a href="network.html?focus=' + encodeURIComponent(person.id) + '">' + escapeHTML(person.name) + '</a></h2>' +
-                    ((person.aliases || []).length ? '<p class="person-aliases">SOURCE NAMES / ' + escapeHTML(person.aliases.join(' · ')) + '</p>' : '') + '</div>' +
+                    ((person.aliases || observation?.source_forms || []).length ? '<p class="person-aliases">SOURCE NAMES / ' + escapeHTML(Array.from(new Set([...(person.aliases || []), ...(observation?.source_forms || [])])).join(' · ')) + '</p>' : '') +
+                    (observedRoles.length ? '<p class="person-roles">OBSERVED / ' + escapeHTML(observedRoles.join(' · ')) + '</p>' : '') +
+                    (personaNote ? '<p class="person-persona">' + escapeHTML(personaNote) + '</p>' : '') +
+                    '</div>' +
                     '<div class="person-meta"><span>' + escapeHTML(person.type) + '</span><strong>' + String(person.projects.length).padStart(2, '0') + '</strong><small>PROJECTS</small></div>' +
                     '</header><div class="person-projects">' + projectsHTML + '</div></article>';
             }).join('') || '<p class="small-note">NO PUBLIC PEOPLE IN CURRENT NETWORK.</p>';
