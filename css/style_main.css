@@ -3884,3 +3884,11 @@ body::after {
         font-size: .4rem;
     }
 }
+
+.person-aliases {
+    margin: .28rem 0 0;
+    color: #76827d;
+    font: 500 .44rem/1.35 "DM Mono", monospace;
+    letter-spacing: .03em;
+    overflow-wrap: anywhere;
+}
