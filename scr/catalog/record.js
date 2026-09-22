@@ -77,10 +77,29 @@ document.addEventListener('DOMContentLoaded', async () => {
             escapeHTML(source) + '">' + escapeHTML(source.replace(/^https?:\/\//, '')) + ' ↗</a>'
         ).join('');
 
-        const thumbnail = work.thumbnail
-            ? '<a class="record-hero-media" target="_blank" rel="noopener" href="' + escapeHTML(work.thumbnail) + '">' +
-              '<img src="' + escapeHTML(work.thumbnail) + '" alt="" loading="eager"><span>OPEN IMAGE ↗</span></a>'
-            : '<div class="record-hero-media record-hero-media--empty"><span>NO PREVIEW</span><em>Asset mapping pending</em></div>';
+        const mediaDir = work.media_dir || ('media/works/' + work.id + '/');
+        const localCoverCandidates = work.media_status === 'staged'
+            ? ['01-cover.webp', '01-cover.jpg', '01-cover.jpeg', '01-cover.png'].map(name => '../' + mediaDir + name)
+            : [];
+        let resolvedThumbnail = work.thumbnail || '';
+        if (!resolvedThumbnail && localCoverCandidates.length) {
+            for (const candidate of localCoverCandidates) {
+                try {
+                    const probe = await fetch(candidate, { method: 'HEAD' });
+                    if (probe.ok) {
+                        resolvedThumbnail = candidate;
+                        break;
+                    }
+                } catch (_) {}
+            }
+        }
+
+        const thumbnail = resolvedThumbnail
+            ? '<a class="record-hero-media" target="_blank" rel="noopener" href="' + escapeHTML(resolvedThumbnail) + '">' +
+              '<img src="' + escapeHTML(resolvedThumbnail) + '" alt="" loading="eager"><span>OPEN IMAGE ↗</span></a>'
+            : '<div class="record-hero-media record-hero-media--empty"><span>NO PREVIEW</span><em>' +
+              (work.media_status === 'staged' ? 'Add 01-cover.webp / .jpg / .jpeg / .png to the media folder.' : 'Media folder planned.') +
+              '</em></div>';
 
         const sourceVideos = (videoContext.rows || [])
             .filter(video => video.canonicalWorkId === work.id)
@@ -118,9 +137,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         const linkedVideos = (videoLinks.links || []).filter(link =>
             sourceVideos.some(video => video.videoId === link.sourceVideoId) || link.sourceCanonicalWorkId === work.id
         );
+        const detailSections = [
+            ['PROCESS', dossier?.process],
+            ['MATERIALS', dossier?.materials],
+            ['CHRONOLOGY', dossier?.chronology?.map(item => (item.year ? item.year + ' — ' : '') + item.note)],
+            ['EXHIBITIONS', dossier?.exhibitions],
+            ['PUBLICATIONS', dossier?.publications],
+            ['TECHNICAL NOTES', dossier?.technical_notes],
+            ['ARCHIVAL NOTES', dossier?.archival_notes]
+        ].filter(section => Array.isArray(section[1]) && section[1].length);
+
+        const detailHTML = detailSections.map(([title, items]) =>
+            '<section class="dossier-detail"><h3>' + escapeHTML(title) + '</h3><div>' +
+            items.map(item => '<p>' + escapeHTML(String(item)) + '</p>').join('') +
+            '</div></section>'
+        ).join('');
+
         const coverage = [
             ['DESCRIPTION', Boolean(work.description)],
-            ['IMAGE', Boolean(work.thumbnail)],
+            ['IMAGE', Boolean(resolvedThumbnail)],
             ['SOURCES', Boolean(work.sources?.length)],
             ['EXTERNAL', Boolean(work.external_sources?.length)],
             ['RELATIONS', Boolean(edges.length)],
@@ -176,13 +211,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             '<section class="record-panel record-dossier"><div class="panel-title">DOSSIER / WORK FILE</div>' +
             '<div class="dossier-grid">' +
+
             '<div><span>PROCESS</span><strong>' + String(dossier?.process?.length || 0).padStart(2, '0') + ' NOTES</strong></div>' +
             '<div><span>MATERIALS</span><strong>' + String(dossier?.materials?.length || 0).padStart(2, '0') + ' ITEMS</strong></div>' +
             '<div><span>CHRONOLOGY</span><strong>' + String(dossier?.chronology?.length || 0).padStart(2, '0') + ' EVENTS</strong></div>' +
             '<div><span>EXHIBITIONS</span><strong>' + String(dossier?.exhibitions?.length || 0).padStart(2, '0') + ' ENTRIES</strong></div>' +
             '<div><span>TECHNICAL</span><strong>' + String(dossier?.technical_notes?.length || 0).padStart(2, '0') + ' NOTES</strong></div>' +
             '<div><span>QUESTIONS</span><strong>' + String(dossier?.questions_to_resolve?.length || 0).padStart(2, '0') + ' OPEN</strong></div>' +
-            '</div></section>' +
+            '</div>' +
+            (detailHTML || '<p class="small-note dossier-empty">Detailed process notes are not entered yet. The structured dossier is ready for them.</p>') +
+            '</section>' +
 
             (linkedVideos.length ? '<section class="record-panel record-linked-videos"><div class="panel-title">SOURCE LINKS / RELATED VIDEOS</div>' +
                 '<div class="linked-video-list">' + linkedVideos.map(link =>
