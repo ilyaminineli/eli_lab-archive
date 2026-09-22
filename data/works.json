@@ -1296,6 +1296,823 @@
       "sources": [
         "https://www.youtube.com/watch?v=_9U7qgEkcpA"
       ]
+    },
+    {
+      "id": "aint-no-sunshine",
+      "title": "Ain't No Sunshine",
+      "year": "2026",
+      "medium": [
+        "video",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "cover",
+        "music video",
+        "current"
+      ],
+      "status": "confirmed",
+      "description": "Bill Withers cover / experimental music video with Kasane Teto, published in the current 2026 archive.",
+      "sources": [
+        "https://t.me/ilyaminineli",
+        "https://www.youtube.com/@elilab"
+      ],
+      "related_works": [
+        "the-last-day-of-kasane-teto"
+      ]
+    },
+    {
+      "id": "parallel-vienna-2026",
+      "title": "Parallel Vienna 2026",
+      "year": "2026",
+      "medium": [
+        "art",
+        "design"
+      ],
+      "context": [
+        "exhibition",
+        "art direction",
+        "print"
+      ],
+      "status": "documented",
+      "description": "Exhibition identity / print material for PARALLEL VIENNA 2026; record established from the current archive project context.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ]
+    },
+    {
+      "id": "eporgaanisten-rakenteiden-kierratys",
+      "title": "Epäorgaanisten Rakenteiden Kierrätys",
+      "year": "2022",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release",
+        "autobiographical",
+        "electroacoustic"
+      ],
+      "status": "documented",
+      "description": "Retrospective of a semi-hermetic autobiographical narrative; electroacoustic work with non-linear mood shifts. Cover/design by Romaner.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official",
+        "https://nenrecs.bandcamp.com/album/ep-orgaanistenrakenteidekierr-tys"
+      ],
+      "related_works": [
+        "lab-announcement-3"
+      ]
+    },
+    {
+      "id": "pattern-generator",
+      "title": "eli_lab Pattern Generator",
+      "year": "2026",
+      "medium": [
+        "software",
+        "cgi"
+      ],
+      "context": [
+        "tool",
+        "generative",
+        "visual"
+      ],
+      "status": "confirmed",
+      "description": "Deterministic procedural graphics workstation producing PNG/SVG compositions through spatial fields, primitives, organic structures, text and palette systems.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-pattern-generator"
+      ],
+      "related_works": [
+        "pipeline-hub"
+      ]
+    },
+    {
+      "id": "synthv-custom-scripts",
+      "title": "eli_lab SynthV Custom Scripts / VOCALOID Tuning Lab",
+      "year": "2026",
+      "medium": [
+        "software",
+        "vocal"
+      ],
+      "context": [
+        "tool",
+        "tuning",
+        "generative"
+      ],
+      "status": "confirmed",
+      "description": "Synthesizer V Studio scripting collection with Pitch Baker tools, Japanese mora analysis, phrase analysis and deliberately artificial VOCALOID-era tuning models.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_sv_scripts"
+      ],
+      "related_works": [
+        "hiro",
+        "iirai",
+        "eugene"
+      ]
+    },
+    {
+      "id": "multimedia-framework",
+      "title": "eli_lab Multimedia Framework",
+      "year": "2026",
+      "medium": [
+        "software"
+      ],
+      "context": [
+        "infrastructure",
+        "archive",
+        "production"
+      ],
+      "status": "confirmed",
+      "description": "PySide6 production workspace for project generation, discovery, normalization, asset validation, documentation and multimedia pipeline automation.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-multimedia-framework"
+      ],
+      "related_works": [
+        "pipeline-hub",
+        "daly-syndrome",
+        "eli_lab_mv"
+      ]
+    },
+    {
+      "id": "assembly-line-challenge",
+      "title": "Assembly Line Challenge",
+      "year": "2020s",
+      "medium": [
+        "games",
+        "software"
+      ],
+      "context": [
+        "prototype",
+        "legacy",
+        "unreal"
+      ],
+      "status": "confirmed",
+      "description": "Abandoned Unreal Engine 4.27 arcade prototype about assembling PCs on a conveyor belt.",
+      "sources": [
+        "https://github.com/ilyaminineli/Assembly-Line-Challenge"
+      ],
+      "related_works": [
+        "gonki-i-tochka"
+      ]
+    },
+    {
+      "id": "bloody",
+      "title": "Bloody",
+      "year": "2020s",
+      "medium": [
+        "cgi"
+      ],
+      "context": [
+        "visual",
+        "render"
+      ],
+      "status": "confirmed",
+      "description": "CGI / render work preserved in the historical CG archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "bloody-2",
+      "title": "Bloody 2",
+      "year": "2020s",
+      "medium": [
+        "cgi"
+      ],
+      "context": [
+        "visual",
+        "render"
+      ],
+      "status": "confirmed",
+      "description": "Additional CGI / render work preserved in the historical CG archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "bloody"
+      ]
+    },
+    {
+      "id": "bonza",
+      "title": "Bonza",
+      "year": "2020s",
+      "medium": [
+        "cgi",
+        "art"
+      ],
+      "context": [
+        "design",
+        "identity"
+      ],
+      "status": "confirmed",
+      "description": "CG design / identity material preserved in the older archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "portraits-2020",
+      "title": "Portraits",
+      "year": "2020",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "photography"
+      ],
+      "status": "confirmed",
+      "description": "Photo series containing Autoportrait, Branches, Delight, Fish, Korvus, Writer and Loner.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "unreal-2020",
+      "title": "Unreal",
+      "year": "2020",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "photography",
+        "experimental"
+      ],
+      "status": "confirmed",
+      "description": "Photo series containing Ball, Cannibal Holocaust, Closer, Crossline, Penumbra, Pump, Unreal, Urusewsky, Velorace and Wires.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "serial-experiments-lens",
+      "title": "Serial Experiments Lens",
+      "year": "2021–2023",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "collage",
+        "cgi",
+        "experiment"
+      ],
+      "status": "confirmed",
+      "description": "Long-running visual series combining digital photographs, collages, analogue collage, binocular optics and CGI.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "serial-experiments-lens-set-one",
+      "title": "Serial Experiments Lens / Set 1",
+      "year": "2021–2023",
+      "medium": [
+        "art",
+        "cgi"
+      ],
+      "context": [
+        "photoseries",
+        "collage",
+        "experiment"
+      ],
+      "status": "confirmed",
+      "description": "Set 1 includes Henny, Herringbony, One and Three Places, Foresst, Hej, Analog Web 2.0, Waterfall, Dim var 1:33, Mountains, Swirl, Purchase, Splashes/Bursts/Flashes and Octo 1.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "serial-experiments-lens"
+      ]
+    },
+    {
+      "id": "uncanny-bar",
+      "title": "Uncanny Bar",
+      "year": "2023",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "photography"
+      ],
+      "status": "legacy",
+      "description": "Large digital-photo series preserved in the Serial Experiments Lens archive; individual titles are mostly not retained in the source page.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "serial-experiments-lens"
+      ]
+    },
+    {
+      "id": "single-photos-2021-22",
+      "title": "Single Photos / 2021–2022",
+      "year": "2021–2022",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photography",
+        "archive"
+      ],
+      "status": "confirmed",
+      "description": "Single-image archive including Forrest, Barks, Emotions, Ducks, Deep Yellow Day, Jellytrain, Lamp, Mandarins, Old Man, Sky Is Blue, Synthesizer, To Light and Vogue.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "mixed-technique-2022",
+      "title": "Mixed Technique / 2022",
+      "year": "2022",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "mixed-media",
+        "collage",
+        "photography"
+      ],
+      "status": "confirmed",
+      "description": "Series of studies plus Anthology of Black Humor photo collages with manual processing.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "painting-studies-2022",
+      "title": "Painting Studies / Heads 1–3",
+      "year": "2022",
+      "medium": [
+        "art",
+        "painting"
+      ],
+      "context": [
+        "study",
+        "physical"
+      ],
+      "status": "confirmed",
+      "description": "Three oil-on-canvas works titled Head 1, Head 2 and Head 3.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "refuge-2022",
+      "title": "Refuge",
+      "year": "2022",
+      "medium": [
+        "installation",
+        "video",
+        "art"
+      ],
+      "context": [
+        "collaboration",
+        "Rodchenko School",
+        "documentation"
+      ],
+      "status": "documented",
+      "description": "Collaboration with Sergey Bratkov and fellow Rodchenko School students, including Ilya Minin; the installation combines photographs, surveillance-camera video and students' written dreams.",
+      "sources": [
+        "https://kohta.fi/exhibition/sergey-bratkov-harkova-moskova/"
+      ],
+      "related_people": [
+        "sergey-bratkov",
+        "asya-melnikova",
+        "igor-yanovsky",
+        "oleg-ustinov"
+      ]
+    },
+    {
+      "id": "pereizobretenie-punk",
+      "title": "Переизобретая панк / Re-inventing Punk",
+      "year": "2026",
+      "medium": [
+        "art",
+        "performance",
+        "interactive",
+        "video"
+      ],
+      "context": [
+        "exhibition",
+        "PARAZIT",
+        "live"
+      ],
+      "status": "documented",
+      "description": "Group exhibition at artist-run-space KУПЕ 23. Ilya Minin is listed as a participant and as a performer in the parallel program with an algorithmic-electronics live set.",
+      "sources": [
+        "https://t.me/s/artnagrada?before=7142"
+      ],
+      "related_works": [
+        "pattern-generator",
+        "belial"
+      ]
+    },
+    {
+      "id": "ppp-2018",
+      "title": "PPP performance",
+      "year": "2018",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "live",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Performance with acoustic and electronic sound sources.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "muse-2019",
+      "title": "MUSE performance",
+      "year": "2019",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "live",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Performance with acoustic and electronic sound sources.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "pattern-2021",
+      "title": "PATTERN / industrial fabrics",
+      "year": "2021",
+      "medium": [
+        "art",
+        "exhibition"
+      ],
+      "context": [
+        "group exhibition"
+      ],
+      "status": "documented",
+      "description": "Group exhibition of industrial fabrics.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "ugol-visual-programming",
+      "title": "UGOL real-time visual programming",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "interactive"
+      ],
+      "context": [
+        "live",
+        "visual programming"
+      ],
+      "status": "documented",
+      "description": "Performance using real-time visual programming at UGOL gallery.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "telegraph-kinetic-coding",
+      "title": "Telegraph. Kinetic coding of the expected signal",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "interactive",
+        "audio"
+      ],
+      "context": [
+        "Polytechnic Museum",
+        "Waiting Horizon"
+      ],
+      "status": "documented",
+      "description": "Performance in the Open Collection / Waiting Horizon context of the Polytechnic Museum.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "system-s3",
+      "title": "System S3",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "Frequency 2.0",
+        "Khodynka"
+      ],
+      "status": "documented",
+      "description": "Performance at Gallery Khodynka for the Frequency 2.0 exhibition.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "memory-of-touch",
+      "title": "Memory of Touch",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "Dacha as I see it",
+        "Bogorodskoye"
+      ],
+      "status": "documented",
+      "description": "Performance at Gallery Bogorodskoye for the Dacha as I see it exhibition.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "asc-eight-channel",
+      "title": "ASC Museum eight-channel audio capsule",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "multichannel"
+      ],
+      "status": "documented",
+      "description": "Participation in the audio program of the ASC Museum eight-channel audio capsule.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "holidays-sa-2021",
+      "title": "Holidays SA)) / 2021",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "multichannel",
+        "improvisation"
+      ],
+      "status": "documented",
+      "description": "Participation in a concert of multichannel audio improvisations and a later conceptual multichannel audio program.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "redd-2021",
+      "title": "REDD experimental music festival",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "festival"
+      ],
+      "status": "documented",
+      "description": "Participation in an experimental music festival.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "smoles-2021",
+      "title": "SMOLES",
+      "year": "2021",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "live",
+        "legacy"
+      ],
+      "status": "documented",
+      "description": "Participation in the SMOLES concert.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "meatpacking-part-1",
+      "title": "Meatpacking Biennale / Part 1",
+      "year": "2022",
+      "medium": [
+        "performance",
+        "art",
+        "video"
+      ],
+      "context": [
+        "exhibition",
+        "live"
+      ],
+      "status": "documented",
+      "description": "Performance/exhibition record with an associated video document and a set of four Untitled acrylic/canvas works.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "untitled-3",
+        "live-one-gog"
+      ]
+    },
+    {
+      "id": "meatpacking-part-2",
+      "title": "Meatpacking Biennale / Part 2",
+      "year": "2022",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "exhibition",
+        "live"
+      ],
+      "status": "documented",
+      "description": "Second Meatpacking Biennale performance record, documented in the historical CV/archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "meatpacking-part-1"
+      ]
+    },
+    {
+      "id": "concert-at-la-2014",
+      "title": "Concert at LA",
+      "year": "2014",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "live",
+        "legacy"
+      ],
+      "status": "legacy",
+      "description": "Historical live-event record preserved in the old Eli Lab site; details are incomplete.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "peredelano-conf-2023",
+      "title": "Peredelano Conf lecture / generative systems",
+      "year": "2023",
+      "medium": [
+        "performance",
+        "software"
+      ],
+      "context": [
+        "lecture",
+        "education"
+      ],
+      "status": "documented",
+      "description": "Lecture and masterclass for IT specialists on generative systems in Max/MSP and Pure Data.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "msu-sound-art-lecture-2023",
+      "title": "Moscow State University / Sound Art & generative systems",
+      "year": "2023",
+      "medium": [
+        "performance",
+        "audio"
+      ],
+      "context": [
+        "lecture",
+        "education"
+      ],
+      "status": "documented",
+      "description": "Lecture on Sound Art and generative systems for students of the Faculty of Philosophy.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "seven-hills-m7",
+      "title": "七つの丘のマンコ / M7 Archive Series",
+      "year": "2026",
+      "medium": [
+        "audio",
+        "vocal",
+        "interactive"
+      ],
+      "context": [
+        "denpa",
+        "archive",
+        "microcassette",
+        "fiction"
+      ],
+      "status": "candidate",
+      "description": "Public repository describes a denpa music project built around the synthetic voice 電性 (Densei) and a fictional archive of partially recovered microcassette recordings.",
+      "sources": [
+        "https://github.com/ilyaminineli/nanatsu-no-oka-no-manko"
+      ],
+      "related_works": [
+        "hiro",
+        "iirai"
+      ]
+    },
+    {
+      "id": "echo-of-eden",
+      "title": "Echo of Eden",
+      "year": "2020s",
+      "medium": [
+        "animation"
+      ],
+      "context": [
+        "private",
+        "collaboration"
+      ],
+      "status": "private",
+      "description": "Collaborative cartoon project about faith, doubt and deconstructed biblical stories; repository is private.",
+      "sources": [
+        "https://github.com/ilyaminineli/slavabogu"
+      ],
+      "related_people": [
+        "spalah79",
+        "danylo-melnik"
+      ]
+    },
+    {
+      "id": "frow",
+      "title": "FROW",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive"
+      ],
+      "status": "candidate",
+      "description": "Recent visual work/post title surfaced in the eli_lab Telegram archive.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "opossum",
+      "title": "オポッサム",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive"
+      ],
+      "status": "candidate",
+      "description": "Recent visual work/post title surfaced in the eli_lab Telegram archive.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "birthday-gift-eli-to-elly",
+      "title": "エリからエリーへの誕生日プレゼント",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive",
+        "gift"
+      ],
+      "status": "candidate",
+      "description": "Recent work/post title surfaced in the eli_lab Telegram archive.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "saint-sin-gift",
+      "title": "Gift work for SAINT SIN",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive",
+        "gift"
+      ],
+      "status": "candidate",
+      "description": "Recent post describes a new gift work made for SAINT SIN; title and full metadata remain unresolved.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
     }
   ]
 }
