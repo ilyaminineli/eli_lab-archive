@@ -26,7 +26,8 @@
       "media_dir": "media/works/ewp-project/",
       "video_source_ids": [
         "gL7di-eXDmE"
-      ]
+      ],
+      "media_status": "staged"
     },
     {
       "id": "bogorodskoe",
@@ -52,7 +53,8 @@
       "media_dir": "media/works/bogorodskoe/",
       "video_source_ids": [
         "_KpvIF-fgs8"
-      ]
+      ],
+      "media_status": "staged"
     },
     {
       "id": "the-last-day-of-kasane-teto",
@@ -80,7 +82,8 @@
       "video_source_ids": [
         "qxnTJGDGPWc"
       ],
-      "media_dir": "media/works/the-last-day-of-kasane-teto/"
+      "media_dir": "media/works/the-last-day-of-kasane-teto/",
+      "media_status": "planned"
     },
     {
       "id": "triple-baka",
@@ -103,7 +106,8 @@
       "video_source_ids": [
         "MK1-yavSP3k"
       ],
-      "media_dir": "media/works/triple-baka/"
+      "media_dir": "media/works/triple-baka/",
+      "media_status": "planned"
     },
     {
       "id": "3d-essentials",
@@ -121,7 +125,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/3d-essentials/"
+      "media_dir": "media/works/3d-essentials/",
+      "media_status": "planned"
     },
     {
       "id": "semi-spatial-apartment",
@@ -140,7 +145,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png",
-      "media_dir": "media/works/semi-spatial-apartment/"
+      "media_dir": "media/works/semi-spatial-apartment/",
+      "media_status": "planned"
     },
     {
       "id": "untitled-3",
@@ -163,7 +169,8 @@
         "https://vladey.net/ru/lot/9223"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Painting/painting_preview.png",
-      "media_dir": "media/works/untitled-3/"
+      "media_dir": "media/works/untitled-3/",
+      "media_status": "planned"
     },
     {
       "id": "jewish-gift",
@@ -182,7 +189,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Graphics/Jewish%20gift/jewgift_preview.png",
-      "media_dir": "media/works/jewish-gift/"
+      "media_dir": "media/works/jewish-gift/",
+      "media_status": "planned"
     },
     {
       "id": "lab-announcement-3",
@@ -202,7 +210,8 @@
       "external_sources": [
         "https://eliasadams.bandcamp.com/album/lab-announcement-3"
       ],
-      "media_dir": "media/works/lab-announcement-3/"
+      "media_dir": "media/works/lab-announcement-3/",
+      "media_status": "planned"
     },
     {
       "id": "blue-neon",
@@ -220,7 +229,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
-      "media_dir": "media/works/blue-neon/"
+      "media_dir": "media/works/blue-neon/",
+      "media_status": "staged"
     },
     {
       "id": "no-one-is-listening",
@@ -238,7 +248,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
-      "media_dir": "media/works/no-one-is-listening/"
+      "media_dir": "media/works/no-one-is-listening/",
+      "media_status": "staged"
     },
     {
       "id": "eugene",
@@ -264,7 +275,8 @@
         "https://eliasadams.github.io/eugene-utau/",
         "https://github.com/ELIASADAMS/eugene-utau/releases"
       ],
-      "media_dir": "media/works/eugene/"
+      "media_dir": "media/works/eugene/",
+      "media_status": "staged"
     },
     {
       "id": "iirai",
@@ -286,7 +298,8 @@
       "external_sources": [
         "https://ilyaminineli.github.io/Iirai/"
       ],
-      "media_dir": "media/works/iirai/"
+      "media_dir": "media/works/iirai/",
+      "media_status": "staged"
     },
     {
       "id": "hiro",
@@ -308,7 +321,8 @@
       "external_sources": [
         "https://github.com/ilyaminineli/text-to-ust"
       ],
-      "media_dir": "media/works/hiro/"
+      "media_dir": "media/works/hiro/",
+      "media_status": "planned"
     },
     {
       "id": "belial",
@@ -333,7 +347,8 @@
       "external_sources": [
         "https://github.com/ilyaminineli/Belial_8"
       ],
-      "media_dir": "media/works/belial/"
+      "media_dir": "media/works/belial/",
+      "media_status": "planned"
     },
     {
       "id": "pipeline-hub",
@@ -352,7 +367,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_pipeline_hub"
       ],
-      "media_dir": "media/works/pipeline-hub/"
+      "media_dir": "media/works/pipeline-hub/",
+      "media_status": "planned"
     },
     {
       "id": "gonki-i-tochka",
@@ -372,7 +388,8 @@
       "sources": [
         "https://github.com/ilyaminineli/gonkiitochka"
       ],
-      "media_dir": "media/works/gonki-i-tochka/"
+      "media_dir": "media/works/gonki-i-tochka/",
+      "media_status": "planned"
     },
     {
       "id": "jihanki",
@@ -396,7 +413,8 @@
       "external_sources": [
         "https://github.com/ilyaminineli/jihanki-site"
       ],
-      "media_dir": "media/works/jihanki/"
+      "media_dir": "media/works/jihanki/",
+      "media_status": "staged"
     },
     {
       "id": "antokolskyj",
@@ -416,7 +434,8 @@
       "sources": [
         "https://github.com/ilyaminineli/Antokolskyj"
       ],
-      "media_dir": "media/works/antokolskyj/"
+      "media_dir": "media/works/antokolskyj/",
+      "media_status": "planned"
     },
     {
       "id": "pleiir",
@@ -439,7 +458,8 @@
       "video_source_ids": [
         "fVjXju_4J5E"
       ],
-      "media_dir": "media/works/pleiir/"
+      "media_dir": "media/works/pleiir/",
+      "media_status": "planned"
     },
     {
       "id": "videodrome",
@@ -457,7 +477,8 @@
       "sources": [
         "https://i--active--space.orgs.biz/"
       ],
-      "media_dir": "media/works/videodrome/"
+      "media_dir": "media/works/videodrome/",
+      "media_status": "planned"
     },
     {
       "id": "live-one-gog",
@@ -476,7 +497,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/live-one-gog/"
+      "media_dir": "media/works/live-one-gog/",
+      "media_status": "planned"
     },
     {
       "id": "magic-orgy",
@@ -493,7 +515,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com/album/magic-orgy"
       ],
-      "media_dir": "media/works/magic-orgy/"
+      "media_dir": "media/works/magic-orgy/",
+      "media_status": "planned"
     },
     {
       "id": "teqcnuilogiogistie",
@@ -510,7 +533,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com/album/teqcnuilogiogistie"
       ],
-      "media_dir": "media/works/teqcnuilogiogistie/"
+      "media_dir": "media/works/teqcnuilogiogistie/",
+      "media_status": "planned"
     },
     {
       "id": "abnormal-reflective-girl",
@@ -531,7 +555,8 @@
         "https://eliasadams.bandcamp.com",
         "https://t.me/ilyaminineli"
       ],
-      "media_dir": "media/works/abnormal-reflective-girl/"
+      "media_dir": "media/works/abnormal-reflective-girl/",
+      "media_status": "planned"
     },
     {
       "id": "mountain-remembers",
@@ -560,7 +585,8 @@
       "video_source_ids": [
         "wpBQbRItMnc"
       ],
-      "media_dir": "media/works/mountain-remembers/"
+      "media_dir": "media/works/mountain-remembers/",
+      "media_status": "staged"
     },
     {
       "id": "six-yokai",
@@ -589,7 +615,8 @@
       "video_source_ids": [
         "X1lK-y6ms2o"
       ],
-      "media_dir": "media/works/six-yokai/"
+      "media_dir": "media/works/six-yokai/",
+      "media_status": "staged"
     },
     {
       "id": "in-her-20s",
@@ -619,7 +646,8 @@
         "qMCYjbl0u7g",
         "JpZqWAC6Mv0"
       ],
-      "media_dir": "media/works/in-her-20s/"
+      "media_dir": "media/works/in-her-20s/",
+      "media_status": "staged"
     },
     {
       "id": "childs-sky",
@@ -645,7 +673,8 @@
       "video_source_ids": [
         "T4N2ELKcowI"
       ],
-      "media_dir": "media/works/childs-sky/"
+      "media_dir": "media/works/childs-sky/",
+      "media_status": "staged"
     },
     {
       "id": "someones-voice",
@@ -671,7 +700,8 @@
       "video_source_ids": [
         "TJROlmgboT8"
       ],
-      "media_dir": "media/works/someones-voice/"
+      "media_dir": "media/works/someones-voice/",
+      "media_status": "staged"
     },
     {
       "id": "afraid-of-happiness",
@@ -701,7 +731,8 @@
         "G9Dd3G2uzV4",
         "t_9eOHFA1SI"
       ],
-      "media_dir": "media/works/afraid-of-happiness/"
+      "media_dir": "media/works/afraid-of-happiness/",
+      "media_status": "staged"
     },
     {
       "id": "fighting-postmodernism",
@@ -725,7 +756,8 @@
       "external_sources": [
         "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
       ],
-      "media_dir": "media/works/fighting-postmodernism/"
+      "media_dir": "media/works/fighting-postmodernism/",
+      "media_status": "staged"
     },
     {
       "id": "kagome-kagome",
@@ -756,7 +788,8 @@
         "lVFrJuRRFgQ",
         "KpAnmELow2I"
       ],
-      "media_dir": "media/works/kagome-kagome/"
+      "media_dir": "media/works/kagome-kagome/",
+      "media_status": "staged"
     },
     {
       "id": "get-hit-below",
@@ -787,7 +820,8 @@
         "NfqOfeketFA",
         "rXnb3Y-orC8"
       ],
-      "media_dir": "media/works/get-hit-below/"
+      "media_dir": "media/works/get-hit-below/",
+      "media_status": "staged"
     },
     {
       "id": "tetopocalypsis",
@@ -811,7 +845,8 @@
       "video_source_ids": [
         "LqmzfxUYRPI"
       ],
-      "media_dir": "media/works/tetopocalypsis/"
+      "media_dir": "media/works/tetopocalypsis/",
+      "media_status": "planned"
     },
     {
       "id": "fukkireta",
@@ -831,7 +866,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=yrhaxUmj_3A"
       ],
-      "media_dir": "media/works/fukkireta/"
+      "media_dir": "media/works/fukkireta/",
+      "media_status": "planned"
     },
     {
       "id": "pjesma-pro-ljubov",
@@ -853,7 +889,8 @@
       "video_source_ids": [
         "ckv0rXGN2L0"
       ],
-      "media_dir": "media/works/pjesma-pro-ljubov/"
+      "media_dir": "media/works/pjesma-pro-ljubov/",
+      "media_status": "planned"
     },
     {
       "id": "taming-the-serpent",
@@ -880,7 +917,8 @@
         "hjlXcHSFisY",
         "InpJyuAuIyM"
       ],
-      "media_dir": "media/works/taming-the-serpent/"
+      "media_dir": "media/works/taming-the-serpent/",
+      "media_status": "staged"
     },
     {
       "id": "showreel-2024",
@@ -903,7 +941,8 @@
       "video_source_ids": [
         "kUCLW8sF78U"
       ],
-      "media_dir": "media/works/showreel-2024/"
+      "media_dir": "media/works/showreel-2024/",
+      "media_status": "planned"
     },
     {
       "id": "mudak",
@@ -927,7 +966,8 @@
         "zEs_ET6rTkk",
         "mGKYctn7TOo"
       ],
-      "media_dir": "media/works/mudak/"
+      "media_dir": "media/works/mudak/",
+      "media_status": "planned"
     },
     {
       "id": "dymohod",
@@ -950,7 +990,8 @@
       "video_source_ids": [
         "2fLbsIePb-U"
       ],
-      "media_dir": "media/works/dymohod/"
+      "media_dir": "media/works/dymohod/",
+      "media_status": "planned"
     },
     {
       "id": "muyskaya-depressiya",
@@ -972,7 +1013,8 @@
       "video_source_ids": [
         "RgT3XGULiKA"
       ],
-      "media_dir": "media/works/muyskaya-depressiya/"
+      "media_dir": "media/works/muyskaya-depressiya/",
+      "media_status": "planned"
     },
     {
       "id": "greater-than-lesser",
@@ -994,7 +1036,8 @@
       "video_source_ids": [
         "UuNT2WaKdqg"
       ],
-      "media_dir": "media/works/greater-than-lesser/"
+      "media_dir": "media/works/greater-than-lesser/",
+      "media_status": "planned"
     },
     {
       "id": "vegetables",
@@ -1016,7 +1059,8 @@
       "video_source_ids": [
         "HZJoPfHkqTU"
       ],
-      "media_dir": "media/works/vegetables/"
+      "media_dir": "media/works/vegetables/",
+      "media_status": "planned"
     },
     {
       "id": "agonal-machines",
@@ -1037,7 +1081,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=HSd6hCtQogI"
       ],
-      "media_dir": "media/works/agonal-machines/"
+      "media_dir": "media/works/agonal-machines/",
+      "media_status": "planned"
     },
     {
       "id": "industrial-sanitation",
@@ -1059,7 +1104,8 @@
       "video_source_ids": [
         "5xEy5C2iNIY"
       ],
-      "media_dir": "media/works/industrial-sanitation/"
+      "media_dir": "media/works/industrial-sanitation/",
+      "media_status": "planned"
     },
     {
       "id": "enlightenment-i",
@@ -1081,7 +1127,8 @@
       "video_source_ids": [
         "j1hq6xUp420"
       ],
-      "media_dir": "media/works/enlightenment-i/"
+      "media_dir": "media/works/enlightenment-i/",
+      "media_status": "planned"
     },
     {
       "id": "ritual-big-fridge",
@@ -1103,7 +1150,8 @@
       "video_source_ids": [
         "omNsIl61tlY"
       ],
-      "media_dir": "media/works/ritual-big-fridge/"
+      "media_dir": "media/works/ritual-big-fridge/",
+      "media_status": "planned"
     },
     {
       "id": "evocation-turtur",
@@ -1125,7 +1173,8 @@
       "video_source_ids": [
         "4Z-8Cek0qP4"
       ],
-      "media_dir": "media/works/evocation-turtur/"
+      "media_dir": "media/works/evocation-turtur/",
+      "media_status": "planned"
     },
     {
       "id": "who-is-vova-lilo",
@@ -1146,7 +1195,8 @@
       "video_source_ids": [
         "uYuEx85d8s0"
       ],
-      "media_dir": "media/works/who-is-vova-lilo/"
+      "media_dir": "media/works/who-is-vova-lilo/",
+      "media_status": "planned"
     },
     {
       "id": "w-video-collage",
@@ -1165,7 +1215,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=5YdNlRgHuuk"
       ],
-      "media_dir": "media/works/w-video-collage/"
+      "media_dir": "media/works/w-video-collage/",
+      "media_status": "planned"
     },
     {
       "id": "baron",
@@ -1184,7 +1235,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=JchqmZXJ6vQ"
       ],
-      "media_dir": "media/works/baron/"
+      "media_dir": "media/works/baron/",
+      "media_status": "planned"
     },
     {
       "id": "bessonitsa",
@@ -1203,7 +1255,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=C3VIPDPRKlg"
       ],
-      "media_dir": "media/works/bessonitsa/"
+      "media_dir": "media/works/bessonitsa/",
+      "media_status": "planned"
     },
     {
       "id": "found-tape",
@@ -1225,7 +1278,8 @@
       "video_source_ids": [
         "w5zqAkpGa_c"
       ],
-      "media_dir": "media/works/found-tape/"
+      "media_dir": "media/works/found-tape/",
+      "media_status": "planned"
     },
     {
       "id": "estetish-tape",
@@ -1245,7 +1299,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=cKYk2ivIVfE"
       ],
-      "media_dir": "media/works/estetish-tape/"
+      "media_dir": "media/works/estetish-tape/",
+      "media_status": "planned"
     },
     {
       "id": "balance-2020",
@@ -1269,7 +1324,8 @@
       "video_source_ids": [
         "WZVXwfq9-GM"
       ],
-      "media_dir": "media/works/balance-2020/"
+      "media_dir": "media/works/balance-2020/",
+      "media_status": "planned"
     },
     {
       "id": "receiver-2019",
@@ -1290,7 +1346,8 @@
       "video_source_ids": [
         "Z85lawGhz7c"
       ],
-      "media_dir": "media/works/receiver-2019/"
+      "media_dir": "media/works/receiver-2019/",
+      "media_status": "planned"
     },
     {
       "id": "nature-2019",
@@ -1313,7 +1370,8 @@
       "video_source_ids": [
         "zHZmUDA9Yao"
       ],
-      "media_dir": "media/works/nature-2019/"
+      "media_dir": "media/works/nature-2019/",
+      "media_status": "planned"
     },
     {
       "id": "rebirth",
@@ -1333,7 +1391,8 @@
       "sources": [
         "https://www.youtube.com/watch?v=sFDSXxvOOHw"
       ],
-      "media_dir": "media/works/rebirth/"
+      "media_dir": "media/works/rebirth/",
+      "media_status": "planned"
     },
     {
       "id": "arctic-2019",
@@ -1355,7 +1414,8 @@
       "video_source_ids": [
         "QR332-HNIPU"
       ],
-      "media_dir": "media/works/arctic-2019/"
+      "media_dir": "media/works/arctic-2019/",
+      "media_status": "planned"
     },
     {
       "id": "frr",
@@ -1377,7 +1437,8 @@
       "video_source_ids": [
         "nWsUhtZun9g"
       ],
-      "media_dir": "media/works/frr/"
+      "media_dir": "media/works/frr/",
+      "media_status": "planned"
     },
     {
       "id": "pticess",
@@ -1399,7 +1460,8 @@
       "video_source_ids": [
         "Vs-0XkFOY_c"
       ],
-      "media_dir": "media/works/pticess/"
+      "media_dir": "media/works/pticess/",
+      "media_status": "planned"
     },
     {
       "id": "insects-2018",
@@ -1421,7 +1483,8 @@
       "video_source_ids": [
         "ZmDWPp12Pak"
       ],
-      "media_dir": "media/works/insects-2018/"
+      "media_dir": "media/works/insects-2018/",
+      "media_status": "planned"
     },
     {
       "id": "idiopathic",
@@ -1444,7 +1507,8 @@
         "_9U7qgEkcpA",
         "25iX75ntROo"
       ],
-      "media_dir": "media/works/idiopathic/"
+      "media_dir": "media/works/idiopathic/",
+      "media_status": "planned"
     },
     {
       "id": "aint-no-sunshine",
@@ -1472,7 +1536,8 @@
       "video_source_ids": [
         "LhG2-rGY2eY"
       ],
-      "media_dir": "media/works/aint-no-sunshine/"
+      "media_dir": "media/works/aint-no-sunshine/",
+      "media_status": "staged"
     },
     {
       "id": "parallel-vienna-2026",
@@ -1492,7 +1557,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
-      "media_dir": "media/works/parallel-vienna-2026/"
+      "media_dir": "media/works/parallel-vienna-2026/",
+      "media_status": "staged"
     },
     {
       "id": "eporgaanisten-rakenteiden-kierratys",
@@ -1515,7 +1581,8 @@
       "related_works": [
         "lab-announcement-3"
       ],
-      "media_dir": "media/works/eporgaanisten-rakenteiden-kierratys/"
+      "media_dir": "media/works/eporgaanisten-rakenteiden-kierratys/",
+      "media_status": "planned"
     },
     {
       "id": "pattern-generator",
@@ -1538,7 +1605,8 @@
       "related_works": [
         "pipeline-hub"
       ],
-      "media_dir": "media/works/pattern-generator/"
+      "media_dir": "media/works/pattern-generator/",
+      "media_status": "planned"
     },
     {
       "id": "synthv-custom-scripts",
@@ -1563,7 +1631,8 @@
         "iirai",
         "eugene"
       ],
-      "media_dir": "media/works/synthv-custom-scripts/"
+      "media_dir": "media/works/synthv-custom-scripts/",
+      "media_status": "planned"
     },
     {
       "id": "multimedia-framework",
@@ -1587,7 +1656,8 @@
         "daly-syndrome",
         "eli-lab-mv"
       ],
-      "media_dir": "media/works/multimedia-framework/"
+      "media_dir": "media/works/multimedia-framework/",
+      "media_status": "planned"
     },
     {
       "id": "assembly-line-challenge",
@@ -1610,7 +1680,8 @@
       "related_works": [
         "gonki-i-tochka"
       ],
-      "media_dir": "media/works/assembly-line-challenge/"
+      "media_dir": "media/works/assembly-line-challenge/",
+      "media_status": "planned"
     },
     {
       "id": "bloody",
@@ -1628,7 +1699,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/bloody/"
+      "media_dir": "media/works/bloody/",
+      "media_status": "planned"
     },
     {
       "id": "bloody-2",
@@ -1649,7 +1721,8 @@
       "related_works": [
         "bloody"
       ],
-      "media_dir": "media/works/bloody-2/"
+      "media_dir": "media/works/bloody-2/",
+      "media_status": "planned"
     },
     {
       "id": "bonza",
@@ -1668,7 +1741,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/bonza/"
+      "media_dir": "media/works/bonza/",
+      "media_status": "planned"
     },
     {
       "id": "portraits-2020",
@@ -1687,7 +1761,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%201%20%EF%80%A0portraits%EF%80%A0/portraits_preview.png",
-      "media_dir": "media/works/portraits-2020/"
+      "media_dir": "media/works/portraits-2020/",
+      "media_status": "planned"
     },
     {
       "id": "unreal-2020",
@@ -1707,7 +1782,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%202%20%EF%80%A0unreal%EF%80%A0/unreal_preview.png",
-      "media_dir": "media/works/unreal-2020/"
+      "media_dir": "media/works/unreal-2020/",
+      "media_status": "planned"
     },
     {
       "id": "serial-experiments-lens",
@@ -1728,7 +1804,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Serial%20Experiments%20Lens/sel%20preview.png",
-      "media_dir": "media/works/serial-experiments-lens/"
+      "media_dir": "media/works/serial-experiments-lens/",
+      "media_status": "planned"
     },
     {
       "id": "serial-experiments-lens-set-one",
@@ -1751,7 +1828,8 @@
       "related_works": [
         "serial-experiments-lens"
       ],
-      "media_dir": "media/works/serial-experiments-lens-set-one/"
+      "media_dir": "media/works/serial-experiments-lens-set-one/",
+      "media_status": "planned"
     },
     {
       "id": "uncanny-bar",
@@ -1772,7 +1850,8 @@
       "related_works": [
         "serial-experiments-lens"
       ],
-      "media_dir": "media/works/uncanny-bar/"
+      "media_dir": "media/works/uncanny-bar/",
+      "media_status": "planned"
     },
     {
       "id": "single-photos-2021-22",
@@ -1790,7 +1869,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/single-photos-2021-22/"
+      "media_dir": "media/works/single-photos-2021-22/",
+      "media_status": "planned"
     },
     {
       "id": "mixed-technique-2022",
@@ -1809,7 +1889,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/mixed-technique-2022/"
+      "media_dir": "media/works/mixed-technique-2022/",
+      "media_status": "planned"
     },
     {
       "id": "painting-studies-2022",
@@ -1828,7 +1909,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/painting-studies-2022/"
+      "media_dir": "media/works/painting-studies-2022/",
+      "media_status": "planned"
     },
     {
       "id": "refuge-2022",
@@ -1855,7 +1937,8 @@
         "igor-yanovsky",
         "oleg-ustinov"
       ],
-      "media_dir": "media/works/refuge-2022/"
+      "media_dir": "media/works/refuge-2022/",
+      "media_status": "planned"
     },
     {
       "id": "pereizobretenie-punk",
@@ -1881,7 +1964,8 @@
         "pattern-generator",
         "belial"
       ],
-      "media_dir": "media/works/pereizobretenie-punk/"
+      "media_dir": "media/works/pereizobretenie-punk/",
+      "media_status": "planned"
     },
     {
       "id": "ppp-2018",
@@ -1900,7 +1984,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/ppp-2018/"
+      "media_dir": "media/works/ppp-2018/",
+      "media_status": "planned"
     },
     {
       "id": "muse-2019",
@@ -1919,7 +2004,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/muse-2019/"
+      "media_dir": "media/works/muse-2019/",
+      "media_status": "planned"
     },
     {
       "id": "pattern-2021",
@@ -1938,7 +2024,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Events/event_1.png",
-      "media_dir": "media/works/pattern-2021/"
+      "media_dir": "media/works/pattern-2021/",
+      "media_status": "planned"
     },
     {
       "id": "ugol-visual-programming",
@@ -1957,7 +2044,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/ugol-visual-programming/"
+      "media_dir": "media/works/ugol-visual-programming/",
+      "media_status": "planned"
     },
     {
       "id": "telegraph-kinetic-coding",
@@ -1977,7 +2065,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/telegraph-kinetic-coding/"
+      "media_dir": "media/works/telegraph-kinetic-coding/",
+      "media_status": "planned"
     },
     {
       "id": "system-s3",
@@ -1996,7 +2085,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/system-s3/"
+      "media_dir": "media/works/system-s3/",
+      "media_status": "planned"
     },
     {
       "id": "memory-of-touch",
@@ -2015,7 +2105,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/memory-of-touch/"
+      "media_dir": "media/works/memory-of-touch/",
+      "media_status": "planned"
     },
     {
       "id": "asc-eight-channel",
@@ -2033,7 +2124,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/asc-eight-channel/"
+      "media_dir": "media/works/asc-eight-channel/",
+      "media_status": "planned"
     },
     {
       "id": "holidays-sa-2021",
@@ -2052,7 +2144,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/holidays-sa-2021/"
+      "media_dir": "media/works/holidays-sa-2021/",
+      "media_status": "planned"
     },
     {
       "id": "redd-2021",
@@ -2070,7 +2163,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/redd-2021/"
+      "media_dir": "media/works/redd-2021/",
+      "media_status": "planned"
     },
     {
       "id": "smoles-2021",
@@ -2089,7 +2183,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/smoles-2021/"
+      "media_dir": "media/works/smoles-2021/",
+      "media_status": "planned"
     },
     {
       "id": "meatpacking-part-1",
@@ -2113,7 +2208,8 @@
         "untitled-3",
         "live-one-gog"
       ],
-      "media_dir": "media/works/meatpacking-part-1/"
+      "media_dir": "media/works/meatpacking-part-1/",
+      "media_status": "planned"
     },
     {
       "id": "meatpacking-part-2",
@@ -2135,7 +2231,8 @@
       "related_works": [
         "meatpacking-part-1"
       ],
-      "media_dir": "media/works/meatpacking-part-2/"
+      "media_dir": "media/works/meatpacking-part-2/",
+      "media_status": "planned"
     },
     {
       "id": "concert-at-la-2014",
@@ -2154,7 +2251,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/concert-at-la-2014/"
+      "media_dir": "media/works/concert-at-la-2014/",
+      "media_status": "planned"
     },
     {
       "id": "peredelano-conf-2023",
@@ -2173,7 +2271,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/peredelano-conf-2023/"
+      "media_dir": "media/works/peredelano-conf-2023/",
+      "media_status": "planned"
     },
     {
       "id": "msu-sound-art-lecture-2023",
@@ -2192,7 +2291,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/msu-sound-art-lecture-2023/"
+      "media_dir": "media/works/msu-sound-art-lecture-2023/",
+      "media_status": "planned"
     },
     {
       "id": "seven-hills-m7",
@@ -2218,7 +2318,8 @@
         "hiro",
         "iirai"
       ],
-      "media_dir": "media/works/seven-hills-m7/"
+      "media_dir": "media/works/seven-hills-m7/",
+      "media_status": "planned"
     },
     {
       "id": "echo-of-eden",
@@ -2241,7 +2342,8 @@
         "danylo-melnik"
       ],
       "visibility": "private",
-      "media_dir": "media/works/echo-of-eden/"
+      "media_dir": "media/works/echo-of-eden/",
+      "media_status": "planned"
     },
     {
       "id": "frow",
@@ -2258,7 +2360,8 @@
       "sources": [
         "https://t.me/ilyaminineli"
       ],
-      "media_dir": "media/works/frow/"
+      "media_dir": "media/works/frow/",
+      "media_status": "planned"
     },
     {
       "id": "opossum",
@@ -2275,7 +2378,8 @@
       "sources": [
         "https://t.me/ilyaminineli"
       ],
-      "media_dir": "media/works/opossum/"
+      "media_dir": "media/works/opossum/",
+      "media_status": "planned"
     },
     {
       "id": "birthday-gift-eli-to-elly",
@@ -2293,7 +2397,8 @@
       "sources": [
         "https://t.me/ilyaminineli"
       ],
-      "media_dir": "media/works/birthday-gift-eli-to-elly/"
+      "media_dir": "media/works/birthday-gift-eli-to-elly/",
+      "media_status": "planned"
     },
     {
       "id": "saint-sin-gift",
@@ -2311,7 +2416,8 @@
       "sources": [
         "https://t.me/ilyaminineli"
       ],
-      "media_dir": "media/works/saint-sin-gift/"
+      "media_dir": "media/works/saint-sin-gift/",
+      "media_status": "planned"
     },
     {
       "id": "geztalt",
@@ -2355,7 +2461,8 @@
         "HSd6hCtQogI",
         "55Hi5qjUAto"
       ],
-      "media_dir": "media/works/geztalt/"
+      "media_dir": "media/works/geztalt/",
+      "media_status": "planned"
     },
     {
       "id": "daly-syndrome",
@@ -2382,7 +2489,8 @@
         "multimedia-framework",
         "pipeline-hub"
       ],
-      "media_dir": "media/works/daly-syndrome/"
+      "media_dir": "media/works/daly-syndrome/",
+      "media_status": "planned"
     },
     {
       "id": "desolation-odissey",
@@ -2400,7 +2508,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/desolation-odissey/"
+      "media_dir": "media/works/desolation-odissey/",
+      "media_status": "planned"
     },
     {
       "id": "elysium",
@@ -2418,7 +2527,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/elysium/"
+      "media_dir": "media/works/elysium/",
+      "media_status": "planned"
     },
     {
       "id": "metaliminal",
@@ -2438,7 +2548,8 @@
         "https://github.com/ilyaminineli/metaliminal",
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/metaliminal/"
+      "media_dir": "media/works/metaliminal/",
+      "media_status": "planned"
     },
     {
       "id": "sleepdom",
@@ -2456,7 +2567,8 @@
       "sources": [
         "https://github.com/ilyaminineli/sleepdom"
       ],
-      "media_dir": "media/works/sleepdom/"
+      "media_dir": "media/works/sleepdom/",
+      "media_status": "planned"
     },
     {
       "id": "night-mafia",
@@ -2474,7 +2586,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/night-mafia/"
+      "media_dir": "media/works/night-mafia/",
+      "media_status": "planned"
     },
     {
       "id": "spring-story",
@@ -2495,7 +2608,8 @@
       "external_sources": [
         "https://www.youtube.com/watch?v=xTysVDBJwpE"
       ],
-      "media_dir": "media/works/spring-story/"
+      "media_dir": "media/works/spring-story/",
+      "media_status": "planned"
     },
     {
       "id": "winter-story",
@@ -2516,7 +2630,8 @@
       "external_sources": [
         "https://www.youtube.com/watch?v=P-SJO5ZmFTo"
       ],
-      "media_dir": "media/works/winter-story/"
+      "media_dir": "media/works/winter-story/",
+      "media_status": "planned"
     },
     {
       "id": "aibolit-sashaeb",
@@ -2537,7 +2652,8 @@
       "sources": [
         "https://github.com/ilyaminineli/sashaeb"
       ],
-      "media_dir": "media/works/aibolit-sashaeb/"
+      "media_dir": "media/works/aibolit-sashaeb/",
+      "media_status": "planned"
     },
     {
       "id": "re-punk",
@@ -2568,7 +2684,8 @@
         "iirai",
         "pattern-generator"
       ],
-      "media_dir": "media/works/re-punk/"
+      "media_dir": "media/works/re-punk/",
+      "media_status": "planned"
     },
     {
       "id": "geztalt-j-2025",
@@ -2589,7 +2706,8 @@
       "related_works": [
         "geztalt"
       ],
-      "media_dir": "media/works/geztalt-j-2025/"
+      "media_dir": "media/works/geztalt-j-2025/",
+      "media_status": "planned"
     },
     {
       "id": "geztalt-person-2025",
@@ -2610,7 +2728,8 @@
       "related_works": [
         "geztalt"
       ],
-      "media_dir": "media/works/geztalt-person-2025/"
+      "media_dir": "media/works/geztalt-person-2025/",
+      "media_status": "planned"
     },
     {
       "id": "geztalt-delta-2025",
@@ -2631,7 +2750,8 @@
       "related_works": [
         "geztalt"
       ],
-      "media_dir": "media/works/geztalt-delta-2025/"
+      "media_dir": "media/works/geztalt-delta-2025/",
+      "media_status": "planned"
     },
     {
       "id": "geztalt-ost-2025",
@@ -2653,7 +2773,8 @@
       "related_works": [
         "geztalt"
       ],
-      "media_dir": "media/works/geztalt-ost-2025/"
+      "media_dir": "media/works/geztalt-ost-2025/",
+      "media_status": "planned"
     },
     {
       "id": "geztalt-other-2025",
@@ -2674,7 +2795,8 @@
       "related_works": [
         "geztalt"
       ],
-      "media_dir": "media/works/geztalt-other-2025/"
+      "media_dir": "media/works/geztalt-other-2025/",
+      "media_status": "planned"
     },
     {
       "id": "red-box",
@@ -2692,7 +2814,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/red-box/"
+      "media_dir": "media/works/red-box/",
+      "media_status": "planned"
     },
     {
       "id": "life-in-one-second",
@@ -2711,7 +2834,8 @@
         "https://eliasadams.bandcamp.com",
         "https://eliasadams.bandcamp.com/track/feg-rune-432"
       ],
-      "media_dir": "media/works/life-in-one-second/"
+      "media_dir": "media/works/life-in-one-second/",
+      "media_status": "planned"
     },
     {
       "id": "redux-to-the-breath-2",
@@ -2729,7 +2853,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/redux-to-the-breath-2/"
+      "media_dir": "media/works/redux-to-the-breath-2/",
+      "media_status": "planned"
     },
     {
       "id": "rakkaani",
@@ -2747,7 +2872,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/rakkaani/"
+      "media_dir": "media/works/rakkaani/",
+      "media_status": "planned"
     },
     {
       "id": "amp",
@@ -2765,7 +2891,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/amp/"
+      "media_dir": "media/works/amp/",
+      "media_status": "planned"
     },
     {
       "id": "patanormal",
@@ -2783,7 +2910,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/patanormal/"
+      "media_dir": "media/works/patanormal/",
+      "media_status": "planned"
     },
     {
       "id": "bad-kase-of-indiscretion",
@@ -2801,7 +2929,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/bad-kase-of-indiscretion/"
+      "media_dir": "media/works/bad-kase-of-indiscretion/",
+      "media_status": "planned"
     },
     {
       "id": "valera-grandpa-music",
@@ -2818,7 +2947,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
-      "media_dir": "media/works/valera-grandpa-music/"
+      "media_dir": "media/works/valera-grandpa-music/",
+      "media_status": "planned"
     },
     {
       "id": "london-hello",
@@ -2837,7 +2967,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/London%20Hello/london_preview.png",
-      "media_dir": "media/works/london-hello/"
+      "media_dir": "media/works/london-hello/",
+      "media_status": "planned"
     },
     {
       "id": "orthofuture",
@@ -2856,7 +2987,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Orthofuture/orthofuture_preview.png",
-      "media_dir": "media/works/orthofuture/"
+      "media_dir": "media/works/orthofuture/",
+      "media_status": "planned"
     },
     {
       "id": "pacanbalet",
@@ -2875,7 +3007,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Pacanbalet/pacanbalet_preview.png",
-      "media_dir": "media/works/pacanbalet/"
+      "media_dir": "media/works/pacanbalet/",
+      "media_status": "planned"
     },
     {
       "id": "cg-design-online-shop",
@@ -2895,7 +3028,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/cg-design-online-shop/"
+      "media_dir": "media/works/cg-design-online-shop/",
+      "media_status": "planned"
     },
     {
       "id": "album-covers-archive",
@@ -2914,7 +3048,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/album-covers-archive/"
+      "media_dir": "media/works/album-covers-archive/",
+      "media_status": "planned"
     },
     {
       "id": "logo-archive",
@@ -2933,7 +3068,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/logo-archive/"
+      "media_dir": "media/works/logo-archive/",
+      "media_status": "planned"
     },
     {
       "id": "cg-3d-design-archive",
@@ -2951,7 +3087,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/cg-3d-design-archive/"
+      "media_dir": "media/works/cg-3d-design-archive/",
+      "media_status": "planned"
     },
     {
       "id": "teto-character-studies",
@@ -2971,7 +3108,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "media_dir": "media/works/teto-character-studies/"
+      "media_dir": "media/works/teto-character-studies/",
+      "media_status": "planned"
     },
     {
       "id": "ewp-presentation-archive",
@@ -2993,7 +3131,8 @@
       "related_works": [
         "ewp-project"
       ],
-      "media_dir": "media/works/ewp-presentation-archive/"
+      "media_dir": "media/works/ewp-presentation-archive/",
+      "media_status": "planned"
     },
     {
       "id": "captured-bodies-soundtrack",
@@ -3012,7 +3151,8 @@
       "sources": [
         "https://mdfschool.ru/files/catalogs/catalog-2021.pdf"
       ],
-      "media_dir": "media/works/captured-bodies-soundtrack/"
+      "media_dir": "media/works/captured-bodies-soundtrack/",
+      "media_status": "planned"
     },
     {
       "id": "who-is-eli",
@@ -3042,7 +3182,8 @@
         "jihanki",
         "multimedia-framework"
       ],
-      "media_dir": "media/works/who-is-eli/"
+      "media_dir": "media/works/who-is-eli/",
+      "media_status": "planned"
     },
     {
       "id": "song-creator",
@@ -3065,7 +3206,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
-      "media_dir": "media/works/song-creator/"
+      "media_dir": "media/works/song-creator/",
+      "media_status": "planned"
     },
     {
       "id": "vocaloid-jazz-album-2026",
@@ -3094,7 +3236,8 @@
         "no-one-is-listening",
         "song-creator"
       ],
-      "media_dir": "media/works/vocaloid-jazz-album-2026/"
+      "media_dir": "media/works/vocaloid-jazz-album-2026/",
+      "media_status": "planned"
     },
     {
       "id": "parallel-vienna-alexander-zaloopin",
@@ -3119,7 +3262,8 @@
       "related_works": [
         "parallel-vienna-2026"
       ],
-      "media_dir": "media/works/parallel-vienna-alexander-zaloopin/"
+      "media_dir": "media/works/parallel-vienna-alexander-zaloopin/",
+      "media_status": "staged"
     },
     {
       "id": "parallel-vienna-oleg-ustinov",
@@ -3144,7 +3288,8 @@
       "related_works": [
         "parallel-vienna-2026"
       ],
-      "media_dir": "media/works/parallel-vienna-oleg-ustinov/"
+      "media_dir": "media/works/parallel-vienna-oleg-ustinov/",
+      "media_status": "planned"
     },
     {
       "id": "no-skin",
@@ -3165,7 +3310,8 @@
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Installations/installations_preview1.png",
-      "media_dir": "media/works/no-skin/"
+      "media_dir": "media/works/no-skin/",
+      "media_status": "planned"
     },
     {
       "id": "eli-lab-mv",
@@ -3188,7 +3334,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_mv"
       ],
-      "media_dir": "media/works/eli-lab-mv/"
+      "media_dir": "media/works/eli-lab-mv/",
+      "media_status": "planned"
     },
     {
       "id": "eli-lab-mv-titler",
@@ -3209,7 +3356,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-mv-titler"
       ],
-      "media_dir": "media/works/eli-lab-mv-titler/"
+      "media_dir": "media/works/eli-lab-mv-titler/",
+      "media_status": "planned"
     },
     {
       "id": "teto-2026-manifesto",
@@ -3236,7 +3384,8 @@
       "media_dir": "media/works/teto-2026-manifesto/",
       "video_source_ids": [
         "Bv-4aHjHbf0"
-      ]
+      ],
+      "media_status": "staged"
     },
     {
       "id": "kuleshov-effect",
@@ -3262,7 +3411,8 @@
       "media_dir": "media/works/kuleshov-effect/",
       "video_source_ids": [
         "XKdVkUc8q80"
-      ]
+      ],
+      "media_status": "staged"
     },
     {
       "id": "linearna-zaležnost",
@@ -3287,7 +3437,8 @@
       "media_dir": "media/works/linearna-zaležnost/",
       "video_source_ids": [
         "wvOA4AV6ytU"
-      ]
+      ],
+      "media_status": "staged"
     },
     {
       "id": "serval-man",
@@ -3312,7 +3463,8 @@
       "media_dir": "media/works/serval-man/",
       "video_source_ids": [
         "ypP4UKUWvpw"
-      ]
+      ],
+      "media_status": "staged"
     },
     {
       "id": "trurly-fierndship",
@@ -3337,7 +3489,8 @@
       "media_dir": "media/works/trurly-fierndship/",
       "video_source_ids": [
         "B610CDVHkJY"
-      ]
+      ],
+      "media_status": "staged"
     }
   ]
 }
