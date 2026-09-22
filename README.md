@@ -10,7 +10,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/art.html` — art archive
 - `pgs/animation.html` — animation archive
 - `pgs/audio.html` — audio archive
-- `pgs/video.html` — video archive
+- `pgs/video.html` — source-level YouTube video register
+- `pgs/motion.html` — canonical motion / film / animation directory
 - `pgs/software.html` — software archive
 - `pgs/cgi.html` — CGI / 3D archive
 - `pgs/interactive.html` — interactive archive
@@ -26,6 +27,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `data/sources.json` — source registry
 - `data/assets.json` — 595-image asset inventory
 - `data/repositories.json` — current 47-repository account inventory, including separately marked client/private-order repositories
+- `data/client_orders.json` — private client-site traces excluded from the art-practice graph
 - `data/video_relations.json` — YouTube-to-work join map
 - `DESIGN_DIRECTION.md` — skeuomorphic console / blueprint design specification
 - `data/works.json` — curated structured work manifest
