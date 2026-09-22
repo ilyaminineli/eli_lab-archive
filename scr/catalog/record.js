@@ -1,9 +1,119 @@
-document.addEventListener("DOMContentLoaded",async()=>{const main=document.querySelector("#record-main");if(!main)return;const id=new URLSearchParams(location.search).get("id");try{const [wr,rr]=await Promise.all([fetch("../data/works.json"),fetch("../data/relations.json")]);if(!wr.ok)throw new Error("works manifest unavailable");const works=(await wr.json()).works;const rel=rr.ok?await rr.json():{edges:[],people:[],places:[]};const work=works.find(w=>w.id===id);if(!work || work.visibility==="private"){main.innerHTML='<section class="page-intro u-container"><p class="eyebrow">404 / RECORD NOT FOUND</p><h1>UNKNOWN<br><em>WORK.</em></h1><p class="page-lead">The requested record is not in the current manifest.</p></section>';return}
-document.title=`eli_lab — ${work.title}`;const outgoing=rel.edges.filter(e=>e.from===work.id);const incoming=rel.edges.filter(e=>e.to===work.id);const peopleMap=Object.fromEntries((rel.people||[]).map(p=>[p.id,p]));const placeMap=Object.fromEntries((rel.places||[]).map(p=>[p.id,p]));const groupMap=Object.fromEntries((rel.groups||[]).map(p=>[p.id,p]));const linkTarget=(id)=>`record.html?id=${encodeURIComponent(id)}`;const relations=[...outgoing.map(e=>({label:e.relation,to:e.to})),...incoming.map(e=>({label:`← ${e.relation}`,to:e.from}))];const resolve=(id)=>{const p=peopleMap[id];if(p)return p.name;const pl=placeMap[id];if(pl)return pl.name;const g=groupMap[id];if(g)return g.name;const w=works.find(x=>x.id===id);return w?w.title:id};
-main.innerHTML=`<section class="record-page u-container">
-<div class="record-head"><div><p class="eyebrow">WORK RECORD / ${escapeHTML(work.id)}</p><h1>${escapeHTML(work.title)}</h1><p class="record-description">${escapeHTML(work.description||"No description in current manifest.")}</p></div><div class="record-plate"><span>YEAR</span><strong>${escapeHTML(work.year)}</strong><span>STATUS</span><strong>${escapeHTML(work.status||"—").toUpperCase()}</strong></div></div>
-<div class="record-grid"><section class="record-panel"><div class="panel-title">CLASSIFICATION</div><dl class="record-specs"><div><dt>MEDIUM</dt><dd>${work.medium.map(escapeHTML).join(" / ")}</dd></div><div><dt>CONTEXT</dt><dd>${(work.context||[]).map(escapeHTML).join(" / ")||"—"}</dd></div><div><dt>SOURCES</dt><dd>${(work.sources||[]).map(s=>`<a class="text-link" target="_blank" rel="noopener" href="${escapeHTML(s)}">${escapeHTML(s.replace(/^https?:\/\//,""))} ↗</a>`).join("")||"—"}</dd></div></dl></section>
-<section class="record-panel"><div class="panel-title">RELATIONS</div><div class="record-relations">${relations.length?relations.map(r=>`<a class="relation-row" href="${works.some(w=>w.id===r.to)?linkTarget(r.to):"#"}"><span>${escapeHTML(r.label)}</span><strong>${escapeHTML(resolve(r.to))}</strong><em>→</em></a>`).join(""):"<p class='small-note'>No explicit relation recorded yet.</p>"}</div></section></div>
-<section class="record-panel record-sources"><div class="panel-title">PROVENANCE</div><p class="small-note">Verification: <strong>${escapeHTML(work.status||"unspecified")}</strong>. This record is part of a living research archive; source wording and uncertainty are preserved rather than silently normalized.</p></section>
-<div class="record-actions"><a class="text-link" href="archive.html">← BACK TO WORKS</a><a class="text-link" href="../ARCHIVE_MAP.md">OPEN MASTER MAP →</a></div>
-</section>`;function escapeHTML(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}}catch(e){main.innerHTML=`<section class="page-intro u-container"><h1>READ<br><em>ERROR.</em></h1><p class="page-lead">${String(e.message)}</p></section>`}});
+document.addEventListener('DOMContentLoaded', async () => {
+    const main = document.querySelector('#record-main');
+    if (!main) return;
+
+    const id = new URLSearchParams(location.search).get('id');
+
+    try {
+        const [worksResponse, relationsResponse] = await Promise.all([
+            fetch('../data/works.json'),
+            fetch('../data/relations.json')
+        ]);
+
+        if (!worksResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
+
+        const manifest = await worksResponse.json();
+        const works = manifest.works.filter((work) => work.visibility !== 'private');
+        const relations = relationsResponse.ok
+            ? await relationsResponse.json()
+            : { edges: [], people: [], places: [], groups: [] };
+
+        const work = works.find((item) => item.id === id);
+
+        if (!work) {
+            main.innerHTML = '<section class="page-intro u-container"><p class="eyebrow">404 / RECORD NOT FOUND</p><h1>UNKNOWN<br><em>WORK.</em></h1><p class="page-lead">The requested record is not in the public archive.</p></section>';
+            return;
+        }
+
+        document.title = 'eli_lab — ' + work.title;
+
+        const people = Object.fromEntries((relations.people || []).map((item) => [item.id, item]));
+        const places = Object.fromEntries((relations.places || []).map((item) => [item.id, item]));
+        const groups = Object.fromEntries((relations.groups || []).map((item) => [item.id, item]));
+        const byId = Object.fromEntries(works.map((item) => [item.id, item]));
+
+        const edges = (relations.edges || []).filter((edge) => edge.from === work.id || edge.to === work.id);
+
+        const resolveEntity = (id) => {
+            if (byId[id]) return byId[id].title;
+            if (people[id]) return people[id].name;
+            if (places[id]) return places[id].name;
+            if (groups[id]) return groups[id].name;
+            return id;
+        };
+
+        const relationRows = edges.map((edge) => {
+            const outgoing = edge.from === work.id;
+            const targetId = outgoing ? edge.to : edge.from;
+            const label = outgoing ? edge.relation : '← ' + edge.relation;
+            const targetIsWork = Boolean(byId[targetId]);
+            const href = targetIsWork
+                ? 'record.html?id=' + encodeURIComponent(targetId)
+                : '#';
+            return '<a class="relation-row" href="' + href + '"><span>' +
+                escapeHTML(label) + '</span><strong>' +
+                escapeHTML(resolveEntity(targetId)) + '</strong><em>→</em></a>';
+        }).join('');
+
+        const sourceRows = (work.sources || []).map((source) =>
+            '<a class="text-link" target="_blank" rel="noopener" href="' +
+            escapeHTML(source) + '">' + escapeHTML(source.replace(/^https?:\/\//, '')) + ' ↗</a>'
+        ).join('');
+
+        const externalRows = (work.external_sources || []).map((source) =>
+            '<a class="text-link" target="_blank" rel="noopener" href="' +
+            escapeHTML(source) + '">' + escapeHTML(source.replace(/^https?:\/\//, '')) + ' ↗</a>'
+        ).join('');
+
+        main.innerHTML =
+            '<section class="record-page u-container">' +
+            '<div class="record-head"><div>' +
+            '<p class="eyebrow">WORK RECORD / ' + escapeHTML(work.id) + '</p>' +
+            '<h1>' + escapeHTML(work.title) + '</h1>' +
+            '<p class="record-description">' + escapeHTML(work.description || 'No description in current manifest.') + '</p>' +
+            '</div><div class="record-plate">' +
+            '<span>YEAR</span><strong>' + escapeHTML(work.year) + '</strong>' +
+            '<span>STATUS</span><strong>' + escapeHTML((work.status || '—').toUpperCase()) + '</strong>' +
+            '</div></div>' +
+
+            '<div class="record-grid">' +
+            '<section class="record-panel"><div class="panel-title">CLASSIFICATION</div><dl class="record-specs">' +
+            '<div><dt>MEDIUM</dt><dd>' + work.medium.map(escapeHTML).join(' / ') + '</dd></div>' +
+            '<div><dt>CONTEXT</dt><dd>' + (work.context || []).map(escapeHTML).join(' / ') + '</dd></div>' +
+            '<div><dt>SOURCES</dt><dd>' + (sourceRows || '—') + '</dd></div>' +
+            '<div><dt>EXTERNAL</dt><dd>' + (externalRows || '—') + '</dd></div>' +
+            '</dl></section>' +
+
+            '<section class="record-panel"><div class="panel-title">RELATIONS</div><div class="record-relations">' +
+            (relationRows || '<p class="small-note">NO EXPLICIT RELATIONS RECORDED.</p>') +
+            '</div></section>' +
+            '</div>' +
+
+            '<section class="record-panel record-sources"><div class="panel-title">PROVENANCE</div>' +
+            '<p class="small-note">Verification: <strong>' + escapeHTML(work.status || 'unspecified') +
+            '</strong>. This is a living archive; uncertainty and source hierarchy are intentionally preserved.</p>' +
+            '</section>' +
+
+            '<div class="record-actions"><a class="text-link" href="archive.html">← BACK TO WORKS</a>' +
+            '<a class="text-link" href="../pgs/network.html">OPEN NETWORK MAP →</a></div>' +
+            '</section>';
+
+        function escapeHTML(value) {
+            return String(value ?? '').replace(/[&<>"']/g, (char) => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            }[char]));
+        }
+    } catch (error) {
+        main.innerHTML =
+            '<section class="page-intro u-container"><h1>READ<br><em>ERROR.</em></h1><p class="page-lead">' +
+            escapeMessage(error) + '</p></section>';
+    }
+
+    function escapeMessage(error) {
+        return String(error && error.message ? error.message : error);
+    }
+});
