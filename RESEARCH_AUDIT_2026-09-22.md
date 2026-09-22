@@ -2,8 +2,8 @@
 
 ## Snapshot
 
-- **148 structured work records** — 143 public, 5 private.
-- **152 relation edges** across works, people, groups and places.
+- **153 structured work records** — 148 public, 5 private.
+- **164 relation edges** across works, people, groups and places.
 - **23 title/label aliases** tracked for deduplication.
 - **40 registered art-practice sources**.
 - **47 GitHub repositories** in the linked `ilyaminineli` account — 31 public, 16 private.
