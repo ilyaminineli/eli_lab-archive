@@ -146,6 +146,11 @@
       "id": "sasha-e-b",
       "name": "sasha e b / Sasha e b",
       "type": "collaborator"
+    },
+    {
+      "id": "natalia-nikulenko",
+      "name": "Natalia Nikulenkova",
+      "type": "collaborator / artist"
     }
   ],
   "places": [
@@ -845,6 +850,16 @@
       "from": "aibolit-sashaeb",
       "relation": "exhibited-at",
       "to": "borey"
+    },
+    {
+      "from": "captured-bodies-soundtrack",
+      "relation": "co-created-with",
+      "to": "natalia-nikulenko"
+    },
+    {
+      "from": "captured-bodies-soundtrack",
+      "relation": "archive-source",
+      "to": "rodchenko-school"
     }
   ],
   "groups": [
