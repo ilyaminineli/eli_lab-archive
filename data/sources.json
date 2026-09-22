@@ -1,0 +1,261 @@
+{
+  "updated": "2026-09-22",
+  "sources": [
+    {
+      "id": "github-official",
+      "name": "eli_lab_official",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eli_lab_official",
+      "status": "verified",
+      "role": "historical personal website and media/project archive"
+    },
+    {
+      "id": "github-elias",
+      "name": "ELIASADAMS",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/ELIASADAMS",
+      "status": "verified",
+      "role": "identity/practice index and project links"
+    },
+    {
+      "id": "github-portfolio",
+      "name": "Portfolio-site",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Portfolio-site",
+      "status": "verified",
+      "role": "historical technical portfolio"
+    },
+    {
+      "id": "github-eugene",
+      "name": "eugene-utau",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eugene-utau",
+      "status": "verified",
+      "role": "voicebank archive"
+    },
+    {
+      "id": "github-iirai",
+      "name": "Iirai",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Iirai",
+      "status": "verified",
+      "role": "voicebank family archive"
+    },
+    {
+      "id": "github-hiro",
+      "name": "text-to-ust",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/text-to-ust",
+      "status": "verified",
+      "role": "procedural vocal software"
+    },
+    {
+      "id": "github-voicebox",
+      "name": "eli_lab-voicebox",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eli_lab-voicebox",
+      "status": "verified",
+      "role": "voicebank catalog"
+    },
+    {
+      "id": "github-synthv",
+      "name": "eli_lab_sv_scripts",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eli_lab_sv_scripts",
+      "status": "verified",
+      "role": "SynthV tuning/scripting"
+    },
+    {
+      "id": "github-patterns",
+      "name": "eli_lab-pattern-generator",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eli_lab-pattern-generator",
+      "status": "verified",
+      "role": "procedural graphics"
+    },
+    {
+      "id": "github-pipeline",
+      "name": "eli_lab_pipeline_hub",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eli_lab_pipeline_hub",
+      "status": "verified",
+      "role": "Blender production automation"
+    },
+    {
+      "id": "github-framework",
+      "name": "eli_lab-multimedia-framework",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/eli_lab-multimedia-framework",
+      "status": "verified",
+      "role": "multimedia production/archive framework"
+    },
+    {
+      "id": "github-belial",
+      "name": "Belial_8",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Belial_8",
+      "status": "verified",
+      "role": "Max/MSP sound-art software"
+    },
+    {
+      "id": "github-jihanki",
+      "name": "jihanki-site",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/jihanki-site",
+      "status": "verified",
+      "role": "interactive archive"
+    },
+    {
+      "id": "github-parazit",
+      "name": "parazit-web",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/parazit-web",
+      "status": "verified",
+      "role": "separate relational archive/gallery"
+    },
+    {
+      "id": "github-ewp",
+      "name": "ewproject",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/ewproject",
+      "status": "verified",
+      "role": "EWP Project production archive"
+    },
+    {
+      "id": "github-daly",
+      "name": "Daly-Syndrome",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Daly-Syndrome",
+      "status": "verified-private",
+      "role": "Daly Syndrome production archive"
+    },
+    {
+      "id": "github-antokolskyj",
+      "name": "Antokolskyj",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Antokolskyj",
+      "status": "verified",
+      "role": "historical animation production archive"
+    },
+    {
+      "id": "github-pleiir",
+      "name": "Pleiir",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Pleiir",
+      "status": "verified",
+      "role": "audiovisual clip archive"
+    },
+    {
+      "id": "github-gonki",
+      "name": "gonkiitochka",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/gonkiitochka",
+      "status": "verified",
+      "role": "game collaboration archive"
+    },
+    {
+      "id": "github-assembly",
+      "name": "Assembly-Line-Challenge",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/Assembly-Line-Challenge",
+      "status": "verified",
+      "role": "game prototype"
+    },
+    {
+      "id": "github-sashaeb",
+      "name": "sashaeb",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/sashaeb",
+      "status": "verified",
+      "role": "collaborator/project trace"
+    },
+    {
+      "id": "github-punk",
+      "name": "punk_exhibition",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/punk_exhibition",
+      "status": "verified",
+      "role": "exhibition/project source"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube @elilab",
+      "type": "youtube",
+      "url": "https://www.youtube.com/@elilab",
+      "status": "verified-incomplete",
+      "role": "public audiovisual publishing; complete supplied export in Ilya-Minin-Eli.csv"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram @ilyaminineli",
+      "type": "telegram",
+      "url": "https://t.me/ilyaminineli",
+      "status": "verified",
+      "role": "current social/media archive"
+    },
+    {
+      "id": "x",
+      "name": "X @ilyaminineli",
+      "type": "x",
+      "url": "https://x.com/ilyaminineli",
+      "status": "url-supplied",
+      "role": "social/publishing trace; current content not reliably fetchable"
+    },
+    {
+      "id": "vk",
+      "name": "VK eliasadams",
+      "type": "vk",
+      "url": "https://vk.ru/eliasadams",
+      "status": "url-supplied",
+      "role": "social/identity trace; current content not reliably fetchable"
+    },
+    {
+      "id": "bandcamp",
+      "name": "Bandcamp / Ilya Minin (Eli)",
+      "type": "bandcamp",
+      "url": "https://eliasadams.bandcamp.com",
+      "status": "verified",
+      "role": "music discography and release metadata"
+    },
+    {
+      "id": "vladey",
+      "name": "VLADEY / Ilya Minin",
+      "type": "institutional",
+      "url": "https://vladey.net/ru/artist/minin-ilya",
+      "status": "verified",
+      "role": "artist profile and market record"
+    },
+    {
+      "id": "soundcloud-rodchenko",
+      "name": "Rodchenko Sound Lab",
+      "type": "institutional",
+      "url": "https://soundcloud.com/rodchenko_sound_lab/sets",
+      "status": "verified",
+      "role": "institutional sound archive trace"
+    },
+    {
+      "id": "kohta",
+      "name": "KOHTA / Sergei Bratkov: Harkova/Moskova",
+      "type": "institutional",
+      "url": "https://kohta.fi/exhibition/sergey-bratkov-harkova-moskova/",
+      "status": "verified",
+      "role": "Refuge collaboration provenance"
+    },
+    {
+      "id": "mdf-school",
+      "name": "Rodchenko School catalog",
+      "type": "institutional",
+      "url": "https://mdfschool.ru/en/projects/students/mininis",
+      "status": "unresolved-direct-page",
+      "role": "education/project trace; PDF catalog independently located"
+    },
+    {
+      "id": "mynickname",
+      "name": "MyNickname eli_lab",
+      "type": "secondary",
+      "url": "https://mynickname.com/id1791094",
+      "status": "secondary",
+      "role": "historical nickname/practice trace"
+    }
+  ]
+}
