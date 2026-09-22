@@ -1,0 +1,38 @@
+{
+  "updated": "2026-09-23",
+  "source": "data/video_context.json",
+  "links": [
+    {
+      "sourceVideoId": "LhG2-rGY2eY",
+      "sourceCanonicalWorkId": "aint-no-sunshine",
+      "linkedVideoId": "wpBQbRItMnc",
+      "linkedUrl": "https://youtu.be/wpBQbRItMnc",
+      "linkedTitle": "山は覚えている｜The Mountain Remembers — Experimental MV | Ilya Minin (Eli)",
+      "linkedCanonicalWorkId": "mountain-remembers"
+    },
+    {
+      "sourceVideoId": "LhG2-rGY2eY",
+      "sourceCanonicalWorkId": "aint-no-sunshine",
+      "linkedVideoId": "OcFF8Med9fQ",
+      "linkedUrl": "https://youtu.be/OcFF8Med9fQ",
+      "linkedTitle": "二十歳 (In Her 20-s) — Original UTAU / Experimental Video Art | Ilya Minin (Eli)",
+      "linkedCanonicalWorkId": "in-her-20s"
+    },
+    {
+      "sourceVideoId": "LhG2-rGY2eY",
+      "sourceCanonicalWorkId": "aint-no-sunshine",
+      "linkedVideoId": "gL7di-eXDmE",
+      "linkedUrl": "https://youtu.be/gL7di-eXDmE",
+      "linkedTitle": "EWP Project — Experimental CG Animated Short | 2023",
+      "linkedCanonicalWorkId": "ewp-project"
+    },
+    {
+      "sourceVideoId": "cK57_pyetCY",
+      "sourceCanonicalWorkId": "geztalt",
+      "linkedVideoId": "yrhaxUmj_3A",
+      "linkedUrl": "https://www.youtube.com/watch?v=yrhaxUmj_3A",
+      "linkedTitle": "Kasane Teto - Fukkireta | geztålt – 吹っ切れた",
+      "linkedCanonicalWorkId": "geztalt"
+    }
+  ]
+}
