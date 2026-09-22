@@ -822,11 +822,6 @@
       "to": "geztalt"
     },
     {
-      "from": "teto",
-      "relation": "related-to",
-      "to": "geztalt"
-    },
-    {
       "from": "the-last-day-of-kasane-teto",
       "relation": "related-to",
       "to": "eugene"
@@ -845,16 +840,6 @@
       "from": "six-yokai",
       "relation": "related-to",
       "to": "jihanki"
-    },
-    {
-      "from": "spring-story",
-      "relation": "archive-source",
-      "to": "eli_lab_official"
-    },
-    {
-      "from": "winter-story",
-      "relation": "archive-source",
-      "to": "eli_lab_official"
     },
     {
       "from": "aibolit-sashaeb",
