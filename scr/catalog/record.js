@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const mediaUrl = (path) => {
             const value = String(path || '');
             if (/^https?:\/\//i.test(value)) return value;
-            return '../' + value.replace(/^\\/+/, '');
+            return '../' + value.replace(/^\/+/, '');
         };
         const coverItem = mediaItems.find(item => item.role === 'cover') || mediaItems[0];
         const resolvedThumbnail = coverItem?.path ? mediaUrl(coverItem.path) : (work.thumbnail || '');
