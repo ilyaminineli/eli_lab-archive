@@ -19,5 +19,7 @@
   "visual_assets": 595,
   "video_source_rows": 126,
   "video_canonical_joins": 76,
-  "video_source_only": 50
+  "video_source_only": 50,
+  "media_work_folders": 25,
+  "asset_candidate_works": 19
 }
