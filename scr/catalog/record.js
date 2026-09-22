@@ -5,9 +5,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const id = new URLSearchParams(location.search).get('id');
 
     try {
-        const [worksResponse, relationsResponse] = await Promise.all([
+        const [worksResponse, relationsResponse, videoResponse] = await Promise.all([
             fetch('../data/works.json'),
-            fetch('../data/relations.json')
+            fetch('../data/relations.json'),
+            fetch('../data/video_context.json')
         ]);
 
         if (!worksResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const relations = relationsResponse.ok
             ? await relationsResponse.json()
             : { edges: [], people: [], places: [], groups: [] };
+        const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
 
         const work = works.find((item) => item.id === id);
 
@@ -73,13 +75,36 @@ document.addEventListener('DOMContentLoaded', async () => {
               '<img src="' + escapeHTML(work.thumbnail) + '" alt="" loading="eager"><span>OPEN IMAGE ↗</span></a>'
             : '<div class="record-hero-media record-hero-media--empty"><span>NO PREVIEW</span><em>Asset mapping pending</em></div>';
 
+        const sourceVideos = (videoContext.rows || [])
+            .filter(video => video.canonicalWorkId === work.id)
+            .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+        const videoDescriptions = sourceVideos.filter(video => String(video.description || '').trim());
+        const sourceVideoHTML = sourceVideos.map((video, index) => {
+            const sourceLinks = (video.links || []).slice(0, 8).map(link =>
+                '<a class="source-video-link" target="_blank" rel="noopener" href="' + escapeHTML(link) + '">' +
+                escapeHTML(link.replace(/^https?:\/\//, '')) + ' ↗</a>'
+            ).join('');
+            const details = video.description
+                ? '<details class="source-video-details"><summary>READ SOURCE DESCRIPTION</summary><p>' +
+                    escapeHTML(video.description) + '</p>' +
+                    (sourceLinks ? '<div class="source-video-links">' + sourceLinks + '</div>' : '') +
+                  '</details>'
+                : '';
+            return '<article class="source-video-row">' +
+                '<div class="source-video-index">' + String(index + 1).padStart(2, '0') + '</div>' +
+                '<div><h3>' + escapeHTML(video.title) + '</h3>' +
+                '<p>' + escapeHTML(video.date ? video.date.slice(0, 10) : '') +
+                (video.duration ? ' / ' + escapeHTML(video.duration) : '') + '</p>' + details + '</div>' +
+                '<a class="source-video-open" target="_blank" rel="noopener" href="' + escapeHTML(video.url) + '">OPEN ↗</a>' +
+                '</article>';
+        }).join('');
         const coverage = [
             ['DESCRIPTION', Boolean(work.description)],
             ['IMAGE', Boolean(work.thumbnail)],
             ['SOURCES', Boolean(work.sources?.length)],
             ['EXTERNAL', Boolean(work.external_sources?.length)],
             ['RELATIONS', Boolean(edges.length)],
-            ['RELATED WORKS', Boolean(work.related_works?.length)]
+            ['VIDEOS', Boolean(sourceVideos.length)]
         ];
 
         const present = coverage.filter(item => item[1]).map(item => item[0]);
@@ -116,6 +141,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             '</div></section>' +
             '</div>' +
 
+            '<section class="record-panel record-video-context"><div class="panel-title">VIDEO / SOURCE CONTEXT</div>' +
+            '<p class="small-note">The YouTube export is treated as provenance rather than a second work catalogue. ' +
+            escapeHTML(String(sourceVideos.length)) + ' source row(s) are attached to this record; ' +
+            escapeHTML(String(videoDescriptions.length)) + ' contain descriptive context.</p>' +
+            (sourceVideoHTML || '<p class="small-note">NO VIDEO SOURCE ROWS ARE CURRENTLY MAPPED.</p>') +
+            '</section>' +
+
             '<section class="record-panel record-expansion"><div class="panel-title">ARCHIVE EXPANSION</div>' +
             '<p>' + escapeHTML(expansionText) + '</p>' +
             '<div class="coverage-grid">' +
@@ -128,7 +160,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             '</strong>. This is a living archive; uncertainty and source hierarchy are intentionally preserved.</p>' +
             '</section>' +
 
-            '<div class="record-actions"><a class="text-link" href="archive.html">← BACK TO WORKS</a>' +
+            '<div class="record-actions"><span class="record-media-path">MEDIA FOLDER / ' + escapeHTML(work.media_dir || ('media/works/' + work.id + '/')) + '</span>' +
+            '<a class="text-link" href="archive.html">← BACK TO WORKS</a>' +
             '<a class="text-link" href="network.html?focus=' + encodeURIComponent(work.id) + '">OPEN IN NETWORK →</a></div>' +
             '</section>';
     } catch (error) {
