@@ -17,7 +17,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/games.html` — games archive
 - `pgs/vocal.html` — vocal synthesis / voicebank archive
 - `pgs/documentation.html` — documentation, exhibition and field records
-- `pgs/collaborations.html` — collaboration index
+- `pgs/collaborations.html` — people / collaborator index
+- `pgs/network.html` — grouped project relationship map
 - `ARCHIVE_MAP.md` — master index into modular research maps
 - `research/` — modular medium/theme/source/audit research blocks
 - `data/relations.json` — relationship graph
