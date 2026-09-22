@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "rows": [
     {
       "videoId": "LhG2-rGY2eY",
@@ -33,8 +33,8 @@
       "videoId": "gL7di-eXDmE",
       "date": "2026-08-16T07:32:31Z",
       "title": "EWP Project — Experimental CG Animated Short | 2023",
-      "canonicalWorkId": null,
-      "match": null
+      "canonicalWorkId": "ewp-project",
+      "match": "ewp-project"
     },
     {
       "videoId": "X1lK-y6ms2o",
@@ -194,7 +194,7 @@
       "videoId": "Bv-4aHjHbf0",
       "date": "2025-12-31T19:00:06Z",
       "title": "Kasane Teto's 2026 Manifesto | Ilya Minin (Eli)",
-      "canonicalWorkId": null,
+      "canonicalWorkId": "teto-2026-manifesto",
       "match": "teto-2026-manifesto"
     },
     {
@@ -404,7 +404,7 @@
       "videoId": "ypP4UKUWvpw",
       "date": "2024-11-25T11:56:18Z",
       "title": "Serval Man – Ilya Minin (Eli), servaldays (Official Reel)",
-      "canonicalWorkId": null,
+      "canonicalWorkId": "serval-man",
       "match": "serval-man"
     },
     {
@@ -418,8 +418,8 @@
       "videoId": "_KpvIF-fgs8",
       "date": "2024-10-03T00:48:33Z",
       "title": "Bogorodskoye (2022) — Experimental Short Film | Ilya Minin (Eli), Julia Baranyuk",
-      "canonicalWorkId": null,
-      "match": null
+      "canonicalWorkId": "bogorodskoe",
+      "match": "bogorodskoe"
     },
     {
       "videoId": "QQ9Saxm5gEw",
@@ -460,7 +460,7 @@
       "videoId": "wvOA4AV6ytU",
       "date": "2024-04-03T13:00:06Z",
       "title": "Ilya Minin (Eli) – linearna zaležnosť (Official Video)",
-      "canonicalWorkId": null,
+      "canonicalWorkId": "linearna-zaležnost",
       "match": "linearna-zaležnost"
     },
     {
@@ -642,7 +642,7 @@
       "videoId": "XKdVkUc8q80",
       "date": "2022-03-17T09:36:25Z",
       "title": "Эффект Кулешовой",
-      "canonicalWorkId": null,
+      "canonicalWorkId": "kuleshov-effect",
       "match": "kuleshov-effect"
     },
     {
@@ -656,7 +656,7 @@
       "videoId": "B610CDVHkJY",
       "date": "2022-01-27T15:28:12Z",
       "title": "Trurly Fierndship (Official Video)",
-      "canonicalWorkId": null,
+      "canonicalWorkId": "trurly-fierndship",
       "match": "trurly-fierndship"
     },
     {
