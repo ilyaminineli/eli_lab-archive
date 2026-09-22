@@ -21,7 +21,8 @@
       ],
       "external_sources": [
         "https://www.youtube.com/watch?v=997vBAqNjm0"
-      ]
+      ],
+      "thumbnail": "https://img.youtube.com/vi/997vBAqNjm0/hqdefault.jpg"
     },
     {
       "id": "bogorodskoe",
@@ -60,7 +61,8 @@
       "external_sources": [
         "https://www.youtube.com/",
         "https://i--active--space.orgs.biz/"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/the_last_day_of_KT%20(1).png"
     },
     {
       "id": "triple-baka",
@@ -78,7 +80,8 @@
       "description": "Animation / music-video record.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/triple_baka_screens%20(1).jpg"
     },
     {
       "id": "3d-essentials",
@@ -112,7 +115,8 @@
       "description": "Environment and spatial CGI archive cluster.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png"
     },
     {
       "id": "untitled-3",
@@ -133,7 +137,8 @@
       ],
       "external_sources": [
         "https://vladey.net/ru/lot/9223"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Painting/painting_preview.png"
     },
     {
       "id": "jewish-gift",
@@ -150,7 +155,8 @@
       "description": "Four sheets using pencil, capillary pen, felt-tip pens and crayons.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Graphics/Jewish%20gift/jewgift_preview.png"
     },
     {
       "id": "lab-announcement-3",
@@ -223,7 +229,8 @@
       "description": "Japanese CVVC UTAU / OpenUtau voicebank created by Ilya Minin (Eli).",
       "sources": [
         "https://github.com/ilyaminineli/eugene-utau"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eugene-utau/main/assets/character/%E5%8F%8B%E4%BA%BA/%E5%8F%8B%E4%BA%BA%20Icon%20HiRes.png"
     },
     {
       "id": "iirai",
@@ -279,7 +286,8 @@
       "description": "Live computer music and sound-art platform based on Max/MSP, samples and semi-algorithmic processing.",
       "sources": [
         "https://github.com/ilyaminineli/Belial_8"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Belial/belial_soft_preview.png"
     },
     {
       "id": "pipeline-hub",
@@ -335,7 +343,8 @@
       "description": "Interactive archive presented as a Japanese vending machine interface.",
       "sources": [
         "https://github.com/ilyaminineli/jihanki-site"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/jihanki-site/main/assets/jihanki.png"
     },
     {
       "id": "parazit",
@@ -390,7 +399,8 @@
       "description": "Audiovisual clip; Ilya Minin (Eli) credited as director, animator and technical artist.",
       "sources": [
         "https://github.com/ilyaminineli/Pleiir"
-      ]
+      ],
+      "thumbnail": "https://img.youtube.com/vi/fVjXju_4J5E/hqdefault.jpg"
     },
     {
       "id": "videodrome",
@@ -692,7 +702,8 @@
       "description": "Kasane Teto experimental gallery video / video-art work.",
       "sources": [
         "https://www.youtube.com/watch?v=LqmzfxUYRPI"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/Tetopocalypsis%20(1).png"
     },
     {
       "id": "fukkireta",
@@ -1455,7 +1466,8 @@
       "description": "Photo series containing Autoportrait, Branches, Delight, Fish, Korvus, Writer and Loner.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%201%20%EF%80%A0portraits%EF%80%A0/portraits_preview.png"
     },
     {
       "id": "unreal-2020",
@@ -1473,7 +1485,8 @@
       "description": "Photo series containing Ball, Cannibal Holocaust, Closer, Crossline, Penumbra, Pump, Unreal, Urusewsky, Velorace and Wires.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%202%20%EF%80%A0unreal%EF%80%A0/unreal_preview.png"
     },
     {
       "id": "serial-experiments-lens",
@@ -1492,7 +1505,8 @@
       "description": "Long-running visual series combining digital photographs, collages, analogue collage, binocular optics and CGI.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Serial%20Experiments%20Lens/sel%20preview.png"
     },
     {
       "id": "serial-experiments-lens-set-one",
@@ -1691,7 +1705,8 @@
       "description": "Group exhibition of industrial fabrics.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Events/event_1.png"
     },
     {
       "id": "ugol-visual-programming",
@@ -2075,7 +2090,8 @@
         "agonal-machines",
         "enlightenment-i",
         "ritual-big-fridge"
-      ]
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Others/gezt%C3%A5lt.png"
     },
     {
       "id": "daly-syndrome",
