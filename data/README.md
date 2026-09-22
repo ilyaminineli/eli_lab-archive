@@ -1,5 +1,7 @@
 # Data architecture
 
+- `client_orders.json` — private client-site provenance kept outside the personal art-practice manifest and relation graph.
+
 ## Canonical work data
 `works.json` is the machine-readable master index. Each work has one stable `id` and may reference several mediums, contexts, sources and related works.
 
