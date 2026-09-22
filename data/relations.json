@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "relation_vocabulary": [
     "uses",
     "features",
@@ -166,6 +166,108 @@
       "id": "alexander-zaloopin",
       "name": "Alexander Zaloopin",
       "type": "artist / performer"
+    },
+    {
+      "id": "dynakyris",
+      "name": "DYNAKYRIS",
+      "type": "technical collaborator / vocal programmer",
+      "aliases": [
+        "ダイナキリス"
+      ]
+    },
+    {
+      "id": "basil-ivanov",
+      "name": "Basil Ivanov",
+      "type": "special thanks / collaborator",
+      "aliases": [
+        "Basil"
+      ]
+    },
+    {
+      "id": "artbasil",
+      "name": "artbasil",
+      "type": "cameraman",
+      "aliases": []
+    },
+    {
+      "id": "vasiliy-ivanov",
+      "name": "Vasiliy Ivanov",
+      "type": "camera / participant",
+      "aliases": [
+        "Vasily Ivanov"
+      ]
+    },
+    {
+      "id": "hose",
+      "name": "Hose",
+      "type": "director of photography",
+      "aliases": []
+    },
+    {
+      "id": "marysia-izdebska",
+      "name": "Marysia Izdebska",
+      "type": "narration / voiceover",
+      "aliases": [
+        "Marusia Izdebska"
+      ]
+    },
+    {
+      "id": "varvara-kuleshova",
+      "name": "Varvara Kuleshova",
+      "type": "artist / collaborator",
+      "aliases": [
+        "Варвара Кулешова"
+      ]
+    },
+    {
+      "id": "ivan-netkachev",
+      "name": "Ivan Netkachev",
+      "type": "model / participant",
+      "aliases": [
+        "Иван Неткачев"
+      ]
+    },
+    {
+      "id": "toshimitsu-kobayashi",
+      "name": "Toshimitsu Kobayashi",
+      "type": "special thanks / Japan field context",
+      "aliases": [
+        "小林 利充"
+      ]
+    },
+    {
+      "id": "masagire-miura",
+      "name": "Masagire Miura",
+      "type": "special thanks / Japan field context",
+      "aliases": [
+        "三浦 正重"
+      ]
+    },
+    {
+      "id": "serval-sirius",
+      "name": "Serval Sirius",
+      "type": "performer / subject",
+      "aliases": [
+        "servaldays"
+      ]
+    },
+    {
+      "id": "anna-malakhova",
+      "name": "Anna Malakhova",
+      "type": "cast / participant",
+      "aliases": []
+    },
+    {
+      "id": "olga-romanova",
+      "name": "Olga Romanova",
+      "type": "cast / participant",
+      "aliases": []
+    },
+    {
+      "id": "vladimir-pilikhovski",
+      "name": "Vladimir Pilikhovski",
+      "type": "cast / participant",
+      "aliases": []
     }
   ],
   "places": [
@@ -657,31 +759,6 @@
       "to": "rodchenko-school"
     },
     {
-      "from": "refuge-2022",
-      "relation": "archive-source",
-      "to": "rodchenko-school"
-    },
-    {
-      "from": "jihanki",
-      "relation": "archive-source",
-      "to": "saikoneon"
-    },
-    {
-      "from": "pereizobretenie-punk",
-      "relation": "exhibited-at",
-      "to": "kupe23"
-    },
-    {
-      "from": "the-last-day-of-kasane-teto",
-      "relation": "screened-at",
-      "to": "videodrome"
-    },
-    {
-      "from": "daly-syndrome",
-      "relation": "co-created-with",
-      "to": "romaner"
-    },
-    {
       "from": "desolation-odissey",
       "relation": "related-to",
       "to": "metaliminal"
@@ -752,29 +829,9 @@
       "to": "grigoriy-ilugdin"
     },
     {
-      "from": "ewp-project",
-      "relation": "co-created-with",
-      "to": "blikk"
-    },
-    {
-      "from": "ewp-project",
-      "relation": "co-created-with",
-      "to": "romaner"
-    },
-    {
-      "from": "eporgaanisten-rakenteiden-kierratys",
-      "relation": "co-created-with",
-      "to": "romaner"
-    },
-    {
       "from": "eporgaanisten-rakenteiden-kierratys",
       "relation": "released-on",
       "to": "nen-records"
-    },
-    {
-      "from": "lab-announcement-3",
-      "relation": "co-created-with",
-      "to": "romaner"
     },
     {
       "from": "geztalt-j-2025",
@@ -970,6 +1027,116 @@
       "from": "eli-lab-mv-titler",
       "relation": "related-to",
       "to": "eli-lab-mv"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "special-thanks-to",
+      "to": "toshimitsu-kobayashi"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "special-thanks-to",
+      "to": "masagire-miura"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "special-thanks-to",
+      "to": "dynakyris"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "performed-with",
+      "to": "julia-baranyuk"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "narrated-by",
+      "to": "marysia-izdebska"
+    },
+    {
+      "from": "fighting-postmodernism",
+      "relation": "dedicated-to",
+      "to": "basil-ivanov"
+    },
+    {
+      "from": "kuleshov-effect",
+      "relation": "co-created-with",
+      "to": "varvara-kuleshova"
+    },
+    {
+      "from": "kuleshov-effect",
+      "relation": "performed-with",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "linearna-zaležnost",
+      "relation": "features",
+      "to": "ivan-netkachev"
+    },
+    {
+      "from": "serval-man",
+      "relation": "features",
+      "to": "serval-sirius"
+    },
+    {
+      "from": "trurly-fierndship",
+      "relation": "part-of-project",
+      "to": "geztalt-project"
+    },
+    {
+      "from": "get-hit-below",
+      "relation": "co-created-with",
+      "to": "geztalt-project"
+    },
+    {
+      "from": "get-hit-below",
+      "relation": "programmed-by",
+      "to": "dynakyris"
+    },
+    {
+      "from": "teto-2026-manifesto",
+      "relation": "features",
+      "to": "kasane-teto"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "co-created-with",
+      "to": "julia-baranyuk"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "features",
+      "to": "anna-malakhova"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "features",
+      "to": "olga-romanova"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "features",
+      "to": "vasiliy-ivanov"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "features",
+      "to": "vladimir-pilikhovski"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "features",
+      "to": "sergey-bratkov"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "features",
+      "to": "oleg-ustinov"
+    },
+    {
+      "from": "bogorodskoe",
+      "relation": "created-by",
+      "to": "ilya-minin"
     }
   ],
   "groups": [
@@ -1012,6 +1179,15 @@
       "id": "big-beat",
       "name": "Big Beat",
       "type": "jazz label / release partner"
+    },
+    {
+      "id": "geztalt-project",
+      "name": "geztålt",
+      "type": "collective / music project",
+      "aliases": [
+        "geztalt",
+        "geztålt lab"
+      ]
     }
   ]
 }
