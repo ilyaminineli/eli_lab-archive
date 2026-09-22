@@ -3118,3 +3118,187 @@ body::after {
         flex-direction: column;
     }
 }
+
+
+
+/* People / collaborator index */
+.people-shell {
+    position: relative;
+    padding: .7rem;
+    background: rgba(29, 39, 38, .30);
+    border: 1px solid rgba(15, 22, 21, .55);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+}
+
+.people-shell::before {
+    content: "";
+    position: absolute;
+    inset: .35rem;
+    pointer-events: none;
+    border: 1px solid rgba(238, 243, 239, .10);
+}
+
+.people-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: .55rem;
+    align-items: end;
+    padding: .65rem;
+    margin-bottom: .7rem;
+    background: #9da8a3;
+    border: 1px solid #4e5a57;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .55);
+}
+
+.people-list {
+    display: grid;
+    gap: .75rem;
+}
+
+.person-card {
+    min-width: 0;
+    padding: .65rem;
+    background: #c1c8c1;
+    color: #24302d;
+    border: 1px solid #4d5a56;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .62), 3px 4px 0 rgba(13, 19, 18, .17);
+}
+
+.person-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 8rem;
+    gap: .8rem;
+    align-items: start;
+    padding-bottom: .55rem;
+    border-bottom: 1px solid #8d9893;
+}
+
+.person-id {
+    margin: 0 0 .25rem;
+    color: #68746f;
+    font: 500 .48rem/1 "DM Mono", monospace;
+    letter-spacing: .08em;
+}
+
+.person-head h2 {
+    margin: 0;
+    color: #1f2b28;
+    font: 500 clamp(.95rem, 2vw, 1.25rem)/1.2 "DM Mono", monospace;
+}
+
+.person-head h2 a {
+    color: inherit;
+}
+
+.person-head h2 a:hover {
+    color: #9d4937;
+}
+
+.person-meta {
+    display: grid;
+    grid-template-columns: 1fr 2rem;
+    column-gap: .4rem;
+    justify-items: end;
+    text-align: right;
+    color: #5c6964;
+    font: 500 .48rem/1.1 "DM Mono", monospace;
+}
+
+.person-meta span {
+    grid-column: 1 / -1;
+    max-width: 100%;
+    margin-bottom: .3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.person-meta strong {
+    color: #283430;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.person-meta small {
+    align-self: end;
+    padding-bottom: .12rem;
+    font-size: .44rem;
+    letter-spacing: .05em;
+}
+
+.person-projects {
+    display: grid;
+    gap: .2rem;
+    padding-top: .55rem;
+}
+
+.person-project {
+    display: grid;
+    grid-template-columns: 4.2rem minmax(0, 1fr) 10rem 1rem;
+    gap: .45rem;
+    align-items: center;
+    min-height: 2rem;
+    padding: .3rem .4rem;
+    color: #2b3733;
+    background: rgba(235, 239, 234, .64);
+    border: 1px solid rgba(76, 88, 83, .24);
+}
+
+.person-project:hover {
+    background: #eef1ec;
+}
+
+.person-project > span,
+.person-project > em {
+    color: #6a7671;
+    font: 500 .46rem/1.25 "DM Mono", monospace;
+}
+
+.person-project strong {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #2b3733;
+    font: 500 .58rem/1.25 "DM Mono", monospace;
+}
+
+.person-project em {
+    font-style: normal;
+    text-align: right;
+}
+
+.person-project b {
+    color: #a24a37;
+    font: 500 .65rem/1 "DM Mono", monospace;
+    text-align: right;
+}
+
+@media (max-width: 760px) {
+    .people-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .person-head {
+        grid-template-columns: 1fr;
+    }
+
+    .person-meta {
+        grid-template-columns: auto auto;
+        justify-content: start;
+        justify-items: start;
+        text-align: left;
+    }
+
+    .person-meta span {
+        grid-column: 1 / -1;
+    }
+
+    .person-project {
+        grid-template-columns: 4rem minmax(0, 1fr) 1rem;
+    }
+
+    .person-project > em {
+        display: none;
+    }
+}
