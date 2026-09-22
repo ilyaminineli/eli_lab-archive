@@ -347,24 +347,6 @@
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/jihanki-site/main/assets/jihanki.png"
     },
     {
-      "id": "parazit",
-      "title": "PARAZIT",
-      "year": "2026–",
-      "medium": [
-        "interactive",
-        "software"
-      ],
-      "context": [
-        "archive",
-        "exhibition"
-      ],
-      "status": "confirmed",
-      "description": "Artist-run gallery/archive system with relational records for artists, artworks, exhibitions, venues, documents and sources.",
-      "sources": [
-        "https://github.com/ilyaminineli/parazit-web"
-      ]
-    },
-    {
       "id": "antokolskyj",
       "title": "Antokolskyj",
       "year": "2020s",
