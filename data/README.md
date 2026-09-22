@@ -22,4 +22,7 @@ Keep source URLs with the record. Search/social traces can be candidates; primar
 - `video_relations.json` — YouTube source-row joins to canonical works where a first-pass relationship is established.
 - `video_context.json` — structured 126-row YouTube descriptions, source links and credit-line context for record pages.
 - `asset_candidates.json` — conservative machine-generated matches from the 595-image inventory; candidates require manual review.
+- `dossiers.json` — structured detail scaffold for every canonical work.
+- `csv_entities.json` — exact naming, role and limited persona observations from the YouTube CSV.
+- `video_links.json` — cross-video links extracted from descriptions.
 - `assets.json` — 595-image inventory from the historical visual archive.
