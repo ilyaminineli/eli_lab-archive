@@ -458,6 +458,94 @@
       "sources": [
         "https://eliasadams.bandcamp.com/album/teqcnuilogiogistie"
       ]
+    },
+    {
+      "id": "abnormal-reflective-girl",
+      "title": "異常な反射少女 / Abnormal Reflective Girl",
+      "year": "2026",
+      "medium": [
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "release",
+        "visual",
+        "character"
+      ],
+      "status": "documented",
+      "description": "Release credited to Ilya Minin (eli) with Kasane Teto, Liam and Akane Iirai; also appears as a recent Telegram post.",
+      "sources": [
+        "https://eliasadams.bandcamp.com",
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "frow-telegram-trace",
+      "title": "FROW",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive",
+        "illustration"
+      ],
+      "status": "candidate",
+      "description": "Recent visual work/post title visible in the eli_lab Telegram archive.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "opossum-telegram-trace",
+      "title": "オポッサム",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive",
+        "illustration"
+      ],
+      "status": "candidate",
+      "description": "Recent visual work/post title visible in the eli_lab Telegram archive.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "birthday-gift-telegram-trace",
+      "title": "エリからエリーへの誕生日プレゼント",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive",
+        "gift"
+      ],
+      "status": "candidate",
+      "description": "Recent birthday-gift work/post title visible in the eli_lab Telegram archive.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
+    },
+    {
+      "id": "saint-sin-gift-telegram-trace",
+      "title": "New work for SAINT SIN",
+      "year": "2026",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "social archive",
+        "gift"
+      ],
+      "status": "candidate",
+      "description": "Telegram post describing a new work made as a gift for SAINT SIN; individual work title and metadata require verification.",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ]
     }
   ]
 }
