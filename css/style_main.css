@@ -1,25 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
 :root {
-    --ink: #171614;
-    --muted: #777268;
+    --ink: #1c2221;
+    --muted: #6b716d;
     --paper: #eee9dd;
-    --paper-deep: #e2dbcc;
-    --paper-light: #f6f1e6;
-    --line: rgba(23, 22, 20, 0.18);
-    --line-strong: rgba(23, 22, 20, 0.42);
+    --paper-deep: #d9d4c8;
+    --paper-light: #f7f3e9;
+    --metal: #aeb8b5;
+    --metal-dark: #687774;
+    --blueprint: #516b72;
+    --blueprint-light: rgba(223, 235, 232, .18);
+    --line: rgba(28, 34, 33, .2);
+    --line-strong: rgba(28, 34, 33, .52);
     --accent: #b7462f;
-    --shadow: rgba(31, 26, 19, 0.12);
+    --amber: #d49a4e;
+    --shadow: rgba(20, 24, 23, .2);
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
     margin: 0;
-    background-color: var(--paper);
-    background-image: url("https://www.transparenttextures.com/patterns/tactile-noise-light.png");
-    background-repeat: repeat;
-    background-blend-mode: multiply;
+    background-color: var(--blueprint);
+    background-image:
+        linear-gradient(rgba(223,235,232,.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(223,235,232,.12) 1px, transparent 1px),
+        linear-gradient(rgba(223,235,232,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(223,235,232,.035) 1px, transparent 1px);
+    background-size: 32px 32px, 32px 32px, 8px 8px, 8px 8px;
+    background-position: 0 0, 0 0, 0 0, 0 0;
     color: var(--ink);
     font-family: "Manrope", Arial, sans-serif;
     font-size: var(--step--1);
@@ -33,10 +42,10 @@ body::before {
     inset: 0;
     pointer-events: none;
     z-index: 20;
-    opacity: .16;
+    opacity: .15;
     background:
-        linear-gradient(rgba(255,255,255,.26), rgba(255,255,255,.26)),
-        repeating-linear-gradient(90deg, rgba(23,22,20,.035) 0 1px, transparent 1px 7px);
+        url("https://www.transparenttextures.com/patterns/tactile-noise-light.png") repeat,
+        repeating-linear-gradient(0deg, transparent 0 31px, rgba(255,255,255,.035) 31px 32px);
     mix-blend-mode: multiply;
 }
 body::after {
@@ -45,8 +54,8 @@ body::after {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 5px;
-    background: var(--ink);
+    height: 6px;
+    background: var(--accent);
     opacity: .9;
     z-index: 21;
 }
@@ -75,7 +84,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid rgba(233,240,236,.34);
+    color: #eef1ec;
 }
 .wordmark {
     font-family: "DM Mono", monospace;
@@ -105,10 +115,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 .site-nav a {
     position: relative;
-    padding: .3rem 0;
-    color: var(--muted);
+    padding: .38rem .6rem;
+    color: #e4e9e4;
+    border: 1px solid rgba(233,240,236,.24);
+    background: rgba(20,27,26,.18);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 2px 2px 0 rgba(15,20,19,.16);
 }
-.site-nav a:hover, .site-nav a.is-active { color: var(--ink); }
+.site-nav a:hover, .site-nav a.is-active { color: #ffffff; background: rgba(20,27,26,.3); }
 .site-nav a.is-active::after {
     content: "";
     position: absolute;
@@ -538,4 +551,157 @@ h1 em, h2 em {
     position: absolute;
     top: var(--space-s);
     left: var(--space-s);
+}
+
+/* Console / blueprint apparatus inspired by the reference hardware panel */
+.instrument-console {
+    position: relative;
+    min-height: 16rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .8rem;
+    overflow: hidden;
+    background:
+        linear-gradient(135deg, rgba(255,255,255,.38), transparent 28%),
+        repeating-linear-gradient(0deg, transparent 0 2.3rem, rgba(28,34,33,.12) 2.3rem 2.35rem),
+        #d4d8d1;
+    border: 1px solid #525e5c;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.75),
+        inset 0 -2px 0 rgba(28,34,33,.13),
+        4px 5px 0 rgba(18,22,21,.16),
+        0 10px 22px var(--shadow);
+}
+.instrument-console::before,
+.instrument-console::after {
+    content: "";
+    position: absolute;
+    width: .45rem;
+    height: .45rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #eef1eb 0 16%, #7a817d 17% 55%, #2a302f 56% 100%);
+    border: 1px solid #313635;
+    box-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+.instrument-console::before { left: .45rem; top: .45rem; }
+.instrument-console::after { right: .45rem; bottom: .45rem; }
+.console-label {
+    position: absolute;
+    left: 1.1rem;
+    top: .45rem;
+    font: 500 .55rem/1 "DM Mono", monospace;
+    letter-spacing: .12em;
+    color: #303938;
+    text-transform: uppercase;
+}
+.console-cell {
+    position: relative;
+    min-height: 6.5rem;
+    padding: 1.15rem .7rem .55rem;
+    border: 1px solid #6f7773;
+    background: rgba(240,241,235,.42);
+}
+.console-cell::after {
+    content: "";
+    position: absolute;
+    left: .5rem;
+    right: .5rem;
+    bottom: .35rem;
+    height: .5rem;
+    border-top: 1px dotted rgba(28,34,33,.42);
+}
+.console-title {
+    display: block;
+    margin-bottom: .7rem;
+    font: 500 .55rem/1 "DM Mono", monospace;
+    letter-spacing: .06em;
+    color: #2c3331;
+    text-transform: uppercase;
+}
+.knob-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: .6rem;
+}
+.knob {
+    position: relative;
+    width: 3.8rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid #545d5a;
+    background:
+        radial-gradient(circle at 36% 32%, #f4f4ef 0 8%, #c7cbc5 9% 32%, #88908b 33% 65%, #505754 66% 100%);
+    box-shadow:
+        inset 0 2px 2px rgba(255,255,255,.7),
+        inset 0 -2px 2px rgba(20,25,24,.24),
+        2px 3px 0 rgba(23,28,27,.16);
+}
+.knob::before {
+    content: "";
+    position: absolute;
+    width: .18rem;
+    height: 1rem;
+    left: 50%;
+    top: .25rem;
+    transform: translateX(-50%) rotate(16deg);
+    transform-origin: 50% 1.65rem;
+    background: #2b302f;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.3);
+}
+.knob::after {
+    content: "";
+    position: absolute;
+    inset: -.35rem;
+    border-radius: 50%;
+    border: 1px dotted rgba(28,34,33,.35);
+}
+.console-led {
+    width: .72rem;
+    height: .72rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at 38% 32%, #ffd7c1 0 16%, var(--accent) 38%, #6b2720 100%);
+    border: 1px solid #582821;
+    box-shadow: 0 0 7px rgba(183,70,47,.38);
+}
+.console-meter {
+    display: flex;
+    align-items: end;
+    height: 4.7rem;
+    gap: .3rem;
+    padding: .35rem;
+    border: 1px solid #646d69;
+    background: #202827;
+}
+.console-meter i {
+    display: block;
+    flex: 1;
+    min-width: .22rem;
+    background: linear-gradient(to top, var(--accent), var(--amber));
+}
+.console-meter i:nth-child(1) { height: 18%; }
+.console-meter i:nth-child(2) { height: 42%; }
+.console-meter i:nth-child(3) { height: 31%; }
+.console-meter i:nth-child(4) { height: 66%; }
+.console-meter i:nth-child(5) { height: 88%; }
+.console-meter i:nth-child(6) { height: 54%; }
+.console-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-top: .45rem;
+    font: 400 .53rem/1 "DM Mono", monospace;
+    color: #48504d;
+    text-transform: uppercase;
+}
+.blueprint-note {
+    display: inline-block;
+    padding: .28rem .42rem;
+    border: 1px solid rgba(225,237,233,.35);
+    color: #eef4ef;
+    background: rgba(18,30,31,.18);
+    font: 400 .55rem/1.2 "DM Mono", monospace;
+    letter-spacing: .04em;
+    text-transform: uppercase;
 }
