@@ -12,6 +12,15 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/audio.html` — audio archive
 - `pgs/video.html` — video archive
 - `pgs/software.html` — software archive
+- `pgs/cgi.html` — CGI / 3D archive
+- `pgs/interactive.html` — interactive archive
+- `pgs/games.html` — games archive
+- `pgs/vocal.html` — vocal synthesis / voicebank archive
+- `pgs/documentation.html` — documentation, exhibition and field records
+- `pgs/collaborations.html` — collaboration index
+- `ARCHIVE_MAP.md` — research ledger and multidisciplinary source map
+- `DESIGN_DIRECTION.md` — skeuomorphic console / blueprint design specification
+- `data/works.json` — curated structured work manifest
 - `css/measures.css` — fluid typography, spacing and grid tokens
 - `css/style_main.css` — visual system and responsive layout
 - `scr/script_main.js` — navigation, year and archive filtering
@@ -20,7 +29,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 
 The site is built as an editorial archive rather than a conventional portfolio. The selected page is the invitation; the archive is the backbone; individual medium pages provide room for context and project records; the CV stays secondary and concise.
 
-The visual language is intentionally tactile: warm paper, dark ink, fine rules, mono metadata, serif/sans typography, transparent print textures, slight registration-style imperfections, paper shadows and restrained vermilion marks. It should feel closer to an artist publication, photocopied folder or hand-worked catalogue than a glossy agency portfolio. Placeholder media blocks are structural only and should be replaced by real project imagery as the archive is populated.
+The visual language is intentionally tactile and skeuomorphic: blueprint grids, painted-metal panels, cream paper labels, mono technical metadata, serif/sans typography, fine construction lines, rotary-control motifs, indicator lamps, subtle print textures and restrained vermilion/amber status marks. The goal is an artist archive that feels physically constructed, closer to an old instrument, technical drawing, artist publication or working dossier than a glossy agency portfolio. Placeholder media blocks are structural only and should be replaced by real project imagery as the archive is populated.
 
 ## Future data layer
 
