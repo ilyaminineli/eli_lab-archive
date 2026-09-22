@@ -7,7 +7,8 @@
 - `catalog/works.js` — public work manifest + archive filters.
 - `catalog/video.js` — CSV-driven video register.
 - `catalog/record.js` — canonical work record page.
-- `catalog/network.js` — relationship map.
+- `catalog/network.js` — grouped project relationship map.
+- `catalog/collaborations.js` — people / collaborator index.
 
 ## Compatibility
 - `script_main.js` remains the small site loader.
