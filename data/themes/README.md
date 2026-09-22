@@ -8,5 +8,7 @@ Current blocks:
 - `archive-systems.json`
 - `sound-voice-generative.json`
 - `materiality-photography.json`
+- `liminal-ritual-folklore.json`
+- `collective-authorship.json`
 
 Themes are indexes, not duplicate works. One work can belong to multiple themes.
