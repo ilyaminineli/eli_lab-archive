@@ -1,0 +1,463 @@
+{
+  "updated": "2026-09-22",
+  "notes": "Curated public manifest derived from ARCHIVE_MAP.md. Research ledger is more inclusive than this file. Status values preserve provenance and uncertainty.",
+  "works": [
+    {
+      "id": "ewp-project",
+      "title": "EWP Project",
+      "year": "2023",
+      "medium": [
+        "animation",
+        "cgi"
+      ],
+      "context": [
+        "personal work",
+        "film"
+      ],
+      "status": "confirmed",
+      "description": "CGI abstract animation.",
+      "sources": [
+        "https://github.com/ilyaminineli/ewproject"
+      ],
+      "external": [
+        "https://www.youtube.com/watch?v=997vBAqNjm0"
+      ]
+    },
+    {
+      "id": "bogorodskoe",
+      "title": "Bogorodskoe",
+      "year": "2022",
+      "medium": [
+        "animation"
+      ],
+      "context": [
+        "personal work"
+      ],
+      "status": "legacy",
+      "description": "Animation record from the historical archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "the-last-day-of-kasane-teto",
+      "title": "The Last Day of Kasane Teto",
+      "year": "2025",
+      "medium": [
+        "animation",
+        "video",
+        "vocal"
+      ],
+      "context": [
+        "personal work",
+        "screening"
+      ],
+      "status": "documented",
+      "description": "Animated work featuring Kasane Teto.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external": [
+        "https://www.youtube.com/",
+        "https://i--active--space.orgs.biz/"
+      ]
+    },
+    {
+      "id": "triple-baka",
+      "title": "Triple Baka",
+      "year": "2025",
+      "medium": [
+        "animation",
+        "video",
+        "vocal"
+      ],
+      "context": [
+        "personal work"
+      ],
+      "status": "confirmed",
+      "description": "Animation / music-video record.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "3d-essentials",
+      "title": "3D Essentials",
+      "year": "2020–2021",
+      "medium": [
+        "cgi"
+      ],
+      "context": [
+        "study",
+        "archive"
+      ],
+      "status": "confirmed",
+      "description": "A large CGI study and render cluster in the historical image archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "semi-spatial-apartment",
+      "title": "Semi-spatial Apartment",
+      "year": "2020s",
+      "medium": [
+        "cgi"
+      ],
+      "context": [
+        "study",
+        "environment"
+      ],
+      "status": "confirmed",
+      "description": "Environment and spatial CGI archive cluster.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "untitled-3",
+      "title": "Без названия 3 / Untitled 3",
+      "year": "2022",
+      "medium": [
+        "art",
+        "painting"
+      ],
+      "context": [
+        "exhibition",
+        "auction"
+      ],
+      "status": "documented",
+      "description": "Canvas and acrylic, 200 × 150 cm.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external": [
+        "https://vladey.net/ru/lot/9223"
+      ]
+    },
+    {
+      "id": "jewish-gift",
+      "title": "A gift to a Jewish fund",
+      "year": "2022",
+      "medium": [
+        "art",
+        "drawing"
+      ],
+      "context": [
+        "personal work"
+      ],
+      "status": "confirmed",
+      "description": "Four sheets using pencil, capillary pen, felt-tip pens and crayons.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "lab-announcement-3",
+      "title": "Lab Announcement 3",
+      "year": "2023",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release"
+      ],
+      "status": "documented",
+      "description": "Electroacoustic release described with analogue instrumentation, processed field recordings, microchromatics and granular synthesis.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external": [
+        "https://eliasadams.bandcamp.com/album/lab-announcement-3"
+      ]
+    },
+    {
+      "id": "blue-neon",
+      "title": "Blue Neon",
+      "year": "2026",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "song",
+        "jazz"
+      ],
+      "status": "candidate",
+      "description": "Current jazz / vocal-synth project in development for the new album.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ]
+    },
+    {
+      "id": "no-one-is-listening",
+      "title": "NO ONE IS LISTENING",
+      "year": "2026",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "song",
+        "jazz"
+      ],
+      "status": "candidate",
+      "description": "Current jazz / vocal-synth project in development.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ]
+    },
+    {
+      "id": "eugene",
+      "title": "友人 / Eugene",
+      "year": "2026",
+      "medium": [
+        "vocal",
+        "software",
+        "audio"
+      ],
+      "context": [
+        "voicebank",
+        "character",
+        "documentation"
+      ],
+      "status": "confirmed",
+      "description": "Japanese CVVC UTAU / OpenUtau voicebank created by Ilya Minin (Eli).",
+      "sources": [
+        "https://github.com/ilyaminineli/eugene-utau"
+      ]
+    },
+    {
+      "id": "iirai",
+      "title": "イーライ / Iirai family",
+      "year": "2025–",
+      "medium": [
+        "vocal",
+        "audio"
+      ],
+      "context": [
+        "voicebank",
+        "character"
+      ],
+      "status": "confirmed",
+      "description": "Three-generation voicebank family: Iirai, Akane Iirai and Akane Iirai · Akatsuki.",
+      "sources": [
+        "https://github.com/ilyaminineli/Iirai"
+      ]
+    },
+    {
+      "id": "hiro",
+      "title": "響 Hiro",
+      "year": "2026",
+      "medium": [
+        "vocal",
+        "software"
+      ],
+      "context": [
+        "tool",
+        "generative"
+      ],
+      "status": "confirmed",
+      "description": "Procedural Japanese lyric-to-UST generator and tuning assistant.",
+      "sources": [
+        "https://github.com/ilyaminineli/text-to-ust"
+      ]
+    },
+    {
+      "id": "belial",
+      "title": "Belial",
+      "year": "2023–",
+      "medium": [
+        "interactive",
+        "audio",
+        "software"
+      ],
+      "context": [
+        "sound art",
+        "performance",
+        "tool"
+      ],
+      "status": "confirmed",
+      "description": "Live computer music and sound-art platform based on Max/MSP, samples and semi-algorithmic processing.",
+      "sources": [
+        "https://github.com/ilyaminineli/Belial_8"
+      ]
+    },
+    {
+      "id": "pipeline-hub",
+      "title": "eli_lab Pipeline Hub",
+      "year": "2026",
+      "medium": [
+        "software",
+        "cgi"
+      ],
+      "context": [
+        "tool",
+        "infrastructure"
+      ],
+      "status": "confirmed",
+      "description": "Blender addon for asset management, scene setup, linked libraries, export, render and pipeline automation.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_pipeline_hub"
+      ]
+    },
+    {
+      "id": "gonki-i-tochka",
+      "title": "Gonki i Tochka",
+      "year": "2020s",
+      "medium": [
+        "games",
+        "cgi",
+        "audio"
+      ],
+      "context": [
+        "collaboration",
+        "hackathon"
+      ],
+      "status": "confirmed",
+      "description": "Unity low-poly arcade racing game made with Mikhail Tenkovsky and Artyom Merkushev.",
+      "sources": [
+        "https://github.com/ilyaminineli/gonkiitochka"
+      ]
+    },
+    {
+      "id": "jihanki",
+      "title": "JIHANKI",
+      "year": "2026",
+      "medium": [
+        "interactive",
+        "software"
+      ],
+      "context": [
+        "archive",
+        "research",
+        "fieldwork"
+      ],
+      "status": "confirmed",
+      "description": "Interactive archive presented as a Japanese vending machine interface.",
+      "sources": [
+        "https://github.com/ilyaminineli/jihanki-site"
+      ]
+    },
+    {
+      "id": "parazit",
+      "title": "PARAZIT",
+      "year": "2026–",
+      "medium": [
+        "interactive",
+        "software"
+      ],
+      "context": [
+        "archive",
+        "exhibition"
+      ],
+      "status": "confirmed",
+      "description": "Artist-run gallery/archive system with relational records for artists, artworks, exhibitions, venues, documents and sources.",
+      "sources": [
+        "https://github.com/ilyaminineli/parazit-web"
+      ]
+    },
+    {
+      "id": "antokolskyj",
+      "title": "Antokolskyj",
+      "year": "2020s",
+      "medium": [
+        "animation",
+        "cgi",
+        "video"
+      ],
+      "context": [
+        "commission",
+        "collaboration"
+      ],
+      "status": "confirmed",
+      "description": "Historical Blender animation created with Anna Yuytova for GRIG Film.",
+      "sources": [
+        "https://github.com/ilyaminineli/Antokolskyj"
+      ]
+    },
+    {
+      "id": "pleiir",
+      "title": "Pleiir",
+      "year": "2020s",
+      "medium": [
+        "video",
+        "animation",
+        "cgi"
+      ],
+      "context": [
+        "collaboration"
+      ],
+      "status": "confirmed",
+      "description": "Audiovisual clip; Ilya Minin (Eli) credited as director, animator and technical artist.",
+      "sources": [
+        "https://github.com/ilyaminineli/Pleiir"
+      ]
+    },
+    {
+      "id": "videodrome",
+      "title": "VIDEODROME screening trace",
+      "year": "2026",
+      "medium": [
+        "documentation",
+        "video"
+      ],
+      "context": [
+        "screening"
+      ],
+      "status": "documented",
+      "description": "External exhibition/screening trace listing The Last Day of Kasane Teto.",
+      "sources": [
+        "https://i--active--space.orgs.biz/"
+      ]
+    },
+    {
+      "id": "live-one-gog",
+      "title": "Live in One Gog Center",
+      "year": "2021",
+      "medium": [
+        "audio",
+        "performance"
+      ],
+      "context": [
+        "live",
+        "release"
+      ],
+      "status": "documented",
+      "description": "Live sound / performance record present in the Bandcamp discography.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "magic-orgy",
+      "title": "Magic Orgy",
+      "year": "2018",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by Ilya Minin (Eli).",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/magic-orgy"
+      ]
+    },
+    {
+      "id": "teqcnuilogiogistie",
+      "title": "Teqcnuilogiogistie",
+      "year": "2019",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by Ilya Minin (Eli).",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/teqcnuilogiogistie"
+      ]
+    }
+  ]
+}
