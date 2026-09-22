@@ -3302,3 +3302,62 @@ body::after {
         display: none;
     }
 }
+
+
+
+/* Medium directory headers */
+.medium-catalog-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: end;
+    padding: .55rem .7rem;
+    margin-bottom: .55rem;
+    color: #dce3df;
+    background: #263231;
+    border: 1px solid #18211f;
+    font-family: "DM Mono", monospace;
+}
+
+.medium-catalog-head > div:first-child {
+    display: grid;
+    gap: .25rem;
+}
+
+.medium-catalog-kicker {
+    color: #85918c;
+    font-size: .46rem;
+    letter-spacing: .08em;
+}
+
+.medium-catalog-head strong {
+    color: #e2a260;
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: .06em;
+}
+
+.medium-catalog-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+    align-items: center;
+    justify-content: flex-end;
+    color: #aebbb5;
+    font-size: .5rem;
+}
+
+.medium-catalog-meta a {
+    color: #d7a25e;
+}
+
+@media (max-width: 560px) {
+    .medium-catalog-head {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .medium-catalog-meta {
+        justify-content: flex-start;
+    }
+}
