@@ -1,0 +1,182 @@
+{
+  "updated": "2026-09-23",
+  "source": "Ilya-Minin-Eli.csv",
+  "purpose": "Raw naming and role observations preserved from the current YouTube export. These observations support alias/search normalization but do not by themselves prove identity beyond the source context.",
+  "entities": [
+    {
+      "canonical_id": "ilya-minin",
+      "kind": "person",
+      "source_forms": ["Ilya Minin", "Ilya Minin (Eli)", "Илья Минин", "イリヤ・ミニン", "Eli"],
+      "roles_observed": ["director", "script", "executive producer", "music", "lyrics", "tuning", "character design", "video concept", "editing", "animation/art production"],
+      "notes": "The CSV repeatedly uses both Ilya Minin (Eli) and Eli. These are retained as aliases of the archive's canonical artist entity."
+    },
+    {
+      "canonical_id": "dynakyris",
+      "kind": "person-or-project-identity",
+      "source_forms": ["DYNAKYRIS", "ダイナキリス"],
+      "roles_observed": ["SV Vocal Programming", "special thanks"],
+      "notes": "Explicitly credited on Get Hit Below and named in The Mountain Remembers credits. No additional personality claim is inferred from the CSV."
+    },
+    {
+      "canonical_id": "marusia-izdebska",
+      "kind": "person",
+      "source_forms": ["Marysia Izdebska", "Marusia Izdebska"],
+      "roles_observed": ["narration", "voiceover", "dubbing/support in older EWP wording"],
+      "notes": "The archive uses Marysia Izdebska as the display form and retains Marusia Izdebska as a source alias."
+    },
+    {
+      "canonical_id": "julia-baranyuk",
+      "kind": "person",
+      "source_forms": ["Julia Baranyuk", "Yulia Baranyuk", "Юлия Баранюк"],
+      "roles_observed": ["author", "co-author", "performance collaborator", "script/production"],
+      "notes": "Both Julia and Yulia occur in different source descriptions. No separate person is created from transliteration variance."
+    },
+    {
+      "canonical_id": "blikk",
+      "kind": "person-or-handle",
+      "source_forms": ["blikk", "Blikk", "@blikkcg", "BVLKK"],
+      "roles_observed": ["animation", "rendering", "production design", "shading"],
+      "notes": "The CSV and EWP source material use both Blikk/BVLKK and the @blikkcg handle."
+    },
+    {
+      "canonical_id": "spalah79",
+      "kind": "person-or-handle",
+      "source_forms": ["Spalah", "Spalah79", "Spalah79 / Spalah"],
+      "roles_observed": ["stage/art production", "production design", "technologist", "supervision"],
+      "notes": "The short form Spalah is retained as an alias."
+    },
+    {
+      "canonical_id": "romaner",
+      "kind": "person-or-handle",
+      "source_forms": ["Romaner"],
+      "roles_observed": ["VFX", "lighting", "consultant", "technologist", "cameraman", "postproduction"],
+      "notes": "No personality inference is made from production credits."
+    },
+    {
+      "canonical_id": "eikton",
+      "kind": "person-or-handle",
+      "source_forms": ["Eikton", "eikton"],
+      "roles_observed": ["voicebank setup and retouching", "voicebank retuning"],
+      "notes": "Technical collaborator role is directly stated in the source descriptions."
+    },
+    {
+      "canonical_id": "sasha-e-b",
+      "kind": "person-or-project-identity",
+      "source_forms": ["sasha e b", "sasha e b / Sasha e b"],
+      "roles_observed": ["soundtrack", "audio", "artist", "video-art collaborator"],
+      "notes": "Spelling is kept lowercase as used in the source."
+    },
+    {
+      "canonical_id": "artbasil",
+      "kind": "handle",
+      "source_forms": ["artbasil"],
+      "roles_observed": ["cameraman"],
+      "notes": "Source supplies a handle, not a full civil name."
+    },
+    {
+      "canonical_id": "basil-ivanov",
+      "kind": "person",
+      "source_forms": ["Basil Ivanov"],
+      "roles_observed": ["dedication recipient", "special thanks"],
+      "notes": "Named specifically in Fighting Postmodernism anniversary context."
+    },
+    {
+      "canonical_id": "vasiliy-ivanov",
+      "kind": "person",
+      "source_forms": ["Vasiliy Ivanov", "Vasily Ivanov"],
+      "roles_observed": ["camera", "cast/participant in Bogorodskoye"],
+      "notes": "Both Latin transliterations appear across source descriptions."
+    },
+    {
+      "canonical_id": "hose",
+      "kind": "person-or-handle",
+      "source_forms": ["Hose"],
+      "roles_observed": ["director of photography"],
+      "notes": "Source only provides the short name."
+    },
+    {
+      "canonical_id": "varvara-kuleshova",
+      "kind": "person",
+      "source_forms": ["Varvara Kuleshova", "Варвара Кулешова"],
+      "roles_observed": ["artist", "co-author of Kuleshov Effect"],
+      "notes": "Explicitly named in the 2022 Kuleshov Effect source description."
+    },
+    {
+      "canonical_id": "ivan-netkachev",
+      "kind": "person",
+      "source_forms": ["Ivan Netkachev", "Иван Неткачев"],
+      "roles_observed": ["model"],
+      "notes": "Explicitly credited on linearna zaležnosť."
+    },
+    {
+      "canonical_id": "toshimitsu-kobayashi",
+      "kind": "person",
+      "source_forms": ["Toshimitsu Kobayashi", "小林 利充"],
+      "roles_observed": ["special thanks"],
+      "notes": "Named in The Mountain Remembers Japan field context."
+    },
+    {
+      "canonical_id": "masagire-miura",
+      "kind": "person",
+      "source_forms": ["Masagire Miura", "三浦 正重"],
+      "roles_observed": ["special thanks"],
+      "notes": "Named in The Mountain Remembers Japan field context."
+    },
+    {
+      "canonical_id": "kasane-teto",
+      "kind": "synthetic-character",
+      "source_forms": ["Kasane Teto", "Kasane Teto (重音テト)", "重音テト"],
+      "roles_observed": ["vocal", "character", "starring persona"],
+      "persona_notes": "The CSV presents Teto as a speaking/singing fictional persona. In the 2025-12-31 manifesto she delivers a fictional New Year's address; in the kitchen video she is presented as a playful first-person character. These are artwork/persona framings, not claims about a real person's personality."
+    },
+    {
+      "canonical_id": "iirai",
+      "kind": "synthetic-voice-character",
+      "source_forms": ["イーライ", "イーライ (Iirai)", "茜音イーライ", "茜音イーライ (Akane Iirai)", "Akane Iirai"],
+      "roles_observed": ["vocal", "voicebank"],
+      "notes": "The CSV uses both the original Iirai name and the Akane Iirai form. The archive treats them as the documented voicebank family."
+    },
+    {
+      "canonical_id": "possum-eugene",
+      "kind": "synthetic-voice-character / voice provider",
+      "source_forms": ["友人", "友人 (Eugene)", "ポス・ユージーン (友人 / Eugene)", "Possum Eugene"],
+      "roles_observed": ["voicebank", "vocal", "special thanks"],
+      "persona_notes": "The CSV describes Eugene as a voicebank character and, in I'm Afraid of Happiness, frames the voice as unfinished and memory-oriented. This is a character/artwork description rather than an inference about the real voice provider."
+    },
+    {
+      "canonical_id": "geztalt-project",
+      "kind": "collective-or-project",
+      "source_forms": ["geztålt", "geztalt", "geztålt lab"],
+      "roles_observed": ["music", "collaborative project"],
+      "notes": "Both geztålt and geztalt occur in the CSV. The archive uses geztålt as the canonical display form."
+    },
+    {
+      "canonical_id": "serval-sirius",
+      "kind": "subject-or-persona",
+      "source_forms": ["Serval Sirius"],
+      "roles_observed": ["starring"],
+      "notes": "Kept out of the human-people graph because the CSV does not establish a reliable human identity."
+    },
+    {
+      "canonical_id": "texturelabs",
+      "kind": "resource-or-credit",
+      "source_forms": ["Texturelabs"],
+      "roles_observed": ["additional thanks"],
+      "notes": "Retained as a source/credit trace rather than a person."
+    },
+    {
+      "canonical_id": "ransomiser",
+      "kind": "resource-or-credit",
+      "source_forms": ["Ransomiser"],
+      "roles_observed": ["additional thanks"],
+      "notes": "Retained as a source/credit trace rather than a person."
+    },
+    {
+      "canonical_id": "ennyi",
+      "kind": "music-credit",
+      "source_forms": ["えぬぃ"],
+      "roles_observed": ["music used"],
+      "notes": "Named as the music author of 銀河に紡ぐラブレター～ in the real TETSTER description."
+    }
+  ]
+}
