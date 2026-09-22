@@ -8,14 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const nav = document.querySelector(".terminal-nav");
     if (nav && !nav.querySelector("[data-nav-map]")) {
-        nav.insertAdjacentHTML("beforeend",
+        nav.insertAdjacentHTML(
+            "beforeend",
             '<a data-nav-map href="' + base + 'pgs/network.html"><span>03</span> MAP</a>'
         );
     }
 
     const mobileNav = document.querySelector("#mobile-nav");
     if (mobileNav && !mobileNav.querySelector("[data-nav-map]")) {
-        mobileNav.insertAdjacentHTML("beforeend",
+        mobileNav.insertAdjacentHTML(
+            "beforeend",
             '<a data-nav-map href="' + base + 'pgs/network.html">03 / Map</a>'
         );
     }
