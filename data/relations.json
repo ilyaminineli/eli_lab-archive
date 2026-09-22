@@ -974,11 +974,6 @@
   ],
   "groups": [
     {
-      "id": "parazit",
-      "name": "PARAZIT",
-      "type": "artist group / collective"
-    },
-    {
       "id": "grig-film",
       "name": "GRIG Film",
       "type": "production company"
@@ -1017,11 +1012,6 @@
       "id": "big-beat",
       "name": "Big Beat",
       "type": "jazz label / release partner"
-    },
-    {
-      "id": "oleg-ustinov-official",
-      "name": "Oleg Ustinov — Artist Website",
-      "type": "artist site / source"
     }
   ]
 }
