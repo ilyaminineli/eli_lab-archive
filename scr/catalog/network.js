@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const entityMap = new Map([
             ...works.map((work) => [work.id, { id: work.id, type: 'work', name: work.title, work }]),
-            ...(graph.people || []).map((person) => [person.id, { id: person.id, type: 'person', name: person.name }]),
-            ...(graph.groups || []).map((group) => [group.id, { id: group.id, type: 'group', name: group.name }]),
-            ...(graph.places || []).map((place) => [place.id, { id: place.id, type: 'place', name: place.name }])
+            ...(graph.people || []).map((person) => [person.id, { id: person.id, type: 'person', name: person.name, aliases: person.aliases || [] }]),
+            ...(graph.groups || []).map((group) => [group.id, { id: group.id, type: 'group', name: group.name, aliases: group.aliases || [] }]),
+            ...(graph.places || []).map((place) => [place.id, { id: place.id, type: 'place', name: place.name, aliases: place.aliases || [] }])
         ]);
 
         const publicWorkIds = new Set(works.map((work) => work.id));
@@ -88,6 +88,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (placeStat) placeStat.textContent = String(graph.places?.length || 0).padStart(3, '0');
 
         const entityName = (id) => entityMap.get(id)?.name || id;
+        const entitySearchNames = (id) => [
+            entityName(id),
+            ...(entityMap.get(id)?.aliases || [])
+        ].join(' ');
         const entityType = (id) => entityMap.get(id)?.type || 'entity';
 
         const entityHref = (id) => {
@@ -122,7 +126,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const searchBlob = normalize([
                 work.title, work.id, work.year, ...(work.medium || []), ...(work.context || []),
                 ...edges.flatMap(edge => [
-                    edge.relation, entityName(edge.from), entityName(edge.to), edge.from, edge.to
+                    edge.relation, entitySearchNames(edge.from), entitySearchNames(edge.to), edge.from, edge.to
                 ])
             ].join(' '));
 
