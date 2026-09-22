@@ -57,14 +57,39 @@
           "relation": "narrated-by"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "CGI abstract animation built around a 3D production archive with character models, scenes and rigging assets.",
+        "Directed and scripted by Ilya Minin with a distributed crew across art production, animation, VFX, lighting, sound and narration.",
+        "The 2023 film was later prepared as a public Festival Cut in 2026."
+      ],
+      "materials": [
+        "Blender character models",
+        "original scenes",
+        "cut / unused scenes",
+        "rigging configuration",
+        "digital 2K video",
+        "soundtrack and narration"
+      ],
+      "chronology": [
+        {
+          "year": "2023",
+          "note": "Original CGI short produced."
+        },
+        {
+          "year": "2026",
+          "note": "Festival Cut published into the public archive."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Format documented as Digital, 2K.",
+        "Language: English; subtitles: English / Russian."
+      ],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The project archive preserves both production assets and the finished film, making the repository part of the work's history."
+      ],
       "questions_to_resolve": []
     },
     "bogorodskoe": {
@@ -419,14 +444,35 @@
           "relation": "co-created-with"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Japanese CVVC voicebank built from preserved recordings, reconstructed phonemes and post-production.",
+        "Designed for UTAU / OpenUtau singing with a warm, intimate tone and a slightly uncanny edge.",
+        "Official documentation keeps technical specifications, usage, character and media history together."
+      ],
+      "materials": [
+        "CVVC recordings",
+        "C3 / G3 / C4 pitch set",
+        "character artwork",
+        "OTO / phoneme configuration",
+        "UTAU / OpenUtau"
+      ],
+      "chronology": [
+        {
+          "year": "2026",
+          "note": "Current released 友人 (Eugene) voicebank record in the public archive."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Recommended engine setup: TIPS; Moresampler, WORLDLINE-R and wavtool4vcv are also documented.",
+        "Optimum BPM: 70–120.",
+        "Genres documented: dark pop / industrial / experimental."
+      ],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The character documentation frames Eugene through unfinished things, memory and disappearance; this is retained as a project/character description rather than a claim about the real voice provider."
+      ],
       "questions_to_resolve": []
     },
     "iirai": {
@@ -461,12 +507,38 @@
           "relation": "co-created-with"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Voicebank family developed through successive generations rather than replacing earlier versions.",
+        "Generation 1 preserves the original イーライ; Generation 2 established 茜音イーライ; Generation 3 暁 is an ongoing revision with cleaned samples, appends and extras.",
+        "Character, technical and release documentation are maintained together."
+      ],
+      "materials": [
+        "CVVC voicebank recordings",
+        "generation-specific append material",
+        "character artwork",
+        "promotional artwork",
+        "UTAU / OpenUtau configuration"
+      ],
+      "chronology": [
+        {
+          "year": "Generation 1",
+          "note": "Original イーライ (Iirai)."
+        },
+        {
+          "year": "Generation 2",
+          "note": "茜音イーライ (Akane Iirai) released as the established updated CVVC bank."
+        },
+        {
+          "year": "Generation 3",
+          "note": "茜音イーライ・暁 currently in development."
+        }
+      ],
       "exhibitions": [],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Generation 2 documents A3 / F3 / C3 pitches.",
+        "Recommended tools include TIPS, Moresampler, WORLDLINE-R and wavtool4vcv."
+      ],
       "selected_images": [],
       "archival_notes": [],
       "questions_to_resolve": []
@@ -631,14 +703,42 @@
           "relation": "archive-source"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
-      "exhibitions": [],
+      "process": [
+        "The project began from the SAIKONEON / Lake Saiko field experience in Japan and a nighttime encounter with a vending machine.",
+        "The vending-machine interface became a model for the archive itself: interaction returns fragments of memory rather than products.",
+        "Documents, photographs, sounds, scripts and field material are loaded into a lightweight static web application."
+      ],
+      "materials": [
+        "field photographs",
+        "field recordings",
+        "vending-machine interface graphics",
+        "Markdown archive documents",
+        "Sonic Pi material",
+        "interface sounds"
+      ],
+      "chronology": [
+        {
+          "year": "July 2026",
+          "note": "SAIKONEON / Lake Saiko residency and Japan field experience."
+        },
+        {
+          "year": "2026",
+          "note": "JIHANKI develops as an interactive archive around the field material."
+        }
+      ],
+      "exhibitions": [
+        "SAIKONEON / Lake Saiko, Japan"
+      ],
       "publications": [],
-      "technical_notes": [],
+      "technical_notes": [
+        "Static web application; no backend or build step.",
+        "Fixed internal machine coordinate system with responsive scaling.",
+        "Archive material is separated into notes, projects, scripts and yokai documentation."
+      ],
       "selected_images": [],
-      "archival_notes": [],
+      "archival_notes": [
+        "The project explicitly treats interface, collection and classification as part of the artwork rather than an after-the-fact presentation layer."
+      ],
       "questions_to_resolve": []
     },
     "antokolskyj": {
@@ -1144,12 +1244,32 @@
           "relation": "programmed-by"
         }
       ],
-      "process": [],
-      "materials": [],
-      "chronology": [],
+      "process": [
+        "Collaborative electronic work released through the geztålt project with Kasane Teto in Synthesizer V.",
+        "SV vocal programming is explicitly credited to DYNAKYRIS; the music is by geztålt and the MV by Ilya Minin.",
+        "The visual language is described as fragmented, rhythmic and cut-up, between digital collage, experimental animation and audiovisual performance."
+      ],
+      "materials": [
+        "Kasane Teto / Synthesizer V vocal",
+        "electronic music",
+        "digital collage",
+        "experimental animation",
+        "Texturelabs / Ransomiser resources"
+      ],
+      "chronology": [
+        {
+          "year": "2025",
+          "note": "geztålt × Ilya Minin (Eli) Get Hit Below video / release cluster."
+        }
+      ],
       "exhibitions": [],
-      "publications": [],
-      "technical_notes": [],
+      "publications": [
+        "Multiple YouTube uploads are retained as source variants under one canonical work record."
+      ],
+      "technical_notes": [
+        "SV vocal programming: DYNAKYRIS.",
+        "MV: Ilya Minin (Eli)."
+      ],
       "selected_images": [],
       "archival_notes": [],
       "questions_to_resolve": []
