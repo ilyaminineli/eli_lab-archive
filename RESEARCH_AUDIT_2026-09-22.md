@@ -61,7 +61,7 @@ Blue Neon + NO ONE IS LISTENING → Vocaloid Jazz Album → Kasane Teto / Chis-A
 - Old category pages are no longer treated as the database; the canonical record route removes the previous 92-anchor problem.
 
 ## External-source findings
-- Bandcamp currently exposes the music discography, including current 2026 releases and the geztålt catalogue. citeturn256717search1turn256717search0
+- Bandcamp currently exposes the music discography, including current 2026 releases and the geztålt catalogue. Source: https://eliasadams.bandcamp.com/
 - X and VK are stored as first-class identity/publishing URLs, but their current page contents were not reliably retrievable in this pass; no work metadata was inferred from them.
 - The current ELIASADAMS profile provides a repository inventory and directly describes the practice as spanning experimental music, voice synthesis, generative systems, interactive archives, animation, games and digital folklore.
 
