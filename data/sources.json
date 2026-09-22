@@ -106,14 +106,6 @@
       "role": "interactive archive"
     },
     {
-      "id": "github-parazit",
-      "name": "parazit-web",
-      "type": "github",
-      "url": "https://github.com/ilyaminineli/parazit-web",
-      "status": "verified",
-      "role": "private client order / separate site system — excluded from art practice"
-    },
-    {
       "id": "github-ewp",
       "name": "ewproject",
       "type": "github",
