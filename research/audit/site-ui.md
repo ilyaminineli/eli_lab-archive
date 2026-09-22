@@ -48,14 +48,14 @@ data/site_status.json is the single current snapshot used by the interface.
 
 Current values:
 - 148 total records
-- 143 public / 5 private
-- 152 relations
-- 30 people / 8 groups / 10 places
+- 148 public / 5 private
+- 164 relations
+- 42 people / 9 groups / 10 places
 - 40 art-practice source records
 - 47 repositories
 - 595 visual assets
 - 126 YouTube source rows
-- 69 canonical YouTube joins / 57 source-only rows
+- 76 canonical YouTube joins / 50 source-only rows
 
 ## Scope boundary
 PARAZIT and the Oleg Ustinov website are retained only in data/client_orders.json and repository provenance. They are excluded from:
