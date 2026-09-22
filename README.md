@@ -27,6 +27,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `data/aliases.json` — duplicate/alias registry
 - `data/sources.json` — source registry
 - `data/assets.json` — 595-image asset inventory
+- `data/video_context.json` — structured YouTube descriptions, links and credit context
+- `data/asset_candidates.json` — conservative visual asset candidates for manual review
 - `data/repositories.json` — current 47-repository account inventory, including separately marked client/private-order repositories
 - `data/client_orders.json` — private client-site traces excluded from the art-practice graph
 - `data/site_status.json` — canonical system-status snapshot used by the interface
