@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const list = document.querySelector('#network-list');
     const input = document.querySelector('#network-search');
+    const focus = document.querySelector('#network-focus');
+    const clear = document.querySelector('#network-clear');
     const count = document.querySelector('#network-count');
+    const path = document.querySelector('#network-path');
     const workStat = document.querySelector('[data-network-stat="works"]');
     const peopleStat = document.querySelector('[data-network-stat="people"]');
     const groupStat = document.querySelector('[data-network-stat="groups"]');
@@ -11,6 +14,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
     }[char]));
+
+    const normalize = (value) => String(value ?? '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
 
     const relationLabel = {
         'created-by': 'CREATED BY',
@@ -78,15 +87,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (groupStat) groupStat.textContent = String(graph.groups?.length || 0).padStart(3, '0');
         if (placeStat) placeStat.textContent = String(graph.places?.length || 0).padStart(3, '0');
 
-        const entityHref = (id) => {
-            const entity = entityMap.get(id);
-            if (!entity) return '#';
-            if (entity.type === 'work') return 'record.html?id=' + encodeURIComponent(id);
-            return 'network.html?q=' + encodeURIComponent(entity.name);
-        };
-
         const entityName = (id) => entityMap.get(id)?.name || id;
         const entityType = (id) => entityMap.get(id)?.type || 'entity';
+
+        const entityHref = (id) => {
+            const entity = entityMap.get(id);
+            if (!entity) return 'network.html';
+            if (entity.type === 'work') return 'record.html?id=' + encodeURIComponent(id);
+            return 'network.html?focus=' + encodeURIComponent(id);
+        };
 
         const renderConnection = (edge, workId) => {
             const outgoing = edge.from === workId;
@@ -104,10 +113,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         const renderCard = (work, edges) => {
-            const searchBlob = [
-                work.title, work.year, ...(work.medium || []), ...(work.context || []),
-                ...edges.flatMap(edge => [edge.relation, entityName(edge.from), entityName(edge.to)])
-            ].join(' ').toLowerCase();
+            const entityIds = new Set([work.id]);
+            edges.forEach((edge) => {
+                entityIds.add(edge.from);
+                entityIds.add(edge.to);
+            });
+
+            const searchBlob = normalize([
+                work.title, work.id, work.year, ...(work.medium || []), ...(work.context || []),
+                ...edges.flatMap(edge => [
+                    edge.relation, entityName(edge.from), entityName(edge.to), edge.from, edge.to
+                ])
+            ].join(' '));
 
             const byCategory = new Map();
             edges.forEach((edge) => {
@@ -124,7 +141,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 '</div></section>'
             ).join('');
 
-            return '<article class="network-card" data-network-card data-search="' + escapeHTML(searchBlob) + '">' +
+            return '<article class="network-card" data-network-card data-entities="' + escapeHTML(Array.from(entityIds).join('|')) +
+                '" data-search="' + escapeHTML(searchBlob) + '">' +
                 '<header class="network-card-head">' +
                 '<div><p class="network-card-id">' + escapeHTML(work.id) + '</p>' +
                 '<h2><a href="record.html?id=' + encodeURIComponent(work.id) + '">' + escapeHTML(work.title) + '</a></h2></div>' +
@@ -134,30 +152,96 @@ document.addEventListener('DOMContentLoaded', async () => {
                 '</header>' + categoryHTML + '</article>';
         };
 
+        const entityOptions = [
+            ...works.map(work => ({ id: work.id, name: work.title, type: 'work' })),
+            ...(graph.people || []).map(person => ({ id: person.id, name: person.name, type: 'person' })),
+            ...(graph.groups || []).map(group => ({ id: group.id, name: group.name, type: 'group' })),
+            ...(graph.places || []).map(place => ({ id: place.id, name: place.name, type: 'place' }))
+        ].sort((a, b) => {
+            const typeOrder = { work: 0, person: 1, group: 2, place: 3 };
+            return (typeOrder[a.type] - typeOrder[b.type]) || a.name.localeCompare(b.name);
+        });
+
+        if (focus) {
+            const seenTypes = new Set();
+            entityOptions.forEach((entity) => {
+                if (!seenTypes.has(entity.type)) {
+                    const divider = document.createElement('option');
+                    divider.disabled = true;
+                    divider.textContent = '— ' + entity.type.toUpperCase() + ' —';
+                    focus.appendChild(divider);
+                    seenTypes.add(entity.type);
+                }
+                const option = document.createElement('option');
+                option.value = entity.id;
+                option.textContent = entity.name;
+                focus.appendChild(option);
+            });
+        }
+
         const draw = () => {
-            const query = (input?.value || '').trim().toLowerCase();
-            const cards = works
-                .filter(work => grouped.has(work.id))
-                .sort((a, b) => String(b.year).localeCompare(String(a.year)) || a.title.localeCompare(b.title))
-                .map(work => renderCard(work, grouped.get(work.id)));
-
-            list.innerHTML = cards.join('') || '<p class="small-note">NO PUBLIC RELATIONSHIPS IN CURRENT ARCHIVE.</p>';
-
+            const query = normalize(input?.value || '');
+            const focusId = focus?.value || '';
             let visible = 0;
+
             list.querySelectorAll('[data-network-card]').forEach((card) => {
-                const match = !query || (card.dataset.search || '').includes(query);
+                const entities = (card.dataset.entities || '').split('|');
+                const matchesQuery = !query || normalize(card.dataset.search || '').includes(query);
+                const matchesFocus = !focusId || entities.includes(focusId);
+                const match = matchesQuery && matchesFocus;
                 card.classList.toggle('is-hidden', !match);
                 if (match) visible += 1;
             });
 
-            if (count) count.textContent = String(visible).padStart(3, '0') + ' WORKS / ' +
-                String(grouped.size).padStart(3, '0') + ' CONNECTED';
+            if (count) count.textContent = String(visible).padStart(3, '0') + ' / ' +
+                String(grouped.size).padStart(3, '0') + ' CONNECTED WORKS';
+
+            const focusEntity = focusId ? entityMap.get(focusId) : null;
+            if (path) path.textContent = focusEntity
+                ? 'VIEW / CONNECTIONS OF ' + focusEntity.name.toUpperCase()
+                : (query ? 'SEARCH / ' + input.value.toUpperCase() : 'VIEW / ALL CONNECTED WORKS');
         };
 
-        const params = new URLSearchParams(location.search);
-        if (input && params.get('q')) input.value = params.get('q');
+        list.innerHTML = Array.from(grouped.entries())
+            .map(([workId, edges]) => renderCard(entityMap.get(workId).work, edges))
+            .join('') || '<p class="small-note">NO PUBLIC RELATIONSHIPS IN CURRENT ARCHIVE.</p>';
 
-        input?.addEventListener('input', draw);
+        const params = new URLSearchParams(location.search);
+        const queryParam = params.get('q') || '';
+        const focusParam = params.get('focus') || '';
+        if (input) input.value = queryParam;
+        if (focus && entityMap.has(focusParam)) focus.value = focusParam;
+
+        const writeUrl = () => {
+            const next = new URL(location.href);
+            if (input?.value.trim()) next.searchParams.set('q', input.value.trim());
+            else next.searchParams.delete('q');
+            if (focus?.value) next.searchParams.set('focus', focus.value);
+            else next.searchParams.delete('focus');
+            history.replaceState(null, '', next);
+        };
+
+        input?.addEventListener('input', () => {
+            writeUrl();
+            draw();
+        });
+
+        focus?.addEventListener('change', () => {
+            if (focus.value) {
+                input.value = '';
+            }
+            writeUrl();
+            draw();
+        });
+
+        clear?.addEventListener('click', () => {
+            input.value = '';
+            if (focus) focus.value = '';
+            writeUrl();
+            draw();
+            input?.focus();
+        });
+
         draw();
     } catch (error) {
         if (count) count.textContent = 'SOURCE ERROR';
