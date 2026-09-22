@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "sources": [
     {
       "id": "github-official",
@@ -175,7 +175,7 @@
       "type": "youtube",
       "url": "https://www.youtube.com/@elilab",
       "status": "verified-incomplete",
-      "role": "public audiovisual publishing; complete supplied export in Ilya-Minin-Eli.csv"
+      "role": "public audiovisual publishing; Ilya-Minin-Eli.csv is the 126-row source export and data/video_context.json is the structured description/context layer"
     },
     {
       "id": "telegram",
