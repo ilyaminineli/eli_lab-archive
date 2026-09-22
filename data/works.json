@@ -480,74 +480,6 @@
       ]
     },
     {
-      "id": "frow-telegram-trace",
-      "title": "FROW",
-      "year": "2026",
-      "medium": [
-        "art"
-      ],
-      "context": [
-        "social archive",
-        "illustration"
-      ],
-      "status": "candidate",
-      "description": "Recent visual work/post title visible in the eli_lab Telegram archive.",
-      "sources": [
-        "https://t.me/ilyaminineli"
-      ]
-    },
-    {
-      "id": "opossum-telegram-trace",
-      "title": "オポッサム",
-      "year": "2026",
-      "medium": [
-        "art"
-      ],
-      "context": [
-        "social archive",
-        "illustration"
-      ],
-      "status": "candidate",
-      "description": "Recent visual work/post title visible in the eli_lab Telegram archive.",
-      "sources": [
-        "https://t.me/ilyaminineli"
-      ]
-    },
-    {
-      "id": "birthday-gift-telegram-trace",
-      "title": "エリからエリーへの誕生日プレゼント",
-      "year": "2026",
-      "medium": [
-        "art"
-      ],
-      "context": [
-        "social archive",
-        "gift"
-      ],
-      "status": "candidate",
-      "description": "Recent birthday-gift work/post title visible in the eli_lab Telegram archive.",
-      "sources": [
-        "https://t.me/ilyaminineli"
-      ]
-    },
-    {
-      "id": "saint-sin-gift-telegram-trace",
-      "title": "New work for SAINT SIN",
-      "year": "2026",
-      "medium": [
-        "art"
-      ],
-      "context": [
-        "social archive",
-        "gift"
-      ],
-      "status": "candidate",
-      "description": "Telegram post describing a new work made as a gift for SAINT SIN; individual work title and metadata require verification.",
-      "sources": [
-        "https://t.me/ilyaminineli"
-      ]
-    },
-    {
       "id": "mountain-remembers",
       "title": "山は覚えている / The Mountain Remembers",
       "year": "2026",
@@ -745,7 +677,7 @@
     },
     {
       "id": "tetopocalypsis",
-      "title": "Tetopocalyspsis",
+      "title": "Tetopocalypsis",
       "year": "2025",
       "medium": [
         "video",
@@ -2046,7 +1978,8 @@
       "related_people": [
         "spalah79",
         "danylo-melnik"
-      ]
+      ],
+      "visibility": "private"
     },
     {
       "id": "frow",
