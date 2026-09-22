@@ -12,6 +12,7 @@
 - ELIAS ADAMS — historical/technical alias still present in older releases, repositories and profile material
 
 ### Practice axes supported by primary materials
+
 - visual art / graphics / painting / installation
 - sound art / experimental music / electroacoustic work
 - vocal synthesis / UTAU / OpenUtau / voicebank creation
@@ -26,29 +27,31 @@
 ## 2. Canonical primary sources
 
 ### Main public repositories
-- https://github.com/ilyaminineli/eli_lab_official — principal historical website + image archive
-- https://github.com/ilyaminineli/ELIASADAMS — current bio / practice map
-- https://github.com/ilyaminineli/Portfolio-site — earlier technical portfolio
-- https://github.com/ilyaminineli/eugene-utau — 友人 (Eugene) voicebank site and documentation
-- https://github.com/ilyaminineli/Iirai — イーライ / 茜音イーライ / 暁 voicebank family
-- https://github.com/ilyaminineli/text-to-ust — 響 Hiro procedural Japanese lyric→UST generator
-- https://github.com/ilyaminineli/eli_lab-voicebox — voicebank collection hub
-- https://github.com/ilyaminineli/jihanki-site — JIHANKI interactive archive
-- https://github.com/ilyaminineli/eli_lab-multimedia-framework — multimedia production framework
-- https://github.com/ilyaminineli/eli_lab_pipeline_hub — Blender pipeline addon
-- https://github.com/ilyaminineli/Belial_8 — Belial sound-art / live computer music platform
-- https://github.com/ilyaminineli/ewproject — EWP Project CGI abstract animation
-- https://github.com/ilyaminineli/Antokolskyj — Antokolskyj historical Blender animation
-- https://github.com/ilyaminineli/Pleiir — Pleiir audiovisual clip
-- https://github.com/ilyaminineli/gonkiitochka — Gonki i Tochka arcade racing game
-- https://github.com/ilyaminineli/parazit-web — PARAZIT digital archive / gallery
-- https://github.com/ilyaminineli/punk_exhibition — exhibition-related source repository
-- https://github.com/ilyaminineli/akane_iirai — Akane Iirai character project
-- https://github.com/ilyaminineli/eli_lab_sv_scripts — Synthesizer V scripting
-- https://github.com/ilyaminineli/eli_lab-pattern-generator — procedural music infrastructure
-- https://github.com/ilyaminineli/JPTrainer — Japanese-language learning experiment
+
+- <https://github.com/ilyaminineli/eli_lab_official> — principal historical website + image archive
+- <https://github.com/ilyaminineli/ELIASADAMS> — current bio / practice map
+- <https://github.com/ilyaminineli/Portfolio-site> — earlier technical portfolio
+- <https://github.com/ilyaminineli/eugene-utau> — 友人 (Eugene) voicebank site and documentation
+- <https://github.com/ilyaminineli/Iirai> — イーライ / 茜音イーライ / 暁 voicebank family
+- <https://github.com/ilyaminineli/text-to-ust> — 響 Hiro procedural Japanese lyric→UST generator
+- <https://github.com/ilyaminineli/eli_lab-voicebox> — voicebank collection hub
+- <https://github.com/ilyaminineli/jihanki-site> — JIHANKI interactive archive
+- <https://github.com/ilyaminineli/eli_lab-multimedia-framework> — multimedia production framework
+- <https://github.com/ilyaminineli/eli_lab_pipeline_hub> — Blender pipeline addon
+- <https://github.com/ilyaminineli/Belial_8> — Belial sound-art / live computer music platform
+- <https://github.com/ilyaminineli/ewproject> — EWP Project CGI abstract animation
+- <https://github.com/ilyaminineli/Antokolskyj> — Antokolskyj historical Blender animation
+- <https://github.com/ilyaminineli/Pleiir> — Pleiir audiovisual clip
+- <https://github.com/ilyaminineli/gonkiitochka> — Gonki i Tochka arcade racing game
+- <https://github.com/ilyaminineli/parazit-web> — PARAZIT digital archive / gallery
+- <https://github.com/ilyaminineli/punk_exhibition> — exhibition-related source repository
+- <https://github.com/ilyaminineli/akane_iirai> — Akane Iirai character project
+- <https://github.com/ilyaminineli/eli_lab_sv_scripts> — Synthesizer V scripting
+- <https://github.com/ilyaminineli/eli_lab-pattern-generator> — procedural music infrastructure
+- <https://github.com/ilyaminineli/JPTrainer> — Japanese-language learning experiment
 
 ### Private source repositories / internal candidates
+
 - Daly-Syndrome
 - outsider
 - who-is-eli
@@ -66,6 +69,7 @@
 ## 3. Confirmed material inventory from eli_lab_official
 
 ### Animation
+
 - EWP Project — CGI abstract animation, documented as 2023 in repository README
 - Daly Syndrome — in development / private source
 - Get Hit Below — existing historical page; metadata needs fresh verification
@@ -76,6 +80,7 @@
 - Tetopocalypsis — image archive present; definitive project metadata still requires verification
 
 ### Audio / sound
+
 - Geztålt
 - eli
 - Tanerlach
@@ -91,6 +96,7 @@
 - Bad Kase of Indiscretion
 
 ### Interactive / software
+
 - Belial — interactive / sound-art / software lineage
 - Hiro / 響 — procedural lyric→UST generator
 - eli_lab Pipeline Hub — Blender pipeline addon
@@ -98,6 +104,7 @@
 - voicebank systems — Eugene / Iirai / Akane Iirai / voicebox ecosystem
 
 ### Games
+
 - Desolation Odissey
 - Elysium
 - Metaliminal
@@ -107,6 +114,7 @@
 - Gonki i Tochka — collaborative Unity low-poly arcade racing game
 
 ### Art practice
+
 - Serial Experiments Lens
 - Graphics
 - Painting
@@ -120,6 +128,7 @@
 - Bonza / CG design material
 
 ### Collaboration / performance / documentation
+
 - Anna Mikhaylova
 - Asya Melnikova
 - Blikk
@@ -138,6 +147,7 @@
 ## 4. Image archive clusters to map
 
 ### CGI / 3D
+
 - images/CG/3D ESSENTIALS (2020-2021)/
 - images/CG/Latest/ — includes Bloody and Bloody 2
 - images/CG/Dessigns/
@@ -150,6 +160,7 @@
 CG For Site contains 3D design, album covers, events, logos, object studies and unfinished material.
 
 ### Artwork
+
 - images/Artwork/Graphics/Jewish gift/
 - images/Artwork/Installations/No Skin/
 - images/Artwork/Mixed Technique/
@@ -157,12 +168,14 @@ CG For Site contains 3D design, album covers, events, logos, object studies and 
 - images/Artwork/Single Photos/
 
 ### Animation
+
 - images/Animation/Tetopocalypsis*
 - images/Animation/the_last_day_of_KT*
 - images/Animation/the_last_day_of_KT_Additional*
 - images/Animation/triple_baka_screens*
 
 ### Teto / character image archive
+
 images/CG/Teto/ contains Young Teto, Adult Teto, Evil Teto, Teto in bath, Drilled by Love, Hanged Kasane, Kasane Snego, glasses, hate, headshot, coffin and droned studies.
 
 Do not automatically publish this entire folder as one artwork. Some records may be illustrations, studies, promotional material or private material.
@@ -170,20 +183,23 @@ Do not automatically publish this entire folder as one artwork. Some records may
 ## 5. Voice-synthesis branch
 
 ### 友人 (Eugene)
-https://github.com/ilyaminineli/eugene-utau
+<https://github.com/ilyaminineli/eugene-utau>
+
 - Japanese CVVC UTAU/OpenUtau voicebank
 - creator: Ilya Minin (Eli)
 - official repository includes character, manual, technical specification, usage and media documentation
 - site uses local paper textures and paper-button skeuomorphism
 
 ### イーライ / 茜音イーライ / 暁
-https://github.com/ilyaminineli/Iirai
+<https://github.com/ilyaminineli/Iirai>
+
 - Generation 1: イーライ / Iirai
 - Generation 2: 茜音イーライ / Akane Iirai
 - Generation 3: 茜音イーライ・暁 / Akane Iirai · Akatsuki
 
 ### 響 Hiro
-https://github.com/ilyaminineli/text-to-ust
+<https://github.com/ilyaminineli/text-to-ust>
+
 - mora-aware phonemization
 - procedural melody
 - motif memory
@@ -195,28 +211,29 @@ https://github.com/ilyaminineli/text-to-ust
 ## 6. Archive / interface branch
 
 ### JIHANKI
-https://github.com/ilyaminineli/jihanki-site
+<https://github.com/ilyaminineli/jihanki-site>
 
 Interactive archive presented as a Japanese vending machine. Documented contents include field notes, photographs, sounds, music, scripts, yokai research, Sonic Pi experiments and project documentation.
 
 The repository documents its origin at SAIKONEON / Lake Saiko / Yamanashi, Japan, during July 2026.
 
 ### PARAZIT
-https://github.com/ilyaminineli/parazit-web
+<https://github.com/ilyaminineli/parazit-web>
 
 Separate artist-run archive/gallery system with relational layers for artists, exhibitions, artworks, venues, documents, snapshots, sources and relations.
 
 ### who-is-eli
-https://github.com/ilyaminineli/who-is-eli
+<https://github.com/ilyaminineli/who-is-eli>
 
 Private conceptual archive/project. Inspect before merging records into the public personal works index.
 
 ## 7. External web traces found
 
 ### Bandcamp
-https://eliasadams.bandcamp.com
+<https://eliasadams.bandcamp.com>
 
 Visible discography includes:
+
 - ヴァレラおじいちゃんへ の音楽集
 - Abnormal Reflective Girl — Ilya Minin (eli), Kasane Teto, Liam, Akane Iirai
 - multiple geztålt releases
@@ -233,12 +250,13 @@ Visible discography includes:
 - Teqcnuilogiogistie — released 2019
 
 ### VLADEY
-https://vladey.net/ru/artist/minin-ilya
+<https://vladey.net/ru/artist/minin-ilya>
 
 Current profile identifies Ilya Minin (2001), a Rodchenko School student working in sound art, computer graphics and video, with research into acoustics and abstraction.
 
 Confirmed auction record:
-https://vladey.net/ru/lot/9223
+<https://vladey.net/ru/lot/9223>
+
 - Без названия 3 / Untitled 3
 - 2022
 - canvas, acrylic, unmounted
@@ -248,35 +266,40 @@ https://vladey.net/ru/lot/9223
 The auction page also preserves an artist statement describing abstraction through a code-like language of forms and strokes. Preserve source wording separately rather than silently rewriting it.
 
 ### SoundCloud / Rodchenko
-https://soundcloud.com/rodchenko_sound_lab/sets
+<https://soundcloud.com/rodchenko_sound_lab/sets>
+
 - a Rodchenko Sound Lab playlist titled Ilya Minin was published 2021-04-12
 
 ### VIDEODROME
+
 A 2026 web trace for the VIDEODROME phygital gallery programme lists The Last Day of Kasane Teto by Ilya Minin (Eli), 2025, runtime 3:36.
 
 ### CG Freelance / Telegram
+
 Search results expose eli_lab freelance/portfolio posts describing work in 3D visualization, animation, games and exhibition-oriented visual production.
 Treat these as service/commission traces, not automatically as artworks.
 
 ### UTAU Wiki
+
 Historical external documentation exists for イーライ / Iirai and the surrounding voicebank ecosystem.
 Use repository manuals as canonical technical sources.
 
 ### Nickname directory
-https://mynickname.com/id1791094
+<https://mynickname.com/id1791094>
 A nickname-registration page for eli_lab links the nickname to Ilya Minin and describes graphics, music, animation, video, installation and experimental art.
 
 ### Supplied but unresolved
-https://mdfschool.ru/en/projects/students/mininis
+<https://mdfschool.ru/en/projects/students/mininis>
 The URL was supplied as an educational trace, but the current page could not be fetched successfully and search results did not provide a reliable reconstruction. Keep as a verification task.
 
 ## 8. Social / contact traces
-- Telegram: https://t.me/ilyaminineli
-- X: https://x.com/ilyaminineli
-- Instagram: https://instagram.com/eli_lab_official
-- Behance: https://www.behance.net/eli_lab
-- Discord: https://discord.gg/elilab
-- GitHub: https://github.com/ELIASADAMS
+
+- Telegram: <https://t.me/ilyaminineli>
+- X: <https://x.com/ilyaminineli>
+- Instagram: <https://instagram.com/eli_lab_official>
+- Behance: <https://www.behance.net/eli_lab>
+- Discord: <https://discord.gg/elilab>
+- GitHub: <https://github.com/ELIASADAMS>
 
 ## 9. Potential name collision / exclusion
 
@@ -287,6 +310,7 @@ A Voices.com result for an Ilya Minin in Kfar Saba contains voice-acting commerc
 ## 10. Archive taxonomy
 
 ### Medium
+
 - Art
 - Painting
 - Drawing / Graphics
@@ -302,6 +326,7 @@ A Voices.com result for an Ilya Minin in Kfar Saba contains voice-acting commerc
 - Performance
 
 ### Context
+
 - Personal work
 - Collaboration
 - Commission
@@ -341,6 +366,7 @@ Suggested record fields:
     verification_status
 
 Verification status vocabulary:
+
 - confirmed — primary source
 - documented — reliable secondary/institutional source
 - legacy — historical source with incomplete details
@@ -351,6 +377,7 @@ Verification status vocabulary:
 ## 12. Immediate ingestion queue
 
 ### High-confidence
+
 - The Last Day of Kasane Teto
 - Triple Baka
 - EWP Project
@@ -371,6 +398,7 @@ Verification status vocabulary:
 - Pleiir
 
 ### Needs project-by-project verification
+
 - Tetopocalypsis
 - semi-spatial apartment
 - 3D Essentials
@@ -391,6 +419,7 @@ Verification status vocabulary:
 The supplied hardware photograph is a formal reference, not an asset.
 
 Translate these physical characteristics into UI:
+
 - matte painted-metal faceplates
 - black dividing lines
 - cream/off-white knobs
@@ -405,6 +434,7 @@ Translate these physical characteristics into UI:
 - metal + paper label + plastic knob + ink
 
 ### Blueprint layer
+
 - construction lines
 - grids
 - coordinate references
@@ -413,6 +443,7 @@ Translate these physical characteristics into UI:
 - module numbering
 
 ### Console layer
+
 - faceplates
 - knobs
 - switches
@@ -424,6 +455,7 @@ Translate these physical characteristics into UI:
 - tactile buttons
 
 ### Archive layer
+
 - paper documents
 - labels
 - photographs
@@ -435,6 +467,7 @@ Translate these physical characteristics into UI:
 Goal: **skeuomorphic artist archive**, not generic retro web.
 
 ## 14. Source-of-truth hierarchy
+
 1. Original work / project repository
 2. Artist-maintained website or documentation
 3. Institutional / exhibition record
@@ -450,6 +483,7 @@ Keep conflicts and uncertainty in archive_notes rather than silently erasing the
 `data/works.json` now contains **69 curated work records**. The separate `Ilya-Minin-Eli.csv` remains the exhaustive YouTube source register with **126 rows**; `VIDEO_CATALOG_MAP.md` normalizes those rows to 105 distinct title signatures for discovery while preserving duplicates in the original CSV.
 
 ## 16. Next research pass
+
 - map every public GitHub repository to a record or explicit exclusion
 - enumerate remaining eli_lab_official project pages
 - map every image cluster to the actual work
@@ -465,9 +499,11 @@ Keep conflicts and uncertainty in archive_notes rather than silently erasing the
 ## 17. 2026-09-22 Telegram / YouTube trace
 
 ### Telegram — @ilyaminineli
-Source: https://t.me/ilyaminineli
+
+Source: <https://t.me/ilyaminineli>
 
 The public channel currently exposes:
+
 - channel name: **eli_lab**
 - approximately 300 subscribers at the time of this research pass
 - 678 photos
@@ -479,6 +515,7 @@ The public channel currently exposes:
 - direct contact via **@eli_adams**
 
 Recent visible post subjects include:
+
 - **FROW**
 - **オポッサム**
 - **異常な反射少女**
@@ -491,7 +528,8 @@ Recent visible post subjects include:
 The channel also states that works and UTAU-related posts are among the material published there and links viewers toward the X account.
 
 ### YouTube — @elilab
-Source: https://www.youtube.com/@elilab
+
+Source: <https://www.youtube.com/@elilab>
 
 The channel was supplied as a primary publishing trace. Direct channel crawling was throttled during this research pass, so its complete current video inventory could not be reliably extracted.
 
@@ -501,7 +539,9 @@ A Telegram post from 2026-09-18 links to a YouTube video titled:
 Use the YouTube channel as a first-class external source in the archive, but do not claim an exhaustive video list until the channel can be enumerated reliably.
 
 ### Research implication
+
 Telegram appears to contain a substantial visual/posting archive in its own right. It should be treated as a source layer with:
+
 - post date
 - original caption
 - linked work

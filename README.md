@@ -36,4 +36,3 @@ The visual language is intentionally tactile and skeuomorphic: blueprint grids, 
 ## Future data layer
 
 The next architectural step is to move work metadata into structured project records, so a new work can be added once and automatically appear on the selected page, archive index and medium page. Images, video, audio and project documents can then live alongside those records in predictable folders.
-

@@ -7,6 +7,7 @@ The website is treated as a physical instrument, archive cabinet and working not
 Reference object: the supplied photograph of a modular analogue console.
 
 Translate:
+
 - painted metal faceplates
 - cream plastic knobs
 - black module dividers
@@ -21,6 +22,7 @@ Translate:
 ## Three visual layers
 
 ### 1. Blueprint
+
 - desaturated blue-grey ground
 - fine construction grid
 - coordinate lines
@@ -29,6 +31,7 @@ Translate:
 - technical annotations
 
 ### 2. Instrument
+
 - beveled faceplates
 - inset panels
 - rotary knobs
@@ -39,6 +42,7 @@ Translate:
 - mechanical shadows
 
 ### 3. Archive
+
 - warm paper
 - scanned image edges
 - typed metadata
@@ -52,6 +56,7 @@ Translate:
 Use texture as material evidence, not decoration.
 
 Good:
+
 - paper fibers
 - tactile noise
 - subtle scan irregularity
@@ -62,6 +67,7 @@ Good:
 - faint fingerprints or handling marks when an actual asset is available
 
 Avoid:
+
 - generic grunge overlays
 - fake dirt
 - excessive distress
@@ -73,7 +79,9 @@ Avoid:
 ## Existing reference systems
 
 ### eugene-utau
+
 The Eugene voicebank site already provides the closest existing design precedent:
+
 - warm paper palette
 - local texture assets
 - paper-button navigation
@@ -83,7 +91,9 @@ The Eugene voicebank site already provides the closest existing design precedent
 - character and technical information treated as a single archive
 
 ### JIHANKI
+
 Use its interface logic as an architectural precedent:
+
 - a machine is the archive interface
 - fixed systems and modules
 - archive data separated from media
@@ -91,7 +101,9 @@ Use its interface logic as an architectural precedent:
 - audio and interactive elements can coexist
 
 ### PARAZIT
+
 Use its relational archive model as a structural precedent:
+
 - entities are connected
 - provenance is explicit
 - uncertainty remains visible
@@ -108,6 +120,7 @@ Do not use typography to imitate a fictional vintage machine too literally. The 
 ## Interaction
 
 Interactions should feel like physical contact:
+
 - buttons depress
 - cards shift by a few pixels
 - indicators change state

@@ -3,7 +3,7 @@
 Working chart of the places where work, documentation and traces currently exist.
 
 | Source | Type | What it contains | Archive use | Status |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | GitHub / eli_lab_official | primary archive | historical website, 889-path image/site archive, project pages | work records, assets, historical provenance | confirmed |
 | GitHub / ELIASADAMS | identity index | current practice description, repo inventory, external links | identity, taxonomy, source graph | confirmed |
 | GitHub / eugene-utau | voicebank archive | Eugene site, paper textures, character assets, manuals, audio samples | voicebank work + visual language reference | confirmed |
@@ -34,6 +34,7 @@ Working chart of the places where work, documentation and traces currently exist
 ## Material families
 
 ### Physical / visual
+
 - canvas
 - acrylic
 - paper
@@ -49,6 +50,7 @@ Working chart of the places where work, documentation and traces currently exist
 - album-cover and identity design
 
 ### Sound
+
 - field recordings
 - synthesis
 - granular processing
@@ -60,6 +62,7 @@ Working chart of the places where work, documentation and traces currently exist
 - vocal recording / voicebank construction
 
 ### Moving image
+
 - animation
 - CGI
 - Blender
@@ -69,6 +72,7 @@ Working chart of the places where work, documentation and traces currently exist
 - screening documentation
 
 ### Interactive / software
+
 - HTML/CSS/JavaScript
 - Python
 - Max/MSP
@@ -79,6 +83,7 @@ Working chart of the places where work, documentation and traces currently exist
 - production-pipeline automation
 
 ### Research / documentary
+
 - field notes
 - Japanese folklore / yokai material
 - landscape observation

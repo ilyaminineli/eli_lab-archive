@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const escapeHTML = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
-        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
     }[char]));
 
     const tagFor = (row) => {
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }));
 
             [...new Set(records.map((r) => r.date?.slice(0, 4)).filter(Boolean))]
-                .sort((a,b) => Number(b)-Number(a))
+                .sort((a, b) => Number(b) - Number(a))
                 .forEach((year) => yearSelect.insertAdjacentHTML("beforeend", `<option value="${year}">${year}</option>`));
 
             const render = () => {
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     return (year === "all" || item.date?.startsWith(year)) && (!query || hay.includes(query));
                 });
 
-                count.textContent = `${String(visible.length).padStart(3,"0")} / ${records.length} records`;
+                count.textContent = `${String(visible.length).padStart(3, "0")} / ${records.length} records`;
                 list.innerHTML = visible.map((item) => `
                     <details class="video-record">
                         <summary>
