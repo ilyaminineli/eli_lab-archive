@@ -71,10 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const terminal = document.querySelector(".terminal-status");
         if (terminal) {
+            terminal.dataset.state = state;
             terminal.innerHTML =
                 '<span class="status-led" aria-hidden="true"></span>' +
-                '<span data-status-state>' + state + '</span><span>/</span>' +
-                '<span data-status-system>ARCHIVE</span><span>/</span>' +
+                '<span data-status-state>' + state + '</span><span class="status-divider">/</span>' +
+                '<span data-status-system>ARCHIVE</span><span class="status-divider">/</span>' +
                 '<span data-status-year>' + year + '</span>';
         }
 
