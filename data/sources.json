@@ -264,6 +264,70 @@
       "url": "https://borey.ru/",
       "status": "documented",
       "role": "Aibolit exhibition venue"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram @eli_lab_official",
+      "type": "instagram",
+      "url": "https://instagram.com/eli_lab_official",
+      "status": "linked-from-profile",
+      "role": "visual/social publishing trace"
+    },
+    {
+      "id": "behance",
+      "name": "Behance / eli_lab",
+      "type": "portfolio",
+      "url": "https://www.behance.net/eli_lab",
+      "status": "linked-from-profile",
+      "role": "visual portfolio trace"
+    },
+    {
+      "id": "discord",
+      "name": "ELI LAB Discord",
+      "type": "community",
+      "url": "https://discord.gg/elilab",
+      "status": "linked-from-profile",
+      "role": "community/contact trace"
+    },
+    {
+      "id": "tumblr",
+      "name": "ELI LAB Tumblr",
+      "type": "tumblr",
+      "url": "https://eli-lab.tumblr.com/",
+      "status": "linked-from-repository",
+      "role": "current publishing platform and theme target"
+    },
+    {
+      "id": "payment-bot-repo",
+      "name": "payment-bot",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/payment-bot",
+      "status": "external-client",
+      "role": "Alexander Zaloopin client/service bot; excluded from artwork canon"
+    },
+    {
+      "id": "who-is-eli-repo",
+      "name": "WHO IS ELI? repository",
+      "type": "github",
+      "url": "https://github.com/ilyaminineli/who-is-eli",
+      "status": "private",
+      "role": "current film production archive"
+    },
+    {
+      "id": "song-creator-context",
+      "name": "Song Creator project",
+      "type": "private-project",
+      "url": "https://github.com/ilyaminineli/eli_lab-archive",
+      "status": "private-context",
+      "role": "creative songwriting/lyrics production system"
+    },
+    {
+      "id": "vocaloid-jazz-context",
+      "name": "Vocaloid Jazz Album project",
+      "type": "private-project",
+      "url": "https://github.com/ilyaminineli/eli_lab-archive",
+      "status": "private-context",
+      "role": "album concept / potential jazz collaboration"
     }
   ]
 }
