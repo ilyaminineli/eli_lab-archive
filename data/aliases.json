@@ -1,0 +1,95 @@
+{
+  "updated": "2026-09-22",
+  "rules": [
+    "Aliases preserve old labels without creating duplicate canonical works.",
+    "Source titles from YouTube/old website may be less precise than the final work title.",
+    "Shorts, teasers, anniversary clips and alternate cuts remain source-level variants."
+  ],
+  "aliases": [
+    {
+      "label": "EWP Project (Original Cut)",
+      "canonical": "ewp-project",
+      "source": "youtube"
+    },
+    {
+      "label": "The Last Day of Kasane Teto — Experimental Animation",
+      "canonical": "the-last-day-of-kasane-teto",
+      "source": "youtube"
+    },
+    {
+      "label": "Abstract Shapes Animation",
+      "canonical": "spring-story",
+      "source": "old videoart page"
+    },
+    {
+      "label": "Glitch Art Experiment",
+      "canonical": "winter-story",
+      "source": "old videoart page"
+    },
+    {
+      "label": "Fragmented Memories",
+      "canonical": "enlightenment-i",
+      "source": "old videoart page"
+    },
+    {
+      "label": "Urban Dreams",
+      "canonical": "industrial-sanitation",
+      "source": "old videoart page"
+    },
+    {
+      "label": "20-s (二 十 歳)",
+      "canonical": "in-her-20s",
+      "source": "youtube"
+    },
+    {
+      "label": "二十歳 (In Her 20-s)",
+      "canonical": "in-her-20s",
+      "source": "youtube"
+    },
+    {
+      "label": "Someone's Voice",
+      "canonical": "someones-voice",
+      "source": "youtube / old site"
+    },
+    {
+      "label": "しあわせがこわい",
+      "canonical": "afraid-of-happiness",
+      "source": "youtube / old site"
+    },
+    {
+      "label": "I'm Afraid of Happiness",
+      "canonical": "afraid-of-happiness",
+      "source": "youtube"
+    },
+    {
+      "label": "Kagome Kagome",
+      "canonical": "kagome-kagome",
+      "source": "youtube / old site"
+    },
+    {
+      "label": "Fukkireta / 吹っ切れた",
+      "canonical": "fukkireta",
+      "source": "youtube"
+    },
+    {
+      "label": "DVAR - Pleiir (Unofficial Clip)",
+      "canonical": "pleiir",
+      "source": "youtube"
+    },
+    {
+      "label": "Re-Punk",
+      "canonical": "re-punk",
+      "source": "punk_exhibition"
+    },
+    {
+      "label": "Переизобретая панк",
+      "canonical": "pereizobretenie-punk",
+      "source": "punk_exhibition"
+    },
+    {
+      "label": "LAB ANOUNCEMENT 3",
+      "canonical": "lab-announcement-3",
+      "source": "old site / Bandcamp"
+    }
+  ]
+}
