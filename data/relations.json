@@ -970,11 +970,6 @@
       "from": "eli-lab-mv-titler",
       "relation": "related-to",
       "to": "eli-lab-mv"
-    },
-    {
-      "from": "parallel-vienna-oleg-ustinov",
-      "relation": "archive-source",
-      "to": "oleg-ustinov-official"
     }
   ],
   "groups": [
