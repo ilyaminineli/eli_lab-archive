@@ -80,7 +80,7 @@ The archive UI is now data-driven around one canonical public work layer. Naviga
 
 ## Remaining research
 
-1. Convert the 57 source-only YouTube rows into aliases / child variants / canonical works where evidence allows.
+1. Convert the 50 source-only YouTube rows into aliases / child variants / canonical works where evidence allows.
 2. Map the 595 visual assets to work IDs at asset level.
 3. Recover project-specific facts for the ambiguous game branch and old collaborator pages.
 4. Finish dedicated dossiers for major works instead of relying on generic record cards.
