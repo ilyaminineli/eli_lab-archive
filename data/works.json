@@ -19,7 +19,7 @@
       "sources": [
         "https://github.com/ilyaminineli/ewproject"
       ],
-      "external": [
+      "external_sources": [
         "https://www.youtube.com/watch?v=997vBAqNjm0"
       ]
     },
@@ -57,7 +57,7 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "external": [
+      "external_sources": [
         "https://www.youtube.com/",
         "https://i--active--space.orgs.biz/"
       ]
@@ -131,7 +131,7 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "external": [
+      "external_sources": [
         "https://vladey.net/ru/lot/9223"
       ]
     },
@@ -167,7 +167,7 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "external": [
+      "external_sources": [
         "https://eliasadams.bandcamp.com/album/lab-announcement-3"
       ]
     },
@@ -2550,6 +2550,26 @@
       "description": "Digital release currently listed in the Bandcamp discography.",
       "sources": [
         "https://eliasadams.bandcamp.com"
+      ]
+    },
+    {
+      "id": "geztalt-human",
+      "title": "ᛔㄖ㇄丂⼕廾㠪乃𝓝ㄚ丿 ለቴር",
+      "year": "2025",
+      "medium": [
+        "audio"
+      ],
+      "context": [
+        "geztalt",
+        "release"
+      ],
+      "status": "documented",
+      "description": "Digital album by geztålt, listed in the current Bandcamp catalogue.",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "related_works": [
+        "geztalt"
       ]
     }
   ]
