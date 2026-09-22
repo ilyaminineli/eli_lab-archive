@@ -22,11 +22,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     try {
-        const response = await fetch('../data/works.json');
-        if (!response.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
+        const [workResponse, relationResponse] = await Promise.all([
+            fetch('../data/works.json'),
+            fetch('../data/relations.json')
+        ]);
+        if (!workResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
 
-        const manifest = await response.json();
+        const manifest = await workResponse.json();
+        const graph = relationResponse.ok ? await relationResponse.json() : { edges: [], people: [], groups: [], places: [] };
         const works = manifest.works.filter((work) => work.visibility !== 'private');
+        const entityNames = new Map([
+            ...(graph.people || []).map((item) => [item.id, item.name]),
+            ...(graph.groups || []).map((item) => [item.id, item.name]),
+            ...(graph.places || []).map((item) => [item.id, item.name]),
+            ...works.map((item) => [item.id, item.title])
+        ]);
+        const relationNames = new Map();
+        (graph.edges || []).forEach((edge) => {
+            const workId = works.some(item => item.id === edge.from) ? edge.from : works.some(item => item.id === edge.to) ? edge.to : null;
+            if (!workId) return;
+            const targetId = edge.from === workId ? edge.to : edge.from;
+            if (!relationNames.has(workId)) relationNames.set(workId, []);
+            relationNames.get(workId).push(entityNames.get(targetId) || targetId);
+        });
 
         const matchesCatalog = (work, catalog) => {
             const medium = work.medium || [];
@@ -94,8 +112,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     media +
                     '<span>' + escapeHTML(work.year) + '</span></a>' +
                     '<div class="archive-work-info"><div><h2>' + escapeHTML(work.title) +
-                    '</h2><p>' + escapeHTML((work.medium || []).join(' / ')) +
+                    '</h2><p class="archive-work-meta">' + escapeHTML((work.medium || []).join(' / ')) +
                     (work.status ? ' / ' + escapeHTML(work.status) : '') +
+                    '</p><p class="archive-work-description">' + escapeHTML(work.description || '') +
                     '</p></div><span>↗</span></div></article>';
             }).join('') || '<p class="small-note">NO PUBLIC RECORDS IN THIS DIRECTORY.</p>';
 
@@ -105,7 +124,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 card.dataset.mediumWork = workId;
                 card.dataset.search = [
                     work?.title, work?.description, work?.year,
-                    ...(work?.medium || []), ...(work?.context || [])
+                    ...(work?.medium || []), ...(work?.context || []),
+                    ...(work?.sources || []), ...(work?.external_sources || []),
+                    ...(relationNames.get(workId) || [])
                 ].join(' ').toLowerCase();
             });
 
