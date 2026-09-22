@@ -5,7 +5,7 @@
 - **148 structured work records** — 143 public, 5 private.
 - **152 relation edges** across works, people, groups and places.
 - **23 title/label aliases** tracked for deduplication.
-- **41 registered sources**.
+- **40 registered art-practice sources**.
 - **47 GitHub repositories** in the linked `ilyaminineli` account — 31 public, 16 private.
 - **595 visual assets** indexed from `eli_lab_official`.
 - **126 YouTube source rows** preserved; 69 have first-pass canonical work joins and 57 remain source-only.
