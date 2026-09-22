@@ -8,9 +8,23 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const imageFor = (work) => work.thumbnail || '';
 
+    const pageLabels = {
+        art: 'VISUAL',
+        audio: 'SOUND',
+        vocal: 'VOICE',
+        animation: 'ANIMATION',
+        motion: 'MOTION',
+        video: 'VIDEO',
+        cgi: 'CGI / 3D',
+        interactive: 'INTERACTIVE',
+        software: 'SYSTEMS',
+        games: 'GAMES'
+    };
+
     try {
         const response = await fetch('../data/works.json');
         if (!response.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
+
         const manifest = await response.json();
         const works = manifest.works.filter((work) => work.visibility !== 'private');
 
@@ -25,21 +39,42 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return context.includes('collaboration') || context.includes('commission');
                 }
                 if (requestedContext === 'documentation') {
-                    return medium.some((m) => ['performance', 'exhibition'].includes(m)) ||
+                    return medium.some((m) => ['performance', 'exhibition', 'documentation'].includes(m)) ||
                         context.some((c) => ['performance', 'exhibition', 'screening', 'lecture', 'documentation', 'fieldwork', 'archive'].includes(c));
                 }
             }
 
             if (requestedMedium === 'art') {
-                return medium.some((m) => ['art', 'painting', 'drawing', 'installation', 'exhibition'].includes(m));
+                return medium.some((m) => ['art', 'painting', 'drawing', 'installation', 'cgi'].includes(m));
+            }
+            if (requestedMedium === 'motion') {
+                return medium.some((m) => ['animation', 'video'].includes(m));
             }
             return medium.includes(requestedMedium);
         };
 
         catalogs.forEach((catalog) => {
+            const requestedMedium = catalog.dataset.mediumCatalog;
             const selected = works
                 .filter((work) => matchesCatalog(work, catalog))
-                .sort((a, b) => String(b.year).localeCompare(String(a.year)));
+                .sort((a, b) => String(b.year).localeCompare(String(a.year)) || a.title.localeCompare(b.title));
+
+            const header = document.createElement('div');
+            header.className = 'medium-catalog-head';
+
+            const label = catalog.dataset.catalogContext === 'documentation'
+                ? 'DOCUMENTS'
+                : catalog.dataset.catalogContext === 'collaboration'
+                    ? 'PEOPLE / PROJECTS'
+                    : pageLabels[requestedMedium] || 'DIRECTORY';
+
+            header.innerHTML =
+                '<div><span class="medium-catalog-kicker">CANONICAL PUBLIC WORKS</span>' +
+                '<strong>' + escapeHTML(label) + '</strong></div>' +
+                '<div class="medium-catalog-meta"><span>' + String(selected.length).padStart(3, '0') + ' RECORDS</span>' +
+                '<a href="archive.html">ALL WORKS ↗</a></div>';
+
+            catalog.before(header);
 
             catalog.innerHTML = selected.map((work, index) => {
                 const classes = 'archive-work archive-work--dynamic';
