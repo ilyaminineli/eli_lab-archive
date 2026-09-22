@@ -8,7 +8,7 @@
 - **40 registered art-practice sources**.
 - **47 GitHub repositories** in the linked `ilyaminineli` account — 31 public, 16 private.
 - **595 visual assets** indexed from `eli_lab_official`.
-- **126 YouTube source rows** preserved; 69 have first-pass canonical work joins and 57 remain source-only.
+- **126 YouTube source rows** preserved; 76 have canonical work joins and 50 remain source-only.
 
 ## What changed
 
