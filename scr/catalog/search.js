@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const entityHref = (entity) =>
             entity.entityType === 'work'
                 ? 'record.html?id=' + encodeURIComponent(entity.id)
-                : 'network.html?focus=' + encodeURIComponent(entity.id);
+                : 'entity.html?id=' + encodeURIComponent(entity.id);
 
         const params = new URLSearchParams(location.search);
         if (input) input.value = params.get('q') || '';
