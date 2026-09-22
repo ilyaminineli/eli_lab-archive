@@ -28,6 +28,8 @@ Use this as a compact source map. Detailed interpretation lives under `research/
 | X / VK | social identity traces | research/sources/web.md |
 | VLADEY / Rodchenko / exhibition pages | institutional provenance | research/sources/web.md + performance.md |
 
+- Private client sites | administrative provenance only | `data/client_orders.json`
+
 ## Materials
 ### Physical
 canvas, acrylic, paper, pencil, capillary pen, felt-tip pens, crayons, plastic, lamps, colored paper, photography, collage.
