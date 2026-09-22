@@ -3,14 +3,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const filters = document.querySelectorAll('[data-filter]');
     const count = document.querySelector('[data-count]');
     const search = document.querySelector('#work-search');
+    const directoryLabel = document.querySelector('[data-active-directory]');
     if (!archiveTable) return;
 
     const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;',
-        "'": '&#039;'
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
     }[char]));
 
     try {
@@ -19,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const manifest = await response.json();
         const publicWorks = manifest.works.filter((work) => work.visibility !== 'private');
+        const workById = new Map(publicWorks.map((work) => [work.id, work]));
 
         const directoryFilters = {
             visual: (work) => (work.medium || []).some((m) => ['art', 'painting', 'drawing', 'installation', 'cgi'].includes(m)),
@@ -35,15 +33,24 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         };
 
+        const directoryNames = {
+            visual: 'VISUAL',
+            sound: 'SOUND',
+            voice: 'VOICE',
+            motion: 'MOTION',
+            systems: 'SYSTEMS',
+            games: 'GAMES',
+            documentation: 'DOCUMENTS'
+        };
+
         const params = new URLSearchParams(location.search);
-        const requestedDirectory = params.get('medium');
-        if (requestedDirectory && directoryFilters[requestedDirectory]) {
-            const activeButton = document.querySelector('[data-filter="' + requestedDirectory + '"]');
-            if (activeButton) {
-                filters.forEach((item) => item.classList.remove('is-active'));
-                activeButton.classList.add('is-active');
-            }
-        }
+        let activePreset = params.get('medium');
+        if (!directoryFilters[activePreset]) activePreset = null;
+
+        const updateDirectoryLabel = () => {
+            if (!directoryLabel) return;
+            directoryLabel.textContent = activePreset ? directoryNames[activePreset] + ' / DIRECTORY' : 'ALL / WORKS';
+        };
 
         const rows = publicWorks.map((work) => {
             const searchText = [
@@ -53,7 +60,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 ...(work.context || [])
             ].join(' ').toLowerCase();
 
-            return '<a class="archive-row" data-work data-medium="' +
+            return '<a class="archive-row" data-work data-work-id="' + escapeHTML(work.id) + '" data-medium="' +
                 escapeHTML([...(work.medium || []), ...(work.context || [])].join(' ')) +
                 '" data-search="' + escapeHTML(searchText) +
                 '" href="record.html?id=' + encodeURIComponent(work.id) + '">' +
@@ -73,19 +80,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             let visible = 0;
 
             allRows.forEach((row) => {
+                const work = workById.get(row.dataset.workId);
                 const media = row.dataset.medium || '';
                 const hay = row.dataset.search || '';
-                const requestedMatch = requestedDirectory && directoryFilters[requestedDirectory]
-                    ? directoryFilters[requestedDirectory](publicWorks.find((work) => work.id === row.getAttribute('data-work-id')) || {})
-                    : false;
-                const matchFilter = requestedMatch || filter === 'all' || media.split(' ').includes(filter) ||
-                    (filter === 'documentation' && /(performance|exhibition|screening|lecture|documentation|fieldwork|archive)/.test(media));
+                const matchFilter = activePreset
+                    ? directoryFilters[activePreset](work || {})
+                    : filter === 'all' || media.split(' ').includes(filter) ||
+                        (filter === 'documentation' && /(performance|exhibition|screening|lecture|documentation|fieldwork|archive)/.test(media));
                 const matchSearch = !query || hay.includes(query);
                 const match = matchFilter && matchSearch;
                 row.classList.toggle('is-hidden', !match);
                 if (match) visible += 1;
             });
 
+            updateDirectoryLabel();
             if (count) count.textContent = String(visible).padStart(3, '0') + ' records';
         };
 
@@ -93,9 +101,22 @@ document.addEventListener('DOMContentLoaded', async () => {
             button.addEventListener('click', () => {
                 filters.forEach((item) => item.classList.remove('is-active'));
                 button.classList.add('is-active');
+                activePreset = directoryFilters[button.dataset.filter] ? button.dataset.filter : null;
+                const next = new URL(location.href);
+                if (activePreset) next.searchParams.set('medium', activePreset);
+                else next.searchParams.delete('medium');
+                history.replaceState(null, '', next);
                 update();
             });
         });
+
+        const activeButton = activePreset
+            ? document.querySelector('[data-filter="' + activePreset + '"]')
+            : document.querySelector('[data-filter="all"]');
+        if (activeButton) {
+            filters.forEach((item) => item.classList.remove('is-active'));
+            activeButton.classList.add('is-active');
+        }
 
         search?.addEventListener('input', update);
         update();
