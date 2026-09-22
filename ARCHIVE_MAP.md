@@ -445,7 +445,11 @@ Goal: **skeuomorphic artist archive**, not generic retro web.
 
 Keep conflicts and uncertainty in archive_notes rather than silently erasing them.
 
-## 15. Next research pass
+## 15. Manifest status
+
+`data/works.json` now contains **69 curated work records**. The separate `Ilya-Minin-Eli.csv` remains the exhaustive YouTube source register with **126 rows**; `VIDEO_CATALOG_MAP.md` normalizes those rows to 105 distinct title signatures for discovery while preserving duplicates in the original CSV.
+
+## 16. Next research pass
 - map every public GitHub repository to a record or explicit exclusion
 - enumerate remaining eli_lab_official project pages
 - map every image cluster to the actual work
@@ -458,7 +462,7 @@ Keep conflicts and uncertainty in archive_notes rather than silently erasing the
 
 ---
 
-## 16. 2026-09-22 Telegram / YouTube trace
+## 17. 2026-09-22 Telegram / YouTube trace
 
 ### Telegram — @ilyaminineli
 Source: https://t.me/ilyaminineli
