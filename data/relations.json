@@ -146,6 +146,21 @@
       "id": "kolya-sadovnik",
       "name": "Kolya Sadovnik",
       "type": "collaborator"
+    },
+    {
+      "id": "sasha-e-b",
+      "name": "sasha e b / Sasha e b",
+      "type": "collaborator"
+    },
+    {
+      "id": "bvlkk",
+      "name": "Blikk / BVLKK",
+      "type": "collaborator"
+    },
+    {
+      "id": "roman-er",
+      "name": "Romaner",
+      "type": "collaborator"
     }
   ],
   "places": [
@@ -627,11 +642,6 @@
       "to": "kolya-sadovnik"
     },
     {
-      "from": "ilya-minin",
-      "relation": "member-of",
-      "to": "parazit"
-    },
-    {
       "from": "antokolskyj",
       "relation": "produced-by",
       "to": "grig-film"
@@ -660,6 +670,226 @@
       "from": "the-last-day-of-kasane-teto",
       "relation": "screened-at",
       "to": "videodrome"
+    },
+    {
+      "from": "daly-syndrome",
+      "relation": "co-created-with",
+      "to": "roman-er"
+    },
+    {
+      "from": "desolation-odissey",
+      "relation": "related-to",
+      "to": "metaliminal"
+    },
+    {
+      "from": "elysium",
+      "relation": "related-to",
+      "to": "metaliminal"
+    },
+    {
+      "from": "sleepdom",
+      "relation": "related-to",
+      "to": "metaliminal"
+    },
+    {
+      "from": "re-punk",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "re-punk",
+      "relation": "curated-in",
+      "to": "pereizobretenie-punk"
+    },
+    {
+      "from": "re-punk",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "re-punk",
+      "relation": "related-to",
+      "to": "pattern-generator"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "curated-by",
+      "to": "julia-baranyuk"
+    },
+    {
+      "from": "aibolit-sashaeb",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "aibolit-sashaeb",
+      "relation": "co-created-with",
+      "to": "sasha-e-b"
+    },
+    {
+      "from": "aibolit-sashaeb",
+      "relation": "exhibited-at",
+      "to": "parazit"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "exhibited-at",
+      "to": "rodchenko-school"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "directed-by",
+      "to": "grigoriy-ilugdin"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "bvlkk"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "roman-er"
+    },
+    {
+      "from": "eporgaanisten-rakenteiden-kierratys",
+      "relation": "co-created-with",
+      "to": "roman-er"
+    },
+    {
+      "from": "eporgaanisten-rakenteiden-kierratys",
+      "relation": "released-on",
+      "to": "nen-records"
+    },
+    {
+      "from": "lab-announcement-3",
+      "relation": "co-created-with",
+      "to": "roman-er"
+    },
+    {
+      "from": "geztalt-j-2025",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "geztalt-person-2025",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "geztalt-delta-2025",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "geztalt-ost-2025",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "geztalt-other-2025",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "get-hit-below",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "fukkireta",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "mudak",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "dymohod",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "pjesma-pro-ljubov",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "agonal-machines",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "enlightenment-i",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "ritual-big-fridge",
+      "relation": "part-of-series",
+      "to": "geztalt"
+    },
+    {
+      "from": "teto",
+      "relation": "related-to",
+      "to": "geztalt"
+    },
+    {
+      "from": "the-last-day-of-kasane-teto",
+      "relation": "related-to",
+      "to": "eugene"
+    },
+    {
+      "from": "the-last-day-of-kasane-teto",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "related-to",
+      "to": "jihanki"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "related-to",
+      "to": "japan-fuji-folklore"
+    },
+    {
+      "from": "six-yokai",
+      "relation": "related-to",
+      "to": "jihanki"
+    },
+    {
+      "from": "spring-story",
+      "relation": "archive-source",
+      "to": "eli_lab_official"
+    },
+    {
+      "from": "winter-story",
+      "relation": "archive-source",
+      "to": "eli_lab_official"
+    },
+    {
+      "from": "enlightenment-i",
+      "relation": "related-to",
+      "to": "fragmented-memories"
+    },
+    {
+      "from": "industrial-sanitation",
+      "relation": "related-to",
+      "to": "urban-dreams"
     }
   ],
   "groups": [
@@ -692,6 +922,11 @@
       "id": "videodrome",
       "name": "VIDEODROME",
       "type": "video-art programme"
+    },
+    {
+      "id": "nen-records",
+      "name": "NEN Records",
+      "type": "label"
     }
   ]
 }
