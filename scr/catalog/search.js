@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const workById = new Map(works.map(work => [work.id, work]));
         const names = new Map([
             ...works.map(work => [work.id, work.title]),
-            ...(graph.people || []).map(item => [item.id, item.name]),
-            ...(graph.groups || []).map(item => [item.id, item.name]),
+            ...(graph.people || []).flatMap(item => [[item.id, item.name], ...((item.aliases || []).map(alias => [item.id + '|alias|' + alias, alias]))]),
+            ...(graph.groups || []).flatMap(item => [[item.id, item.name], ...((item.aliases || []).map(alias => [item.id + '|alias|' + alias, alias]))]),
             ...(graph.places || []).map(item => [item.id, item.name])
         ]);
 
@@ -52,12 +52,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             ...(graph.people || []).map(person => ({
                 id: person.id, name: person.name, entityType: 'person', description: person.type,
                 meta: 'person / ' + person.type,
-                search: [person.id, person.name, person.type, ...works.filter(w => (relationMap.get(w.id) || []).includes(person.name)).map(w => w.title)].join(' ')
+                search: [person.id, person.name, ...(person.aliases || []), person.type, ...works.filter(w => (relationMap.get(w.id) || []).includes(person.name)).map(w => w.title)].join(' ')
             })),
             ...(graph.groups || []).map(group => ({
                 id: group.id, name: group.name, entityType: 'group', description: group.type,
                 meta: 'group / ' + group.type,
-                search: [group.id, group.name, group.type].join(' ')
+                search: [group.id, group.name, ...(group.aliases || []), group.type].join(' ')
             })),
             ...(graph.places || []).map(place => ({
                 id: place.id, name: place.name, entityType: 'place', description: place.type,
