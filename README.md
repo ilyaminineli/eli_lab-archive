@@ -40,8 +40,17 @@ Personal digital archive for multidisciplinary work by eli_lab.
 
 The site is built as an editorial archive rather than a conventional portfolio. The selected page is the invitation; the archive is the backbone; individual medium pages provide room for context and project records; the CV stays secondary and concise.
 
-The visual language is intentionally tactile and skeuomorphic: blueprint grids, painted-metal panels, cream paper labels, mono technical metadata, serif/sans typography, fine construction lines, rotary-control motifs, indicator lamps, subtle print textures and restrained vermilion/amber status marks. The goal is an artist archive that feels physically constructed, closer to an old instrument, technical drawing, artist publication or working dossier than a glossy agency portfolio. Placeholder media blocks are structural only and should be replaced by real project imagery as the archive is populated.
+The visual language is intentionally minimal and tactile, using a serious analog-terminal chassis: blueprint grids, painted-metal panels, cream paper labels, mono technical metadata, serif/sans typography, fine construction lines, rotary-control motifs, indicator lamps, subtle print textures and restrained vermilion/amber status marks. The goal is an artist archive that feels physically constructed, closer to an old instrument, technical drawing, artist publication or working dossier than a glossy agency portfolio. Placeholder media blocks are structural only and should be replaced by real project imagery as the archive is populated.
 
 ## Future data layer
 
 The next architectural step is to move work metadata into structured project records, so a new work can be added once and automatically appear on the selected page, archive index and medium page. Images, video, audio and project documents can then live alongside those records in predictable folders.
+
+## Current data snapshot
+
+- 141 structured work records (140 public + 1 private)
+- 133 relation edges
+- 595 indexed visual assets
+- 126 YouTube source rows
+- 105 normalized YouTube title signatures
+
