@@ -2,8 +2,8 @@
 
 ## Snapshot
 
-- **149 structured work records** — 144 public, 5 private.
-- **153 relation edges** across works, people, groups and places.
+- **148 structured work records** — 143 public, 5 private.
+- **152 relation edges** across works, people, groups and places.
 - **23 title/label aliases** tracked for deduplication.
 - **41 registered sources**.
 - **47 GitHub repositories** in the linked `ilyaminineli` account — 31 public, 16 private.
@@ -42,7 +42,7 @@ UTAU / OpenUtau voicebanks → Japanese songs → Kasane Teto videos → animati
 SAIKONEON → Lake Saiko → JIHANKI → Fuji Sonic Pi → Six Yokai → The Mountain Remembers → Japanese-language voicebank works.
 
 ### Archive as artwork
-JIHANKI, PARAZIT, Multimedia Framework, WHO IS ELI? and the current archive all treat classification, documentation or reconstruction as part of the artistic mechanism.
+JIHANKI, Multimedia Framework, WHO IS ELI? and the current archive all treat classification, documentation or reconstruction as part of the artistic mechanism.
 
 ### Production systems
 Pattern Generator, Hiro, SynthV scripts, Belial, Sonic Pi, Pipeline Hub, Multimedia Framework and the private MV editor form a continuous toolchain rather than unrelated utilities.
