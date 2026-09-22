@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
         setText("[data-status-repositories]", String(status.repositories ?? "—"));
         setText("[data-status-assets]", String(status.visual_assets ?? "—"));
         setText("[data-status-video]", String(status.video_source_rows ?? "—"));
+        setText("[data-status-media-folders]", String(status.media_work_folders ?? "—"));
         setText("[data-status-sync]", String(status.updated || "—"));
     };
 
