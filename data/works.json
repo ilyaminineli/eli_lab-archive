@@ -2046,6 +2046,36 @@
       "sources": [
         "https://t.me/ilyaminineli"
       ]
+    },
+    {
+      "id": "geztalt",
+      "title": "Geztålt",
+      "year": "2020s",
+      "medium": [
+        "audio",
+        "video",
+        "performance"
+      ],
+      "context": [
+        "collaboration",
+        "project",
+        "experimental"
+      ],
+      "status": "confirmed",
+      "description": "Collaborative project / alliance exploring cultural forms through wordplay, sound performances, media content, introspection, imitation and simulation.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "get-hit-below",
+        "fukkireta",
+        "pjesma-pro-ljubov",
+        "dymohod",
+        "mudak",
+        "agonal-machines",
+        "enlightenment-i",
+        "ritual-big-fridge"
+      ]
     }
   ]
 }
