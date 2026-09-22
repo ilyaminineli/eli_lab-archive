@@ -256,6 +256,14 @@
       "url": "https://mynickname.com/id1791094",
       "status": "secondary",
       "role": "historical nickname/practice trace"
+    },
+    {
+      "id": "borey",
+      "name": "Gallery Borey",
+      "type": "gallery",
+      "url": "https://borey.ru/",
+      "status": "documented",
+      "role": "Aibolit exhibition venue"
     }
   ]
 }
