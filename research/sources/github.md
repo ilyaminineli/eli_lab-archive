@@ -2,7 +2,7 @@
 
 Current account inventory: **47 repositories**: 31 public, 16 private.
 
-The machine-readable inventory is `data/repositories.json`. It records current visibility and a conservative archive role. A repository may be a finished work, production archive, creative tool, publishing layer, private system, experiment, or external/client project.
+The machine-readable inventory is `data/repositories.json`. Private client-site traces are separated in `data/client_orders.json` and never enter the art-practice work graph. It records current visibility and a conservative archive role. A repository may be a finished work, production archive, creative tool, publishing layer, private system, experiment, or external/client project.
 
 ## Key clusters
 
