@@ -2496,3 +2496,17 @@ body::after {
         border-left: 0;
     }
 }
+.archive-toolbar {
+    grid-template-columns: minmax(15rem, 1fr) minmax(0, auto);
+}
+.archive-search {
+    min-width: min(22rem, 100%);
+    align-self: center;
+}
+.archive-search input {
+    min-height: 1.9rem;
+}
+@media (max-width: 760px) {
+    .archive-toolbar { display: grid; grid-template-columns: 1fr; }
+    .archive-search { min-width: 0; }
+}
