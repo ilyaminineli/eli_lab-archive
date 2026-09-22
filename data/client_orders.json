@@ -1,0 +1,20 @@
+{
+  "updated": "2026-09-22",
+  "notes": "Private/client site systems retained only as administrative provenance. They are excluded from the personal art-practice manifest and relationship graph.",
+  "sites": [
+    {
+      "id": "parazit-web",
+      "name": "PARAZIT",
+      "repository": "https://github.com/ilyaminineli/parazit-web",
+      "role": "private client order / separate gallery-archive site system",
+      "include_in_art_archive": false
+    },
+    {
+      "id": "oleg-ustinov-official",
+      "name": "Oleg Ustinov — Artist Website",
+      "repository": "https://github.com/ilyaminineli/oleg_ustinov_official",
+      "role": "private client order / separate artist website",
+      "include_in_art_archive": false
+    }
+  ]
+}
