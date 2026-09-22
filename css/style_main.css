@@ -3892,3 +3892,72 @@ body::after {
     letter-spacing: .03em;
     overflow-wrap: anywhere;
 }
+
+
+.record-assets {
+    margin-top: .7rem;
+}
+
+.record-assets > .small-note {
+    margin: 0 0 .55rem;
+    max-width: 80ch;
+    line-height: 1.6;
+}
+
+.asset-candidates {
+    display: grid;
+    gap: .2rem;
+}
+
+.asset-candidate {
+    display: grid;
+    grid-template-columns: 2rem minmax(0,1fr) 11rem;
+    gap: .45rem;
+    align-items: center;
+    padding: .38rem .42rem;
+    color: #2f3a36;
+    background: #dfe4de;
+    border: 1px solid #8a958f;
+}
+
+.asset-candidate:hover {
+    background: #edf0eb;
+}
+
+.asset-candidate > span {
+    color: #a24a37;
+    font: 500 .46rem/1 "DM Mono",monospace;
+}
+
+.asset-candidate strong {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #36423e;
+    font: 500 .48rem/1.25 "DM Mono",monospace;
+}
+
+.asset-candidate em {
+    color: #6b7772;
+    font: 500 .42rem/1.2 "DM Mono",monospace;
+    font-style: normal;
+    text-align: right;
+}
+
+.record-media-path a {
+    color: inherit;
+}
+
+.record-media-path a:hover {
+    color: #d7a05e;
+}
+
+@media (max-width: 700px) {
+    .asset-candidate {
+        grid-template-columns: 1.6rem minmax(0,1fr);
+    }
+
+    .asset-candidate em {
+        display: none;
+    }
+}
