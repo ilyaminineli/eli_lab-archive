@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const entity = entityMap.get(id);
             if (!entity) return 'network.html';
             if (entity.type === 'work') return 'record.html?id=' + encodeURIComponent(id);
-            return 'network.html?focus=' + encodeURIComponent(id);
+            return 'entity.html?id=' + encodeURIComponent(id);
         };
 
         const renderConnection = (edge, workId) => {
