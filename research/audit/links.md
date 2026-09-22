@@ -92,8 +92,19 @@ Examples:
 - Related works should use the same canonical record route.
 - Video source rows should link to their canonical parent work where relation confidence is established.
 
-## Current page-level problems
-- Old category pages still contain some structural placeholder cards.
-- Software page currently has only a Belial record; Pipeline Hub needs a record link.
-- Video is a CSV register and therefore needs canonical work joins in a later pass.
-- Documentation needs event records rather than generic placeholders.
+## Current site-level routing state
+- Primary navigation is normalized to INDEX / WORKS / MAP / DOCS / PEOPLE / CV on every HTML page.
+- Medium directories render from the same public `works.json` manifest and now expose local search.
+- `pgs/search.html` provides unified search across works and network entities.
+- `pgs/network.html` supports both free-text search and entity focus via `?focus=ENTITY_ID`.
+- `pgs/record.html?id=WORK_ID` is the canonical work route; relation targets use network focus IDs.
+- `pgs/video.html` remains a source-level register, while `pgs/motion.html` is the canonical motion directory.
+
+## Known content-depth gaps
+- Most works now have a short description, but only a subset have thumbnails or dedicated process/media dossiers.
+- The Video register is exhaustive, but 57 source rows still need manual canonical normalization.
+- Art-practice subseries still lack individual child records for every named photograph/collage/painting.
+- Several game pages remain ambiguous source traces and need project-specific verification.
+
+## UI audit note
+Network filtering now hides non-matching project cards through the shared `.is-hidden` rule; the old implementation only hid archive table rows.
