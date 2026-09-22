@@ -87,7 +87,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                         '<em>' + escapeHTML(item.roles.join(' / ')) + '</em><b>↗</b></a>'
                     ).join('') || '<p class="small-note">No public project relations recorded.</p>';
 
-                const observation = observationById.get(person.id);
                 const observedRoles = observation?.roles_observed || [];
                 const personaNote = observation?.persona_notes || '';
                 return '<article class="person-card' + (match ? '' : ' is-hidden') + '" data-person>' +
