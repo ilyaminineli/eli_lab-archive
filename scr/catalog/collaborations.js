@@ -68,8 +68,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             list.innerHTML = people.map(person => {
                 const projectNames = person.projects.map(item => item.work.title).join(' ');
-                const blob = [person.name, ...(person.aliases || []), person.type, projectNames, ...person.projects.flatMap(item => item.roles)]
-                    .join(' ').toLowerCase();
+                const observation = observationById.get(person.id);
+                const blob = [
+                    person.name, ...(person.aliases || []), person.type, projectNames,
+                    ...person.projects.flatMap(item => item.roles),
+                    ...(observation?.source_forms || []),
+                    ...(observation?.roles_observed || []),
+                    observation?.persona_notes || ''
+                ].join(' ').toLowerCase();
                 const match = !query || blob.includes(query);
                 if (match) visible += 1;
 
