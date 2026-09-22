@@ -6,7 +6,7 @@ Use this as a compact source map. Detailed interpretation lives under `research/
 
 - `eli_lab_official`: **595 image files** currently indexed in `data/assets.json`.
 - YouTube CSV: **126 source rows**.
-- Structured work manifest: **148 records** (148 public + 5 private).
+- Structured work manifest: **153 records** (148 public + 5 private).
 
 ## Primary material sources
 | Source | Medium / role | Archive destination |
