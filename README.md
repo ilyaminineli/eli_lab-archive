@@ -18,6 +18,7 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/games.html` — games archive
 - `pgs/vocal.html` — vocal synthesis / voicebank archive
 - `pgs/search.html` — unified search across public works and network entities
+- `pgs/sources.html` — searchable provenance/source register
 - `pgs/documentation.html` — documentation, exhibition and field records
 - `pgs/collaborations.html` — people / collaborator index
 - `pgs/network.html` — grouped project relationship map with entity focus
@@ -28,6 +29,9 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `data/sources.json` — source registry
 - `data/assets.json` — 595-image asset inventory
 - `data/video_context.json` — structured YouTube descriptions, links and credit context
+- `data/video_links.json` — cross-video links extracted from descriptions
+- `data/dossiers.json` — structured dossier scaffold for every work
+- `data/csv_entities.json` — exact CSV-derived naming/role observations
 - `data/asset_candidates.json` — conservative visual asset candidates for manual review
 - `data/repositories.json` — current 47-repository account inventory, including separately marked client/private-order repositories
 - `data/client_orders.json` — private client-site traces excluded from the art-practice graph
