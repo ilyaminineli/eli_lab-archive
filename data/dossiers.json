@@ -1,0 +1,4394 @@
+{
+  "updated": "2026-09-23",
+  "version": "1.0",
+  "notes": "Structured dossier layer. Existing values are archive-derived; empty arrays are deliberate expansion slots for future project-specific material.",
+  "works": {
+    "ewp-project": {
+      "work_id": "ewp-project",
+      "title": "EWP Project",
+      "summary": "CGI abstract animation about a demon in human form returning to his hometown. The 2023 short combines abstract imagery with themes of alienation, identity and generational disconnect, with Ilya Minin (Eli) as director and a documented production crew.",
+      "year": "2023",
+      "status": "confirmed",
+      "media_dir": "media/works/ewp-project/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/ewproject"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=997vBAqNjm0"
+      ],
+      "video_source_ids": [
+        "gL7di-eXDmE"
+      ],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "blikk",
+          "name": "Blikk / BVLKK",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "spalah79",
+          "name": "Spalah79 / Spalah",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "romaner",
+          "name": "Romaner",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "marusia-izdebska",
+          "name": "Marysia Izdebska",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "e6",
+          "name": "e/6",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "marusia-izdebska",
+          "name": "Marysia Izdebska",
+          "relation": "narrated-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "bogorodskoe": {
+      "work_id": "bogorodskoe",
+      "title": "Bogorodskoe",
+      "summary": "Experimental short film and comedy series about Bogorodskoye, created with Yulia Baranyuk in 2022. The project reconstructs local history through performance, theatre, music, dancing, fairground culture and deliberately chaotic contemporary video language, drawing on collected local-history essays and articles.",
+      "year": "2022",
+      "status": "legacy",
+      "media_dir": "media/works/bogorodskoe/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=_KpvIF-fgs8"
+      ],
+      "video_source_ids": [
+        "_KpvIF-fgs8"
+      ],
+      "credits": [
+        {
+          "entityId": "julia-baranyuk",
+          "name": "Julia Baranyuk",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "anna-malakhova",
+          "name": "Anna Malakhova",
+          "relation": "features"
+        },
+        {
+          "entityId": "olga-romanova",
+          "name": "Olga Romanova",
+          "relation": "features"
+        },
+        {
+          "entityId": "vasiliy-ivanov",
+          "name": "Vasiliy Ivanov",
+          "relation": "features"
+        },
+        {
+          "entityId": "vladimir-pilikhovski",
+          "name": "Vladimir Pilikhovski",
+          "relation": "features"
+        },
+        {
+          "entityId": "sergey-bratkov",
+          "name": "Sergey Bratkov",
+          "relation": "features"
+        },
+        {
+          "entityId": "oleg-ustinov",
+          "name": "Oleg Ustinov",
+          "relation": "features"
+        },
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "the-last-day-of-kasane-teto": {
+      "work_id": "the-last-day-of-kasane-teto",
+      "title": "The Last Day of Kasane Teto",
+      "summary": "Animated work featuring Kasane Teto.",
+      "year": "2025",
+      "status": "documented",
+      "media_dir": "media/works/the-last-day-of-kasane-teto/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/",
+        "https://i--active--space.orgs.biz/"
+      ],
+      "video_source_ids": [
+        "qxnTJGDGPWc"
+      ],
+      "credits": [
+        {
+          "entityId": "videodrome",
+          "name": "VIDEODROME",
+          "relation": "screened-at"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "triple-baka": {
+      "work_id": "triple-baka",
+      "title": "Triple Baka",
+      "summary": "Animation / music-video record.",
+      "year": "2025",
+      "status": "confirmed",
+      "media_dir": "media/works/triple-baka/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "MK1-yavSP3k"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "3d-essentials": {
+      "work_id": "3d-essentials",
+      "title": "3D Essentials",
+      "summary": "A large CGI study and render cluster in the historical image archive.",
+      "year": "2020–2021",
+      "status": "confirmed",
+      "media_dir": "media/works/3d-essentials/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "semi-spatial-apartment": {
+      "work_id": "semi-spatial-apartment",
+      "title": "Semi-spatial Apartment",
+      "summary": "Environment and spatial CGI archive cluster.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/semi-spatial-apartment/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "untitled-3": {
+      "work_id": "untitled-3",
+      "title": "Без названия 3 / Untitled 3",
+      "summary": "Canvas and acrylic, 200 × 150 cm.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/untitled-3/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://vladey.net/ru/lot/9223"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "videodrome",
+          "name": "VIDEODROME",
+          "relation": "documented-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "jewish-gift": {
+      "work_id": "jewish-gift",
+      "title": "A gift to a Jewish fund",
+      "summary": "Four sheets using pencil, capillary pen, felt-tip pens and crayons.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/jewish-gift/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "lab-announcement-3": {
+      "work_id": "lab-announcement-3",
+      "title": "Lab Announcement 3",
+      "summary": "Electroacoustic release described with analogue instrumentation, processed field recordings, microchromatics and granular synthesis.",
+      "year": "2023",
+      "status": "documented",
+      "media_dir": "media/works/lab-announcement-3/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://eliasadams.bandcamp.com/album/lab-announcement-3"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "romaner",
+          "name": "Romaner",
+          "relation": "co-created-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "blue-neon": {
+      "work_id": "blue-neon",
+      "title": "Blue Neon",
+      "summary": "Current jazz / vocal-synth project in development for the new album.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/blue-neon/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "no-one-is-listening": {
+      "work_id": "no-one-is-listening",
+      "title": "NO ONE IS LISTENING",
+      "summary": "Current jazz / vocal-synth project in development.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/no-one-is-listening/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "eugene": {
+      "work_id": "eugene",
+      "title": "友人 / Eugene",
+      "summary": "Japanese CVVC UTAU / OpenUtau voicebank by Ilya Minin (Eli), designed around a warm, intimate tone with a slightly uncanny edge. The released bank uses three recorded pitches and is documented for expressive Japanese singing, especially dark pop, industrial and experimental material.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/eugene/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eugene-utau"
+      ],
+      "external_sources": [
+        "https://eliasadams.github.io/eugene-utau/",
+        "https://github.com/ELIASADAMS/eugene-utau/releases"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "possum-eugene",
+          "name": "Possum Eugene",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "eikton",
+          "name": "eikton",
+          "relation": "co-created-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "iirai": {
+      "work_id": "iirai",
+      "title": "イーライ / Iirai family",
+      "summary": "Three-generation Japanese UTAU voicebank family: イーライ, 茜音イーライ and 茜音イーライ・暁. The project preserves earlier generations while developing new recordings, appends, technical documentation and character presentation.",
+      "year": "2025–",
+      "status": "confirmed",
+      "media_dir": "media/works/iirai/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/Iirai"
+      ],
+      "external_sources": [
+        "https://ilyaminineli.github.io/Iirai/"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "schenchik",
+          "name": "Schenchik",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "eikton",
+          "name": "eikton",
+          "relation": "co-created-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "hiro": {
+      "work_id": "hiro",
+      "title": "響 Hiro",
+      "summary": "Procedural Japanese lyric-to-UST generator and tuning assistant with mora-aware phonemization, procedural melody, motif reuse, Japanese pitch-accent support, timing variation, dynamics and optional microtonal pitch-bend expression.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/hiro/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/text-to-ust"
+      ],
+      "external_sources": [
+        "https://github.com/ilyaminineli/text-to-ust"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "belial": {
+      "work_id": "belial",
+      "title": "Belial",
+      "summary": "Max/MSP live computer-music and sound-art platform using sample-based real-time manipulation and semi-algorithmic processing. The repository is organized around modular patchers for mixing, ambience, granular processing, rhythm, effects and live control.",
+      "year": "2023–",
+      "status": "confirmed",
+      "media_dir": "media/works/belial/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/Belial_8"
+      ],
+      "external_sources": [
+        "https://github.com/ilyaminineli/Belial_8"
+      ],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pipeline-hub": {
+      "work_id": "pipeline-hub",
+      "title": "eli_lab Pipeline Hub",
+      "summary": "Blender addon for asset management, scene setup, linked libraries, export, render and pipeline automation.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/pipeline-hub/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_pipeline_hub"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "gonki-i-tochka": {
+      "work_id": "gonki-i-tochka",
+      "title": "Gonki i Tochka",
+      "summary": "Unity low-poly arcade racing game made with Mikhail Tenkovsky and Artyom Merkushev.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/gonki-i-tochka/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/gonkiitochka"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "mikhail-tenkovsky",
+          "name": "Mikhail Tenkovsky",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "artyom-merkushev",
+          "name": "Artyom Merkushev",
+          "relation": "co-created-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "jihanki": {
+      "work_id": "jihanki",
+      "title": "JIHANKI",
+      "summary": "Web-based interactive archive presented as a Japanese vending machine interface, combining texts, sounds, photographs, scripts and project documentation. It grew from the SAIKONEON / Lake Saiko field experience in Japan and treats the vending machine as the archive's interaction model.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/jihanki/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/jihanki-site"
+      ],
+      "external_sources": [
+        "https://github.com/ilyaminineli/jihanki-site"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "julia-baranyuk",
+          "name": "Julia Baranyuk",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "saikoneon",
+          "name": "SAIKONEON",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "antokolskyj": {
+      "work_id": "antokolskyj",
+      "title": "Antokolskyj",
+      "summary": "Historical Blender animation created with Anna Yuytova for GRIG Film.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/antokolskyj/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/Antokolskyj"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "anna-yuytova",
+          "name": "Anna Yuytova",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "grigoriy-ilugdin",
+          "name": "Grigoriy Ilugdin",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "grig-film",
+          "name": "GRIG Film",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "grig-film",
+          "name": "GRIG Film",
+          "relation": "produced-by"
+        },
+        {
+          "entityId": "rodchenko-school",
+          "name": "Rodchenko School of Photography and Multimedia",
+          "relation": "archive-source"
+        },
+        {
+          "entityId": "grigoriy-ilugdin",
+          "name": "Grigoriy Ilugdin",
+          "relation": "directed-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pleiir": {
+      "work_id": "pleiir",
+      "title": "Pleiir",
+      "summary": "Audiovisual clip; Ilya Minin (Eli) credited as director, animator and technical artist.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/pleiir/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/Pleiir"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "fVjXju_4J5E"
+      ],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "spalah79",
+          "name": "Spalah79 / Spalah",
+          "relation": "co-created-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "videodrome": {
+      "work_id": "videodrome",
+      "title": "VIDEODROME screening trace",
+      "summary": "External exhibition/screening trace listing The Last Day of Kasane Teto.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/videodrome/",
+      "media_status": "planned",
+      "sources": [
+        "https://i--active--space.orgs.biz/"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "live-one-gog": {
+      "work_id": "live-one-gog",
+      "title": "Live in One Gog Center",
+      "summary": "Live sound / performance record present in the Bandcamp discography.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/live-one-gog/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "magic-orgy": {
+      "work_id": "magic-orgy",
+      "title": "Magic Orgy",
+      "summary": "Digital album by Ilya Minin (Eli).",
+      "year": "2018",
+      "status": "documented",
+      "media_dir": "media/works/magic-orgy/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/magic-orgy"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "teqcnuilogiogistie": {
+      "work_id": "teqcnuilogiogistie",
+      "title": "Teqcnuilogiogistie",
+      "summary": "Digital album by Ilya Minin (Eli).",
+      "year": "2019",
+      "status": "documented",
+      "media_dir": "media/works/teqcnuilogiogistie/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/teqcnuilogiogistie"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "abnormal-reflective-girl": {
+      "work_id": "abnormal-reflective-girl",
+      "title": "異常な反射少女 / Abnormal Reflective Girl",
+      "summary": "Release credited to Ilya Minin (eli) with Kasane Teto, Liam and Akane Iirai; also appears as a recent Telegram post.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/abnormal-reflective-girl/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com",
+        "https://t.me/ilyaminineli"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "mountain-remembers": {
+      "work_id": "mountain-remembers",
+      "title": "山は覚えている / The Mountain Remembers",
+      "summary": "Experimental audiovisual work built from a Fuji-area journey, field recordings, memory and folklore; uses Akane Iirai, Eugene and Takismana.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/mountain-remembers/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official",
+        "https://www.youtube.com/watch?v=wpBQbRItMnc"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "wpBQbRItMnc"
+      ],
+      "credits": [
+        {
+          "entityId": "toshimitsu-kobayashi",
+          "name": "Toshimitsu Kobayashi",
+          "relation": "special-thanks-to"
+        },
+        {
+          "entityId": "masagire-miura",
+          "name": "Masagire Miura",
+          "relation": "special-thanks-to"
+        },
+        {
+          "entityId": "dynakyris",
+          "name": "DYNAKYRIS",
+          "relation": "special-thanks-to"
+        },
+        {
+          "entityId": "julia-baranyuk",
+          "name": "Julia Baranyuk",
+          "relation": "performed-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "six-yokai": {
+      "work_id": "six-yokai",
+      "title": "富士山六大妖怪 / Six Yokai of Mount Fuji",
+      "summary": "Fictional folkloric video archive created in Japan as part of the Saikoneon project.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/six-yokai/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official",
+        "https://www.youtube.com/watch?v=X1lK-y6ms2o"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "X1lK-y6ms2o"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "in-her-20s": {
+      "work_id": "in-her-20s",
+      "title": "二十歳 / In Her 20-s",
+      "summary": "Original UTAU audiovisual work featuring Akane Iirai, built from hospital, ambulance, moon, medication and disappearance imagery.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/in-her-20s/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=OcFF8Med9fQ"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "DoYyGbaN1tE",
+        "O9Z975ee1Ns",
+        "OcFF8Med9fQ",
+        "qMCYjbl0u7g",
+        "JpZqWAC6Mv0"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "childs-sky": {
+      "work_id": "childs-sky",
+      "title": "子供の空 / Child's Sky",
+      "summary": "Original UTAU audiovisual work featuring Kasane Teto and Akane Iirai, using fragmented childhood memory and surreal landscape.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/childs-sky/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=T4N2ELKcowI"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "T4N2ELKcowI"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "someones-voice": {
+      "work_id": "someones-voice",
+      "title": "だれかの声 / Someone's Voice",
+      "summary": "Original UTAU work about a voice inside the head that begins to feel more real than the speaker.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/someones-voice/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=TJROlmgboT8"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "TJROlmgboT8"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "afraid-of-happiness": {
+      "work_id": "afraid-of-happiness",
+      "title": "しあわせがこわい / I'm Afraid of Happiness",
+      "summary": "Original UTAU release featuring Eugene.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/afraid-of-happiness/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=K9z59T5WcG0"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "apbx1EJ1Mtg",
+        "4VDlmj1DYJo",
+        "K9z59T5WcG0",
+        "G9Dd3G2uzV4",
+        "t_9eOHFA1SI"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "fighting-postmodernism": {
+      "work_id": "fighting-postmodernism",
+      "title": "Fighting Postmodernism",
+      "summary": "Surreal audiovisual retrospective built around an eli_lab project about searching for meaning within chaos. The main 1:42 version combines music, aerial perspectives, descent and liminal spaces and was published with a set of short anniversary cuts dedicated to Basil Ivanov.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/fighting-postmodernism/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "basil-ivanov",
+          "name": "Basil Ivanov",
+          "relation": "dedicated-to"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "kagome-kagome": {
+      "work_id": "kagome-kagome",
+      "title": "かごめかごめ / Kagome Kagome",
+      "summary": "UTAU / experimental music work connected to the Iirai voicebank.",
+      "year": "2025",
+      "status": "confirmed",
+      "media_dir": "media/works/kagome-kagome/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=Z5YlhWNQC58"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "QrCdYSfzz0o",
+        "nEZFTuR24Xw",
+        "Z5YlhWNQC58",
+        "Pent-Psrloo",
+        "lVFrJuRRFgQ",
+        "KpAnmELow2I"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "get-hit-below": {
+      "work_id": "get-hit-below",
+      "title": "Get Hit Below",
+      "summary": "Kasane Teto Synthesizer V work credited to geztålt × Ilya Minin (Eli).",
+      "year": "2025",
+      "status": "confirmed",
+      "media_dir": "media/works/get-hit-below/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=i-LO9ksv9MQ"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "thTfSHRGUMk",
+        "oo4p0jtRk9c",
+        "OVThUhsmQIk",
+        "ciWH5ykUfW8",
+        "i-LO9ksv9MQ",
+        "eiIVpQq32Ss",
+        "OJduFSbaFiw",
+        "NfqOfeketFA",
+        "rXnb3Y-orC8"
+      ],
+      "credits": [
+        {
+          "entityId": "geztalt-project",
+          "name": "geztålt",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "dynakyris",
+          "name": "DYNAKYRIS",
+          "relation": "programmed-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "tetopocalypsis": {
+      "work_id": "tetopocalypsis",
+      "title": "Tetopocalypsis",
+      "summary": "Kasane Teto experimental gallery video / video-art work.",
+      "year": "2025",
+      "status": "confirmed",
+      "media_dir": "media/works/tetopocalypsis/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=LqmzfxUYRPI"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "LqmzfxUYRPI"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "fukkireta": {
+      "work_id": "fukkireta",
+      "title": "Fukkireta / 吹っ切れた",
+      "summary": "geztålt / Kasane Teto music-video and karaoke-version cluster.",
+      "year": "2025",
+      "status": "confirmed",
+      "media_dir": "media/works/fukkireta/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=yrhaxUmj_3A"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pjesma-pro-ljubov": {
+      "work_id": "pjesma-pro-ljubov",
+      "title": "Pjesma pro Ljubov",
+      "summary": "Experimental music video using mixed-media collage, cutting, Dada techniques and Gestalt associations.",
+      "year": "2025",
+      "status": "confirmed",
+      "media_dir": "media/works/pjesma-pro-ljubov/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=ckv0rXGN2L0"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "ckv0rXGN2L0"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "taming-the-serpent": {
+      "work_id": "taming-the-serpent",
+      "title": "Taming the Serpent",
+      "summary": "Collaborative performance by Julia Baranyuk and Ilya Minin (Eli), recorded at Winzavod in 2022.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/taming-the-serpent/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=InpJyuAuIyM"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "hjlXcHSFisY",
+        "InpJyuAuIyM"
+      ],
+      "credits": [
+        {
+          "entityId": "julia-baranyuk",
+          "name": "Julia Baranyuk",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "performed-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "showreel-2024": {
+      "work_id": "showreel-2024",
+      "title": "Showreel 2024",
+      "summary": "Artist showreel presenting contemporary-art, CG and moving-image practice.",
+      "year": "2024",
+      "status": "confirmed",
+      "media_dir": "media/works/showreel-2024/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=kUCLW8sF78U"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "kUCLW8sF78U"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "mudak": {
+      "work_id": "mudak",
+      "title": "Mudak",
+      "summary": "geztålt / Kasane Teto music-video cluster.",
+      "year": "2024",
+      "status": "confirmed",
+      "media_dir": "media/works/mudak/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=zEs_ET6rTkk"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "zEs_ET6rTkk",
+        "mGKYctn7TOo"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "dymohod": {
+      "work_id": "dymohod",
+      "title": "Dymohod",
+      "summary": "Kasane Teto music video credited to geztålt.",
+      "year": "2024",
+      "status": "confirmed",
+      "media_dir": "media/works/dymohod/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=2fLbsIePb-U"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "2fLbsIePb-U"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "muyskaya-depressiya": {
+      "work_id": "muyskaya-depressiya",
+      "title": "Мужская депрессия / Male Depression",
+      "summary": "Video art by Ilya Minin (Eli) and sasha e b about emotional isolation and loss of connection.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/muyskaya-depressiya/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=RgT3XGULiKA"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "RgT3XGULiKA"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "greater-than-lesser": {
+      "work_id": "greater-than-lesser",
+      "title": "Greater Than Lesser",
+      "summary": "Experimental video art exploring perception, feeling and the relationship between seeing less and loving less.",
+      "year": "2024",
+      "status": "confirmed",
+      "media_dir": "media/works/greater-than-lesser/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=UuNT2WaKdqg"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "UuNT2WaKdqg"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "vegetables": {
+      "work_id": "vegetables",
+      "title": "Овощи / Vegetables",
+      "summary": "Short experimental audiovisual work by Ilya Minin (Eli) and Igor Yanovsky.",
+      "year": "2023",
+      "status": "confirmed",
+      "media_dir": "media/works/vegetables/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=HZJoPfHkqTU"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "HZJoPfHkqTU"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "agonal-machines": {
+      "work_id": "agonal-machines",
+      "title": "Agonal Machines",
+      "summary": "Video documentation of Agonal Machines performances at Lachesis, Moscow, including geztålt and other performers.",
+      "year": "2023",
+      "status": "confirmed",
+      "media_dir": "media/works/agonal-machines/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=HSd6hCtQogI"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "industrial-sanitation": {
+      "work_id": "industrial-sanitation",
+      "title": "Industrial Sanitation and Occupational Hygiene",
+      "summary": "Mixed collage video using cutting, Dada technique, Gestalt associations and psychological elements.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/industrial-sanitation/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=5xEy5C2iNIY"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "5xEy5C2iNIY"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "enlightenment-i": {
+      "work_id": "enlightenment-i",
+      "title": "Enlightenment I",
+      "summary": "geztålt video/audio work titled Enlightenment I.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/enlightenment-i/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=j1hq6xUp420"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "j1hq6xUp420"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "ritual-big-fridge": {
+      "work_id": "ritual-big-fridge",
+      "title": "Ритуал для Большого Холодильника / Ritual for the Big Refrigerator",
+      "summary": "Experimental ritual video centered on the refrigerator as a strange household deity.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/ritual-big-fridge/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=omNsIl61tlY"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "omNsIl61tlY"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "evocation-turtur": {
+      "work_id": "evocation-turtur",
+      "title": "Evocation Turtur — The Great Turtle Summoning Ritual",
+      "summary": "Long-form experimental ritual/performance document recorded in Moscow in 2022.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/evocation-turtur/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=4Z-8Cek0qP4"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "4Z-8Cek0qP4"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "who-is-vova-lilo": {
+      "work_id": "who-is-vova-lilo",
+      "title": "Who is Vova Lilo? The Myth of a Man",
+      "summary": "Mockumentary investigating a mysterious figure in the Saint Petersburg underground.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/who-is-vova-lilo/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=uYuEx85d8s0"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "uYuEx85d8s0"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "w-video-collage": {
+      "work_id": "w-video-collage",
+      "title": "W",
+      "summary": "Early experimental video collage using archive materials from the web.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/w-video-collage/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=5YdNlRgHuuk"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "baron": {
+      "work_id": "baron",
+      "title": "Баронъ",
+      "summary": "Experimental film / digital folklore work.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/baron/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=JchqmZXJ6vQ"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "bessonitsa": {
+      "work_id": "bessonitsa",
+      "title": "Бессоница / Insomnia",
+      "summary": "Experimental video framed through invented curse and digital folklore.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/bessonitsa/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=C3VIPDPRKlg"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "found-tape": {
+      "work_id": "found-tape",
+      "title": "Found Tape",
+      "summary": "Fictional found-tape video about a green cassette carrying a deadly curse.",
+      "year": "2020",
+      "status": "confirmed",
+      "media_dir": "media/works/found-tape/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=w5zqAkpGa_c"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "w5zqAkpGa_c"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "estetish-tape": {
+      "work_id": "estetish-tape",
+      "title": "estetish tape",
+      "summary": "Lab ADAMS MACHINE tape-oriented work tagged sampling, hauntology, tape mixing and minimalism.",
+      "year": "2020",
+      "status": "confirmed",
+      "media_dir": "media/works/estetish-tape/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=cKYk2ivIVfE"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "balance-2020": {
+      "work_id": "balance-2020",
+      "title": "balance 2020",
+      "summary": "ELIAS ADAMS work associated with BEZDNA and an ambient / drone / techno / noise palette.",
+      "year": "2020",
+      "status": "confirmed",
+      "media_dir": "media/works/balance-2020/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=WZVXwfq9-GM"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "WZVXwfq9-GM"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "receiver-2019": {
+      "work_id": "receiver-2019",
+      "title": "receiver",
+      "summary": "ELIAS ADAMS release / clip associated with Lab ADAMS MACHINE and the Patanormal project.",
+      "year": "2019",
+      "status": "confirmed",
+      "media_dir": "media/works/receiver-2019/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=Z85lawGhz7c"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "Z85lawGhz7c"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "nature-2019": {
+      "work_id": "nature-2019",
+      "title": "nature",
+      "summary": "Experimental video art structured around Japanese haiku.",
+      "year": "2019",
+      "status": "confirmed",
+      "media_dir": "media/works/nature-2019/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=zHZmUDA9Yao"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "zHZmUDA9Yao"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "rebirth": {
+      "work_id": "rebirth",
+      "title": "REBIRTH",
+      "summary": "ELIAS ADAMS debut short film exploring cycles of transformation through abstract digital aesthetics.",
+      "year": "2019",
+      "status": "confirmed",
+      "media_dir": "media/works/rebirth/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=sFDSXxvOOHw"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "arctic-2019": {
+      "work_id": "arctic-2019",
+      "title": "arctic",
+      "summary": "ELIAS ADAMS music/video sequence inspired by new-age visual albums and videotapes.",
+      "year": "2019",
+      "status": "confirmed",
+      "media_dir": "media/works/arctic-2019/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=QR332-HNIPU"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "QR332-HNIPU"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "frr": {
+      "work_id": "frr",
+      "title": "FRR",
+      "summary": "ELIAS ADAMS experimental audiovisual work.",
+      "year": "2019",
+      "status": "confirmed",
+      "media_dir": "media/works/frr/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=nWsUhtZun9g"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "nWsUhtZun9g"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pticess": {
+      "work_id": "pticess",
+      "title": "PTICESS",
+      "summary": "ELIAS ADAMS experimental video work.",
+      "year": "2019",
+      "status": "confirmed",
+      "media_dir": "media/works/pticess/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=Vs-0XkFOY_c"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "Vs-0XkFOY_c"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "insects-2018": {
+      "work_id": "insects-2018",
+      "title": "1nsects",
+      "summary": "ELIAS ADAMS single released through BAOS.",
+      "year": "2018",
+      "status": "confirmed",
+      "media_dir": "media/works/insects-2018/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=ZmDWPp12Pak"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "ZmDWPp12Pak"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "idiopathic": {
+      "work_id": "idiopathic",
+      "title": "Idiopathic (with age-dependent debut)",
+      "summary": "ELIAS ADAMS release/clip associated with Brain Activity in Order to the Sky.",
+      "year": "2018",
+      "status": "confirmed",
+      "media_dir": "media/works/idiopathic/",
+      "media_status": "planned",
+      "sources": [
+        "https://www.youtube.com/watch?v=_9U7qgEkcpA"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "_9U7qgEkcpA",
+        "25iX75ntROo"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "aint-no-sunshine": {
+      "work_id": "aint-no-sunshine",
+      "title": "Ain't No Sunshine",
+      "summary": "Bill Withers cover / experimental music video with Kasane Teto, published in the current 2026 archive.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/aint-no-sunshine/",
+      "media_status": "staged",
+      "sources": [
+        "https://t.me/ilyaminineli",
+        "https://www.youtube.com/@elilab"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "LhG2-rGY2eY"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "parallel-vienna-2026": {
+      "work_id": "parallel-vienna-2026",
+      "title": "Parallel Vienna 2026",
+      "summary": "Exhibition identity / print material for PARALLEL VIENNA 2026; record established from the current archive project context.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/parallel-vienna-2026/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "eporgaanisten-rakenteiden-kierratys": {
+      "work_id": "eporgaanisten-rakenteiden-kierratys",
+      "title": "Epäorgaanisten Rakenteiden Kierrätys",
+      "summary": "Retrospective of a semi-hermetic autobiographical narrative; electroacoustic work with non-linear mood shifts. Cover/design by Romaner.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/eporgaanisten-rakenteiden-kierratys/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official",
+        "https://nenrecs.bandcamp.com/album/ep-orgaanistenrakenteidekierr-tys"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "romaner",
+          "name": "Romaner",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "nen-records",
+          "name": "NEN Records",
+          "relation": "released-on"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pattern-generator": {
+      "work_id": "pattern-generator",
+      "title": "eli_lab Pattern Generator",
+      "summary": "Deterministic procedural graphics workstation producing PNG/SVG compositions through spatial fields, primitives, organic structures, text and palette systems.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/pattern-generator/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-pattern-generator"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "synthv-custom-scripts": {
+      "work_id": "synthv-custom-scripts",
+      "title": "eli_lab SynthV Custom Scripts / VOCALOID Tuning Lab",
+      "summary": "Synthesizer V Studio scripting collection with Pitch Baker tools, Japanese mora analysis, phrase analysis and deliberately artificial VOCALOID-era tuning models.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/synthv-custom-scripts/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_sv_scripts"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "multimedia-framework": {
+      "work_id": "multimedia-framework",
+      "title": "eli_lab Multimedia Framework",
+      "summary": "PySide6 production workspace for project generation, discovery, normalization, asset validation, documentation and multimedia pipeline automation.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/multimedia-framework/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-multimedia-framework"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "assembly-line-challenge": {
+      "work_id": "assembly-line-challenge",
+      "title": "Assembly Line Challenge",
+      "summary": "Abandoned Unreal Engine 4.27 arcade prototype about assembling PCs on a conveyor belt.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/assembly-line-challenge/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/Assembly-Line-Challenge"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "bloody": {
+      "work_id": "bloody",
+      "title": "Bloody",
+      "summary": "CGI / render work preserved in the historical CG archive.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/bloody/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "bloody-2": {
+      "work_id": "bloody-2",
+      "title": "Bloody 2",
+      "summary": "Additional CGI / render work preserved in the historical CG archive.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/bloody-2/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "bonza": {
+      "work_id": "bonza",
+      "title": "Bonza",
+      "summary": "CG design / identity material preserved in the older archive.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/bonza/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "portraits-2020": {
+      "work_id": "portraits-2020",
+      "title": "Portraits",
+      "summary": "Photo series containing Autoportrait, Branches, Delight, Fish, Korvus, Writer and Loner.",
+      "year": "2020",
+      "status": "confirmed",
+      "media_dir": "media/works/portraits-2020/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "unreal-2020": {
+      "work_id": "unreal-2020",
+      "title": "Unreal",
+      "summary": "Photo series containing Ball, Cannibal Holocaust, Closer, Crossline, Penumbra, Pump, Unreal, Urusewsky, Velorace and Wires.",
+      "year": "2020",
+      "status": "confirmed",
+      "media_dir": "media/works/unreal-2020/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "serial-experiments-lens": {
+      "work_id": "serial-experiments-lens",
+      "title": "Serial Experiments Lens",
+      "summary": "Long-running visual series combining digital photographs, collages, analogue collage, binocular optics and CGI.",
+      "year": "2021–2023",
+      "status": "confirmed",
+      "media_dir": "media/works/serial-experiments-lens/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "serial-experiments-lens-set-one": {
+      "work_id": "serial-experiments-lens-set-one",
+      "title": "Serial Experiments Lens / Set 1",
+      "summary": "Set 1 includes Henny, Herringbony, One and Three Places, Foresst, Hej, Analog Web 2.0, Waterfall, Dim var 1:33, Mountains, Swirl, Purchase, Splashes/Bursts/Flashes and Octo 1.",
+      "year": "2021–2023",
+      "status": "confirmed",
+      "media_dir": "media/works/serial-experiments-lens-set-one/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "uncanny-bar": {
+      "work_id": "uncanny-bar",
+      "title": "Uncanny Bar",
+      "summary": "Large digital-photo series preserved in the Serial Experiments Lens archive; individual titles are mostly not retained in the source page.",
+      "year": "2023",
+      "status": "legacy",
+      "media_dir": "media/works/uncanny-bar/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "single-photos-2021-22": {
+      "work_id": "single-photos-2021-22",
+      "title": "Single Photos / 2021–2022",
+      "summary": "Single-image archive including Forrest, Barks, Emotions, Ducks, Deep Yellow Day, Jellytrain, Lamp, Mandarins, Old Man, Sky Is Blue, Synthesizer, To Light and Vogue.",
+      "year": "2021–2022",
+      "status": "confirmed",
+      "media_dir": "media/works/single-photos-2021-22/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "mixed-technique-2022": {
+      "work_id": "mixed-technique-2022",
+      "title": "Mixed Technique / 2022",
+      "summary": "Series of studies plus Anthology of Black Humor photo collages with manual processing.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/mixed-technique-2022/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "painting-studies-2022": {
+      "work_id": "painting-studies-2022",
+      "title": "Painting Studies / Heads 1–3",
+      "summary": "Three oil-on-canvas works titled Head 1, Head 2 and Head 3.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/painting-studies-2022/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "refuge-2022": {
+      "work_id": "refuge-2022",
+      "title": "Refuge",
+      "summary": "Collaboration with Sergey Bratkov and fellow Rodchenko School students, including Ilya Minin; the installation combines photographs, surveillance-camera video and students' written dreams.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/refuge-2022/",
+      "media_status": "planned",
+      "sources": [
+        "https://kohta.fi/exhibition/sergey-bratkov-harkova-moskova/"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "sergey-bratkov",
+          "name": "Sergey Bratkov",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "asya-melnikova",
+          "name": "Asya Melnikova",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "igor-yanovsky",
+          "name": "Igor Yanovsky",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "oleg-ustinov",
+          "name": "Oleg Ustinov",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "rodchenko-school",
+          "name": "Rodchenko School of Photography and Multimedia",
+          "relation": "archive-source"
+        },
+        {
+          "entityId": "nikolay-alekseev",
+          "name": "Nikolay Alekseev",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "katerina-beloglazova",
+          "name": "Katerina Beloglazova",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "jegor-fedorichev",
+          "name": "Jegor Fedorichev",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "vladislav-mukhanov",
+          "name": "Vladislav Mukhanov",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "kolya-sadovnik",
+          "name": "Kolya Sadovnik",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "rodchenko-school",
+          "name": "Rodchenko School of Photography and Multimedia",
+          "relation": "exhibited-at"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pereizobretenie-punk": {
+      "work_id": "pereizobretenie-punk",
+      "title": "Переизобретая панк / Re-inventing Punk",
+      "summary": "Group exhibition at artist-run-space KУПЕ 23. Ilya Minin is listed as a participant and as a performer in the parallel program with an algorithmic-electronics live set.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/pereizobretenie-punk/",
+      "media_status": "planned",
+      "sources": [
+        "https://t.me/s/artnagrada?before=7142"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "julia-baranyuk",
+          "name": "Julia Baranyuk",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "kupe23",
+          "name": "КУПЕ 23",
+          "relation": "exhibited-at"
+        },
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "julia-baranyuk",
+          "name": "Julia Baranyuk",
+          "relation": "curated-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "ppp-2018": {
+      "work_id": "ppp-2018",
+      "title": "PPP performance",
+      "summary": "Performance with acoustic and electronic sound sources.",
+      "year": "2018",
+      "status": "documented",
+      "media_dir": "media/works/ppp-2018/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "muse-2019": {
+      "work_id": "muse-2019",
+      "title": "MUSE performance",
+      "summary": "Performance with acoustic and electronic sound sources.",
+      "year": "2019",
+      "status": "documented",
+      "media_dir": "media/works/muse-2019/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pattern-2021": {
+      "work_id": "pattern-2021",
+      "title": "PATTERN / industrial fabrics",
+      "summary": "Group exhibition of industrial fabrics.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/pattern-2021/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "ugol-visual-programming": {
+      "work_id": "ugol-visual-programming",
+      "title": "UGOL real-time visual programming",
+      "summary": "Performance using real-time visual programming at UGOL gallery.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/ugol-visual-programming/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ugol",
+          "name": "UGOL",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "telegraph-kinetic-coding": {
+      "work_id": "telegraph-kinetic-coding",
+      "title": "Telegraph. Kinetic coding of the expected signal",
+      "summary": "Performance in the Open Collection / Waiting Horizon context of the Polytechnic Museum.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/telegraph-kinetic-coding/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "polytechnic-museum",
+          "name": "Polytechnic Museum",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "system-s3": {
+      "work_id": "system-s3",
+      "title": "System S3",
+      "summary": "Performance at Gallery Khodynka for the Frequency 2.0 exhibition.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/system-s3/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "khodynka",
+          "name": "Gallery Khodynka",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "memory-of-touch": {
+      "work_id": "memory-of-touch",
+      "title": "Memory of Touch",
+      "summary": "Performance at Gallery Bogorodskoye for the Dacha as I see it exhibition.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/memory-of-touch/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "bogorodskoye",
+          "name": "Gallery Bogorodskoye",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "asc-eight-channel": {
+      "work_id": "asc-eight-channel",
+      "title": "ASC Museum eight-channel audio capsule",
+      "summary": "Participation in the audio program of the ASC Museum eight-channel audio capsule.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/asc-eight-channel/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "holidays-sa-2021": {
+      "work_id": "holidays-sa-2021",
+      "title": "Holidays SA)) / 2021",
+      "summary": "Participation in a concert of multichannel audio improvisations and a later conceptual multichannel audio program.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/holidays-sa-2021/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "redd-2021": {
+      "work_id": "redd-2021",
+      "title": "REDD experimental music festival",
+      "summary": "Participation in an experimental music festival.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/redd-2021/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "smoles-2021": {
+      "work_id": "smoles-2021",
+      "title": "SMOLES",
+      "summary": "Participation in the SMOLES concert.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/smoles-2021/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "meatpacking-part-1": {
+      "work_id": "meatpacking-part-1",
+      "title": "Meatpacking Biennale / Part 1",
+      "summary": "Performance/exhibition record with an associated video document and a set of four Untitled acrylic/canvas works.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/meatpacking-part-1/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "meatpacking-part-2": {
+      "work_id": "meatpacking-part-2",
+      "title": "Meatpacking Biennale / Part 2",
+      "summary": "Second Meatpacking Biennale performance record, documented in the historical CV/archive.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/meatpacking-part-2/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "concert-at-la-2014": {
+      "work_id": "concert-at-la-2014",
+      "title": "Concert at LA",
+      "summary": "Historical live-event record preserved in the old Eli Lab site; details are incomplete.",
+      "year": "2014",
+      "status": "legacy",
+      "media_dir": "media/works/concert-at-la-2014/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "peredelano-conf-2023": {
+      "work_id": "peredelano-conf-2023",
+      "title": "Peredelano Conf lecture / generative systems",
+      "summary": "Lecture and masterclass for IT specialists on generative systems in Max/MSP and Pure Data.",
+      "year": "2023",
+      "status": "documented",
+      "media_dir": "media/works/peredelano-conf-2023/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "peredelano-conf",
+          "name": "Peredelano Conf",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "msu-sound-art-lecture-2023": {
+      "work_id": "msu-sound-art-lecture-2023",
+      "title": "Moscow State University / Sound Art & generative systems",
+      "summary": "Lecture on Sound Art and generative systems for students of the Faculty of Philosophy.",
+      "year": "2023",
+      "status": "documented",
+      "media_dir": "media/works/msu-sound-art-lecture-2023/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "moscow-state-university",
+          "name": "Moscow State University",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "seven-hills-m7": {
+      "work_id": "seven-hills-m7",
+      "title": "七つの丘のマンコ / M7 Archive Series",
+      "summary": "Public repository describes a denpa music project built around the synthetic voice 電性 (Densei) and a fictional archive of partially recovered microcassette recordings.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/seven-hills-m7/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/nanatsu-no-oka-no-manko"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "echo-of-eden": {
+      "work_id": "echo-of-eden",
+      "title": "Echo of Eden",
+      "summary": "Collaborative cartoon project about faith, doubt and deconstructed biblical stories; repository is private.",
+      "year": "2020s",
+      "status": "private",
+      "media_dir": "media/works/echo-of-eden/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/slavabogu"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "frow": {
+      "work_id": "frow",
+      "title": "FROW",
+      "summary": "Recent visual work/post title surfaced in the eli_lab Telegram archive.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/frow/",
+      "media_status": "planned",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "opossum": {
+      "work_id": "opossum",
+      "title": "オポッサム",
+      "summary": "Recent visual work/post title surfaced in the eli_lab Telegram archive.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/opossum/",
+      "media_status": "planned",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "birthday-gift-eli-to-elly": {
+      "work_id": "birthday-gift-eli-to-elly",
+      "title": "エリからエリーへの誕生日プレゼント",
+      "summary": "Recent work/post title surfaced in the eli_lab Telegram archive.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/birthday-gift-eli-to-elly/",
+      "media_status": "planned",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "saint-sin-gift": {
+      "work_id": "saint-sin-gift",
+      "title": "Gift work for SAINT SIN",
+      "summary": "Recent post describes a new gift work made for SAINT SIN; title and full metadata remain unresolved.",
+      "year": "2026",
+      "status": "candidate",
+      "media_dir": "media/works/saint-sin-gift/",
+      "media_status": "planned",
+      "sources": [
+        "https://t.me/ilyaminineli"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "geztalt": {
+      "work_id": "geztalt",
+      "title": "Geztålt",
+      "summary": "Collaborative project / alliance exploring cultural forms through wordplay, sound performances, media content, introspection, imitation and simulation.",
+      "year": "2020s",
+      "status": "confirmed",
+      "media_dir": "media/works/geztalt/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "dMIQJYp796A",
+        "cK57_pyetCY",
+        "yrhaxUmj_3A",
+        "ivePQpesR0w",
+        "O6SqS3W7WIU",
+        "qsCjrhffYjY",
+        "c9MV8CoR-Ls",
+        "YavJ8I_g74I",
+        "HSd6hCtQogI",
+        "55Hi5qjUAto"
+      ],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "daly-syndrome": {
+      "work_id": "daly-syndrome",
+      "title": "Daly Syndrome",
+      "summary": "Long-form animated psychological-horror film in development. Tobias encounters an audiovirus that destabilizes sound, memory, perception and reality.",
+      "year": "2019–present",
+      "status": "confirmed",
+      "media_dir": "media/works/daly-syndrome/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/Daly-Syndrome"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "spalah79",
+          "name": "Spalah79 / Spalah",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "romaner",
+          "name": "Romaner",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "e6",
+          "name": "e/6",
+          "relation": "co-created-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "desolation-odissey": {
+      "work_id": "desolation-odissey",
+      "title": "Desolation Odissey",
+      "summary": "Game/project record preserved by the historical Eli Lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
+      "year": "2010s–2020s",
+      "status": "candidate",
+      "media_dir": "media/works/desolation-odissey/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "elysium": {
+      "work_id": "elysium",
+      "title": "Elysium",
+      "summary": "Game/project record from the historical Eli Lab site. Project-specific metadata remains to be recovered from source material.",
+      "year": "2010s–2020s",
+      "status": "candidate",
+      "media_dir": "media/works/elysium/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "metaliminal": {
+      "work_id": "metaliminal",
+      "title": "Metaliminal",
+      "summary": "Experimental game/project trace. Current public repository contains only a gitignore, so the historical site remains the stronger source.",
+      "year": "2010s–2020s",
+      "status": "candidate",
+      "media_dir": "media/works/metaliminal/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/metaliminal",
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "sleepdom": {
+      "work_id": "sleepdom",
+      "title": "Sleepdom",
+      "summary": "Art-house immersive sim action game.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/sleepdom/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/sleepdom"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "night-mafia": {
+      "work_id": "night-mafia",
+      "title": "Night Mafia",
+      "summary": "Historical game page exists, but the current source text is placeholder-level and is not enough for a canonical project description.",
+      "year": "legacy",
+      "status": "candidate",
+      "media_dir": "media/works/night-mafia/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "spring-story": {
+      "work_id": "spring-story",
+      "title": "Весенняя Сказка / Spring Story",
+      "summary": "YouTube work presented by the old video-art interface under the generic label “Abstract Shapes Animation.”",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/spring-story/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=xTysVDBJwpE"
+      ],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "winter-story": {
+      "work_id": "winter-story",
+      "title": "Зимняя Сказка / Winter Story",
+      "summary": "YouTube work presented by the old video-art interface under the generic label “Glitch Art Experiment.”",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/winter-story/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://www.youtube.com/watch?v=P-SJO5ZmFTo"
+      ],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "aibolit-sashaeb": {
+      "work_id": "aibolit-sashaeb",
+      "title": "Айболит / Aibolit",
+      "summary": "Exhibition at Gallery Borey, Saint Petersburg, 24.12.2024–11.01.2025, documented by collaborator sasha e b as a joint presentation with Ilya Minin.",
+      "year": "2024–2025",
+      "status": "documented",
+      "media_dir": "media/works/aibolit-sashaeb/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/sashaeb"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        },
+        {
+          "entityId": "sasha-e-b",
+          "name": "sasha e b / Sasha e b",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "borey",
+          "name": "Gallery Borey",
+          "relation": "exhibited-at"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "re-punk": {
+      "work_id": "re-punk",
+      "title": "Re-Punk / Re-Punk Room",
+      "summary": "Ilya Minin's Re-Punk contribution to the Переизобретая панк exhibition: repetition and variation, especially repeated drawings of Kasane Teto, paired with an immersive screen/projector setup and live-coding performance.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/re-punk/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/punk_exhibition"
+      ],
+      "external_sources": [
+        "https://t.me/s/artnagrada?before=7142"
+      ],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "created-by"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "geztalt-j-2025": {
+      "work_id": "geztalt-j-2025",
+      "title": "ᏒᚣᚺᚺᚣJᚣ ᚹᛠᚣᛢᛈꖾᛕᚣ",
+      "summary": "Digital album by geztålt.",
+      "year": "2025",
+      "status": "documented",
+      "media_dir": "media/works/geztalt-j-2025/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/j"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "geztalt-person-2025": {
+      "work_id": "geztalt-person-2025",
+      "title": "人刄厂刄山长刄",
+      "summary": "Digital album by geztålt.",
+      "year": "2025",
+      "status": "documented",
+      "media_dir": "media/works/geztalt-person-2025/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "geztalt-delta-2025": {
+      "work_id": "geztalt-delta-2025",
+      "title": "ΔҒϮΩϷΔϮΙ",
+      "summary": "Digital album by geztålt.",
+      "year": "2025",
+      "status": "documented",
+      "media_dir": "media/works/geztalt-delta-2025/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "geztalt-ost-2025": {
+      "work_id": "geztalt-ost-2025",
+      "title": "ᖘĬᙏꗞᙁ OST",
+      "summary": "Digital album by geztålt; released January 20, 2025.",
+      "year": "2025",
+      "status": "documented",
+      "media_dir": "media/works/geztalt-ost-2025/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com/album/ost"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "geztalt-other-2025": {
+      "work_id": "geztalt-other-2025",
+      "title": "ᛔㄖ㇄丂⼕廾㠪乃𝓝ㄚ丿 ለቴር",
+      "summary": "Digital album by geztålt visible in the current Bandcamp catalogue.",
+      "year": "2025",
+      "status": "documented",
+      "media_dir": "media/works/geztalt-other-2025/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "red-box": {
+      "work_id": "red-box",
+      "title": "unreleased sound: red box",
+      "summary": "Unreleased sound record visible in the current Bandcamp catalogue.",
+      "year": "legacy",
+      "status": "documented",
+      "media_dir": "media/works/red-box/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "life-in-one-second": {
+      "work_id": "life-in-one-second",
+      "title": "life in one second",
+      "summary": "Digital release; Bandcamp contains the track “feg rune 432.”",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/life-in-one-second/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com",
+        "https://eliasadams.bandcamp.com/track/feg-rune-432"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "redux-to-the-breath-2": {
+      "work_id": "redux-to-the-breath-2",
+      "title": "Redux To The Breath - Part 2",
+      "summary": "Digital release visible in the current Bandcamp catalogue.",
+      "year": "legacy",
+      "status": "documented",
+      "media_dir": "media/works/redux-to-the-breath-2/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "rakkaani": {
+      "work_id": "rakkaani",
+      "title": "rakkaani",
+      "summary": "Digital release visible in the current Bandcamp catalogue.",
+      "year": "legacy",
+      "status": "documented",
+      "media_dir": "media/works/rakkaani/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "amp": {
+      "work_id": "amp",
+      "title": "amp",
+      "summary": "Digital release visible in the current Bandcamp catalogue.",
+      "year": "legacy",
+      "status": "documented",
+      "media_dir": "media/works/amp/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "patanormal": {
+      "work_id": "patanormal",
+      "title": "patanormal",
+      "summary": "Digital release visible in the current Bandcamp catalogue.",
+      "year": "legacy",
+      "status": "documented",
+      "media_dir": "media/works/patanormal/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "bad-kase-of-indiscretion": {
+      "work_id": "bad-kase-of-indiscretion",
+      "title": "Bad Kase of Indiscretion",
+      "summary": "Digital release visible in the current Bandcamp catalogue.",
+      "year": "legacy",
+      "status": "documented",
+      "media_dir": "media/works/bad-kase-of-indiscretion/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "valera-grandpa-music": {
+      "work_id": "valera-grandpa-music",
+      "title": "ヴァレラおじいちゃんへ の音楽集",
+      "summary": "Digital release currently listed in the Bandcamp discography.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/valera-grandpa-music/",
+      "media_status": "planned",
+      "sources": [
+        "https://eliasadams.bandcamp.com"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "london-hello": {
+      "work_id": "london-hello",
+      "title": "London Hello",
+      "summary": "Photographic series preserved in the historical Eli Lab image archive.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/london-hello/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "orthofuture": {
+      "work_id": "orthofuture",
+      "title": "Orthofuture",
+      "summary": "Photographic series preserved in the historical Eli Lab image archive.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/orthofuture/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "pacanbalet": {
+      "work_id": "pacanbalet",
+      "title": "Pacanbalet",
+      "summary": "Photographic series preserved in the historical Eli Lab image archive.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/pacanbalet/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "cg-design-online-shop": {
+      "work_id": "cg-design-online-shop",
+      "title": "CG Design / Online Shop",
+      "summary": "Ten product/object images preserved in the historical CG design archive: Coffee, Dryer, Fridge, Hoodie, Phone, Poster, Smartwatch, TV, Teapot and Vacuum.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/cg-design-online-shop/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "album-covers-archive": {
+      "work_id": "album-covers-archive",
+      "title": "Album Covers Archive",
+      "summary": "Twenty-one cover designs preserved in the historical CG For Site archive; individual project relationships still need mapping.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/album-covers-archive/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "logo-archive": {
+      "work_id": "logo-archive",
+      "title": "Logo Archive",
+      "summary": "Twenty-five logo files preserved in the historical CG For Site archive; individual clients/projects still need mapping.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/logo-archive/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "cg-3d-design-archive": {
+      "work_id": "cg-3d-design-archive",
+      "title": "CG / 3D Design Archive",
+      "summary": "Named CGI studies including Towny, Gaika, Drema, Swirl and Neuron Brain, preserved in the historical site archive.",
+      "year": "2020s",
+      "status": "documented",
+      "media_dir": "media/works/cg-3d-design-archive/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "teto-character-studies": {
+      "work_id": "teto-character-studies",
+      "title": "Kasane Teto Character Studies",
+      "summary": "Large visual archive of Kasane Teto studies and related character images. Individual provenance and privacy/publication status need to be resolved.",
+      "year": "2020s",
+      "status": "candidate",
+      "media_dir": "media/works/teto-character-studies/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "ewp-presentation-archive": {
+      "work_id": "ewp-presentation-archive",
+      "title": "EWP Project / Presentation Archive",
+      "summary": "Presentation and production stills for EWP Project, including render comparisons and work-in-progress images.",
+      "year": "2023",
+      "status": "documented",
+      "media_dir": "media/works/ewp-presentation-archive/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "captured-bodies-soundtrack": {
+      "work_id": "captured-bodies-soundtrack",
+      "title": "Captured Bodies and Their Surroundings / soundtrack",
+      "summary": "Soundtrack for Natalia Nikulenkova's mixed-media/video diploma project, Captured Bodies and Their Surroundings.",
+      "year": "2021",
+      "status": "documented",
+      "media_dir": "media/works/captured-bodies-soundtrack/",
+      "media_status": "planned",
+      "sources": [
+        "https://mdfschool.ru/files/catalogs/catalog-2021.pdf"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "natalia-nikulenko",
+          "name": "Natalia Nikulenkova",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "rodchenko-school",
+          "name": "Rodchenko School of Photography and Multimedia",
+          "relation": "archive-source"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "who-is-eli": {
+      "work_id": "who-is-eli",
+      "title": "WHO IS ELI?",
+      "summary": "Experimental animated film about memory, reconstruction, identity and an archive that interprets difference as damage.",
+      "year": "2026",
+      "status": "private",
+      "media_dir": "media/works/who-is-eli/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/who-is-eli"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "kasane-teto",
+          "name": "Kasane Teto",
+          "relation": "related-to"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "song-creator": {
+      "work_id": "song-creator",
+      "title": "Song Creator",
+      "summary": "Private creative-production agent/project for generating and refining songs from a structured lyric/music knowledge base and context from other creative systems.",
+      "year": "2026",
+      "status": "private",
+      "media_dir": "media/works/song-creator/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "vocaloid-jazz-album-2026": {
+      "work_id": "vocaloid-jazz-album-2026",
+      "title": "Vocaloid Jazz Album / 2026",
+      "summary": "Album concept combining synthetic vocals with a professional jazz ensemble, with Kasane Teto as a main voice candidate and Chis-A as an additional voice candidate; Blue Neon and NO ONE IS LISTENING are current tracks in development.",
+      "year": "2026",
+      "status": "private",
+      "media_dir": "media/works/vocaloid-jazz-album-2026/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "kasane-teto",
+          "name": "Kasane Teto",
+          "relation": "uses"
+        },
+        {
+          "entityId": "chis-a",
+          "name": "Chis-A",
+          "relation": "uses"
+        },
+        {
+          "entityId": "big-beat",
+          "name": "Big Beat",
+          "relation": "potential-release-partner"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "parallel-vienna-alexander-zaloopin": {
+      "work_id": "parallel-vienna-alexander-zaloopin",
+      "title": "PARALLEL VIENNA 2026 — Alexander Zaloopin / Live Performance",
+      "summary": "Alexander Zaloopin live performance at PARALLEL VIENNA 2026: 12.09.2026, 18:00, outside.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/parallel-vienna-alexander-zaloopin/",
+      "media_status": "staged",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "alexander-zaloopin",
+          "name": "Alexander Zaloopin",
+          "relation": "features"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "parallel-vienna-oleg-ustinov": {
+      "work_id": "parallel-vienna-oleg-ustinov",
+      "title": "PARALLEL VIENNA 2026 — Oleg Ustinov / Artist Statement",
+      "summary": "Oleg Ustinov artist-statement presentation at PARALLEL VIENNA 2026, Pav. 13, Room 213.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/parallel-vienna-oleg-ustinov/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [
+        {
+          "entityId": "oleg-ustinov",
+          "name": "Oleg Ustinov",
+          "relation": "features"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "no-skin": {
+      "work_id": "no-skin",
+      "title": "No Skin",
+      "summary": "Installation built from a plastic bust, lamp and colored paper; documented in the historical art-practice archive.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/no-skin/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "eli-lab-mv": {
+      "work_id": "eli-lab-mv",
+      "title": "eli_lab MV",
+      "summary": "Private audio-reactive visual MV editor / production workstation with deterministic rendering, audio analysis, layered effects, project presets and export tooling.",
+      "year": "2026",
+      "status": "private",
+      "media_dir": "media/works/eli-lab-mv/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_mv"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "eli-lab-mv-titler": {
+      "work_id": "eli-lab-mv-titler",
+      "title": "ELI LAB MV TITLER",
+      "summary": "Dependency-free browser tool for generating animated Japanese subtitle typography from SRT/SBV timing and text.",
+      "year": "2026",
+      "status": "documented",
+      "media_dir": "media/works/eli-lab-mv-titler/",
+      "media_status": "planned",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-mv-titler"
+      ],
+      "external_sources": [],
+      "video_source_ids": [],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "teto-2026-manifesto": {
+      "work_id": "teto-2026-manifesto",
+      "title": "Kasane Teto's 2026 Manifesto",
+      "summary": "Surreal satirical New Year's address spoken through the character of Kasane Teto. The piece uses the language of fandom, internet communities, AI debates and fictional manifesto rhetoric to construct a deliberately unstable audiovisual speech.",
+      "year": "2026",
+      "status": "confirmed",
+      "media_dir": "media/works/teto-2026-manifesto/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=Bv-4aHjHbf0"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "Bv-4aHjHbf0"
+      ],
+      "credits": [
+        {
+          "entityId": "kasane-teto",
+          "name": "Kasane Teto",
+          "relation": "features"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "kuleshov-effect": {
+      "work_id": "kuleshov-effect",
+      "title": "Эффект Кулешовой / Kuleshov Effect",
+      "summary": "Video-art collaboration with Varvara Kuleshova, built around hard montage, mnemonic imagery, dream logic and the changing perception of a central character. The video was made at Fund SFERA during Kuleshova's exhibition about dichotomous thinking, dissonance and fluctuations of the inner world of artists.",
+      "year": "2022",
+      "status": "confirmed",
+      "media_dir": "media/works/kuleshov-effect/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=XKdVkUc8q80"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "XKdVkUc8q80"
+      ],
+      "credits": [
+        {
+          "entityId": "varvara-kuleshova",
+          "name": "Varvara Kuleshova",
+          "relation": "co-created-with"
+        },
+        {
+          "entityId": "ilya-minin",
+          "name": "Ilya Minin (Eli)",
+          "relation": "performed-with"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "linearna-zaležnost": {
+      "work_id": "linearna-zaležnost",
+      "title": "linearna zaležnosť",
+      "summary": "Experimental sound-art / music-video work presented under the title linearna zaležnosť. Its description frames linear dependency as the controlled progression and interplay of sound elements, with Ivan Netkachev credited as model.",
+      "year": "2024",
+      "status": "documented",
+      "media_dir": "media/works/linearna-zaležnost/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=wvOA4AV6ytU"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "wvOA4AV6ytU"
+      ],
+      "credits": [
+        {
+          "entityId": "ivan-netkachev",
+          "name": "Ivan Netkachev",
+          "relation": "features"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "serval-man": {
+      "work_id": "serval-man",
+      "title": "Serval Man",
+      "summary": "Short experimental reel featuring Serval Sirius, edited by Ilya Minin (Eli). The video uses the biological image of the serval and the fictionalized world around geztålt as a compact character / visual study.",
+      "year": "2024",
+      "status": "documented",
+      "media_dir": "media/works/serval-man/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=ypP4UKUWvpw"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "ypP4UKUWvpw"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    },
+    "trurly-fierndship": {
+      "work_id": "trurly-fierndship",
+      "title": "Trurly Fierndship",
+      "summary": "Experimental geztålt-era video work using friendship as a subject: companionship, misunderstanding, disagreement, laughter and tears are treated as contradictory parts of shared human relationships.",
+      "year": "2022",
+      "status": "documented",
+      "media_dir": "media/works/trurly-fierndship/",
+      "media_status": "staged",
+      "sources": [
+        "https://www.youtube.com/watch?v=B610CDVHkJY"
+      ],
+      "external_sources": [],
+      "video_source_ids": [
+        "B610CDVHkJY"
+      ],
+      "credits": [
+        {
+          "entityId": "geztalt-project",
+          "name": "geztålt",
+          "relation": "part-of-project"
+        }
+      ],
+      "process": [],
+      "materials": [],
+      "chronology": [],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [],
+      "questions_to_resolve": []
+    }
+  }
+}
