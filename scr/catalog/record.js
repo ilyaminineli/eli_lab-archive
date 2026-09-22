@@ -5,10 +5,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const id = new URLSearchParams(location.search).get('id');
 
     try {
-        const [worksResponse, relationsResponse, videoResponse] = await Promise.all([
+        const [worksResponse, relationsResponse, videoResponse, assetResponse] = await Promise.all([
             fetch('../data/works.json'),
             fetch('../data/relations.json'),
-            fetch('../data/video_context.json')
+            fetch('../data/video_context.json'),
+            fetch('../data/asset_candidates.json')
         ]);
 
         if (!worksResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             ? await relationsResponse.json()
             : { edges: [], people: [], places: [], groups: [] };
         const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
+        const assetCandidates = assetResponse.ok ? await assetResponse.json() : { works: {} };
 
         const work = works.find((item) => item.id === id);
 
@@ -79,6 +81,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             .filter(video => video.canonicalWorkId === work.id)
             .sort((a, b) => String(a.date).localeCompare(String(b.date)));
         const videoDescriptions = sourceVideos.filter(video => String(video.description || '').trim());
+        const candidateAssets = assetCandidates.works?.[work.id] || [];
+        const candidateAssetHTML = candidateAssets.map((candidate, index) => {
+            const sourceUrl = 'https://github.com/ilyaminineli/eli_lab_official/blob/main/' +
+                candidate.path.split('/').map(segment => encodeURIComponent(segment)).join('/');
+            return '<a class="asset-candidate" target="_blank" rel="noopener" href="' + sourceUrl + '">' +
+                '<span>' + String(index + 1).padStart(2, '0') + '</span><strong>' +
+                escapeHTML(candidate.path) + '</strong><em>' +
+                escapeHTML((candidate.matched || []).join(' / ')) + ' ↗</em></a>';
+        }).join('');
+
         const sourceVideoHTML = sourceVideos.map((video, index) => {
             const sourceLinks = (video.links || []).slice(0, 8).map(link =>
                 '<a class="source-video-link" target="_blank" rel="noopener" href="' + escapeHTML(link) + '">' +
@@ -148,6 +160,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             (sourceVideoHTML || '<p class="small-note">NO VIDEO SOURCE ROWS ARE CURRENTLY MAPPED.</p>') +
             '</section>' +
 
+            (candidateAssetHTML ? '<section class="record-panel record-assets"><div class="panel-title">VISUAL ASSET CANDIDATES</div>' +
+                '<p class="small-note">These are filename/path matches from the 595-image visual inventory, not yet confirmed as canonical artwork. Review before promotion.</p>' +
+                '<div class="asset-candidates">' + candidateAssetHTML + '</div></section>' : '') +
+
             '<section class="record-panel record-expansion"><div class="panel-title">ARCHIVE EXPANSION</div>' +
             '<p>' + escapeHTML(expansionText) + '</p>' +
             '<div class="coverage-grid">' +
@@ -160,7 +176,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             '</strong>. This is a living archive; uncertainty and source hierarchy are intentionally preserved.</p>' +
             '</section>' +
 
-            '<div class="record-actions"><span class="record-media-path">MEDIA FOLDER / ' + escapeHTML(work.media_dir || ('media/works/' + work.id + '/')) + '</span>' +
+            '<div class="record-actions"><span class="record-media-path">MEDIA FOLDER / <a target="_blank" rel="noopener" href="https://github.com/ilyaminineli/eli_lab-archive/tree/main/' + encodeURI(work.media_dir || ('media/works/' + work.id + '/')) + '">' + escapeHTML(work.media_dir || ('media/works/' + work.id + '/')) + ' ↗</a></span>' +
             '<a class="text-link" href="archive.html">← BACK TO WORKS</a>' +
             '<a class="text-link" href="network.html?focus=' + encodeURIComponent(work.id) + '">OPEN IN NETWORK →</a></div>' +
             '</section>';
