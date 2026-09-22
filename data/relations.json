@@ -118,19 +118,9 @@
       "type": "artist / teacher"
     },
     {
-      "id": "saikoneon",
-      "name": "SAIKONEON",
-      "type": "residency / place"
-    },
-    {
       "id": "parazit",
       "name": "PARAZIT",
       "type": "artist group / collective"
-    },
-    {
-      "id": "grig-film",
-      "name": "GRIG Film",
-      "type": "production company"
     },
     {
       "id": "nikolay-alekseev",
@@ -160,10 +150,6 @@
   ],
   "places": [
     {
-      "id": "rodchenko-school",
-      "name": "Rodchenko School of Photography and Multimedia"
-    },
-    {
       "id": "winzavod",
       "name": "Winzavod"
     },
@@ -192,10 +178,6 @@
       "name": "Lachesis"
     },
     {
-      "id": "kupe23",
-      "name": "КУПЕ 23"
-    },
-    {
       "id": "lake-saiko",
       "name": "Lake Saiko / Yamanashi"
     },
@@ -206,10 +188,6 @@
     {
       "id": "peredelano-conf",
       "name": "Peredelano Conf"
-    },
-    {
-      "id": "videodrome",
-      "name": "VIDEODROME"
     }
   ],
   "edges": [
