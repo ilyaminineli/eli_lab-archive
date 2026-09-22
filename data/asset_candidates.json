@@ -1,0 +1,3124 @@
+{
+  "updated": "2026-09-23",
+  "source": "data/assets.json",
+  "policy": "Machine-generated candidates only. Confirm before promoting to a work thumbnail/gallery.",
+  "works": {
+    "bogorodskoe": [
+      {
+        "path": "images/animation.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (1).png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (10).png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (2).png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (3).png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (4).png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (5).png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (6).png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "3d-essentials": [
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 1.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 10.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 11.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 12.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 2.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 3.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 4.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      },
+      {
+        "path": "images/CG/3D ESSENTIALS (2020-2021)/3D ESSENTIALS (2020-2021) – 5.png",
+        "score": 7,
+        "matched": [
+          "essentials",
+          "essentials"
+        ]
+      }
+    ],
+    "blue-neon": [
+      {
+        "path": "images/Artwork/Single Photos/sky is blue.png",
+        "score": 6,
+        "matched": [
+          "blue",
+          "blue"
+        ]
+      }
+    ],
+    "no-one-is-listening": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Phone.png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (1).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (2).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (3).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 1 portraits/loner.png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      }
+    ],
+    "pipeline-hub": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Advert.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "gonki-i-tochka": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Advert.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "antokolskyj": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/animation.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "live-one-gog": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Phone.png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (1).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (2).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (3).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 1 portraits/loner.png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      }
+    ],
+    "in-her-20s": [
+      {
+        "path": "images/Animation/Tetopocalypsis (1).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (10).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (2).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (3).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (4).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (5).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (6).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (7).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      }
+    ],
+    "childs-sky": [
+      {
+        "path": "images/Animation/Tetopocalypsis (1).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (10).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (2).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (3).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (4).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (5).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (6).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (7).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      }
+    ],
+    "afraid-of-happiness": [
+      {
+        "path": "images/Animation/Tetopocalypsis (1).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (10).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (2).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (3).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (4).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (5).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (6).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (7).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      }
+    ],
+    "get-hit-below": [
+      {
+        "path": "images/kasane_teto/get_hit_below/bfb.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/get_hit_below/dscds.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/get_hit_below/dvdsv.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/get_hit_below/GYHGJ.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/get_hit_below/JH.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/get_hit_below/reg.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/get_hit_below/Setup.png",
+        "score": 8,
+        "matched": [
+          "get hit",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/Animation/Tetopocalypsis (1).png",
+        "score": 3,
+        "matched": [
+          "teto"
+        ]
+      }
+    ],
+    "pjesma-pro-ljubov": [
+      {
+        "path": "images/EWP Project/ewp_scr_1.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_10.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_11.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_2_preview.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_2.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_3.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_4.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      },
+      {
+        "path": "images/EWP Project/ewp_scr_5.png",
+        "score": 6,
+        "matched": [
+          "pro",
+          "pro"
+        ]
+      }
+    ],
+    "showreel-2024": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/animation.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "agonal-machines": [
+      {
+        "path": "images/Performances/agonal_machines-banner.png",
+        "score": 12,
+        "matched": [
+          "agonal",
+          "machines",
+          "agonal",
+          "machines"
+        ]
+      }
+    ],
+    "ritual-big-fridge": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Fridge.png",
+        "score": 3,
+        "matched": [
+          "fridge"
+        ]
+      }
+    ],
+    "who-is-vova-lilo": [
+      {
+        "path": "images/Artwork/Single Photos/mandarins.png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/old man.png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Collaborations/Romaner/Roma (1).png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Collaborations/Romaner/Roma (2).png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Collaborations/Romaner/Roma (3).png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Collaborations/Romaner/Roma (4).png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Collaborations/Romaner/Roma (5).png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      },
+      {
+        "path": "images/Collaborations/Romaner/Roma (6).png",
+        "score": 3,
+        "matched": [
+          "man"
+        ]
+      }
+    ],
+    "w-video-collage": [
+      {
+        "path": "images/kasane_teto/collages/bhjbj.png",
+        "score": 3,
+        "matched": [
+          "collage"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/collages/gu.png",
+        "score": 3,
+        "matched": [
+          "collage"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/collages/мр.png",
+        "score": 3,
+        "matched": [
+          "collage"
+        ]
+      }
+    ],
+    "rebirth": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Advert.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "frr": [
+      {
+        "path": "images/Serial Experiments Lens/frr.png",
+        "score": 6,
+        "matched": [
+          "frr",
+          "frr"
+        ]
+      }
+    ],
+    "idiopathic": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      },
+      {
+        "path": "images/Album Covers/cover_1.png",
+        "score": 3,
+        "matched": [
+          "age"
+        ]
+      }
+    ],
+    "aint-no-sunshine": [
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_1.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_2.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_3.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_1.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_2.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_3.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_preview.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/photo_2022-08-21_05-04-06.png",
+        "score": 6,
+        "matched": [
+          "ain",
+          "aint"
+        ]
+      }
+    ],
+    "pattern-generator": [
+      {
+        "path": "images/eli_lab_pattern.png",
+        "score": 6,
+        "matched": [
+          "pattern",
+          "pattern"
+        ]
+      },
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "assembly-line-challenge": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Coffee.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Dryer.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Fridge.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Hoodie.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Phone.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Poster.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Smartwatch.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Teapot.png",
+        "score": 6,
+        "matched": [
+          "line",
+          "line"
+        ]
+      }
+    ],
+    "bloody": [
+      {
+        "path": "images/CG/Latest/Bloody 2.png",
+        "score": 7,
+        "matched": [
+          "bloody",
+          "bloody"
+        ]
+      },
+      {
+        "path": "images/CG/Latest/Bloody.png",
+        "score": 7,
+        "matched": [
+          "bloody",
+          "bloody"
+        ]
+      },
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "bloody-2": [
+      {
+        "path": "images/CG/Latest/Bloody 2.png",
+        "score": 7,
+        "matched": [
+          "bloody",
+          "bloody"
+        ]
+      },
+      {
+        "path": "images/CG/Latest/Bloody.png",
+        "score": 7,
+        "matched": [
+          "bloody",
+          "bloody"
+        ]
+      },
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "bonza": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Advert.png",
+        "score": 7,
+        "matched": [
+          "bonza",
+          "bonza"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Mockup.png",
+        "score": 7,
+        "matched": [
+          "bonza",
+          "bonza"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Packet.png",
+        "score": 7,
+        "matched": [
+          "bonza",
+          "bonza"
+        ]
+      },
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 1,
+        "matched": []
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 1,
+        "matched": []
+      }
+    ],
+    "serial-experiments-lens-set-one": [
+      {
+        "path": "images/Serial Experiments Lens/13p.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/aw.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/dimvar.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/frr.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/hej.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/henny.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/herr.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/hook.png",
+        "score": 18,
+        "matched": [
+          "serial",
+          "experiments",
+          "lens",
+          "serial",
+          "experiments",
+          "lens"
+        ]
+      }
+    ],
+    "uncanny-bar": [
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (1).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (10).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (11).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (12).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (13).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (14).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (15).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      },
+      {
+        "path": "images/Serial Experiments Lens/uncanny bar/uncan (16).png",
+        "score": 12,
+        "matched": [
+          "uncanny",
+          "bar",
+          "uncanny",
+          "bar"
+        ]
+      }
+    ],
+    "single-photos-2021-22": [
+      {
+        "path": "images/Artwork/Single Photos/2021-06-07 20.06.12.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/2021-06-07 20.07.57.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/6oZAkJ1hdak.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/bridge.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/deep yellow day.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/Ducks.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/emotions.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/forrest.png",
+        "score": 12,
+        "matched": [
+          "single",
+          "photos",
+          "single",
+          "photos"
+        ]
+      }
+    ],
+    "mixed-technique-2022": [
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_1.jpeg",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_10.png",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_11.png",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_2.jpeg",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_3.jpeg",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_4.jpeg",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_5.png",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      },
+      {
+        "path": "images/Artwork/Mixed Technique/mixed_technique_6.png",
+        "score": 12,
+        "matched": [
+          "mixed",
+          "technique",
+          "mixed",
+          "technique"
+        ]
+      }
+    ],
+    "painting-studies-2022": [
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_1.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_2.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_3.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_1.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_2.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_3.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/painting_preview.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/photo_2022-08-21_05-04-06.png",
+        "score": 6,
+        "matched": [
+          "painting",
+          "painting"
+        ]
+      }
+    ],
+    "ppp-2018": [
+      {
+        "path": "images/Performances/agonal_machines-banner.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 1.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 2.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 3.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 4.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/meatbiennale.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      }
+    ],
+    "muse-2019": [
+      {
+        "path": "images/Performances/agonal_machines-banner.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 1.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 2.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 3.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 4.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/meatbiennale.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      }
+    ],
+    "ugol-visual-programming": [
+      {
+        "path": "images/CG/Teto/eli_real_teto_post_black.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/ball.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/cannibal holocaust.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/closer.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/crossline.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/penumbra.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/pump.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 2 unreal/unreal_preview.png",
+        "score": 3,
+        "matched": [
+          "real"
+        ]
+      }
+    ],
+    "meatpacking-part-1": [
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 1.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 2.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 3.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 4.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_10.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_11.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_12.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      }
+    ],
+    "meatpacking-part-2": [
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 1.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 2.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 3.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 4.png",
+        "score": 15,
+        "matched": [
+          "meatpacking",
+          "biennale",
+          "part",
+          "meatpacking",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_10.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_11.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_12.png",
+        "score": 6,
+        "matched": [
+          "part",
+          "part"
+        ]
+      }
+    ],
+    "concert-at-la-2014": [
+      {
+        "path": "images/Portrait/Concert/LA/IMG_9816.jpg",
+        "score": 6,
+        "matched": [
+          "concert",
+          "concert"
+        ]
+      },
+      {
+        "path": "images/Portrait/Concert/LA/IMG_9836.jpg",
+        "score": 6,
+        "matched": [
+          "concert",
+          "concert"
+        ]
+      },
+      {
+        "path": "images/Portrait/Concert/LA/IMG_9889.jpg",
+        "score": 6,
+        "matched": [
+          "concert",
+          "concert"
+        ]
+      },
+      {
+        "path": "images/Portrait/Concert/LA/IMG_9892.jpg",
+        "score": 6,
+        "matched": [
+          "concert",
+          "concert"
+        ]
+      },
+      {
+        "path": "images/Portrait/Concert/LA/IMG_9896.jpg",
+        "score": 6,
+        "matched": [
+          "concert",
+          "concert"
+        ]
+      }
+    ],
+    "seven-hills-m7": [
+      {
+        "path": "images/Photoseries/London Hello/1.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/2.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/3.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/4.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/5.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/6.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/7.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      },
+      {
+        "path": "images/Photoseries/London Hello/london_preview.png",
+        "score": 3,
+        "matched": [
+          "series"
+        ]
+      }
+    ],
+    "birthday-gift-eli-to-elly": [
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (1).png",
+        "score": 3,
+        "matched": [
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (2).png",
+        "score": 3,
+        "matched": [
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (3).png",
+        "score": 3,
+        "matched": [
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (4).png",
+        "score": 3,
+        "matched": [
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift_preview.png",
+        "score": 3,
+        "matched": [
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/jelly train.png",
+        "score": 3,
+        "matched": [
+          "elly"
+        ]
+      }
+    ],
+    "saint-sin-gift": [
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (1).png",
+        "score": 6,
+        "matched": [
+          "gift",
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (2).png",
+        "score": 6,
+        "matched": [
+          "gift",
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (3).png",
+        "score": 6,
+        "matched": [
+          "gift",
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift (4).png",
+        "score": 6,
+        "matched": [
+          "gift",
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Graphics/Jewish gift/jewgift_preview.png",
+        "score": 6,
+        "matched": [
+          "gift",
+          "gift"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/2021-06-07 20.06.12.png",
+        "score": 6,
+        "matched": [
+          "sin",
+          "sin"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/2021-06-07 20.07.57.png",
+        "score": 6,
+        "matched": [
+          "sin",
+          "sin"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/6oZAkJ1hdak.png",
+        "score": 6,
+        "matched": [
+          "sin",
+          "sin"
+        ]
+      }
+    ],
+    "daly-syndrome": [
+      {
+        "path": "images/Daly Syndrome/daly_prew.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_scrn_1.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_scrn_2.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_scrn_3.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_scrn_4.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_syndrome_scr_1_preview.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_syndrome_scr_1.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      },
+      {
+        "path": "images/Daly Syndrome/daly_syndrome_scr_2.png",
+        "score": 12,
+        "matched": [
+          "daly",
+          "syndrome",
+          "daly",
+          "syndrome"
+        ]
+      }
+    ],
+    "metaliminal": [
+      {
+        "path": "images/Games/metaliminal/metaliminal_1.png",
+        "score": 6,
+        "matched": [
+          "metaliminal",
+          "metaliminal"
+        ]
+      },
+      {
+        "path": "images/Games/metaliminal/metaliminal_2.png",
+        "score": 6,
+        "matched": [
+          "metaliminal",
+          "metaliminal"
+        ]
+      },
+      {
+        "path": "images/Games/metaliminal/metaliminal_3.png",
+        "score": 6,
+        "matched": [
+          "metaliminal",
+          "metaliminal"
+        ]
+      },
+      {
+        "path": "images/Games/metaliminal/metaliminal_4.png",
+        "score": 6,
+        "matched": [
+          "metaliminal",
+          "metaliminal"
+        ]
+      }
+    ],
+    "geztalt-j-2025": [
+      {
+        "path": "images/Geztalt/gez_vid_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/gez_vid_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2_preview.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      }
+    ],
+    "geztalt-person-2025": [
+      {
+        "path": "images/Geztalt/gez_vid_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/gez_vid_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2_preview.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      }
+    ],
+    "geztalt-delta-2025": [
+      {
+        "path": "images/Geztalt/gez_vid_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/gez_vid_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2_preview.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      }
+    ],
+    "geztalt-ost-2025": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Poster.png",
+        "score": 6,
+        "matched": [
+          "ost",
+          "ost"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/eli_real_teto_post_black.png",
+        "score": 6,
+        "matched": [
+          "ost",
+          "ost"
+        ]
+      },
+      {
+        "path": "images/Geztalt/gez_vid_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/gez_vid_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_1.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2_preview.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      },
+      {
+        "path": "images/Geztalt/geztalt_scr_2.png",
+        "score": 3,
+        "matched": [
+          "geztalt"
+        ]
+      }
+    ],
+    "geztalt-other-2025": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Others/Ad.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Others/Bank.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Others/Banner.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Others/gez_logo.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Others/geztålt.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Others/lanterns.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Others/object_5.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Others/object_6.png",
+        "score": 3,
+        "matched": [
+          "other"
+        ]
+      }
+    ],
+    "life-in-one-second": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Phone.png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (1).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (2).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/droned (3).png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      },
+      {
+        "path": "images/Photoseries/set 1 portraits/loner.png",
+        "score": 6,
+        "matched": [
+          "one",
+          "one"
+        ]
+      }
+    ],
+    "redux-to-the-breath-2": [
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_10.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_11.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_12.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_13.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_14.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_15.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      },
+      {
+        "path": "images/CG/semi-spatial_apartment/semi-spatial_apartment_16.png",
+        "score": 3,
+        "matched": [
+          "part"
+        ]
+      }
+    ],
+    "amp": [
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_1.png",
+        "score": 6,
+        "matched": [
+          "amp",
+          "amp"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_2.png",
+        "score": 6,
+        "matched": [
+          "amp",
+          "amp"
+        ]
+      },
+      {
+        "path": "images/Artwork/Painting/Abstract_sample_3.png",
+        "score": 6,
+        "matched": [
+          "amp",
+          "amp"
+        ]
+      },
+      {
+        "path": "images/Artwork/Single Photos/lamp.png",
+        "score": 6,
+        "matched": [
+          "amp",
+          "amp"
+        ]
+      }
+    ],
+    "cg-design-online-shop": [
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Coffee.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Dryer.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Fridge.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Hoodie.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Phone.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Poster.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Smartwatch.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Online Shop/Teapot.png",
+        "score": 19,
+        "matched": [
+          "design",
+          "online",
+          "shop",
+          "design",
+          "online",
+          "shop"
+        ]
+      }
+    ],
+    "album-covers-archive": [
+      {
+        "path": "images/CG For Site/Album Covers/cover_1.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_10.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_11.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_12.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_13.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_14.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_15.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Album Covers/cover_16.png",
+        "score": 13,
+        "matched": [
+          "album",
+          "covers",
+          "album",
+          "covers"
+        ]
+      }
+    ],
+    "logo-archive": [
+      {
+        "path": "images/CG For Site/Logo/logo_1.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_10.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_11.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_12.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_13.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_14.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_15.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      },
+      {
+        "path": "images/CG For Site/Logo/logo_16.png",
+        "score": 7,
+        "matched": [
+          "logo",
+          "logo"
+        ]
+      }
+    ],
+    "cg-3d-design-archive": [
+      {
+        "path": "images/3D design/compressed energy.png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/3D design/drema.png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/3D design/neuron brain cover.png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/3D design/neuron brain2 .png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/3D design/neuron brain4.png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/3D design/swirl.png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/3D design/towny.jpg",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      },
+      {
+        "path": "images/CG Design Ilya Minin (Eli)/Bonza/Advert.png",
+        "score": 7,
+        "matched": [
+          "design",
+          "design"
+        ]
+      }
+    ],
+    "teto-character-studies": [
+      {
+        "path": "images/CG/Teto/Hanged Kasane 2 crop.jpg",
+        "score": 10,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/Hanged Kasane.jpg",
+        "score": 10,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/Kasane Snego 2.png",
+        "score": 10,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/CG/Teto/Kasane Snego.png",
+        "score": 10,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/collages/bhjbj.png",
+        "score": 9,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/collages/gu.png",
+        "score": 9,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/collages/мр.png",
+        "score": 9,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      },
+      {
+        "path": "images/kasane_teto/djkg.png",
+        "score": 9,
+        "matched": [
+          "kasane",
+          "teto",
+          "teto"
+        ]
+      }
+    ],
+    "ewp-presentation-archive": [
+      {
+        "path": "images/EWP Project/presentation/0001.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/0164.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/0332.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/0364.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/Final Render.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/inprogress1.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/photo_2023-05-10_01-01-19.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      },
+      {
+        "path": "images/EWP Project/presentation/photo_2023-05-10_23-13-26.png",
+        "score": 12,
+        "matched": [
+          "ewp",
+          "presentation",
+          "ewp",
+          "presentation"
+        ]
+      }
+    ],
+    "parallel-vienna-alexander-zaloopin": [
+      {
+        "path": "images/Performances/agonal_machines-banner.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 1.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 2.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 3.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/Biennale de Meatpacking - 1ère partie 2022/Final Art 4.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      },
+      {
+        "path": "images/Performances/meatbiennale.png",
+        "score": 3,
+        "matched": [
+          "performance"
+        ]
+      }
+    ]
+  }
+}
