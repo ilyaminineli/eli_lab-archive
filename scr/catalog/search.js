@@ -17,9 +17,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         .trim();
 
     try {
-        const [workResponse, relationResponse] = await Promise.all([
+        const [workResponse, relationResponse, videoResponse] = await Promise.all([
             fetch('../data/works.json'),
-            fetch('../data/relations.json')
+            fetch('../data/relations.json'),
+            fetch('../data/video_context.json')
         ]);
         if (!workResponse.ok) throw new Error('SEARCH DATABASE UNAVAILABLE.');
 
@@ -32,6 +33,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             ...(graph.groups || []).flatMap(item => [[item.id, item.name], ...((item.aliases || []).map(alias => [item.id + '|alias|' + alias, alias]))]),
             ...(graph.places || []).map(item => [item.id, item.name])
         ]);
+
+        const videoSearchMap = new Map();
+        (videoResponse.ok ? (await videoResponse.json()).rows : []).forEach(video => {
+            if (!video.canonicalWorkId) return;
+            if (!videoSearchMap.has(video.canonicalWorkId)) videoSearchMap.set(video.canonicalWorkId, []);
+            videoSearchMap.get(video.canonicalWorkId).push(video.title, video.description, ...(video.links || []), ...(video.creditLines || []));
+        });
 
         const relationMap = new Map();
         (graph.edges || []).forEach(edge => {
@@ -47,7 +55,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 id: work.id, name: work.title, entityType: 'work',
                 description: work.description,
                 meta: [...(work.medium || []), ...(work.context || [])].join(' / '),
-                search: [work.id, work.title, work.description, work.year, ...(work.medium || []), ...(work.context || []), ...(work.sources || []), ...(work.external_sources || []), ...(relationMap.get(work.id) || [])].join(' ')
+                search: [work.id, work.title, work.description, work.year, ...(work.medium || []), ...(work.context || []), ...(work.sources || []), ...(work.external_sources || []), ...(relationMap.get(work.id) || []), ...(videoSearchMap.get(work.id) || [])].join(' ')
             })),
             ...(graph.people || []).map(person => ({
                 id: person.id, name: person.name, entityType: 'person', description: person.type,
