@@ -1628,3 +1628,29 @@ body::after {
     }
     .video-table-head span:nth-child(3) { display: none; }
 }
+
+.archive-source-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: .55rem;
+    padding: .45rem .55rem;
+    color: #dce3df;
+    background: #263231;
+    border: 1px solid #1a2322;
+    font: 500 .55rem/1.2 "DM Mono",monospace;
+    letter-spacing: .05em;
+}
+.archive-source-strip span:first-child { color: #9eaca7; }
+.archive-source-strip a {
+    padding-left: .55rem;
+    border-left: 1px solid rgba(220,227,223,.14);
+    color: #d2a05e;
+}
+.archive-source-strip a:hover { color: #f0c17b; }
+
+@media (max-width: 560px) {
+    .archive-source-strip { align-items: flex-start; flex-direction: column; }
+    .archive-source-strip a { padding-left: 0; border-left: 0; }
+}
