@@ -3,8 +3,8 @@
 > Master index for the research archive. Detailed material is split into maintainable thematic, medium, source and audit files.
 
 ## Current state
-- `data/works.json` — 140 structured records; 139 public, 1 private.
-- `data/relations.json` — 134 explicit work/person/place/group relations.
+- `data/works.json` — 141 structured records; 140 public, 1 private.
+- `data/relations.json` — 133 explicit work/person/place/group relations.
 - `data/aliases.json` — canonical alias and old-label registry used to prevent duplicate work records.
 - `Ilya-Minin-Eli.csv` — 126 public YouTube source rows.
 - `VIDEO_CATALOG_MAP.md` — normalized YouTube discovery map.
