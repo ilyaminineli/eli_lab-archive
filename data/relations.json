@@ -118,11 +118,6 @@
       "type": "artist / teacher"
     },
     {
-      "id": "parazit",
-      "name": "PARAZIT",
-      "type": "artist group / collective"
-    },
-    {
       "id": "nikolay-alekseev",
       "name": "Nikolay Alekseev",
       "type": "collaborator"
@@ -150,16 +145,6 @@
     {
       "id": "sasha-e-b",
       "name": "sasha e b / Sasha e b",
-      "type": "collaborator"
-    },
-    {
-      "id": "bvlkk",
-      "name": "Blikk / BVLKK",
-      "type": "collaborator"
-    },
-    {
-      "id": "roman-er",
-      "name": "Romaner",
       "type": "collaborator"
     }
   ],
@@ -674,7 +659,7 @@
     {
       "from": "daly-syndrome",
       "relation": "co-created-with",
-      "to": "roman-er"
+      "to": "romaner"
     },
     {
       "from": "desolation-odissey",
@@ -754,17 +739,17 @@
     {
       "from": "ewp-project",
       "relation": "co-created-with",
-      "to": "bvlkk"
+      "to": "blikk"
     },
     {
       "from": "ewp-project",
       "relation": "co-created-with",
-      "to": "roman-er"
+      "to": "romaner"
     },
     {
       "from": "eporgaanisten-rakenteiden-kierratys",
       "relation": "co-created-with",
-      "to": "roman-er"
+      "to": "romaner"
     },
     {
       "from": "eporgaanisten-rakenteiden-kierratys",
@@ -774,7 +759,7 @@
     {
       "from": "lab-announcement-3",
       "relation": "co-created-with",
-      "to": "roman-er"
+      "to": "romaner"
     },
     {
       "from": "geztalt-j-2025",
@@ -862,11 +847,6 @@
       "to": "jihanki"
     },
     {
-      "from": "mountain-remembers",
-      "relation": "related-to",
-      "to": "japan-fuji-folklore"
-    },
-    {
       "from": "six-yokai",
       "relation": "related-to",
       "to": "jihanki"
@@ -880,16 +860,6 @@
       "from": "winter-story",
       "relation": "archive-source",
       "to": "eli_lab_official"
-    },
-    {
-      "from": "enlightenment-i",
-      "relation": "related-to",
-      "to": "fragmented-memories"
-    },
-    {
-      "from": "industrial-sanitation",
-      "relation": "related-to",
-      "to": "urban-dreams"
     }
   ],
   "groups": [
