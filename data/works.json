@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "notes": "Curated master manifest for the personal art-practice archive. Research and client/private-order traces live separately. Status values preserve provenance and uncertainty.",
   "works": [
     {
@@ -15,7 +15,7 @@
         "film"
       ],
       "status": "confirmed",
-      "description": "CGI abstract animation.",
+      "description": "CGI abstract animation about a demon in human form returning to his hometown. The 2023 short combines abstract imagery with themes of alienation, identity and generational disconnect, with Ilya Minin (Eli) as director and a documented production crew.",
       "sources": [
         "https://github.com/ilyaminineli/ewproject"
       ],
@@ -226,11 +226,15 @@
         "documentation"
       ],
       "status": "confirmed",
-      "description": "Japanese CVVC UTAU / OpenUtau voicebank created by Ilya Minin (Eli).",
+      "description": "Japanese CVVC UTAU / OpenUtau voicebank by Ilya Minin (Eli), designed around a warm, intimate tone with a slightly uncanny edge. The released bank uses three recorded pitches and is documented for expressive Japanese singing, especially dark pop, industrial and experimental material.",
       "sources": [
         "https://github.com/ilyaminineli/eugene-utau"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eugene-utau/main/assets/character/%E5%8F%8B%E4%BA%BA/%E5%8F%8B%E4%BA%BA%20Icon%20HiRes.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eugene-utau/main/assets/character/%E5%8F%8B%E4%BA%BA/%E5%8F%8B%E4%BA%BA%20Icon%20HiRes.png",
+      "external_sources": [
+        "https://eliasadams.github.io/eugene-utau/",
+        "https://github.com/ELIASADAMS/eugene-utau/releases"
+      ]
     },
     {
       "id": "iirai",
@@ -245,9 +249,12 @@
         "character"
       ],
       "status": "confirmed",
-      "description": "Three-generation voicebank family: Iirai, Akane Iirai and Akane Iirai · Akatsuki.",
+      "description": "Three-generation Japanese UTAU voicebank family: イーライ, 茜音イーライ and 茜音イーライ・暁. The project preserves earlier generations while developing new recordings, appends, technical documentation and character presentation.",
       "sources": [
         "https://github.com/ilyaminineli/Iirai"
+      ],
+      "external_sources": [
+        "https://ilyaminineli.github.io/Iirai/"
       ]
     },
     {
@@ -263,8 +270,11 @@
         "generative"
       ],
       "status": "confirmed",
-      "description": "Procedural Japanese lyric-to-UST generator and tuning assistant.",
+      "description": "Procedural Japanese lyric-to-UST generator and tuning assistant with mora-aware phonemization, procedural melody, motif reuse, Japanese pitch-accent support, timing variation, dynamics and optional microtonal pitch-bend expression.",
       "sources": [
+        "https://github.com/ilyaminineli/text-to-ust"
+      ],
+      "external_sources": [
         "https://github.com/ilyaminineli/text-to-ust"
       ]
     },
@@ -283,11 +293,14 @@
         "tool"
       ],
       "status": "confirmed",
-      "description": "Live computer music and sound-art platform based on Max/MSP, samples and semi-algorithmic processing.",
+      "description": "Max/MSP live computer-music and sound-art platform using sample-based real-time manipulation and semi-algorithmic processing. The repository is organized around modular patchers for mixing, ambience, granular processing, rhythm, effects and live control.",
       "sources": [
         "https://github.com/ilyaminineli/Belial_8"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Belial/belial_soft_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Belial/belial_soft_preview.png",
+      "external_sources": [
+        "https://github.com/ilyaminineli/Belial_8"
+      ]
     },
     {
       "id": "pipeline-hub",
@@ -340,11 +353,14 @@
         "fieldwork"
       ],
       "status": "confirmed",
-      "description": "Interactive archive presented as a Japanese vending machine interface.",
+      "description": "Web-based interactive archive presented as a Japanese vending machine interface, combining texts, sounds, photographs, scripts and project documentation. It grew from the SAIKONEON / Lake Saiko field experience in Japan and treats the vending machine as the archive's interaction model.",
       "sources": [
         "https://github.com/ilyaminineli/jihanki-site"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/jihanki-site/main/assets/jihanki.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/jihanki-site/main/assets/jihanki.png",
+      "external_sources": [
+        "https://github.com/ilyaminineli/jihanki-site"
+      ]
     },
     {
       "id": "antokolskyj",
