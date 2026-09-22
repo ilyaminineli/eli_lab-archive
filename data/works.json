@@ -23,7 +23,10 @@
         "https://www.youtube.com/watch?v=997vBAqNjm0"
       ],
       "thumbnail": "https://img.youtube.com/vi/997vBAqNjm0/hqdefault.jpg",
-      "media_dir": "media/works/ewp-project/"
+      "media_dir": "media/works/ewp-project/",
+      "video_source_ids": [
+        "gL7di-eXDmE"
+      ]
     },
     {
       "id": "bogorodskoe",
@@ -46,7 +49,10 @@
       "external_sources": [
         "https://www.youtube.com/watch?v=_KpvIF-fgs8"
       ],
-      "media_dir": "media/works/bogorodskoe/"
+      "media_dir": "media/works/bogorodskoe/",
+      "video_source_ids": [
+        "_KpvIF-fgs8"
+      ]
     },
     {
       "id": "the-last-day-of-kasane-teto",
@@ -3227,7 +3233,10 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/Bv-4aHjHbf0/hqdefault.jpg",
       "source_video_ids": [],
-      "media_dir": "media/works/teto-2026-manifesto/"
+      "media_dir": "media/works/teto-2026-manifesto/",
+      "video_source_ids": [
+        "Bv-4aHjHbf0"
+      ]
     },
     {
       "id": "kuleshov-effect",
@@ -3250,7 +3259,10 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/XKdVkUc8q80/hqdefault.jpg",
       "source_video_ids": [],
-      "media_dir": "media/works/kuleshov-effect/"
+      "media_dir": "media/works/kuleshov-effect/",
+      "video_source_ids": [
+        "XKdVkUc8q80"
+      ]
     },
     {
       "id": "linearna-zaležnost",
@@ -3272,7 +3284,10 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/wvOA4AV6ytU/hqdefault.jpg",
       "source_video_ids": [],
-      "media_dir": "media/works/linearna-zaležnost/"
+      "media_dir": "media/works/linearna-zaležnost/",
+      "video_source_ids": [
+        "wvOA4AV6ytU"
+      ]
     },
     {
       "id": "serval-man",
@@ -3294,7 +3309,10 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/ypP4UKUWvpw/hqdefault.jpg",
       "source_video_ids": [],
-      "media_dir": "media/works/serval-man/"
+      "media_dir": "media/works/serval-man/",
+      "video_source_ids": [
+        "ypP4UKUWvpw"
+      ]
     },
     {
       "id": "trurly-fierndship",
@@ -3316,7 +3334,10 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/B610CDVHkJY/hqdefault.jpg",
       "source_video_ids": [],
-      "media_dir": "media/works/trurly-fierndship/"
+      "media_dir": "media/works/trurly-fierndship/",
+      "video_source_ids": [
+        "B610CDVHkJY"
+      ]
     }
   ]
 }
