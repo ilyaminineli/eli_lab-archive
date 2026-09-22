@@ -1,0 +1,577 @@
+{
+  "updated": "2026-09-22",
+  "relation_vocabulary": [
+    "uses",
+    "features",
+    "created-by",
+    "co-created-with",
+    "performed-with",
+    "documented-by",
+    "screened-at",
+    "exhibited-at",
+    "released-on",
+    "implemented-with",
+    "part-of-series",
+    "related-to",
+    "derived-from",
+    "archive-source"
+  ],
+  "people": [
+    {
+      "id": "ilya-minin",
+      "name": "Ilya Minin (Eli)",
+      "type": "artist"
+    },
+    {
+      "id": "romaner",
+      "name": "Romaner",
+      "type": "collaborator"
+    },
+    {
+      "id": "e6",
+      "name": "e/6",
+      "type": "collaborator"
+    },
+    {
+      "id": "spalah79",
+      "name": "Spalah79 / Spalah",
+      "type": "collaborator"
+    },
+    {
+      "id": "blikk",
+      "name": "Blikk / BVLKK",
+      "type": "collaborator"
+    },
+    {
+      "id": "marusia-izdebska",
+      "name": "Marusia Izdebska",
+      "type": "collaborator"
+    },
+    {
+      "id": "julia-baranyuk",
+      "name": "Julia Baranyuk",
+      "type": "collaborator"
+    },
+    {
+      "id": "anna-yuytova",
+      "name": "Anna Yuytova",
+      "type": "collaborator"
+    },
+    {
+      "id": "grigoriy-ilugdin",
+      "name": "Grigoriy Ilugdin",
+      "type": "director"
+    },
+    {
+      "id": "anna-mikhaylova",
+      "name": "Anna Mikhaylova",
+      "type": "collaborator"
+    },
+    {
+      "id": "asya-melnikova",
+      "name": "Asya Melnikova",
+      "type": "collaborator"
+    },
+    {
+      "id": "igor-yanovsky",
+      "name": "Igor Yanovsky",
+      "type": "collaborator"
+    },
+    {
+      "id": "oleg-ustinov",
+      "name": "Oleg Ustinov",
+      "type": "collaborator"
+    },
+    {
+      "id": "mikhail-tenkovsky",
+      "name": "Mikhail Tenkovsky",
+      "type": "collaborator"
+    },
+    {
+      "id": "artyom-merkushev",
+      "name": "Artyom Merkushev",
+      "type": "collaborator"
+    },
+    {
+      "id": "possum-eugene",
+      "name": "Possum Eugene",
+      "type": "voice provider"
+    },
+    {
+      "id": "eikton",
+      "name": "eikton",
+      "type": "technical collaborator"
+    },
+    {
+      "id": "schenchik",
+      "name": "Schenchik",
+      "type": "illustrator"
+    },
+    {
+      "id": "danylo-melnik",
+      "name": "Danylo Melnik",
+      "type": "collaborator"
+    },
+    {
+      "id": "sergey-bratkov",
+      "name": "Sergey Bratkov",
+      "type": "artist / teacher"
+    },
+    {
+      "id": "saikoneon",
+      "name": "SAIKONEON",
+      "type": "residency / place"
+    },
+    {
+      "id": "parazit",
+      "name": "PARAZIT",
+      "type": "artist group / collective"
+    },
+    {
+      "id": "grig-film",
+      "name": "GRIG Film",
+      "type": "production company"
+    }
+  ],
+  "places": [
+    {
+      "id": "rodchenko-school",
+      "name": "Rodchenko School of Photography and Multimedia"
+    },
+    {
+      "id": "winzavod",
+      "name": "Winzavod"
+    },
+    {
+      "id": "khodynka",
+      "name": "Gallery Khodynka"
+    },
+    {
+      "id": "ugol",
+      "name": "UGOL"
+    },
+    {
+      "id": "bogorodskoye",
+      "name": "Gallery Bogorodskoye"
+    },
+    {
+      "id": "polytechnic-museum",
+      "name": "Polytechnic Museum"
+    },
+    {
+      "id": "asc-museum",
+      "name": "ASC Museum"
+    },
+    {
+      "id": "lachesis",
+      "name": "Lachesis"
+    },
+    {
+      "id": "kupe23",
+      "name": "КУПЕ 23"
+    },
+    {
+      "id": "lake-saiko",
+      "name": "Lake Saiko / Yamanashi"
+    },
+    {
+      "id": "moscow-state-university",
+      "name": "Moscow State University"
+    },
+    {
+      "id": "peredelano-conf",
+      "name": "Peredelano Conf"
+    },
+    {
+      "id": "videodrome",
+      "name": "VIDEODROME"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ewp-project",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "blikk"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "spalah79"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "romaner"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "marusia-izdebska"
+    },
+    {
+      "from": "ewp-project",
+      "relation": "co-created-with",
+      "to": "e6"
+    },
+    {
+      "from": "daly-syndrome",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "daly-syndrome",
+      "relation": "co-created-with",
+      "to": "spalah79"
+    },
+    {
+      "from": "daly-syndrome",
+      "relation": "co-created-with",
+      "to": "romaner"
+    },
+    {
+      "from": "daly-syndrome",
+      "relation": "co-created-with",
+      "to": "e6"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "co-created-with",
+      "to": "anna-yuytova"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "co-created-with",
+      "to": "grigoriy-ilugdin"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "co-created-with",
+      "to": "grig-film"
+    },
+    {
+      "from": "pleiir",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "pleiir",
+      "relation": "co-created-with",
+      "to": "spalah79"
+    },
+    {
+      "from": "gonki-i-tochka",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "gonki-i-tochka",
+      "relation": "co-created-with",
+      "to": "mikhail-tenkovsky"
+    },
+    {
+      "from": "gonki-i-tochka",
+      "relation": "co-created-with",
+      "to": "artyom-merkushev"
+    },
+    {
+      "from": "eporgaanisten-rakenteiden-kierratys",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "eporgaanisten-rakenteiden-kierratys",
+      "relation": "co-created-with",
+      "to": "romaner"
+    },
+    {
+      "from": "lab-announcement-3",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "lab-announcement-3",
+      "relation": "co-created-with",
+      "to": "romaner"
+    },
+    {
+      "from": "eugene",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "eugene",
+      "relation": "co-created-with",
+      "to": "possum-eugene"
+    },
+    {
+      "from": "eugene",
+      "relation": "co-created-with",
+      "to": "eikton"
+    },
+    {
+      "from": "iirai",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "iirai",
+      "relation": "co-created-with",
+      "to": "schenchik"
+    },
+    {
+      "from": "iirai",
+      "relation": "co-created-with",
+      "to": "eikton"
+    },
+    {
+      "from": "hiro",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "hiro",
+      "relation": "related-to",
+      "to": "eugene"
+    },
+    {
+      "from": "hiro",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "hiro",
+      "relation": "implemented-with",
+      "to": "synthv-custom-scripts"
+    },
+    {
+      "from": "synthv-custom-scripts",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "synthv-custom-scripts",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "synthv-custom-scripts",
+      "relation": "related-to",
+      "to": "eugene"
+    },
+    {
+      "from": "pattern-generator",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "pipeline-hub",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "multimedia-framework",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "pipeline-hub",
+      "relation": "related-to",
+      "to": "the-last-day-of-kasane-teto"
+    },
+    {
+      "from": "multimedia-framework",
+      "relation": "related-to",
+      "to": "daly-syndrome"
+    },
+    {
+      "from": "pattern-generator",
+      "relation": "related-to",
+      "to": "belial"
+    },
+    {
+      "from": "jihanki",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "jihanki",
+      "relation": "co-created-with",
+      "to": "julia-baranyuk"
+    },
+    {
+      "from": "jihanki",
+      "relation": "archive-source",
+      "to": "saikoneon"
+    },
+    {
+      "from": "jihanki",
+      "relation": "related-to",
+      "to": "mountain-remembers"
+    },
+    {
+      "from": "jihanki",
+      "relation": "related-to",
+      "to": "six-yokai"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "related-to",
+      "to": "six-yokai"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "related-to",
+      "to": "nature-2019"
+    },
+    {
+      "from": "mountain-remembers",
+      "relation": "related-to",
+      "to": "in-her-20s"
+    },
+    {
+      "from": "in-her-20s",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "childs-sky",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "childs-sky",
+      "relation": "related-to",
+      "to": "eugene"
+    },
+    {
+      "from": "someones-voice",
+      "relation": "related-to",
+      "to": "iirai"
+    },
+    {
+      "from": "afraid-of-happiness",
+      "relation": "related-to",
+      "to": "eugene"
+    },
+    {
+      "from": "untitled-3",
+      "relation": "exhibited-at",
+      "to": "meatpacking-part-1"
+    },
+    {
+      "from": "untitled-3",
+      "relation": "documented-by",
+      "to": "videodrome"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "sergey-bratkov"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "asya-melnikova"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "igor-yanovsky"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "oleg-ustinov"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "archive-source",
+      "to": "rodchenko-school"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "co-created-with",
+      "to": "julia-baranyuk"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "related-to",
+      "to": "pattern-generator"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "related-to",
+      "to": "belial"
+    },
+    {
+      "from": "taming-the-serpent",
+      "relation": "co-created-with",
+      "to": "julia-baranyuk"
+    },
+    {
+      "from": "taming-the-serpent",
+      "relation": "performed-with",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "meatpacking-part-1",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "meatpacking-part-2",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "telegraph-kinetic-coding",
+      "relation": "archive-source",
+      "to": "polytechnic-museum"
+    },
+    {
+      "from": "system-s3",
+      "relation": "archive-source",
+      "to": "khodynka"
+    },
+    {
+      "from": "memory-of-touch",
+      "relation": "archive-source",
+      "to": "bogorodskoye"
+    },
+    {
+      "from": "ugol-visual-programming",
+      "relation": "archive-source",
+      "to": "ugol"
+    },
+    {
+      "from": "peredelano-conf-2023",
+      "relation": "archive-source",
+      "to": "peredelano-conf"
+    },
+    {
+      "from": "msu-sound-art-lecture-2023",
+      "relation": "archive-source",
+      "to": "moscow-state-university"
+    },
+    {
+      "from": "the-last-day-of-kasane-teto",
+      "relation": "screened-at",
+      "to": "videodrome"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "exhibited-at",
+      "to": "kupe23"
+    }
+  ]
+}
