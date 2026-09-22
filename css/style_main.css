@@ -705,3 +705,19 @@ h1 em, h2 em {
     letter-spacing: .04em;
     text-transform: uppercase;
 }
+
+/* Existing eli_lab material references from the Eugene voicebank site */
+.site-header {
+    background-image: url("https://raw.githubusercontent.com/ilyaminineli/eugene-utau/main/assets/textures/light-paper-fibers.png");
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+}
+.work-media,
+.archive-work-media,
+.medium-list a,
+.archive-row,
+.archive-toolbar {
+    background-image: url("https://raw.githubusercontent.com/ilyaminineli/eugene-utau/main/assets/textures/beige-paper.png");
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+}
