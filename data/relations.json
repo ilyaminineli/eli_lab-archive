@@ -962,9 +962,19 @@
       "to": "parallel-vienna-2026"
     },
     {
+      "from": "eli-lab-mv",
+      "relation": "related-to",
+      "to": "multimedia-framework"
+    },
+    {
+      "from": "eli-lab-mv-titler",
+      "relation": "related-to",
+      "to": "eli-lab-mv"
+    },
+    {
       "from": "parallel-vienna-oleg-ustinov",
       "relation": "archive-source",
-      "to": "oleg_ustinov_official"
+      "to": "oleg-ustinov-official"
     }
   ],
   "groups": [
@@ -1012,6 +1022,11 @@
       "id": "big-beat",
       "name": "Big Beat",
       "type": "jazz label / release partner"
+    },
+    {
+      "id": "oleg-ustinov-official",
+      "name": "Oleg Ustinov — Artist Website",
+      "type": "artist site / source"
     }
   ]
 }
