@@ -3771,3 +3771,7 @@ body::after {
         display: none;
     }
 }
+
+
+.terminal-status[data-state="ONLINE"] .status-led { background: var(--green-led); }
+.terminal-status[data-state="OFFLINE"] .status-led { background: var(--red-led); }
