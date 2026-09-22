@@ -2844,6 +2844,68 @@
       "related_works": [
         "parallel-vienna-2026"
       ]
+    },
+    {
+      "id": "no-skin",
+      "title": "No Skin",
+      "year": "2022",
+      "medium": [
+        "installation",
+        "art"
+      ],
+      "context": [
+        "physical",
+        "installation",
+        "mixed-media"
+      ],
+      "status": "documented",
+      "description": "Installation built from a plastic bust, lamp and colored paper; documented in the historical art-practice archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Installations/installations_preview1.png"
+    },
+    {
+      "id": "eli-lab-mv",
+      "title": "eli_lab MV",
+      "year": "2026",
+      "medium": [
+        "software",
+        "video",
+        "audio"
+      ],
+      "context": [
+        "private",
+        "production tool",
+        "audio-reactive",
+        "FFmpeg"
+      ],
+      "status": "private",
+      "visibility": "private",
+      "description": "Private audio-reactive visual MV editor / production workstation with deterministic rendering, audio analysis, layered effects, project presets and export tooling.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_mv"
+      ]
+    },
+    {
+      "id": "eli-lab-mv-titler",
+      "title": "ELI LAB MV TITLER",
+      "year": "2026",
+      "medium": [
+        "software",
+        "video",
+        "typography"
+      ],
+      "context": [
+        "subtitle tool",
+        "Japanese",
+        "generative"
+      ],
+      "status": "documented",
+      "description": "Dependency-free browser tool for generating animated Japanese subtitle typography from SRT/SBV timing and text.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-mv-titler"
+      ]
     }
   ]
 }
