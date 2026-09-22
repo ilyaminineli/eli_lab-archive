@@ -1,0 +1,618 @@
+{
+  "updated": "2026-09-23",
+  "instructions": "Add local archive images to media/works/WORK_ID/ and list selected display files in items. Example item: {\"path\":\"media/works/eugene/01-cover.jpg\",\"role\":\"cover\",\"caption\":\"...\"}. Keep unselected source material in the folder without adding it to items.",
+  "works": {
+    "ewp-project": {
+      "folder": "media/works/ewp-project/",
+      "items": []
+    },
+    "bogorodskoe": {
+      "folder": "media/works/bogorodskoe/",
+      "items": []
+    },
+    "the-last-day-of-kasane-teto": {
+      "folder": "media/works/the-last-day-of-kasane-teto/",
+      "items": []
+    },
+    "triple-baka": {
+      "folder": "media/works/triple-baka/",
+      "items": []
+    },
+    "3d-essentials": {
+      "folder": "media/works/3d-essentials/",
+      "items": []
+    },
+    "semi-spatial-apartment": {
+      "folder": "media/works/semi-spatial-apartment/",
+      "items": []
+    },
+    "untitled-3": {
+      "folder": "media/works/untitled-3/",
+      "items": []
+    },
+    "jewish-gift": {
+      "folder": "media/works/jewish-gift/",
+      "items": []
+    },
+    "lab-announcement-3": {
+      "folder": "media/works/lab-announcement-3/",
+      "items": []
+    },
+    "blue-neon": {
+      "folder": "media/works/blue-neon/",
+      "items": []
+    },
+    "no-one-is-listening": {
+      "folder": "media/works/no-one-is-listening/",
+      "items": []
+    },
+    "eugene": {
+      "folder": "media/works/eugene/",
+      "items": []
+    },
+    "iirai": {
+      "folder": "media/works/iirai/",
+      "items": []
+    },
+    "hiro": {
+      "folder": "media/works/hiro/",
+      "items": []
+    },
+    "belial": {
+      "folder": "media/works/belial/",
+      "items": []
+    },
+    "pipeline-hub": {
+      "folder": "media/works/pipeline-hub/",
+      "items": []
+    },
+    "gonki-i-tochka": {
+      "folder": "media/works/gonki-i-tochka/",
+      "items": []
+    },
+    "jihanki": {
+      "folder": "media/works/jihanki/",
+      "items": []
+    },
+    "antokolskyj": {
+      "folder": "media/works/antokolskyj/",
+      "items": []
+    },
+    "pleiir": {
+      "folder": "media/works/pleiir/",
+      "items": []
+    },
+    "videodrome": {
+      "folder": "media/works/videodrome/",
+      "items": []
+    },
+    "live-one-gog": {
+      "folder": "media/works/live-one-gog/",
+      "items": []
+    },
+    "magic-orgy": {
+      "folder": "media/works/magic-orgy/",
+      "items": []
+    },
+    "teqcnuilogiogistie": {
+      "folder": "media/works/teqcnuilogiogistie/",
+      "items": []
+    },
+    "abnormal-reflective-girl": {
+      "folder": "media/works/abnormal-reflective-girl/",
+      "items": []
+    },
+    "mountain-remembers": {
+      "folder": "media/works/mountain-remembers/",
+      "items": []
+    },
+    "six-yokai": {
+      "folder": "media/works/six-yokai/",
+      "items": []
+    },
+    "in-her-20s": {
+      "folder": "media/works/in-her-20s/",
+      "items": []
+    },
+    "childs-sky": {
+      "folder": "media/works/childs-sky/",
+      "items": []
+    },
+    "someones-voice": {
+      "folder": "media/works/someones-voice/",
+      "items": []
+    },
+    "afraid-of-happiness": {
+      "folder": "media/works/afraid-of-happiness/",
+      "items": []
+    },
+    "fighting-postmodernism": {
+      "folder": "media/works/fighting-postmodernism/",
+      "items": []
+    },
+    "kagome-kagome": {
+      "folder": "media/works/kagome-kagome/",
+      "items": []
+    },
+    "get-hit-below": {
+      "folder": "media/works/get-hit-below/",
+      "items": []
+    },
+    "tetopocalypsis": {
+      "folder": "media/works/tetopocalypsis/",
+      "items": []
+    },
+    "fukkireta": {
+      "folder": "media/works/fukkireta/",
+      "items": []
+    },
+    "pjesma-pro-ljubov": {
+      "folder": "media/works/pjesma-pro-ljubov/",
+      "items": []
+    },
+    "taming-the-serpent": {
+      "folder": "media/works/taming-the-serpent/",
+      "items": []
+    },
+    "showreel-2024": {
+      "folder": "media/works/showreel-2024/",
+      "items": []
+    },
+    "mudak": {
+      "folder": "media/works/mudak/",
+      "items": []
+    },
+    "dymohod": {
+      "folder": "media/works/dymohod/",
+      "items": []
+    },
+    "muyskaya-depressiya": {
+      "folder": "media/works/muyskaya-depressiya/",
+      "items": []
+    },
+    "greater-than-lesser": {
+      "folder": "media/works/greater-than-lesser/",
+      "items": []
+    },
+    "vegetables": {
+      "folder": "media/works/vegetables/",
+      "items": []
+    },
+    "agonal-machines": {
+      "folder": "media/works/agonal-machines/",
+      "items": []
+    },
+    "industrial-sanitation": {
+      "folder": "media/works/industrial-sanitation/",
+      "items": []
+    },
+    "enlightenment-i": {
+      "folder": "media/works/enlightenment-i/",
+      "items": []
+    },
+    "ritual-big-fridge": {
+      "folder": "media/works/ritual-big-fridge/",
+      "items": []
+    },
+    "evocation-turtur": {
+      "folder": "media/works/evocation-turtur/",
+      "items": []
+    },
+    "who-is-vova-lilo": {
+      "folder": "media/works/who-is-vova-lilo/",
+      "items": []
+    },
+    "w-video-collage": {
+      "folder": "media/works/w-video-collage/",
+      "items": []
+    },
+    "baron": {
+      "folder": "media/works/baron/",
+      "items": []
+    },
+    "bessonitsa": {
+      "folder": "media/works/bessonitsa/",
+      "items": []
+    },
+    "found-tape": {
+      "folder": "media/works/found-tape/",
+      "items": []
+    },
+    "estetish-tape": {
+      "folder": "media/works/estetish-tape/",
+      "items": []
+    },
+    "balance-2020": {
+      "folder": "media/works/balance-2020/",
+      "items": []
+    },
+    "receiver-2019": {
+      "folder": "media/works/receiver-2019/",
+      "items": []
+    },
+    "nature-2019": {
+      "folder": "media/works/nature-2019/",
+      "items": []
+    },
+    "rebirth": {
+      "folder": "media/works/rebirth/",
+      "items": []
+    },
+    "arctic-2019": {
+      "folder": "media/works/arctic-2019/",
+      "items": []
+    },
+    "frr": {
+      "folder": "media/works/frr/",
+      "items": []
+    },
+    "pticess": {
+      "folder": "media/works/pticess/",
+      "items": []
+    },
+    "insects-2018": {
+      "folder": "media/works/insects-2018/",
+      "items": []
+    },
+    "idiopathic": {
+      "folder": "media/works/idiopathic/",
+      "items": []
+    },
+    "aint-no-sunshine": {
+      "folder": "media/works/aint-no-sunshine/",
+      "items": []
+    },
+    "parallel-vienna-2026": {
+      "folder": "media/works/parallel-vienna-2026/",
+      "items": []
+    },
+    "eporgaanisten-rakenteiden-kierratys": {
+      "folder": "media/works/eporgaanisten-rakenteiden-kierratys/",
+      "items": []
+    },
+    "pattern-generator": {
+      "folder": "media/works/pattern-generator/",
+      "items": []
+    },
+    "synthv-custom-scripts": {
+      "folder": "media/works/synthv-custom-scripts/",
+      "items": []
+    },
+    "multimedia-framework": {
+      "folder": "media/works/multimedia-framework/",
+      "items": []
+    },
+    "assembly-line-challenge": {
+      "folder": "media/works/assembly-line-challenge/",
+      "items": []
+    },
+    "bloody": {
+      "folder": "media/works/bloody/",
+      "items": []
+    },
+    "bloody-2": {
+      "folder": "media/works/bloody-2/",
+      "items": []
+    },
+    "bonza": {
+      "folder": "media/works/bonza/",
+      "items": []
+    },
+    "portraits-2020": {
+      "folder": "media/works/portraits-2020/",
+      "items": []
+    },
+    "unreal-2020": {
+      "folder": "media/works/unreal-2020/",
+      "items": []
+    },
+    "serial-experiments-lens": {
+      "folder": "media/works/serial-experiments-lens/",
+      "items": []
+    },
+    "serial-experiments-lens-set-one": {
+      "folder": "media/works/serial-experiments-lens-set-one/",
+      "items": []
+    },
+    "uncanny-bar": {
+      "folder": "media/works/uncanny-bar/",
+      "items": []
+    },
+    "single-photos-2021-22": {
+      "folder": "media/works/single-photos-2021-22/",
+      "items": []
+    },
+    "mixed-technique-2022": {
+      "folder": "media/works/mixed-technique-2022/",
+      "items": []
+    },
+    "painting-studies-2022": {
+      "folder": "media/works/painting-studies-2022/",
+      "items": []
+    },
+    "refuge-2022": {
+      "folder": "media/works/refuge-2022/",
+      "items": []
+    },
+    "pereizobretenie-punk": {
+      "folder": "media/works/pereizobretenie-punk/",
+      "items": []
+    },
+    "ppp-2018": {
+      "folder": "media/works/ppp-2018/",
+      "items": []
+    },
+    "muse-2019": {
+      "folder": "media/works/muse-2019/",
+      "items": []
+    },
+    "pattern-2021": {
+      "folder": "media/works/pattern-2021/",
+      "items": []
+    },
+    "ugol-visual-programming": {
+      "folder": "media/works/ugol-visual-programming/",
+      "items": []
+    },
+    "telegraph-kinetic-coding": {
+      "folder": "media/works/telegraph-kinetic-coding/",
+      "items": []
+    },
+    "system-s3": {
+      "folder": "media/works/system-s3/",
+      "items": []
+    },
+    "memory-of-touch": {
+      "folder": "media/works/memory-of-touch/",
+      "items": []
+    },
+    "asc-eight-channel": {
+      "folder": "media/works/asc-eight-channel/",
+      "items": []
+    },
+    "holidays-sa-2021": {
+      "folder": "media/works/holidays-sa-2021/",
+      "items": []
+    },
+    "redd-2021": {
+      "folder": "media/works/redd-2021/",
+      "items": []
+    },
+    "smoles-2021": {
+      "folder": "media/works/smoles-2021/",
+      "items": []
+    },
+    "meatpacking-part-1": {
+      "folder": "media/works/meatpacking-part-1/",
+      "items": []
+    },
+    "meatpacking-part-2": {
+      "folder": "media/works/meatpacking-part-2/",
+      "items": []
+    },
+    "concert-at-la-2014": {
+      "folder": "media/works/concert-at-la-2014/",
+      "items": []
+    },
+    "peredelano-conf-2023": {
+      "folder": "media/works/peredelano-conf-2023/",
+      "items": []
+    },
+    "msu-sound-art-lecture-2023": {
+      "folder": "media/works/msu-sound-art-lecture-2023/",
+      "items": []
+    },
+    "seven-hills-m7": {
+      "folder": "media/works/seven-hills-m7/",
+      "items": []
+    },
+    "echo-of-eden": {
+      "folder": "media/works/echo-of-eden/",
+      "items": []
+    },
+    "frow": {
+      "folder": "media/works/frow/",
+      "items": []
+    },
+    "opossum": {
+      "folder": "media/works/opossum/",
+      "items": []
+    },
+    "birthday-gift-eli-to-elly": {
+      "folder": "media/works/birthday-gift-eli-to-elly/",
+      "items": []
+    },
+    "saint-sin-gift": {
+      "folder": "media/works/saint-sin-gift/",
+      "items": []
+    },
+    "geztalt": {
+      "folder": "media/works/geztalt/",
+      "items": []
+    },
+    "daly-syndrome": {
+      "folder": "media/works/daly-syndrome/",
+      "items": []
+    },
+    "desolation-odissey": {
+      "folder": "media/works/desolation-odissey/",
+      "items": []
+    },
+    "elysium": {
+      "folder": "media/works/elysium/",
+      "items": []
+    },
+    "metaliminal": {
+      "folder": "media/works/metaliminal/",
+      "items": []
+    },
+    "sleepdom": {
+      "folder": "media/works/sleepdom/",
+      "items": []
+    },
+    "night-mafia": {
+      "folder": "media/works/night-mafia/",
+      "items": []
+    },
+    "spring-story": {
+      "folder": "media/works/spring-story/",
+      "items": []
+    },
+    "winter-story": {
+      "folder": "media/works/winter-story/",
+      "items": []
+    },
+    "aibolit-sashaeb": {
+      "folder": "media/works/aibolit-sashaeb/",
+      "items": []
+    },
+    "re-punk": {
+      "folder": "media/works/re-punk/",
+      "items": []
+    },
+    "geztalt-j-2025": {
+      "folder": "media/works/geztalt-j-2025/",
+      "items": []
+    },
+    "geztalt-person-2025": {
+      "folder": "media/works/geztalt-person-2025/",
+      "items": []
+    },
+    "geztalt-delta-2025": {
+      "folder": "media/works/geztalt-delta-2025/",
+      "items": []
+    },
+    "geztalt-ost-2025": {
+      "folder": "media/works/geztalt-ost-2025/",
+      "items": []
+    },
+    "geztalt-other-2025": {
+      "folder": "media/works/geztalt-other-2025/",
+      "items": []
+    },
+    "red-box": {
+      "folder": "media/works/red-box/",
+      "items": []
+    },
+    "life-in-one-second": {
+      "folder": "media/works/life-in-one-second/",
+      "items": []
+    },
+    "redux-to-the-breath-2": {
+      "folder": "media/works/redux-to-the-breath-2/",
+      "items": []
+    },
+    "rakkaani": {
+      "folder": "media/works/rakkaani/",
+      "items": []
+    },
+    "amp": {
+      "folder": "media/works/amp/",
+      "items": []
+    },
+    "patanormal": {
+      "folder": "media/works/patanormal/",
+      "items": []
+    },
+    "bad-kase-of-indiscretion": {
+      "folder": "media/works/bad-kase-of-indiscretion/",
+      "items": []
+    },
+    "valera-grandpa-music": {
+      "folder": "media/works/valera-grandpa-music/",
+      "items": []
+    },
+    "london-hello": {
+      "folder": "media/works/london-hello/",
+      "items": []
+    },
+    "orthofuture": {
+      "folder": "media/works/orthofuture/",
+      "items": []
+    },
+    "pacanbalet": {
+      "folder": "media/works/pacanbalet/",
+      "items": []
+    },
+    "cg-design-online-shop": {
+      "folder": "media/works/cg-design-online-shop/",
+      "items": []
+    },
+    "album-covers-archive": {
+      "folder": "media/works/album-covers-archive/",
+      "items": []
+    },
+    "logo-archive": {
+      "folder": "media/works/logo-archive/",
+      "items": []
+    },
+    "cg-3d-design-archive": {
+      "folder": "media/works/cg-3d-design-archive/",
+      "items": []
+    },
+    "teto-character-studies": {
+      "folder": "media/works/teto-character-studies/",
+      "items": []
+    },
+    "ewp-presentation-archive": {
+      "folder": "media/works/ewp-presentation-archive/",
+      "items": []
+    },
+    "captured-bodies-soundtrack": {
+      "folder": "media/works/captured-bodies-soundtrack/",
+      "items": []
+    },
+    "who-is-eli": {
+      "folder": "media/works/who-is-eli/",
+      "items": []
+    },
+    "song-creator": {
+      "folder": "media/works/song-creator/",
+      "items": []
+    },
+    "vocaloid-jazz-album-2026": {
+      "folder": "media/works/vocaloid-jazz-album-2026/",
+      "items": []
+    },
+    "parallel-vienna-alexander-zaloopin": {
+      "folder": "media/works/parallel-vienna-alexander-zaloopin/",
+      "items": []
+    },
+    "parallel-vienna-oleg-ustinov": {
+      "folder": "media/works/parallel-vienna-oleg-ustinov/",
+      "items": []
+    },
+    "no-skin": {
+      "folder": "media/works/no-skin/",
+      "items": []
+    },
+    "eli-lab-mv": {
+      "folder": "media/works/eli-lab-mv/",
+      "items": []
+    },
+    "eli-lab-mv-titler": {
+      "folder": "media/works/eli-lab-mv-titler/",
+      "items": []
+    },
+    "teto-2026-manifesto": {
+      "folder": "media/works/teto-2026-manifesto/",
+      "items": []
+    },
+    "kuleshov-effect": {
+      "folder": "media/works/kuleshov-effect/",
+      "items": []
+    },
+    "linearna-zaležnost": {
+      "folder": "media/works/linearna-zaležnost/",
+      "items": []
+    },
+    "serval-man": {
+      "folder": "media/works/serval-man/",
+      "items": []
+    },
+    "trurly-fierndship": {
+      "folder": "media/works/trurly-fierndship/",
+      "items": []
+    }
+  }
+}
