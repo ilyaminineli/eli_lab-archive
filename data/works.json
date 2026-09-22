@@ -22,7 +22,8 @@
       "external_sources": [
         "https://www.youtube.com/watch?v=997vBAqNjm0"
       ],
-      "thumbnail": "https://img.youtube.com/vi/997vBAqNjm0/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/997vBAqNjm0/hqdefault.jpg",
+      "media_dir": "media/works/ewp-project/"
     },
     {
       "id": "bogorodskoe",
@@ -44,7 +45,8 @@
       ],
       "external_sources": [
         "https://www.youtube.com/watch?v=_KpvIF-fgs8"
-      ]
+      ],
+      "media_dir": "media/works/bogorodskoe/"
     },
     {
       "id": "the-last-day-of-kasane-teto",
@@ -68,7 +70,11 @@
         "https://www.youtube.com/",
         "https://i--active--space.orgs.biz/"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/the_last_day_of_KT%20(1).png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/the_last_day_of_KT%20(1).png",
+      "video_source_ids": [
+        "qxnTJGDGPWc"
+      ],
+      "media_dir": "media/works/the-last-day-of-kasane-teto/"
     },
     {
       "id": "triple-baka",
@@ -87,7 +93,11 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/triple_baka_screens%20(1).jpg"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/triple_baka_screens%20(1).jpg",
+      "video_source_ids": [
+        "MK1-yavSP3k"
+      ],
+      "media_dir": "media/works/triple-baka/"
     },
     {
       "id": "3d-essentials",
@@ -104,7 +114,8 @@
       "description": "A large CGI study and render cluster in the historical image archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/3d-essentials/"
     },
     {
       "id": "semi-spatial-apartment",
@@ -122,7 +133,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG/semi-spatial_apartment/semi-spatial_apartment_1.png",
+      "media_dir": "media/works/semi-spatial-apartment/"
     },
     {
       "id": "untitled-3",
@@ -144,7 +156,8 @@
       "external_sources": [
         "https://vladey.net/ru/lot/9223"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Painting/painting_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Painting/painting_preview.png",
+      "media_dir": "media/works/untitled-3/"
     },
     {
       "id": "jewish-gift",
@@ -162,7 +175,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Graphics/Jewish%20gift/jewgift_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Graphics/Jewish%20gift/jewgift_preview.png",
+      "media_dir": "media/works/jewish-gift/"
     },
     {
       "id": "lab-announcement-3",
@@ -181,7 +195,8 @@
       ],
       "external_sources": [
         "https://eliasadams.bandcamp.com/album/lab-announcement-3"
-      ]
+      ],
+      "media_dir": "media/works/lab-announcement-3/"
     },
     {
       "id": "blue-neon",
@@ -198,7 +213,8 @@
       "description": "Current jazz / vocal-synth project in development for the new album.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
-      ]
+      ],
+      "media_dir": "media/works/blue-neon/"
     },
     {
       "id": "no-one-is-listening",
@@ -215,7 +231,8 @@
       "description": "Current jazz / vocal-synth project in development.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
-      ]
+      ],
+      "media_dir": "media/works/no-one-is-listening/"
     },
     {
       "id": "eugene",
@@ -240,7 +257,8 @@
       "external_sources": [
         "https://eliasadams.github.io/eugene-utau/",
         "https://github.com/ELIASADAMS/eugene-utau/releases"
-      ]
+      ],
+      "media_dir": "media/works/eugene/"
     },
     {
       "id": "iirai",
@@ -261,7 +279,8 @@
       ],
       "external_sources": [
         "https://ilyaminineli.github.io/Iirai/"
-      ]
+      ],
+      "media_dir": "media/works/iirai/"
     },
     {
       "id": "hiro",
@@ -282,7 +301,8 @@
       ],
       "external_sources": [
         "https://github.com/ilyaminineli/text-to-ust"
-      ]
+      ],
+      "media_dir": "media/works/hiro/"
     },
     {
       "id": "belial",
@@ -306,7 +326,8 @@
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Belial/belial_soft_preview.png",
       "external_sources": [
         "https://github.com/ilyaminineli/Belial_8"
-      ]
+      ],
+      "media_dir": "media/works/belial/"
     },
     {
       "id": "pipeline-hub",
@@ -324,7 +345,8 @@
       "description": "Blender addon for asset management, scene setup, linked libraries, export, render and pipeline automation.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_pipeline_hub"
-      ]
+      ],
+      "media_dir": "media/works/pipeline-hub/"
     },
     {
       "id": "gonki-i-tochka",
@@ -343,7 +365,8 @@
       "description": "Unity low-poly arcade racing game made with Mikhail Tenkovsky and Artyom Merkushev.",
       "sources": [
         "https://github.com/ilyaminineli/gonkiitochka"
-      ]
+      ],
+      "media_dir": "media/works/gonki-i-tochka/"
     },
     {
       "id": "jihanki",
@@ -366,7 +389,8 @@
       "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/jihanki-site/main/assets/jihanki.png",
       "external_sources": [
         "https://github.com/ilyaminineli/jihanki-site"
-      ]
+      ],
+      "media_dir": "media/works/jihanki/"
     },
     {
       "id": "antokolskyj",
@@ -385,7 +409,8 @@
       "description": "Historical Blender animation created with Anna Yuytova for GRIG Film.",
       "sources": [
         "https://github.com/ilyaminineli/Antokolskyj"
-      ]
+      ],
+      "media_dir": "media/works/antokolskyj/"
     },
     {
       "id": "pleiir",
@@ -404,7 +429,11 @@
       "sources": [
         "https://github.com/ilyaminineli/Pleiir"
       ],
-      "thumbnail": "https://img.youtube.com/vi/fVjXju_4J5E/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/fVjXju_4J5E/hqdefault.jpg",
+      "video_source_ids": [
+        "fVjXju_4J5E"
+      ],
+      "media_dir": "media/works/pleiir/"
     },
     {
       "id": "videodrome",
@@ -421,7 +450,8 @@
       "description": "External exhibition/screening trace listing The Last Day of Kasane Teto.",
       "sources": [
         "https://i--active--space.orgs.biz/"
-      ]
+      ],
+      "media_dir": "media/works/videodrome/"
     },
     {
       "id": "live-one-gog",
@@ -439,7 +469,8 @@
       "description": "Live sound / performance record present in the Bandcamp discography.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/live-one-gog/"
     },
     {
       "id": "magic-orgy",
@@ -455,7 +486,8 @@
       "description": "Digital album by Ilya Minin (Eli).",
       "sources": [
         "https://eliasadams.bandcamp.com/album/magic-orgy"
-      ]
+      ],
+      "media_dir": "media/works/magic-orgy/"
     },
     {
       "id": "teqcnuilogiogistie",
@@ -471,7 +503,8 @@
       "description": "Digital album by Ilya Minin (Eli).",
       "sources": [
         "https://eliasadams.bandcamp.com/album/teqcnuilogiogistie"
-      ]
+      ],
+      "media_dir": "media/works/teqcnuilogiogistie/"
     },
     {
       "id": "abnormal-reflective-girl",
@@ -491,7 +524,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com",
         "https://t.me/ilyaminineli"
-      ]
+      ],
+      "media_dir": "media/works/abnormal-reflective-girl/"
     },
     {
       "id": "mountain-remembers",
@@ -516,7 +550,11 @@
       ],
       "related_works": [
         "jihanki"
-      ]
+      ],
+      "video_source_ids": [
+        "wpBQbRItMnc"
+      ],
+      "media_dir": "media/works/mountain-remembers/"
     },
     {
       "id": "six-yokai",
@@ -541,7 +579,11 @@
       "related_works": [
         "jihanki",
         "mountain-remembers"
-      ]
+      ],
+      "video_source_ids": [
+        "X1lK-y6ms2o"
+      ],
+      "media_dir": "media/works/six-yokai/"
     },
     {
       "id": "in-her-20s",
@@ -563,7 +605,15 @@
       ],
       "related_works": [
         "iirai"
-      ]
+      ],
+      "video_source_ids": [
+        "DoYyGbaN1tE",
+        "O9Z975ee1Ns",
+        "OcFF8Med9fQ",
+        "qMCYjbl0u7g",
+        "JpZqWAC6Mv0"
+      ],
+      "media_dir": "media/works/in-her-20s/"
     },
     {
       "id": "childs-sky",
@@ -585,7 +635,11 @@
       ],
       "related_works": [
         "iirai"
-      ]
+      ],
+      "video_source_ids": [
+        "T4N2ELKcowI"
+      ],
+      "media_dir": "media/works/childs-sky/"
     },
     {
       "id": "someones-voice",
@@ -607,7 +661,11 @@
       ],
       "related_works": [
         "iirai"
-      ]
+      ],
+      "video_source_ids": [
+        "TJROlmgboT8"
+      ],
+      "media_dir": "media/works/someones-voice/"
     },
     {
       "id": "afraid-of-happiness",
@@ -629,7 +687,15 @@
       ],
       "related_works": [
         "eugene"
-      ]
+      ],
+      "video_source_ids": [
+        "apbx1EJ1Mtg",
+        "4VDlmj1DYJo",
+        "K9z59T5WcG0",
+        "G9Dd3G2uzV4",
+        "t_9eOHFA1SI"
+      ],
+      "media_dir": "media/works/afraid-of-happiness/"
     },
     {
       "id": "fighting-postmodernism",
@@ -652,7 +718,8 @@
       ],
       "external_sources": [
         "https://www.youtube.com/watch?v=O0JdFj6ZYUQ"
-      ]
+      ],
+      "media_dir": "media/works/fighting-postmodernism/"
     },
     {
       "id": "kagome-kagome",
@@ -674,7 +741,16 @@
       ],
       "related_works": [
         "iirai"
-      ]
+      ],
+      "video_source_ids": [
+        "QrCdYSfzz0o",
+        "nEZFTuR24Xw",
+        "Z5YlhWNQC58",
+        "Pent-Psrloo",
+        "lVFrJuRRFgQ",
+        "KpAnmELow2I"
+      ],
+      "media_dir": "media/works/kagome-kagome/"
     },
     {
       "id": "get-hit-below",
@@ -693,7 +769,19 @@
       "description": "Kasane Teto Synthesizer V work credited to geztålt × Ilya Minin (Eli).",
       "sources": [
         "https://www.youtube.com/watch?v=i-LO9ksv9MQ"
-      ]
+      ],
+      "video_source_ids": [
+        "thTfSHRGUMk",
+        "oo4p0jtRk9c",
+        "OVThUhsmQIk",
+        "ciWH5ykUfW8",
+        "i-LO9ksv9MQ",
+        "eiIVpQq32Ss",
+        "OJduFSbaFiw",
+        "NfqOfeketFA",
+        "rXnb3Y-orC8"
+      ],
+      "media_dir": "media/works/get-hit-below/"
     },
     {
       "id": "tetopocalypsis",
@@ -713,7 +801,11 @@
       "sources": [
         "https://www.youtube.com/watch?v=LqmzfxUYRPI"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/Tetopocalypsis%20(1).png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Animation/Tetopocalypsis%20(1).png",
+      "video_source_ids": [
+        "LqmzfxUYRPI"
+      ],
+      "media_dir": "media/works/tetopocalypsis/"
     },
     {
       "id": "fukkireta",
@@ -732,7 +824,8 @@
       "description": "geztålt / Kasane Teto music-video and karaoke-version cluster.",
       "sources": [
         "https://www.youtube.com/watch?v=yrhaxUmj_3A"
-      ]
+      ],
+      "media_dir": "media/works/fukkireta/"
     },
     {
       "id": "pjesma-pro-ljubov",
@@ -750,7 +843,11 @@
       "description": "Experimental music video using mixed-media collage, cutting, Dada techniques and Gestalt associations.",
       "sources": [
         "https://www.youtube.com/watch?v=ckv0rXGN2L0"
-      ]
+      ],
+      "video_source_ids": [
+        "ckv0rXGN2L0"
+      ],
+      "media_dir": "media/works/pjesma-pro-ljubov/"
     },
     {
       "id": "taming-the-serpent",
@@ -772,7 +869,12 @@
       ],
       "related_works": [
         "live-one-gog"
-      ]
+      ],
+      "video_source_ids": [
+        "hjlXcHSFisY",
+        "InpJyuAuIyM"
+      ],
+      "media_dir": "media/works/taming-the-serpent/"
     },
     {
       "id": "showreel-2024",
@@ -791,7 +893,11 @@
       "description": "Artist showreel presenting contemporary-art, CG and moving-image practice.",
       "sources": [
         "https://www.youtube.com/watch?v=kUCLW8sF78U"
-      ]
+      ],
+      "video_source_ids": [
+        "kUCLW8sF78U"
+      ],
+      "media_dir": "media/works/showreel-2024/"
     },
     {
       "id": "mudak",
@@ -810,7 +916,12 @@
       "description": "geztålt / Kasane Teto music-video cluster.",
       "sources": [
         "https://www.youtube.com/watch?v=zEs_ET6rTkk"
-      ]
+      ],
+      "video_source_ids": [
+        "zEs_ET6rTkk",
+        "mGKYctn7TOo"
+      ],
+      "media_dir": "media/works/mudak/"
     },
     {
       "id": "dymohod",
@@ -829,7 +940,11 @@
       "description": "Kasane Teto music video credited to geztålt.",
       "sources": [
         "https://www.youtube.com/watch?v=2fLbsIePb-U"
-      ]
+      ],
+      "video_source_ids": [
+        "2fLbsIePb-U"
+      ],
+      "media_dir": "media/works/dymohod/"
     },
     {
       "id": "muyskaya-depressiya",
@@ -847,7 +962,11 @@
       "description": "Video art by Ilya Minin (Eli) and sasha e b about emotional isolation and loss of connection.",
       "sources": [
         "https://www.youtube.com/watch?v=RgT3XGULiKA"
-      ]
+      ],
+      "video_source_ids": [
+        "RgT3XGULiKA"
+      ],
+      "media_dir": "media/works/muyskaya-depressiya/"
     },
     {
       "id": "greater-than-lesser",
@@ -865,7 +984,11 @@
       "description": "Experimental video art exploring perception, feeling and the relationship between seeing less and loving less.",
       "sources": [
         "https://www.youtube.com/watch?v=UuNT2WaKdqg"
-      ]
+      ],
+      "video_source_ids": [
+        "UuNT2WaKdqg"
+      ],
+      "media_dir": "media/works/greater-than-lesser/"
     },
     {
       "id": "vegetables",
@@ -883,7 +1006,11 @@
       "description": "Short experimental audiovisual work by Ilya Minin (Eli) and Igor Yanovsky.",
       "sources": [
         "https://www.youtube.com/watch?v=HZJoPfHkqTU"
-      ]
+      ],
+      "video_source_ids": [
+        "HZJoPfHkqTU"
+      ],
+      "media_dir": "media/works/vegetables/"
     },
     {
       "id": "agonal-machines",
@@ -903,7 +1030,8 @@
       "description": "Video documentation of Agonal Machines performances at Lachesis, Moscow, including geztålt and other performers.",
       "sources": [
         "https://www.youtube.com/watch?v=HSd6hCtQogI"
-      ]
+      ],
+      "media_dir": "media/works/agonal-machines/"
     },
     {
       "id": "industrial-sanitation",
@@ -921,7 +1049,11 @@
       "description": "Mixed collage video using cutting, Dada technique, Gestalt associations and psychological elements.",
       "sources": [
         "https://www.youtube.com/watch?v=5xEy5C2iNIY"
-      ]
+      ],
+      "video_source_ids": [
+        "5xEy5C2iNIY"
+      ],
+      "media_dir": "media/works/industrial-sanitation/"
     },
     {
       "id": "enlightenment-i",
@@ -939,7 +1071,11 @@
       "description": "geztålt video/audio work titled Enlightenment I.",
       "sources": [
         "https://www.youtube.com/watch?v=j1hq6xUp420"
-      ]
+      ],
+      "video_source_ids": [
+        "j1hq6xUp420"
+      ],
+      "media_dir": "media/works/enlightenment-i/"
     },
     {
       "id": "ritual-big-fridge",
@@ -957,7 +1093,11 @@
       "description": "Experimental ritual video centered on the refrigerator as a strange household deity.",
       "sources": [
         "https://www.youtube.com/watch?v=omNsIl61tlY"
-      ]
+      ],
+      "video_source_ids": [
+        "omNsIl61tlY"
+      ],
+      "media_dir": "media/works/ritual-big-fridge/"
     },
     {
       "id": "evocation-turtur",
@@ -975,7 +1115,11 @@
       "description": "Long-form experimental ritual/performance document recorded in Moscow in 2022.",
       "sources": [
         "https://www.youtube.com/watch?v=4Z-8Cek0qP4"
-      ]
+      ],
+      "video_source_ids": [
+        "4Z-8Cek0qP4"
+      ],
+      "media_dir": "media/works/evocation-turtur/"
     },
     {
       "id": "who-is-vova-lilo",
@@ -992,7 +1136,11 @@
       "description": "Mockumentary investigating a mysterious figure in the Saint Petersburg underground.",
       "sources": [
         "https://www.youtube.com/watch?v=uYuEx85d8s0"
-      ]
+      ],
+      "video_source_ids": [
+        "uYuEx85d8s0"
+      ],
+      "media_dir": "media/works/who-is-vova-lilo/"
     },
     {
       "id": "w-video-collage",
@@ -1010,7 +1158,8 @@
       "description": "Early experimental video collage using archive materials from the web.",
       "sources": [
         "https://www.youtube.com/watch?v=5YdNlRgHuuk"
-      ]
+      ],
+      "media_dir": "media/works/w-video-collage/"
     },
     {
       "id": "baron",
@@ -1028,7 +1177,8 @@
       "description": "Experimental film / digital folklore work.",
       "sources": [
         "https://www.youtube.com/watch?v=JchqmZXJ6vQ"
-      ]
+      ],
+      "media_dir": "media/works/baron/"
     },
     {
       "id": "bessonitsa",
@@ -1046,7 +1196,8 @@
       "description": "Experimental video framed through invented curse and digital folklore.",
       "sources": [
         "https://www.youtube.com/watch?v=C3VIPDPRKlg"
-      ]
+      ],
+      "media_dir": "media/works/bessonitsa/"
     },
     {
       "id": "found-tape",
@@ -1064,7 +1215,11 @@
       "description": "Fictional found-tape video about a green cassette carrying a deadly curse.",
       "sources": [
         "https://www.youtube.com/watch?v=w5zqAkpGa_c"
-      ]
+      ],
+      "video_source_ids": [
+        "w5zqAkpGa_c"
+      ],
+      "media_dir": "media/works/found-tape/"
     },
     {
       "id": "estetish-tape",
@@ -1083,7 +1238,8 @@
       "description": "Lab ADAMS MACHINE tape-oriented work tagged sampling, hauntology, tape mixing and minimalism.",
       "sources": [
         "https://www.youtube.com/watch?v=cKYk2ivIVfE"
-      ]
+      ],
+      "media_dir": "media/works/estetish-tape/"
     },
     {
       "id": "balance-2020",
@@ -1103,7 +1259,11 @@
       "description": "ELIAS ADAMS work associated with BEZDNA and an ambient / drone / techno / noise palette.",
       "sources": [
         "https://www.youtube.com/watch?v=WZVXwfq9-GM"
-      ]
+      ],
+      "video_source_ids": [
+        "WZVXwfq9-GM"
+      ],
+      "media_dir": "media/works/balance-2020/"
     },
     {
       "id": "receiver-2019",
@@ -1120,7 +1280,11 @@
       "description": "ELIAS ADAMS release / clip associated with Lab ADAMS MACHINE and the Patanormal project.",
       "sources": [
         "https://www.youtube.com/watch?v=Z85lawGhz7c"
-      ]
+      ],
+      "video_source_ids": [
+        "Z85lawGhz7c"
+      ],
+      "media_dir": "media/works/receiver-2019/"
     },
     {
       "id": "nature-2019",
@@ -1139,7 +1303,11 @@
       "description": "Experimental video art structured around Japanese haiku.",
       "sources": [
         "https://www.youtube.com/watch?v=zHZmUDA9Yao"
-      ]
+      ],
+      "video_source_ids": [
+        "zHZmUDA9Yao"
+      ],
+      "media_dir": "media/works/nature-2019/"
     },
     {
       "id": "rebirth",
@@ -1158,7 +1326,8 @@
       "description": "ELIAS ADAMS debut short film exploring cycles of transformation through abstract digital aesthetics.",
       "sources": [
         "https://www.youtube.com/watch?v=sFDSXxvOOHw"
-      ]
+      ],
+      "media_dir": "media/works/rebirth/"
     },
     {
       "id": "arctic-2019",
@@ -1176,7 +1345,11 @@
       "description": "ELIAS ADAMS music/video sequence inspired by new-age visual albums and videotapes.",
       "sources": [
         "https://www.youtube.com/watch?v=QR332-HNIPU"
-      ]
+      ],
+      "video_source_ids": [
+        "QR332-HNIPU"
+      ],
+      "media_dir": "media/works/arctic-2019/"
     },
     {
       "id": "frr",
@@ -1194,7 +1367,11 @@
       "description": "ELIAS ADAMS experimental audiovisual work.",
       "sources": [
         "https://www.youtube.com/watch?v=nWsUhtZun9g"
-      ]
+      ],
+      "video_source_ids": [
+        "nWsUhtZun9g"
+      ],
+      "media_dir": "media/works/frr/"
     },
     {
       "id": "pticess",
@@ -1212,7 +1389,11 @@
       "description": "ELIAS ADAMS experimental video work.",
       "sources": [
         "https://www.youtube.com/watch?v=Vs-0XkFOY_c"
-      ]
+      ],
+      "video_source_ids": [
+        "Vs-0XkFOY_c"
+      ],
+      "media_dir": "media/works/pticess/"
     },
     {
       "id": "insects-2018",
@@ -1230,7 +1411,11 @@
       "description": "ELIAS ADAMS single released through BAOS.",
       "sources": [
         "https://www.youtube.com/watch?v=ZmDWPp12Pak"
-      ]
+      ],
+      "video_source_ids": [
+        "ZmDWPp12Pak"
+      ],
+      "media_dir": "media/works/insects-2018/"
     },
     {
       "id": "idiopathic",
@@ -1248,7 +1433,12 @@
       "description": "ELIAS ADAMS release/clip associated with Brain Activity in Order to the Sky.",
       "sources": [
         "https://www.youtube.com/watch?v=_9U7qgEkcpA"
-      ]
+      ],
+      "video_source_ids": [
+        "_9U7qgEkcpA",
+        "25iX75ntROo"
+      ],
+      "media_dir": "media/works/idiopathic/"
     },
     {
       "id": "aint-no-sunshine",
@@ -1272,7 +1462,11 @@
       ],
       "related_works": [
         "the-last-day-of-kasane-teto"
-      ]
+      ],
+      "video_source_ids": [
+        "LhG2-rGY2eY"
+      ],
+      "media_dir": "media/works/aint-no-sunshine/"
     },
     {
       "id": "parallel-vienna-2026",
@@ -1291,7 +1485,8 @@
       "description": "Exhibition identity / print material for PARALLEL VIENNA 2026; record established from the current archive project context.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
-      ]
+      ],
+      "media_dir": "media/works/parallel-vienna-2026/"
     },
     {
       "id": "eporgaanisten-rakenteiden-kierratys",
@@ -1313,7 +1508,8 @@
       ],
       "related_works": [
         "lab-announcement-3"
-      ]
+      ],
+      "media_dir": "media/works/eporgaanisten-rakenteiden-kierratys/"
     },
     {
       "id": "pattern-generator",
@@ -1335,7 +1531,8 @@
       ],
       "related_works": [
         "pipeline-hub"
-      ]
+      ],
+      "media_dir": "media/works/pattern-generator/"
     },
     {
       "id": "synthv-custom-scripts",
@@ -1359,7 +1556,8 @@
         "hiro",
         "iirai",
         "eugene"
-      ]
+      ],
+      "media_dir": "media/works/synthv-custom-scripts/"
     },
     {
       "id": "multimedia-framework",
@@ -1382,7 +1580,8 @@
         "pipeline-hub",
         "daly-syndrome",
         "eli-lab-mv"
-      ]
+      ],
+      "media_dir": "media/works/multimedia-framework/"
     },
     {
       "id": "assembly-line-challenge",
@@ -1404,7 +1603,8 @@
       ],
       "related_works": [
         "gonki-i-tochka"
-      ]
+      ],
+      "media_dir": "media/works/assembly-line-challenge/"
     },
     {
       "id": "bloody",
@@ -1421,7 +1621,8 @@
       "description": "CGI / render work preserved in the historical CG archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/bloody/"
     },
     {
       "id": "bloody-2",
@@ -1441,7 +1642,8 @@
       ],
       "related_works": [
         "bloody"
-      ]
+      ],
+      "media_dir": "media/works/bloody-2/"
     },
     {
       "id": "bonza",
@@ -1459,7 +1661,8 @@
       "description": "CG design / identity material preserved in the older archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/bonza/"
     },
     {
       "id": "portraits-2020",
@@ -1477,7 +1680,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%201%20%EF%80%A0portraits%EF%80%A0/portraits_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%201%20%EF%80%A0portraits%EF%80%A0/portraits_preview.png",
+      "media_dir": "media/works/portraits-2020/"
     },
     {
       "id": "unreal-2020",
@@ -1496,7 +1700,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%202%20%EF%80%A0unreal%EF%80%A0/unreal_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/set%202%20%EF%80%A0unreal%EF%80%A0/unreal_preview.png",
+      "media_dir": "media/works/unreal-2020/"
     },
     {
       "id": "serial-experiments-lens",
@@ -1516,7 +1721,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Serial%20Experiments%20Lens/sel%20preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Serial%20Experiments%20Lens/sel%20preview.png",
+      "media_dir": "media/works/serial-experiments-lens/"
     },
     {
       "id": "serial-experiments-lens-set-one",
@@ -1538,7 +1744,8 @@
       ],
       "related_works": [
         "serial-experiments-lens"
-      ]
+      ],
+      "media_dir": "media/works/serial-experiments-lens-set-one/"
     },
     {
       "id": "uncanny-bar",
@@ -1558,7 +1765,8 @@
       ],
       "related_works": [
         "serial-experiments-lens"
-      ]
+      ],
+      "media_dir": "media/works/uncanny-bar/"
     },
     {
       "id": "single-photos-2021-22",
@@ -1575,7 +1783,8 @@
       "description": "Single-image archive including Forrest, Barks, Emotions, Ducks, Deep Yellow Day, Jellytrain, Lamp, Mandarins, Old Man, Sky Is Blue, Synthesizer, To Light and Vogue.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/single-photos-2021-22/"
     },
     {
       "id": "mixed-technique-2022",
@@ -1593,7 +1802,8 @@
       "description": "Series of studies plus Anthology of Black Humor photo collages with manual processing.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/mixed-technique-2022/"
     },
     {
       "id": "painting-studies-2022",
@@ -1611,7 +1821,8 @@
       "description": "Three oil-on-canvas works titled Head 1, Head 2 and Head 3.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/painting-studies-2022/"
     },
     {
       "id": "refuge-2022",
@@ -1637,7 +1848,8 @@
         "asya-melnikova",
         "igor-yanovsky",
         "oleg-ustinov"
-      ]
+      ],
+      "media_dir": "media/works/refuge-2022/"
     },
     {
       "id": "pereizobretenie-punk",
@@ -1662,7 +1874,8 @@
       "related_works": [
         "pattern-generator",
         "belial"
-      ]
+      ],
+      "media_dir": "media/works/pereizobretenie-punk/"
     },
     {
       "id": "ppp-2018",
@@ -1680,7 +1893,8 @@
       "description": "Performance with acoustic and electronic sound sources.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/ppp-2018/"
     },
     {
       "id": "muse-2019",
@@ -1698,7 +1912,8 @@
       "description": "Performance with acoustic and electronic sound sources.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/muse-2019/"
     },
     {
       "id": "pattern-2021",
@@ -1716,7 +1931,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Events/event_1.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Events/event_1.png",
+      "media_dir": "media/works/pattern-2021/"
     },
     {
       "id": "ugol-visual-programming",
@@ -1734,7 +1950,8 @@
       "description": "Performance using real-time visual programming at UGOL gallery.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/ugol-visual-programming/"
     },
     {
       "id": "telegraph-kinetic-coding",
@@ -1753,7 +1970,8 @@
       "description": "Performance in the Open Collection / Waiting Horizon context of the Polytechnic Museum.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/telegraph-kinetic-coding/"
     },
     {
       "id": "system-s3",
@@ -1771,7 +1989,8 @@
       "description": "Performance at Gallery Khodynka for the Frequency 2.0 exhibition.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/system-s3/"
     },
     {
       "id": "memory-of-touch",
@@ -1789,7 +2008,8 @@
       "description": "Performance at Gallery Bogorodskoye for the Dacha as I see it exhibition.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/memory-of-touch/"
     },
     {
       "id": "asc-eight-channel",
@@ -1806,7 +2026,8 @@
       "description": "Participation in the audio program of the ASC Museum eight-channel audio capsule.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/asc-eight-channel/"
     },
     {
       "id": "holidays-sa-2021",
@@ -1824,7 +2045,8 @@
       "description": "Participation in a concert of multichannel audio improvisations and a later conceptual multichannel audio program.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/holidays-sa-2021/"
     },
     {
       "id": "redd-2021",
@@ -1841,7 +2063,8 @@
       "description": "Participation in an experimental music festival.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/redd-2021/"
     },
     {
       "id": "smoles-2021",
@@ -1859,7 +2082,8 @@
       "description": "Participation in the SMOLES concert.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/smoles-2021/"
     },
     {
       "id": "meatpacking-part-1",
@@ -1882,7 +2106,8 @@
       "related_works": [
         "untitled-3",
         "live-one-gog"
-      ]
+      ],
+      "media_dir": "media/works/meatpacking-part-1/"
     },
     {
       "id": "meatpacking-part-2",
@@ -1903,7 +2128,8 @@
       ],
       "related_works": [
         "meatpacking-part-1"
-      ]
+      ],
+      "media_dir": "media/works/meatpacking-part-2/"
     },
     {
       "id": "concert-at-la-2014",
@@ -1921,7 +2147,8 @@
       "description": "Historical live-event record preserved in the old Eli Lab site; details are incomplete.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/concert-at-la-2014/"
     },
     {
       "id": "peredelano-conf-2023",
@@ -1939,7 +2166,8 @@
       "description": "Lecture and masterclass for IT specialists on generative systems in Max/MSP and Pure Data.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/peredelano-conf-2023/"
     },
     {
       "id": "msu-sound-art-lecture-2023",
@@ -1957,7 +2185,8 @@
       "description": "Lecture on Sound Art and generative systems for students of the Faculty of Philosophy.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/msu-sound-art-lecture-2023/"
     },
     {
       "id": "seven-hills-m7",
@@ -1982,7 +2211,8 @@
       "related_works": [
         "hiro",
         "iirai"
-      ]
+      ],
+      "media_dir": "media/works/seven-hills-m7/"
     },
     {
       "id": "echo-of-eden",
@@ -2004,7 +2234,8 @@
         "spalah79",
         "danylo-melnik"
       ],
-      "visibility": "private"
+      "visibility": "private",
+      "media_dir": "media/works/echo-of-eden/"
     },
     {
       "id": "frow",
@@ -2020,7 +2251,8 @@
       "description": "Recent visual work/post title surfaced in the eli_lab Telegram archive.",
       "sources": [
         "https://t.me/ilyaminineli"
-      ]
+      ],
+      "media_dir": "media/works/frow/"
     },
     {
       "id": "opossum",
@@ -2036,7 +2268,8 @@
       "description": "Recent visual work/post title surfaced in the eli_lab Telegram archive.",
       "sources": [
         "https://t.me/ilyaminineli"
-      ]
+      ],
+      "media_dir": "media/works/opossum/"
     },
     {
       "id": "birthday-gift-eli-to-elly",
@@ -2053,7 +2286,8 @@
       "description": "Recent work/post title surfaced in the eli_lab Telegram archive.",
       "sources": [
         "https://t.me/ilyaminineli"
-      ]
+      ],
+      "media_dir": "media/works/birthday-gift-eli-to-elly/"
     },
     {
       "id": "saint-sin-gift",
@@ -2070,7 +2304,8 @@
       "description": "Recent post describes a new gift work made for SAINT SIN; title and full metadata remain unresolved.",
       "sources": [
         "https://t.me/ilyaminineli"
-      ]
+      ],
+      "media_dir": "media/works/saint-sin-gift/"
     },
     {
       "id": "geztalt",
@@ -2101,7 +2336,20 @@
         "enlightenment-i",
         "ritual-big-fridge"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Others/gezt%C3%A5lt.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/CG%20For%20Site/Others/gezt%C3%A5lt.png",
+      "video_source_ids": [
+        "dMIQJYp796A",
+        "cK57_pyetCY",
+        "yrhaxUmj_3A",
+        "ivePQpesR0w",
+        "O6SqS3W7WIU",
+        "qsCjrhffYjY",
+        "c9MV8CoR-Ls",
+        "YavJ8I_g74I",
+        "HSd6hCtQogI",
+        "55Hi5qjUAto"
+      ],
+      "media_dir": "media/works/geztalt/"
     },
     {
       "id": "daly-syndrome",
@@ -2127,7 +2375,8 @@
         "ewp-project",
         "multimedia-framework",
         "pipeline-hub"
-      ]
+      ],
+      "media_dir": "media/works/daly-syndrome/"
     },
     {
       "id": "desolation-odissey",
@@ -2144,7 +2393,8 @@
       "description": "Game/project record preserved by the historical Eli Lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/desolation-odissey/"
     },
     {
       "id": "elysium",
@@ -2161,7 +2411,8 @@
       "description": "Game/project record from the historical Eli Lab site. Project-specific metadata remains to be recovered from source material.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/elysium/"
     },
     {
       "id": "metaliminal",
@@ -2180,7 +2431,8 @@
       "sources": [
         "https://github.com/ilyaminineli/metaliminal",
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/metaliminal/"
     },
     {
       "id": "sleepdom",
@@ -2197,7 +2449,8 @@
       "description": "Art-house immersive sim action game.",
       "sources": [
         "https://github.com/ilyaminineli/sleepdom"
-      ]
+      ],
+      "media_dir": "media/works/sleepdom/"
     },
     {
       "id": "night-mafia",
@@ -2214,7 +2467,8 @@
       "description": "Historical game page exists, but the current source text is placeholder-level and is not enough for a canonical project description.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/night-mafia/"
     },
     {
       "id": "spring-story",
@@ -2234,7 +2488,8 @@
       ],
       "external_sources": [
         "https://www.youtube.com/watch?v=xTysVDBJwpE"
-      ]
+      ],
+      "media_dir": "media/works/spring-story/"
     },
     {
       "id": "winter-story",
@@ -2254,7 +2509,8 @@
       ],
       "external_sources": [
         "https://www.youtube.com/watch?v=P-SJO5ZmFTo"
-      ]
+      ],
+      "media_dir": "media/works/winter-story/"
     },
     {
       "id": "aibolit-sashaeb",
@@ -2274,7 +2530,8 @@
       "description": "Exhibition at Gallery Borey, Saint Petersburg, 24.12.2024–11.01.2025, documented by collaborator sasha e b as a joint presentation with Ilya Minin.",
       "sources": [
         "https://github.com/ilyaminineli/sashaeb"
-      ]
+      ],
+      "media_dir": "media/works/aibolit-sashaeb/"
     },
     {
       "id": "re-punk",
@@ -2304,7 +2561,8 @@
         "pereizobretenie-punk",
         "iirai",
         "pattern-generator"
-      ]
+      ],
+      "media_dir": "media/works/re-punk/"
     },
     {
       "id": "geztalt-j-2025",
@@ -2324,7 +2582,8 @@
       ],
       "related_works": [
         "geztalt"
-      ]
+      ],
+      "media_dir": "media/works/geztalt-j-2025/"
     },
     {
       "id": "geztalt-person-2025",
@@ -2344,7 +2603,8 @@
       ],
       "related_works": [
         "geztalt"
-      ]
+      ],
+      "media_dir": "media/works/geztalt-person-2025/"
     },
     {
       "id": "geztalt-delta-2025",
@@ -2364,7 +2624,8 @@
       ],
       "related_works": [
         "geztalt"
-      ]
+      ],
+      "media_dir": "media/works/geztalt-delta-2025/"
     },
     {
       "id": "geztalt-ost-2025",
@@ -2385,7 +2646,8 @@
       ],
       "related_works": [
         "geztalt"
-      ]
+      ],
+      "media_dir": "media/works/geztalt-ost-2025/"
     },
     {
       "id": "geztalt-other-2025",
@@ -2405,7 +2667,8 @@
       ],
       "related_works": [
         "geztalt"
-      ]
+      ],
+      "media_dir": "media/works/geztalt-other-2025/"
     },
     {
       "id": "red-box",
@@ -2422,7 +2685,8 @@
       "description": "Unreleased sound record visible in the current Bandcamp catalogue.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/red-box/"
     },
     {
       "id": "life-in-one-second",
@@ -2440,7 +2704,8 @@
       "sources": [
         "https://eliasadams.bandcamp.com",
         "https://eliasadams.bandcamp.com/track/feg-rune-432"
-      ]
+      ],
+      "media_dir": "media/works/life-in-one-second/"
     },
     {
       "id": "redux-to-the-breath-2",
@@ -2457,7 +2722,8 @@
       "description": "Digital release visible in the current Bandcamp catalogue.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/redux-to-the-breath-2/"
     },
     {
       "id": "rakkaani",
@@ -2474,7 +2740,8 @@
       "description": "Digital release visible in the current Bandcamp catalogue.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/rakkaani/"
     },
     {
       "id": "amp",
@@ -2491,7 +2758,8 @@
       "description": "Digital release visible in the current Bandcamp catalogue.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/amp/"
     },
     {
       "id": "patanormal",
@@ -2508,7 +2776,8 @@
       "description": "Digital release visible in the current Bandcamp catalogue.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/patanormal/"
     },
     {
       "id": "bad-kase-of-indiscretion",
@@ -2525,7 +2794,8 @@
       "description": "Digital release visible in the current Bandcamp catalogue.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/bad-kase-of-indiscretion/"
     },
     {
       "id": "valera-grandpa-music",
@@ -2541,7 +2811,8 @@
       "description": "Digital release currently listed in the Bandcamp discography.",
       "sources": [
         "https://eliasadams.bandcamp.com"
-      ]
+      ],
+      "media_dir": "media/works/valera-grandpa-music/"
     },
     {
       "id": "london-hello",
@@ -2559,7 +2830,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/London%20Hello/london_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/London%20Hello/london_preview.png",
+      "media_dir": "media/works/london-hello/"
     },
     {
       "id": "orthofuture",
@@ -2577,7 +2849,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Orthofuture/orthofuture_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Orthofuture/orthofuture_preview.png",
+      "media_dir": "media/works/orthofuture/"
     },
     {
       "id": "pacanbalet",
@@ -2595,7 +2868,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Pacanbalet/pacanbalet_preview.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Pacanbalet/pacanbalet_preview.png",
+      "media_dir": "media/works/pacanbalet/"
     },
     {
       "id": "cg-design-online-shop",
@@ -2614,7 +2888,8 @@
       "description": "Ten product/object images preserved in the historical CG design archive: Coffee, Dryer, Fridge, Hoodie, Phone, Poster, Smartwatch, TV, Teapot and Vacuum.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/cg-design-online-shop/"
     },
     {
       "id": "album-covers-archive",
@@ -2632,7 +2907,8 @@
       "description": "Twenty-one cover designs preserved in the historical CG For Site archive; individual project relationships still need mapping.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/album-covers-archive/"
     },
     {
       "id": "logo-archive",
@@ -2650,7 +2926,8 @@
       "description": "Twenty-five logo files preserved in the historical CG For Site archive; individual clients/projects still need mapping.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/logo-archive/"
     },
     {
       "id": "cg-3d-design-archive",
@@ -2667,7 +2944,8 @@
       "description": "Named CGI studies including Towny, Gaika, Drema, Swirl and Neuron Brain, preserved in the historical site archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/cg-3d-design-archive/"
     },
     {
       "id": "teto-character-studies",
@@ -2686,7 +2964,8 @@
       "description": "Large visual archive of Kasane Teto studies and related character images. Individual provenance and privacy/publication status need to be resolved.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
-      ]
+      ],
+      "media_dir": "media/works/teto-character-studies/"
     },
     {
       "id": "ewp-presentation-archive",
@@ -2707,7 +2986,8 @@
       ],
       "related_works": [
         "ewp-project"
-      ]
+      ],
+      "media_dir": "media/works/ewp-presentation-archive/"
     },
     {
       "id": "captured-bodies-soundtrack",
@@ -2725,7 +3005,8 @@
       "description": "Soundtrack for Natalia Nikulenkova's mixed-media/video diploma project, Captured Bodies and Their Surroundings.",
       "sources": [
         "https://mdfschool.ru/files/catalogs/catalog-2021.pdf"
-      ]
+      ],
+      "media_dir": "media/works/captured-bodies-soundtrack/"
     },
     {
       "id": "who-is-eli",
@@ -2754,7 +3035,8 @@
         "eugene",
         "jihanki",
         "multimedia-framework"
-      ]
+      ],
+      "media_dir": "media/works/who-is-eli/"
     },
     {
       "id": "song-creator",
@@ -2776,7 +3058,8 @@
       "description": "Private creative-production agent/project for generating and refining songs from a structured lyric/music knowledge base and context from other creative systems.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
-      ]
+      ],
+      "media_dir": "media/works/song-creator/"
     },
     {
       "id": "vocaloid-jazz-album-2026",
@@ -2804,7 +3087,8 @@
         "blue-neon",
         "no-one-is-listening",
         "song-creator"
-      ]
+      ],
+      "media_dir": "media/works/vocaloid-jazz-album-2026/"
     },
     {
       "id": "parallel-vienna-alexander-zaloopin",
@@ -2828,7 +3112,8 @@
       ],
       "related_works": [
         "parallel-vienna-2026"
-      ]
+      ],
+      "media_dir": "media/works/parallel-vienna-alexander-zaloopin/"
     },
     {
       "id": "parallel-vienna-oleg-ustinov",
@@ -2852,7 +3137,8 @@
       ],
       "related_works": [
         "parallel-vienna-2026"
-      ]
+      ],
+      "media_dir": "media/works/parallel-vienna-oleg-ustinov/"
     },
     {
       "id": "no-skin",
@@ -2872,7 +3158,8 @@
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
-      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Installations/installations_preview1.png"
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Artwork/Installations/installations_preview1.png",
+      "media_dir": "media/works/no-skin/"
     },
     {
       "id": "eli-lab-mv",
@@ -2894,7 +3181,8 @@
       "description": "Private audio-reactive visual MV editor / production workstation with deterministic rendering, audio analysis, layered effects, project presets and export tooling.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_mv"
-      ]
+      ],
+      "media_dir": "media/works/eli-lab-mv/"
     },
     {
       "id": "eli-lab-mv-titler",
@@ -2914,7 +3202,8 @@
       "description": "Dependency-free browser tool for generating animated Japanese subtitle typography from SRT/SBV timing and text.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-mv-titler"
-      ]
+      ],
+      "media_dir": "media/works/eli-lab-mv-titler/"
     },
     {
       "id": "teto-2026-manifesto",
@@ -2937,7 +3226,8 @@
         "https://www.youtube.com/watch?v=Bv-4aHjHbf0"
       ],
       "thumbnail": "https://i.ytimg.com/vi/Bv-4aHjHbf0/hqdefault.jpg",
-      "source_video_ids": []
+      "source_video_ids": [],
+      "media_dir": "media/works/teto-2026-manifesto/"
     },
     {
       "id": "kuleshov-effect",
@@ -2959,7 +3249,8 @@
         "https://www.youtube.com/watch?v=XKdVkUc8q80"
       ],
       "thumbnail": "https://i.ytimg.com/vi/XKdVkUc8q80/hqdefault.jpg",
-      "source_video_ids": []
+      "source_video_ids": [],
+      "media_dir": "media/works/kuleshov-effect/"
     },
     {
       "id": "linearna-zaležnost",
@@ -2980,7 +3271,8 @@
         "https://www.youtube.com/watch?v=wvOA4AV6ytU"
       ],
       "thumbnail": "https://i.ytimg.com/vi/wvOA4AV6ytU/hqdefault.jpg",
-      "source_video_ids": []
+      "source_video_ids": [],
+      "media_dir": "media/works/linearna-zaležnost/"
     },
     {
       "id": "serval-man",
@@ -3001,7 +3293,8 @@
         "https://www.youtube.com/watch?v=ypP4UKUWvpw"
       ],
       "thumbnail": "https://i.ytimg.com/vi/ypP4UKUWvpw/hqdefault.jpg",
-      "source_video_ids": []
+      "source_video_ids": [],
+      "media_dir": "media/works/serval-man/"
     },
     {
       "id": "trurly-fierndship",
@@ -3022,7 +3315,8 @@
         "https://www.youtube.com/watch?v=B610CDVHkJY"
       ],
       "thumbnail": "https://i.ytimg.com/vi/B610CDVHkJY/hqdefault.jpg",
-      "source_video_ids": []
+      "source_video_ids": [],
+      "media_dir": "media/works/trurly-fierndship/"
     }
   ]
 }
