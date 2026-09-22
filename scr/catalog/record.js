@@ -5,13 +5,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     const id = new URLSearchParams(location.search).get('id');
 
     try {
-        const [worksResponse, relationsResponse, videoResponse, assetResponse, dossierResponse, videoLinksResponse] = await Promise.all([
+        const [worksResponse, relationsResponse, videoResponse, assetResponse, dossierResponse, videoLinksResponse, mediaResponse] = await Promise.all([
             fetch('../data/works.json'),
             fetch('../data/relations.json'),
             fetch('../data/video_context.json'),
             fetch('../data/asset_candidates.json'),
             fetch('../data/dossiers.json'),
-            fetch('../data/video_links.json')
+            fetch('../data/video_links.json'),
+            fetch('../data/media.json')
         ]);
 
         if (!worksResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
@@ -26,6 +27,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const dossiers = dossierResponse.ok ? await dossierResponse.json() : { works: {} };
         const dossier = dossiers.works?.[id] || null;
         const videoLinks = videoLinksResponse.ok ? await videoLinksResponse.json() : { links: [] };
+        const mediaManifest = mediaResponse.ok ? await mediaResponse.json() : { works: {} };
+        const mediaEntry = mediaManifest.works?.[id] || { folder: work?.media_dir || ('media/works/' + id + '/'), items: [] };
 
         const work = works.find((item) => item.id === id);
 
@@ -77,29 +80,38 @@ document.addEventListener('DOMContentLoaded', async () => {
             escapeHTML(source) + '">' + escapeHTML(source.replace(/^https?:\/\//, '')) + ' ↗</a>'
         ).join('');
 
-        const mediaDir = work.media_dir || ('media/works/' + work.id + '/');
-        const localCoverCandidates = work.media_status === 'staged'
-            ? ['01-cover.webp', '01-cover.jpg', '01-cover.jpeg', '01-cover.png'].map(name => '../' + mediaDir + name)
-            : [];
-        let resolvedThumbnail = work.thumbnail || '';
-        if (!resolvedThumbnail && localCoverCandidates.length) {
-            for (const candidate of localCoverCandidates) {
-                try {
-                    const probe = await fetch(candidate, { method: 'HEAD' });
-                    if (probe.ok) {
-                        resolvedThumbnail = candidate;
-                        break;
-                    }
-                } catch (_) {}
-            }
-        }
+        const mediaDir = work.media_dir || mediaEntry.folder || ('media/works/' + work.id + '/');
+        const mediaItems = Array.isArray(mediaEntry.items) ? mediaEntry.items : [];
+        const mediaUrl = (path) => {
+            const value = String(path || '');
+            if (/^https?:\\/\\//i.test(value)) return value;
+            return '../' + value.replace(/^\\/+/, '');
+        };
+        const coverItem = mediaItems.find(item => item.role === 'cover') || mediaItems[0];
+        const resolvedThumbnail = coverItem?.path ? mediaUrl(coverItem.path) : (work.thumbnail || '');
 
         const thumbnail = resolvedThumbnail
             ? '<a class="record-hero-media" target="_blank" rel="noopener" href="' + escapeHTML(resolvedThumbnail) + '">' +
               '<img src="' + escapeHTML(resolvedThumbnail) + '" alt="" loading="eager"><span>OPEN IMAGE ↗</span></a>'
             : '<div class="record-hero-media record-hero-media--empty"><span>NO PREVIEW</span><em>' +
-              (work.media_status === 'staged' ? 'Add 01-cover.webp / .jpg / .jpeg / .png to the media folder.' : 'Media folder planned.') +
+              (mediaItems.length ? 'Selected media listed in data/media.json.' : 'Add selected media paths to data/media.json.') +
               '</em></div>';
+
+        const mediaGalleryHTML = mediaItems.length
+            ? '<section class="record-panel record-media-gallery"><div class="panel-title">ARCHIVE MEDIA</div>' +
+              '<div class="record-media-grid">' + mediaItems.map((item, index) =>
+                  '<figure><a target="_blank" rel="noopener" href="' + escapeHTML(mediaUrl(item.path)) + '">' +
+                  '<img src="' + escapeHTML(mediaUrl(item.path)) + '" alt="" loading="lazy"></a>' +
+                  '<figcaption><span>' + String(index + 1).padStart(2, '0') + '</span>' +
+                  '<strong>' + escapeHTML(item.role || 'image') + '</strong>' +
+                  (item.caption ? '<em>' + escapeHTML(item.caption) + '</em>' : '') +
+                  '</figcaption></figure>'
+              ).join('') + '</div></section>'
+            : '<section class="record-panel record-media-plan"><div class="panel-title">ARCHIVE MEDIA / PLAN</div>' +
+              '<p class="small-note">Folder is staged and ready for real recovered images. Add selected files to <strong>data/media.json</strong> when they are ready for public display.</p>' +
+              '<div class="media-slot-list">' + (dossier?.media_slots || []).map((slot, index) =>
+                  '<span><b>' + String(index + 1).padStart(2, '0') + '</b>' + escapeHTML(slot) + '</span>'
+              ).join('') + '</div></section>';
 
         const sourceVideos = (videoContext.rows || [])
             .filter(video => video.canonicalWorkId === work.id)
@@ -144,8 +156,18 @@ document.addEventListener('DOMContentLoaded', async () => {
             ['EXHIBITIONS', dossier?.exhibitions],
             ['PUBLICATIONS', dossier?.publications],
             ['TECHNICAL NOTES', dossier?.technical_notes],
-            ['ARCHIVAL NOTES', dossier?.archival_notes]
+            ['ARCHIVAL NOTES', dossier?.archival_notes],
+            ['SOURCE CONTEXT', dossier?.source_context],
+            ['SOURCE LINKS', dossier?.source_links],
+            ['SOURCE CREDIT EVIDENCE', dossier?.source_credit_lines]
         ].filter(section => Array.isArray(section[1]) && section[1].length);
+
+        const relatedWorkHTML = (work.related_works || []).map(relatedId => {
+            const related = byId[relatedId];
+            if (!related) return '';
+            return '<a class="related-work-link" href="record.html?id=' + encodeURIComponent(related.id) + '">' +
+                '<span>' + escapeHTML(related.year) + '</span><strong>' + escapeHTML(related.title) + '</strong><b>↗</b></a>';
+        }).join('');
 
         const detailHTML = detailSections.map(([title, items]) =>
             '<section class="dossier-detail"><h3>' + escapeHTML(title) + '</h3><div>' +
@@ -160,7 +182,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             ['EXTERNAL', Boolean(work.external_sources?.length)],
             ['RELATIONS', Boolean(edges.length)],
             ['VIDEOS', Boolean(sourceVideos.length)],
-            ['MEDIA FOLDER', work.media_status === 'staged'],
+            ['MEDIA FOLDER', true],
+            ['MEDIA ITEMS', Boolean(mediaItems.length)],
             ['DOSSIER', Boolean(dossier)]
         ];
 
@@ -204,6 +227,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             escapeHTML(String(videoDescriptions.length)) + ' contain descriptive context.</p>' +
             (sourceVideoHTML || '<p class="small-note">NO VIDEO SOURCE ROWS ARE CURRENTLY MAPPED.</p>') +
             '</section>' +
+
+            (relatedWorkHTML ? '<section class="record-panel record-related"><div class="panel-title">RELATED WORKS</div><div class="related-work-list">' +
+                relatedWorkHTML + '</div></section>' : '') +
 
             (candidateAssetHTML ? '<section class="record-panel record-assets"><div class="panel-title">VISUAL ASSET CANDIDATES</div>' +
                 '<p class="small-note">These are filename/path matches from the 595-image visual inventory, not yet confirmed as canonical artwork. Review before promotion.</p>' +
