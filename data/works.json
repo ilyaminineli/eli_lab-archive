@@ -2716,6 +2716,134 @@
       "sources": [
         "https://mdfschool.ru/files/catalogs/catalog-2021.pdf"
       ]
+    },
+    {
+      "id": "who-is-eli",
+      "title": "WHO IS ELI?",
+      "year": "2026",
+      "medium": [
+        "animation",
+        "cgi",
+        "art",
+        "interactive"
+      ],
+      "context": [
+        "private",
+        "pre-production",
+        "archive",
+        "psychological horror"
+      ],
+      "status": "private",
+      "visibility": "private",
+      "description": "Experimental animated film about memory, reconstruction, identity and an archive that interprets difference as damage.",
+      "sources": [
+        "https://github.com/ilyaminineli/who-is-eli"
+      ],
+      "related_works": [
+        "iirai",
+        "eugene",
+        "jihanki",
+        "multimedia-framework"
+      ]
+    },
+    {
+      "id": "song-creator",
+      "title": "Song Creator",
+      "year": "2026",
+      "medium": [
+        "software",
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "private",
+        "creative agent",
+        "lyrics",
+        "songwriting"
+      ],
+      "status": "private",
+      "visibility": "private",
+      "description": "Private creative-production agent/project for generating and refining songs from a structured lyric/music knowledge base and context from other creative systems.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ]
+    },
+    {
+      "id": "vocaloid-jazz-album-2026",
+      "title": "Vocaloid Jazz Album / 2026",
+      "year": "2026",
+      "medium": [
+        "audio",
+        "vocal"
+      ],
+      "context": [
+        "private",
+        "album",
+        "jazz",
+        "collaboration",
+        "Kasane Teto",
+        "Chis-A"
+      ],
+      "status": "private",
+      "visibility": "private",
+      "description": "Album concept combining synthetic vocals with a professional jazz ensemble, with Kasane Teto as a main voice candidate and Chis-A as an additional voice candidate; Blue Neon and NO ONE IS LISTENING are current tracks in development.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "related_works": [
+        "blue-neon",
+        "no-one-is-listening",
+        "song-creator"
+      ]
+    },
+    {
+      "id": "parallel-vienna-alexander-zaloopin",
+      "title": "PARALLEL VIENNA 2026 — Alexander Zaloopin / Live Performance",
+      "year": "2026",
+      "medium": [
+        "performance",
+        "audio",
+        "exhibition"
+      ],
+      "context": [
+        "PARALLEL VIENNA",
+        "live performance",
+        "Vienna",
+        "September 12"
+      ],
+      "status": "documented",
+      "description": "Alexander Zaloopin live performance at PARALLEL VIENNA 2026: 12.09.2026, 18:00, outside.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive"
+      ],
+      "related_works": [
+        "parallel-vienna-2026"
+      ]
+    },
+    {
+      "id": "parallel-vienna-oleg-ustinov",
+      "title": "PARALLEL VIENNA 2026 — Oleg Ustinov / Artist Statement",
+      "year": "2026",
+      "medium": [
+        "art",
+        "exhibition",
+        "documentation"
+      ],
+      "context": [
+        "PARALLEL VIENNA",
+        "artist statement",
+        "Vienna",
+        "Pav.13 / Room 213"
+      ],
+      "status": "documented",
+      "description": "Oleg Ustinov artist-statement presentation at PARALLEL VIENNA 2026, Pav. 13, Room 213.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab-archive",
+        "https://github.com/ilyaminineli/oleg_ustinov_official"
+      ],
+      "related_works": [
+        "parallel-vienna-2026"
+      ]
     }
   ]
 }
