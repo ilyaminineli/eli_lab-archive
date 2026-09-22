@@ -1,0 +1,430 @@
+{
+  "updated": "2026-09-22",
+  "account": "ilyaminineli",
+  "count": 47,
+  "repositories": [
+    {
+      "id": "eugene-utau",
+      "name": "ilyaminineli/eugene-utau",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 28696,
+      "role": "voicebank / character"
+    },
+    {
+      "id": "Belial_8",
+      "name": "ilyaminineli/Belial_8",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1112,
+      "role": "sound-art platform / Max/MSP"
+    },
+    {
+      "id": "Iirai",
+      "name": "ilyaminineli/Iirai",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 27166,
+      "role": "voicebank family"
+    },
+    {
+      "id": "eli_lab_pipeline_hub",
+      "name": "ilyaminineli/eli_lab_pipeline_hub",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 295,
+      "role": "Blender production pipeline"
+    },
+    {
+      "id": "akane_iirai",
+      "name": "ilyaminineli/akane_iirai",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 930,
+      "role": "voicebank character project"
+    },
+    {
+      "id": "ewproject",
+      "name": "ilyaminineli/ewproject",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1176409,
+      "role": "EWP animation production archive"
+    },
+    {
+      "id": "gonkiitochka",
+      "name": "ilyaminineli/gonkiitochka",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1738262,
+      "role": "Unity game collaboration"
+    },
+    {
+      "id": "eli_lab-voicebox",
+      "name": "ilyaminineli/eli_lab-voicebox",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 8105,
+      "role": "voice-synthesis tooling"
+    },
+    {
+      "id": "text-to-ust",
+      "name": "ilyaminineli/text-to-ust",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "master",
+      "size_kb": 534,
+      "role": "procedural Japanese lyric-to-UST tool"
+    },
+    {
+      "id": "Portfolio-site",
+      "name": "ilyaminineli/Portfolio-site",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "master",
+      "size_kb": 46,
+      "role": "historical portfolio"
+    },
+    {
+      "id": "eli_lab-the-previewer",
+      "name": "ilyaminineli/eli_lab-the-previewer",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 36,
+      "role": "creative workflow utility"
+    },
+    {
+      "id": "outsider",
+      "name": "ilyaminineli/outsider",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 54289,
+      "role": "private/unfinished visual project"
+    },
+    {
+      "id": "eli_lab",
+      "name": "ilyaminineli/eli_lab",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 611039,
+      "role": "long-running creative workspace / historical site"
+    },
+    {
+      "id": "Assembly-Line-Challenge",
+      "name": "ilyaminineli/Assembly-Line-Challenge",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 68344,
+      "role": "Unreal game prototype"
+    },
+    {
+      "id": "slavabogu",
+      "name": "ilyaminineli/slavabogu",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 23847,
+      "role": "private animation/project archive"
+    },
+    {
+      "id": "template_repository",
+      "name": "ilyaminineli/template_repository",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 4,
+      "role": "private repo template"
+    },
+    {
+      "id": "who-is-eli",
+      "name": "ilyaminineli/who-is-eli",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 71381,
+      "role": "private animation / archive project"
+    },
+    {
+      "id": "eli_lab-mv-titler",
+      "name": "ilyaminineli/eli_lab-mv-titler",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 135,
+      "role": "Japanese subtitle typography tool"
+    },
+    {
+      "id": "sashaeb",
+      "name": "ilyaminineli/sashaeb",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 526,
+      "role": "collaborator/site trace"
+    },
+    {
+      "id": "eli_lab_organiser",
+      "name": "ilyaminineli/eli_lab_organiser",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 8,
+      "role": "private organization tooling"
+    },
+    {
+      "id": "eli_lab_official",
+      "name": "ilyaminineli/eli_lab_official",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 724821,
+      "role": "historical public Eli Lab website"
+    },
+    {
+      "id": "word_doc_filler",
+      "name": "ilyaminineli/word_doc_filler",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "master",
+      "size_kb": 139,
+      "role": "private document utility"
+    },
+    {
+      "id": "eli_lab_mv",
+      "name": "ilyaminineli/eli_lab_mv",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "master",
+      "size_kb": 21806,
+      "role": "private audio-reactive MV editor"
+    },
+    {
+      "id": "nanatsu-no-oka-no-manko",
+      "name": "ilyaminineli/nanatsu-no-oka-no-manko",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 55009,
+      "role": "denpa / fictional archive / synthetic voice project"
+    },
+    {
+      "id": "punk_exhibition",
+      "name": "ilyaminineli/punk_exhibition",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 69,
+      "role": "Pereizobretenie Punk exhibition site"
+    },
+    {
+      "id": "eli_lab-the-poster",
+      "name": "ilyaminineli/eli_lab-the-poster",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 9,
+      "role": "Telegram/post design utility"
+    },
+    {
+      "id": "parazit-web",
+      "name": "ilyaminineli/parazit-web",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 640335,
+      "role": "relational exhibition/archive web system"
+    },
+    {
+      "id": "tumblr-theme",
+      "name": "ilyaminineli/tumblr-theme",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 2194,
+      "role": "Tumblr publishing/theme infrastructure"
+    },
+    {
+      "id": "eli_lab-archive",
+      "name": "ilyaminineli/eli_lab-archive",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 310,
+      "role": "current relational master archive"
+    },
+    {
+      "id": "Daly-Syndrome",
+      "name": "ilyaminineli/Daly-Syndrome",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 8082837,
+      "role": "private long-form animation"
+    },
+    {
+      "id": "eli_lab-belial",
+      "name": "ilyaminineli/eli_lab-belial",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1109,
+      "role": "private Belial development"
+    },
+    {
+      "id": "eli_lab-pattern-generator",
+      "name": "ilyaminineli/eli_lab-pattern-generator",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 215,
+      "role": "procedural graphics / pattern system"
+    },
+    {
+      "id": "jihanki-site",
+      "name": "ilyaminineli/jihanki-site",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 660517,
+      "role": "Japanese vending-machine interactive archive"
+    },
+    {
+      "id": "ELIASADAMS",
+      "name": "ilyaminineli/ELIASADAMS",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 48,
+      "role": "current identity/practice hub"
+    },
+    {
+      "id": "eli_lab_sv_scripts",
+      "name": "ilyaminineli/eli_lab_sv_scripts",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 275,
+      "role": "SynthV / VOCALOID tuning tools"
+    },
+    {
+      "id": "Pleiir",
+      "name": "ilyaminineli/Pleiir",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 216689,
+      "role": "audiovisual clip"
+    },
+    {
+      "id": "Antokolskyj",
+      "name": "ilyaminineli/Antokolskyj",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1055116,
+      "role": "historical animation production archive"
+    },
+    {
+      "id": "payment-bot",
+      "name": "ilyaminineli/payment-bot",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 2504,
+      "role": "client/service bot; external to personal art archive"
+    },
+    {
+      "id": "oleg_ustinov_official",
+      "name": "ilyaminineli/oleg_ustinov_official",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 127558,
+      "role": "separate collaborator/artist website"
+    },
+    {
+      "id": "eli_lab_comfy",
+      "name": "ilyaminineli/eli_lab_comfy",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 178,
+      "role": "ComfyUI visual-generation workflow lab"
+    },
+    {
+      "id": "JPTrainer",
+      "name": "ilyaminineli/JPTrainer",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "master",
+      "size_kb": 31,
+      "role": "Japanese learning software experiment"
+    },
+    {
+      "id": "eli_lab-multimedia-framework",
+      "name": "ilyaminineli/eli_lab-multimedia-framework",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 336,
+      "role": "multimedia production/archive framework"
+    },
+    {
+      "id": "sonicpi_eli_lab",
+      "name": "ilyaminineli/sonicpi_eli_lab",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 392521,
+      "role": "private generative music laboratory"
+    },
+    {
+      "id": "metaliminal",
+      "name": "ilyaminineli/metaliminal",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1,
+      "role": "experimental game/project trace"
+    },
+    {
+      "id": "eli_lab-blender-scripts",
+      "name": "ilyaminineli/eli_lab-blender-scripts",
+      "visibility": "private",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 1821,
+      "role": "private Blender scripts"
+    },
+    {
+      "id": "sleepdom",
+      "name": "ilyaminineli/sleepdom",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 2,
+      "role": "immersive-sim game experiment"
+    },
+    {
+      "id": "eli_lab-the-formatter",
+      "name": "ilyaminineli/eli_lab-the-formatter",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "size_kb": 6,
+      "role": "social-media text formatter"
+    }
+  ]
+}
