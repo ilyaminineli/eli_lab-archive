@@ -32,6 +32,7 @@
 
 ## Sources
 - [GitHub registry](research/sources/github.md)
+- [Old website structure](research/sources/old-website.md)
 - [Web / institutional / social registry](research/sources/web.md)
 
 ## Strong relationship clusters
