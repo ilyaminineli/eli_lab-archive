@@ -213,15 +213,18 @@ h1 em, h2 em {
         0 12px 28px var(--shadow);
     transition: transform 240ms ease, border-color 240ms ease;
 }
-.work-media::after {
-    z-index: -1;
-}
+.work-media::after { z-index: 0; }
 .work-card--wide .work-media { min-height: 38rem; }
 .work-card:hover .work-media {
     transform: translateY(-4px) rotate(-.15deg);
     border-color: var(--line-strong);
 }
-.work-media::before, .work-media::after { content: ""; position: absolute; pointer-events: none; }
+.work-media::before, .work-media::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+}
 
 .work-media--01 {
     background:
