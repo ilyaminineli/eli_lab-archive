@@ -43,5 +43,5 @@ Current structured work manifest: **148 records** (143 public + 5 private).
 
 ## Exclusions
 - Unrelated people named Ilya Minin found in web search are excluded.
-- Separate client/artist sites are stored as source traces, not personal works.
+- Separate client/private-order sites are retained only in repository/source inventories; they are not part of the personal art-practice index.
 - Private unfinished repositories remain research/private unless explicitly promoted.
