@@ -28,6 +28,7 @@
 - [Digital memory / uncanny](research/themes/digital-memory-uncanny.md)
 - [Archive / systems](research/themes/archive-systems.md)
 - [Materiality / photography](research/themes/materiality-photography.md)
+- [Sound / voice / generative](research/themes/sound-voice-generative.md)
 - [Liminal / ritual / constructed folklore](research/themes/liminal-ritual-folklore.md)
 - [Collective authorship / production networks](research/themes/collective-authorship.md)
 
