@@ -18,7 +18,6 @@ This is a maintainer-facing index. People are entities; collaborations and event
 ## Institution / collective relationships
 - Rodchenko School of Photography and Multimedia
 - GRIG Film
-- PARAZIT
 - SAIKONEON
 - КУПЕ 23
 - VIDEODROME
