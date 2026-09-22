@@ -37,6 +37,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         'archive-source': 'ARCHIVE SOURCE',
         'documented-by': 'DOCUMENTED BY',
         'released-on': 'RELEASED ON',
+        'narrated-by': 'NARRATED BY',
+        'dedicated-to': 'DEDICATED TO',
+        'special-thanks-to': 'SPECIAL THANKS',
+        'programmed-by': 'PROGRAMMED BY',
+        'part-of-project': 'PART OF PROJECT',
         'implemented-with': 'IMPLEMENTED WITH',
         'supports': 'SUPPORTS',
         'contains': 'CONTAINS',
@@ -45,10 +50,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     const categoryFor = (relation) => {
-        if (/created|co-created|directed|produced|performed|features/.test(relation)) return 'AUTHORSHIP / PARTICIPATION';
+        if (/created|co-created|directed|produced|performed|features|narrated/.test(relation)) return 'AUTHORSHIP / PARTICIPATION';
         if (/exhibited|screened|curated|part-of/.test(relation)) return 'CONTEXT / EXHIBITION';
-        if (/implemented|supports|contains|uses/.test(relation)) return 'SYSTEM / PRODUCTION';
-        if (/archive|documented|released/.test(relation)) return 'PROVENANCE';
+        if (/implemented|supports|contains|uses|programmed/.test(relation)) return 'SYSTEM / PRODUCTION';
+        if (/archive|documented|released|dedicated|special-thanks/.test(relation)) return 'PROVENANCE';
         return 'RELATED';
     };
 
