@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const response = await fetch("../data/works.json");
         if (!response.ok) throw new Error("Could not load works manifest.");
         const manifest = await response.json();
-        const rows = manifest.works.map((work) => `
+        const publicWorks = manifest.works.filter((work) => work.visibility !== "private");
+        const rows = publicWorks.map((work) => `
             <a class="archive-row" data-work data-medium="${(work.medium || []).join(" ")}" href="record.html?id=${encodeURIComponent(work.id)}">
                 <span>${escapeHTML(work.year)}</span>
                 <strong>${escapeHTML(work.title)}</strong>
