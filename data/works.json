@@ -2532,6 +2532,172 @@
       "sources": [
         "https://eliasadams.bandcamp.com"
       ]
+    },
+    {
+      "id": "london-hello",
+      "title": "London Hello",
+      "year": "2020s",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "photography"
+      ],
+      "status": "documented",
+      "description": "Photographic series preserved in the historical Eli Lab image archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/London%20Hello/london_preview.png"
+    },
+    {
+      "id": "orthofuture",
+      "title": "Orthofuture",
+      "year": "2020s",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "photography"
+      ],
+      "status": "documented",
+      "description": "Photographic series preserved in the historical Eli Lab image archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Orthofuture/orthofuture_preview.png"
+    },
+    {
+      "id": "pacanbalet",
+      "title": "Pacanbalet",
+      "year": "2020s",
+      "medium": [
+        "art"
+      ],
+      "context": [
+        "photoseries",
+        "photography"
+      ],
+      "status": "documented",
+      "description": "Photographic series preserved in the historical Eli Lab image archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ilyaminineli/eli_lab_official/main/images/Photoseries/Pacanbalet/pacanbalet_preview.png"
+    },
+    {
+      "id": "cg-design-online-shop",
+      "title": "CG Design / Online Shop",
+      "year": "2020s",
+      "medium": [
+        "cgi",
+        "art"
+      ],
+      "context": [
+        "design",
+        "object studies",
+        "archive"
+      ],
+      "status": "documented",
+      "description": "Ten product/object images preserved in the historical CG design archive: Coffee, Dryer, Fridge, Hoodie, Phone, Poster, Smartwatch, TV, Teapot and Vacuum.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "album-covers-archive",
+      "title": "Album Covers Archive",
+      "year": "2020s",
+      "medium": [
+        "art",
+        "cgi"
+      ],
+      "context": [
+        "graphic design",
+        "archive"
+      ],
+      "status": "documented",
+      "description": "Twenty-one cover designs preserved in the historical CG For Site archive; individual project relationships still need mapping.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "logo-archive",
+      "title": "Logo Archive",
+      "year": "2020s",
+      "medium": [
+        "art",
+        "cgi"
+      ],
+      "context": [
+        "graphic design",
+        "archive"
+      ],
+      "status": "documented",
+      "description": "Twenty-five logo files preserved in the historical CG For Site archive; individual clients/projects still need mapping.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "cg-3d-design-archive",
+      "title": "CG / 3D Design Archive",
+      "year": "2020s",
+      "medium": [
+        "cgi"
+      ],
+      "context": [
+        "design",
+        "archive"
+      ],
+      "status": "documented",
+      "description": "Named CGI studies including Towny, Gaika, Drema, Swirl and Neuron Brain, preserved in the historical site archive.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "teto-character-studies",
+      "title": "Kasane Teto Character Studies",
+      "year": "2020s",
+      "medium": [
+        "art",
+        "cgi"
+      ],
+      "context": [
+        "character study",
+        "vocal synth",
+        "archive"
+      ],
+      "status": "candidate",
+      "description": "Large visual archive of Kasane Teto studies and related character images. Individual provenance and privacy/publication status need to be resolved.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ]
+    },
+    {
+      "id": "ewp-presentation-archive",
+      "title": "EWP Project / Presentation Archive",
+      "year": "2023",
+      "medium": [
+        "art",
+        "cgi"
+      ],
+      "context": [
+        "production archive",
+        "documentation"
+      ],
+      "status": "documented",
+      "description": "Presentation and production stills for EWP Project, including render comparisons and work-in-progress images.",
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "related_works": [
+        "ewp-project"
+      ]
     }
   ]
 }
