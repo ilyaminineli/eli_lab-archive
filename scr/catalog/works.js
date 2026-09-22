@@ -11,14 +11,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     }[char]));
 
     try {
-        const [workResponse, relationResponse] = await Promise.all([
+        const [workResponse, relationResponse, videoResponse] = await Promise.all([
             fetch('../data/works.json'),
-            fetch('../data/relations.json')
+            fetch('../data/relations.json'),
+            fetch('../data/video_context.json')
         ]);
         if (!workResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
 
         const manifest = await workResponse.json();
         const graph = relationResponse.ok ? await relationResponse.json() : { edges: [], people: [], groups: [], places: [] };
+        const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
         const publicWorks = manifest.works.filter((work) => work.visibility !== 'private');
         const workById = new Map(publicWorks.map((work) => [work.id, work]));
         const entityNames = new Map([
@@ -70,6 +72,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             directoryLabel.textContent = activePreset ? directoryNames[activePreset] + ' / DIRECTORY' : 'ALL / WORKS';
         };
 
+        const videoSearchText = new Map();
+        (videoContext.rows || []).forEach((video) => {
+            if (!video.canonicalWorkId) return;
+            if (!videoSearchText.has(video.canonicalWorkId)) videoSearchText.set(video.canonicalWorkId, []);
+            videoSearchText.get(video.canonicalWorkId).push(video.title, video.description, ...(video.links || []), ...(video.creditLines || []));
+        });
+
         const rows = publicWorks.map((work) => {
             const searchText = [
                 work.title,
@@ -78,7 +87,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 ...(work.context || []),
                 ...(work.sources || []),
                 ...(work.external_sources || []),
-                ...(relationNames.get(work.id) || [])
+                ...(relationNames.get(work.id) || []),
+                ...(videoSearchText.get(work.id) || [])
             ].join(' ').toLowerCase();
 
             return '<a class="archive-row" data-work data-work-id="' + escapeHTML(work.id) + '" data-medium="' +
