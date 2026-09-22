@@ -3963,3 +3963,22 @@ body::after {
         display: none;
     }
 }
+
+
+.person-roles {
+    margin: .32rem 0 0;
+    color: #5a6963;
+    font: 500 .45rem/1.35 "DM Mono",monospace;
+    letter-spacing: .04em;
+}
+
+.person-persona {
+    max-width: 70ch;
+    margin: .45rem 0 0;
+    padding: .45rem .5rem;
+    color: #475650;
+    background: #dfe4de;
+    border-left: 2px solid #c98d4e;
+    font-size: .59rem;
+    line-height: 1.55;
+}
