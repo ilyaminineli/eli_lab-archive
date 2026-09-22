@@ -125,7 +125,10 @@
       "type": "voice provider",
       "aliases": [
         "Possum Eugene",
-        "ポス・ユージーン"
+        "ポス・ユージーン",
+        "友人",
+        "友人 (Eugene)",
+        "ポス・ユージーン (友人 / Eugene)"
       ]
     },
     {
@@ -190,7 +193,11 @@
     {
       "id": "kasane-teto",
       "name": "Kasane Teto",
-      "type": "synthetic character / voice"
+      "type": "synthetic character / voice",
+      "aliases": [
+        "重音テト",
+        "Kasane Teto"
+      ]
     },
     {
       "id": "chis-a",
