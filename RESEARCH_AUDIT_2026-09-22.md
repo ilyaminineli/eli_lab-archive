@@ -65,6 +65,19 @@ Blue Neon + NO ONE IS LISTENING → Vocaloid Jazz Album → Kasane Teto / Chis-A
 - X and VK are stored as first-class identity/publishing URLs, but their current page contents were not reliably retrievable in this pass; no work metadata was inferred from them.
 - The current ELIASADAMS profile provides a repository inventory and directly describes the practice as spanning experimental music, voice synthesis, generative systems, interactive archives, animation, games and digital folklore.
 
+## Site refinement pass / 2026-09-23
+
+The archive UI is now data-driven around one canonical public work layer. Navigation, search, status and record routing were audited together rather than page-by-page.
+
+- All 18 HTML pages use the same six-item primary navigation.
+- A global search page now indexes works and relationship entities.
+- Works, medium directories, People and Network have independent but compatible search behavior.
+- Network focus uses stable entity IDs instead of display names.
+- Work records show the available description, preview, provenance, relations and a data-driven expansion checklist.
+- The homepage system panel and archive status now read from data/site_status.json.
+- PARAZIT and the Oleg Ustinov website remain outside the art-practice graph and source registry as private client orders.
+- Static HTML link checks across the site found no broken internal HTML targets.
+
 ## Remaining research
 
 1. Convert the 57 source-only YouTube rows into aliases / child variants / canonical works where evidence allows.
