@@ -15,6 +15,8 @@
     --accent: #b7462f;
     --amber: #d49a4e;
     --shadow: rgba(20, 24, 23, .2);
+    --green-led: #6f987c;
+    --red-led: #c6543d;
 }
 
 * {
