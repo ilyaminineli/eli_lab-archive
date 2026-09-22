@@ -50,6 +50,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (requestedMedium === 'motion') {
                 return medium.some((m) => ['animation', 'video'].includes(m));
             }
+            if (requestedMedium === 'systems') {
+                return medium.some((m) => ['software', 'interactive'].includes(m));
+            }
             return medium.includes(requestedMedium);
         };
 
