@@ -3775,3 +3775,112 @@ body::after {
 
 .terminal-status[data-state="ONLINE"] .status-led { background: var(--green-led); }
 .terminal-status[data-state="OFFLINE"] .status-led { background: var(--red-led); }
+
+
+
+/* Record-level source context */
+.record-video-context {
+    margin-top: .7rem;
+}
+
+.record-video-context > .small-note {
+    margin: 0 0 .65rem;
+    max-width: 78ch;
+    line-height: 1.6;
+}
+
+.source-video-row {
+    display: grid;
+    grid-template-columns: 2rem minmax(0,1fr) auto;
+    gap: .55rem;
+    align-items: start;
+    padding: .55rem .4rem;
+    border-top: 1px solid #919c96;
+}
+
+.source-video-row:first-of-type {
+    border-top: 0;
+}
+
+.source-video-index {
+    color: #a24a37;
+    font: 500 .5rem/1 "DM Mono", monospace;
+}
+
+.source-video-row h3 {
+    margin: 0;
+    color: #283430;
+    font: 500 .58rem/1.3 "DM Mono", monospace;
+}
+
+.source-video-row > div:nth-child(2) > p {
+    margin: .22rem 0 0;
+    color: #6b7772;
+    font: 500 .46rem/1.2 "DM Mono", monospace;
+}
+
+.source-video-open {
+    padding: .28rem .34rem;
+    color: #8f4c3c;
+    border: 1px solid #929d97;
+    font: 500 .46rem/1 "DM Mono", monospace;
+    white-space: nowrap;
+}
+
+.source-video-details {
+    margin-top: .45rem;
+    padding-top: .45rem;
+    border-top: 1px dotted #909b95;
+}
+
+.source-video-details summary {
+    color: #68746f;
+    cursor: pointer;
+    font: 500 .46rem/1.2 "DM Mono", monospace;
+    letter-spacing: .06em;
+}
+
+.source-video-details p {
+    margin: .45rem 0 0;
+    color: #3f4c48;
+    font-size: .62rem;
+    line-height: 1.65;
+    white-space: pre-line;
+}
+
+.source-video-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem .45rem;
+    margin-top: .5rem;
+}
+
+.source-video-link {
+    color: #8f4c3c;
+    font: 500 .45rem/1.25 "DM Mono", monospace;
+    overflow-wrap: anywhere;
+}
+
+.record-media-path {
+    align-self: center;
+    color: #6a7772;
+    font: 500 .45rem/1.2 "DM Mono", monospace;
+    letter-spacing: .04em;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+    .source-video-row {
+        grid-template-columns: 1.5rem minmax(0,1fr);
+    }
+
+    .source-video-open {
+        grid-column: 2;
+        justify-self: start;
+        margin-top: .2rem;
+    }
+
+    .record-media-path {
+        font-size: .4rem;
+    }
+}
