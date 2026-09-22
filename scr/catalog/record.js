@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const targetIsWork = Boolean(byId[targetId]);
             const href = targetIsWork
                 ? 'record.html?id=' + encodeURIComponent(targetId)
-                : '#';
+                : 'network.html?q=' + encodeURIComponent(resolveEntity(targetId));
             return '<a class="relation-row" href="' + href + '"><span>' +
                 escapeHTML(label) + '</span><strong>' +
                 escapeHTML(resolveEntity(targetId)) + '</strong><em>→</em></a>';
