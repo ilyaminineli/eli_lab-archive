@@ -56,6 +56,7 @@ The work metadata layer is now in place: `data/works.json`, `data/relations.json
 
 - 148 structured work records (143 public + 5 private)
 - 152 relation edges
+- 40 registered art-practice sources
 - 595 indexed visual assets
 - 126 YouTube source rows
 - 105 normalized YouTube title signatures
