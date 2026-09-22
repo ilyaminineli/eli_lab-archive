@@ -80,7 +80,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 return '<article class="person-card' + (match ? '' : ' is-hidden') + '" data-person>' +
                     '<header class="person-head">' +
-                    '<div><p class="person-id">' + escapeHTML(person.id) + '</p><h2><a href="network.html?q=' + encodeURIComponent(person.name) + '">' + escapeHTML(person.name) + '</a></h2></div>' +
+                    '<div><p class="person-id">' + escapeHTML(person.id) + '</p><h2><a href="network.html?focus=' + encodeURIComponent(person.id) + '">' + escapeHTML(person.name) + '</a></h2>' +
+                    ((person.aliases || []).length ? '<p class="person-aliases">SOURCE NAMES / ' + escapeHTML(person.aliases.join(' · ')) + '</p>' : '') + '</div>' +
                     '<div class="person-meta"><span>' + escapeHTML(person.type) + '</span><strong>' + String(person.projects.length).padStart(2, '0') + '</strong><small>PROJECTS</small></div>' +
                     '</header><div class="person-projects">' + projectsHTML + '</div></article>';
             }).join('') || '<p class="small-note">NO PUBLIC PEOPLE IN CURRENT NETWORK.</p>';
