@@ -455,3 +455,55 @@ Keep conflicts and uncertainty in archive_notes rather than silently erasing the
 - verify the MDF School page manually
 - add verified external links to each work
 - migrate the map into structured data after provenance is stable
+
+---
+
+## 16. 2026-09-22 Telegram / YouTube trace
+
+### Telegram — @ilyaminineli
+Source: https://t.me/ilyaminineli
+
+The public channel currently exposes:
+- channel name: **eli_lab**
+- approximately 300 subscribers at the time of this research pass
+- 678 photos
+- 55 videos
+- 2 files
+- 242 links
+- bio: "Цифровой визионер, плохой полицейский и неправильная пчела."
+- direct links to drawing orders via **@eli_lab_price**
+- direct contact via **@eli_adams**
+
+Recent visible post subjects include:
+- **FROW**
+- **オポッサム**
+- **異常な反射少女**
+- **エリからエリーへの誕生日プレゼント**
+- **重音テトの極半径の負の値**
+- **オポッサム：カジュアルなコーディネート**
+- a new work made as a gift for **SAINT SIN**
+- **Ain’t no Sunshine when she’s gone** — post dated 2026-09-18, describing a new clip based on Bill Withers' "Ain't No Sunshine" with Kasane Teto
+
+The channel also states that works and UTAU-related posts are among the material published there and links viewers toward the X account.
+
+### YouTube — @elilab
+Source: https://www.youtube.com/@elilab
+
+The channel was supplied as a primary publishing trace. Direct channel crawling was throttled during this research pass, so its complete current video inventory could not be reliably extracted.
+
+A Telegram post from 2026-09-18 links to a YouTube video titled:
+**Ain't No Sunshine (Bill Withers Cover) — Kasane Teto / Experimental MV | Ilya Minin (Eli)**
+
+Use the YouTube channel as a first-class external source in the archive, but do not claim an exhaustive video list until the channel can be enumerated reliably.
+
+### Research implication
+Telegram appears to contain a substantial visual/posting archive in its own right. It should be treated as a source layer with:
+- post date
+- original caption
+- linked work
+- media type
+- external links
+- hashtags
+- relation to GitHub/project records
+
+rather than simply as a social-media link in the footer.
