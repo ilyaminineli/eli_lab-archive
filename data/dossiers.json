@@ -90,7 +90,26 @@
       "archival_notes": [
         "The project archive preserves both production assets and the finished film, making the repository part of the work's history."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "gL7di-eXDmE"
+      ],
+      "source_context": [
+        "A mysterious traveler returns to his transformed hometown, where familiar places have become surreal landscapes and fragmented memories. Moving between decaying urban spaces, dreamlike plains, encounters with locals and another outsider, he is forced to confront his own divided identity and the uncertain boundary between memory, perception and truth.",
+        "Rather than presenting a conventional linear narrative, EWP Project uses metaphorical storytelling, surreal environments and subconscious imagery to explore belonging, memory, personal transformation and the search for self."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Soundtrack: sasha e b",
+        "Narration: Marysia Izdebska"
+      ]
     },
     "bogorodskoe": {
       "work_id": "bogorodskoe",
@@ -179,7 +198,23 @@
       "archival_notes": [
         "The source names Yulia Baranyuk, Anna Malakhova, Olga Romanova, Mel, Vasily Ivanov, Vladimir Pilikhovski, Sergey Bratkov and Oleg Ustinov in the cast."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "_KpvIF-fgs8"
+      ],
+      "source_context": [
+        "Bogorodskoye (2022) is an experimental short film and comedy video series by Ilya Minin (Eli) and Yulia Baranyuk, inspired by the local history, theater, music, dancing, and fairground traditions of Bogorodskoye.",
+        "Set against the cultural world of late-19th-century Bogorodskoye, the project explores a place remembered through carnival, absurdity, performance, and chaotic everyday life. The series is based on local-history essays and articles collected in Bogorodskoye. Pages of History: A Collection of Local-History Essays and Articles by T. Z. Biryukova and A. V. Bugrov."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "the-last-day-of-kasane-teto": {
       "work_id": "the-last-day-of-kasane-teto",
@@ -188,7 +223,7 @@
       "year": "2025",
       "status": "documented",
       "media_dir": "media/works/the-last-day-of-kasane-teto/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -214,7 +249,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "qxnTJGDGPWc"
+      ],
+      "source_context": [
+        "The Last Day of Kasane Teto is an experimental animated short by Ilya Minin (Eli) exploring the fragile boundary between light and darkness.",
+        "Through Kasane Teto's final journey, the film turns an iconic virtual character into a vessel for questions about connection, isolation, inner demons, suffering and transformation."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "triple-baka": {
       "work_id": "triple-baka",
@@ -223,7 +274,7 @@
       "year": "2025",
       "status": "confirmed",
       "media_dir": "media/works/triple-baka/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -240,7 +291,26 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "MK1-yavSP3k"
+      ],
+      "source_context": [
+        "I made this animation because sometimes reality falters. A fog-stranded stroll, three strangers and an abandoned barn… those things aren’t “just an excuse.”",
+        "This cartoon is less about Teto, Miku, or Neru and more about how my brain translates cracks in existence. A 2008 track trickles through it all — Triple Baka — but here, the rhythm's warped and three idiots (me, them, whatever) caught in a loop labeled Tuesday."
+      ],
+      "source_links": [
+        "https://www.instagram.com/eli_lab_official/",
+        "https://t.me/ilyaminineli"
+      ],
+      "source_credit_lines": []
     },
     "3d-essentials": {
       "work_id": "3d-essentials",
@@ -249,7 +319,7 @@
       "year": "2020–2021",
       "status": "confirmed",
       "media_dir": "media/works/3d-essentials/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -264,7 +334,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "semi-spatial-apartment": {
       "work_id": "semi-spatial-apartment",
@@ -273,7 +354,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/semi-spatial-apartment/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -288,7 +369,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "untitled-3": {
       "work_id": "untitled-3",
@@ -297,7 +389,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/untitled-3/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -320,7 +412,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "jewish-gift": {
       "work_id": "jewish-gift",
@@ -329,7 +432,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/jewish-gift/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -344,7 +447,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "lab-announcement-3": {
       "work_id": "lab-announcement-3",
@@ -353,7 +467,7 @@
       "year": "2023",
       "status": "documented",
       "media_dir": "media/works/lab-announcement-3/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -381,7 +495,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "blue-neon": {
       "work_id": "blue-neon",
@@ -405,7 +530,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "no-one-is-listening": {
       "work_id": "no-one-is-listening",
@@ -429,7 +565,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "eugene": {
       "work_id": "eugene",
@@ -493,7 +640,18 @@
       "archival_notes": [
         "The character documentation frames Eugene through unfinished things, memory and disappearance; this is retained as a project/character description rather than a claim about the real voice provider."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "iirai": {
       "work_id": "iirai",
@@ -561,7 +719,18 @@
       ],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "hiro": {
       "work_id": "hiro",
@@ -570,7 +739,7 @@
       "year": "2026",
       "status": "confirmed",
       "media_dir": "media/works/hiro/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/text-to-ust"
       ],
@@ -593,7 +762,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "belial": {
       "work_id": "belial",
@@ -602,7 +782,7 @@
       "year": "2023–",
       "status": "confirmed",
       "media_dir": "media/works/belial/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/Belial_8"
       ],
@@ -619,7 +799,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pipeline-hub": {
       "work_id": "pipeline-hub",
@@ -628,7 +819,7 @@
       "year": "2026",
       "status": "confirmed",
       "media_dir": "media/works/pipeline-hub/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_pipeline_hub"
       ],
@@ -649,7 +840,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "gonki-i-tochka": {
       "work_id": "gonki-i-tochka",
@@ -658,7 +860,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/gonki-i-tochka/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/gonkiitochka"
       ],
@@ -689,7 +891,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "jihanki": {
       "work_id": "jihanki",
@@ -759,7 +972,18 @@
       "archival_notes": [
         "The project explicitly treats interface, collection and classification as part of the artwork rather than an after-the-fact presentation layer."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "antokolskyj": {
       "work_id": "antokolskyj",
@@ -768,7 +992,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/antokolskyj/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/Antokolskyj"
       ],
@@ -819,7 +1043,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pleiir": {
       "work_id": "pleiir",
@@ -828,7 +1063,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/pleiir/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/Pleiir"
       ],
@@ -856,7 +1091,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "fVjXju_4J5E"
+      ],
+      "source_context": [
+        "As a huge fan of DVAR, I created this unofficial animation to depict their latest incredible song \"Pleiir.\"\nI tried to capture the energy and emotion of the track, bringing to life the feelings and stories that DVAR inspires in me."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "videodrome": {
       "work_id": "videodrome",
@@ -865,7 +1115,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/videodrome/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://i--active--space.orgs.biz/"
       ],
@@ -880,7 +1130,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "live-one-gog": {
       "work_id": "live-one-gog",
@@ -889,7 +1150,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/live-one-gog/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -904,7 +1165,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "magic-orgy": {
       "work_id": "magic-orgy",
@@ -913,7 +1185,7 @@
       "year": "2018",
       "status": "documented",
       "media_dir": "media/works/magic-orgy/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com/album/magic-orgy"
       ],
@@ -928,7 +1200,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "teqcnuilogiogistie": {
       "work_id": "teqcnuilogiogistie",
@@ -937,7 +1220,7 @@
       "year": "2019",
       "status": "documented",
       "media_dir": "media/works/teqcnuilogiogistie/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com/album/teqcnuilogiogistie"
       ],
@@ -952,7 +1235,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "abnormal-reflective-girl": {
       "work_id": "abnormal-reflective-girl",
@@ -961,7 +1255,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/abnormal-reflective-girl/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com",
         "https://t.me/ilyaminineli"
@@ -977,7 +1271,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "mountain-remembers": {
       "work_id": "mountain-remembers",
@@ -1046,7 +1351,25 @@
       "archival_notes": [
         "The source description explicitly distinguishes the work from documentary representation of Japan; it is indexed as a transformation of journey into sound, memory and folklore."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "wpBQbRItMnc"
+      ],
+      "source_context": [
+        "山は覚えている｜The Mountain Remembers is an experimental audiovisual work created from a journey through Mount Fuji, the Fuji Five Lakes, Aokigahara, and Lake Saiko.",
+        "The film is built from places I actually visited, field recordings made during the journey, and fragments of memory. Roads, forests, shrines, tunnels, lakes, vending machines, voices and distant mechanical sounds gradually become something less like a travel diary and more like a landscape remembering itself."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Special Thanks:"
+      ]
     },
     "six-yokai": {
       "work_id": "six-yokai",
@@ -1091,7 +1414,25 @@
       "archival_notes": [
         "The source description explicitly states that the yokai, traditions and documents are fictional and not real Japanese folklore."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "X1lK-y6ms2o"
+      ],
+      "source_context": [
+        "富士山六大妖怪 — Six Yokai of Mount Fuji is a fictional yokai documentary created as an homage to Japanese folklore programs, kaidan broadcasts, and the strange visual language of old educational television.",
+        "According to the fictional oral traditions and old records presented in the film, six yokai have lived around the foothills of Mount Fuji:"
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Voice: ポス・ユージーン (友人 / Eugene)"
+      ]
     },
     "in-her-20s": {
       "work_id": "in-her-20s",
@@ -1139,7 +1480,28 @@
       "archival_notes": [
         "The archive treats the multiple short uploads as source variants of one canonical work."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "DoYyGbaN1tE",
+        "O9Z975ee1Ns",
+        "OcFF8Med9fQ",
+        "qMCYjbl0u7g",
+        "JpZqWAC6Mv0"
+      ],
+      "source_context": [
+        "The piece moves through fragments of hospitals, ambulances, two moons, medication, red throats, silence and a girl who has become impossible to reach. Rather than telling a linear story, the video reconstructs a memory through distorted language, found-footage-like imagery and fragmented voices."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Vocals: 茜音イーライ (Akane Iirai)"
+      ]
     },
     "childs-sky": {
       "work_id": "childs-sky",
@@ -1182,7 +1544,25 @@
       "archival_notes": [
         "The description frames the work as a memory-space rather than a literal childhood documentary."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "T4N2ELKcowI"
+      ],
+      "source_context": [
+        "子供の空 (Kodomo no Sora / Child's Sky) is an original UTAU audiovisual work featuring 重音テト (Kasane Teto) and 茜音イーライ (Akane Iirai).",
+        "The song moves through fragments of pain, voices, wind, fire, butterflies, white fingers, abandoned paths and a strange white trunk growing from a river. What begins as a memory gradually becomes an unstable landscape where childhood, absence and something impossible overlap."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Vocals: 重音テト (Kasane Teto), 茜音イーライ (Akane Iirai)"
+      ]
     },
     "someones-voice": {
       "work_id": "someones-voice",
@@ -1221,7 +1601,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "TJROlmgboT8"
+      ],
+      "source_context": [
+        "The song explores the quiet moment when your thoughts stop feeling like your own — when overthinking makes words lose their shape, your reflection begins to feel slightly wrong, and another voice starts to sound almost comforting.",
+        "By the end, it becomes difficult to tell whether you are following that voice, or whether it has been leading you all along."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "afraid-of-happiness": {
       "work_id": "afraid-of-happiness",
@@ -1270,7 +1666,30 @@
       ],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "apbx1EJ1Mtg",
+        "4VDlmj1DYJo",
+        "K9z59T5WcG0",
+        "G9Dd3G2uzV4",
+        "t_9eOHFA1SI"
+      ],
+      "source_context": [
+        "しあわせがこわい (I’m Afraid of Happiness) is an original UTAU song featuring 友人 (Eugene), an androgynous voicebank built from restored fragments, preserved phonemes, and heavily processed memory.",
+        "In the Forest of White Bells, a forgotten voice searches for something it cannot quite remember: warmth, freedom, a name, or perhaps happiness itself. The song moves through memories of fox footprints, bells, birds, red fruit, moonlight, and a voice that keeps returning from somewhere beyond the past."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Voicebank: 友人 (Eugene)",
+        "Voicebank setup & retouching: Eikton"
+      ]
     },
     "fighting-postmodernism": {
       "work_id": "fighting-postmodernism",
@@ -1302,7 +1721,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "kagome-kagome": {
       "work_id": "kagome-kagome",
@@ -1352,7 +1782,31 @@
       ],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "QrCdYSfzz0o",
+        "nEZFTuR24Xw",
+        "Z5YlhWNQC58",
+        "Pent-Psrloo",
+        "lVFrJuRRFgQ",
+        "KpAnmELow2I"
+      ],
+      "source_context": [
+        "かごめかごめ (Kagome Kagome) is an experimental UTAU interpretation of the traditional Japanese children's game song, performed by イーライ (Iirai).",
+        "Have you ever felt a voice penetrate your skin and touch not only your ears, but the deeper layers of your memory?"
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Voice: イーライ (Iirai)",
+        "Voicebank Retuning: Eikton"
+      ]
     },
     "get-hit-below": {
       "work_id": "get-hit-below",
@@ -1417,7 +1871,35 @@
       ],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "thTfSHRGUMk",
+        "oo4p0jtRk9c",
+        "OVThUhsmQIk",
+        "ciWH5ykUfW8",
+        "i-LO9ksv9MQ",
+        "eiIVpQq32Ss",
+        "OJduFSbaFiw",
+        "NfqOfeketFA",
+        "rXnb3Y-orC8"
+      ],
+      "source_context": [
+        "(Verse 1) \nLife won’t ask who you are\nWhat you carry, near or far.\nThe sun is shining bright -\nIt doesn't care who’s right.",
+        "You get hit in the back\nThat’s how life works, \nthat’s a fact\nYou get a slap or sting,\nThat’s how life \nmakes you Swing.\nRich or poor - it’s the same\nAt home or out in the rain."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Music: geztålt",
+        "SV Vocal Programming: DYNAKYRIS",
+        "Thanks to:"
+      ]
     },
     "tetopocalypsis": {
       "work_id": "tetopocalypsis",
@@ -1426,7 +1908,7 @@
       "year": "2025",
       "status": "confirmed",
       "media_dir": "media/works/tetopocalypsis/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=LqmzfxUYRPI"
       ],
@@ -1443,7 +1925,19 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "LqmzfxUYRPI"
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "fukkireta": {
       "work_id": "fukkireta",
@@ -1452,7 +1946,7 @@
       "year": "2025",
       "status": "confirmed",
       "media_dir": "media/works/fukkireta/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=yrhaxUmj_3A"
       ],
@@ -1467,7 +1961,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pjesma-pro-ljubov": {
       "work_id": "pjesma-pro-ljubov",
@@ -1476,7 +1981,7 @@
       "year": "2025",
       "status": "confirmed",
       "media_dir": "media/works/pjesma-pro-ljubov/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=ckv0rXGN2L0"
       ],
@@ -1493,7 +1998,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "ckv0rXGN2L0"
+      ],
+      "source_context": [
+        "“Pjesma pro Ljubov” is an experimental music video by geztålt, built from mixed-media collage, cutting, Dada techniques, Gestalt associations, psychological imagery, and audiovisual chaos.",
+        "Love appears here as a delightful paradox: something deeply human that can feel simultaneously intimate and unreachable. Passion becomes routine, desire becomes uncertainty, and the ideal of love collides with everyday reality. Is it an evolutionary mechanism, a soulful connection, or simply a beautiful contradiction?"
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "taming-the-serpent": {
       "work_id": "taming-the-serpent",
@@ -1550,7 +2071,27 @@
       ],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "hjlXcHSFisY",
+        "InpJyuAuIyM"
+      ],
+      "source_context": [
+        "This is a compilation of my tracks from various projects between 2017 and 2024.\nThe tracks and photos were selected by @Hozain2007.",
+        "00:00:00 - Ilya Minin (Eli) - Metaliminal OST\n00:02:42 - Ilya Minin (Eli) - Taming The Serpent: Part 5: Ziggurat's Fall\n00:09:58 - geztålt - Bad Carnal\n00:13:10 - geztålt Margaj-Sergaj - (live 2024)\n00:14:52 - Ilya Minin (Eli) - Kettleblalling the Potcallck\n00:20:04 - geztålt - Intermedia\n00:25:15 - Ilya Minin (Eli) - Efaosiyl\n00:29:14 - elias adams - Darren\n00:34:14 - elias adams - Span The King\n00:39:15 - elias adams - KOLNING\n00:45:19 - elias adams - Ray\n00:49:25 - elias adams - Der Monologe Des Psychiaters\n00:56:49 - elias adams - You Have Gone Too Far\n00:59:30 - elias adams - Shark\n01:04:56 - tanerlach - Inchrust\n01:09:02 - geztålt - ᛕᚴᚹᛇᚻᚺᛇ ᚻᚣ ᚢᚣᛔᚖᛋᛕᛇ\n01:10:06 - elias adams - Glycine\n01:16:46 - elias adams - Unfearless Mix\n01:26:30 - tanerlach - Seven\n01:29:46 - elias adams - Debris III\n01:33:09 - elias adams - fluite-friendly (live 2019)\n01:37:54 - elias adams Her First Sex\n01:43:33 - elias adams - Receiver\n01:49:45 - elias adams - Difraction City\n01:59:32 - elias adams - Idranath"
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Authors: Julia Baranyuk, Ilya Minin (Eli)",
+        "Camera: Vasiliy Ivanov"
+      ]
     },
     "showreel-2024": {
       "work_id": "showreel-2024",
@@ -1559,7 +2100,7 @@
       "year": "2024",
       "status": "confirmed",
       "media_dir": "media/works/showreel-2024/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=kUCLW8sF78U"
       ],
@@ -1576,7 +2117,25 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "kUCLW8sF78U"
+      ],
+      "source_context": [
+        "Zdravej!\nMy name is Minin Ilya (Eli). \nBeing an artist, I represent contemporary art through the computer. \nMy vision is a mixture of bold solutions and experiments.",
+        "What I usually do:\n 🔻Designing CG and animations with an original style\n 🔻Integration of modern trends and ideas into projects\n 🔻Contemporary Art, exhibition programs\n 🔻Experiments and non-standard approaches"
+      ],
+      "source_links": [
+        "https://eliasadams.github.io/eli_lab"
+      ],
+      "source_credit_lines": []
     },
     "mudak": {
       "work_id": "mudak",
@@ -1585,7 +2144,7 @@
       "year": "2024",
       "status": "confirmed",
       "media_dir": "media/works/mudak/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=zEs_ET6rTkk"
       ],
@@ -1603,7 +2162,26 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "zEs_ET6rTkk",
+        "mGKYctn7TOo"
+      ],
+      "source_context": [
+        "Lyrics:\nГоворят в художественной среде любят курить. \nЭто правда. \nПотому что ты мудак!\nНо как же тогда быть? \nПотому что ты мудак! \nИ жизнь, и искусство – это не что иное, \nКак проявления одного и того же вселенского \nЗаговора. \nА я думаю, неправда. \nПотому что ты мудак!",
+        "Это, скорее, похоже на пыльный шелк судьбы,\nВокруг столько пыли и мольбы. \nНо для меня это представление говорит \nО художественном кризисе\nО духовном кризисе!\nНа самом деле всё гораздо проще:\nПотому что ты мудак!\nА!"
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Lyrics:"
+      ]
     },
     "dymohod": {
       "work_id": "dymohod",
@@ -1612,7 +2190,7 @@
       "year": "2024",
       "status": "confirmed",
       "media_dir": "media/works/dymohod/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=2fLbsIePb-U"
       ],
@@ -1629,7 +2207,25 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "2fLbsIePb-U"
+      ],
+      "source_context": [
+        "The story revolves around Kasane Teto, surrounded by her beloved friends who have come to support her on the set.",
+        "The contrast between the carefree life of the capital's residents, who are busy with overpriced shopping, and the harsh reality of the heroine, who has to clean the chimney tomorrow, emphasizes the main idea: life is not always easy, but with friends around, all difficulties are surmountable.  \n\"Dymohod\" is not just a music video, but a statement about friendship, loyalty and the importance of appreciating loved ones, especially in difficult moments."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Lyrics:"
+      ]
     },
     "muyskaya-depressiya": {
       "work_id": "muyskaya-depressiya",
@@ -1638,7 +2234,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/muyskaya-depressiya/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=RgT3XGULiKA"
       ],
@@ -1655,7 +2251,27 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "RgT3XGULiKA"
+      ],
+      "source_context": [
+        "«Мужская депрессия» (2022) is a video art work by Ilya Minin (Eli) and sasha e b about depression, emotional isolation, and the loss of connection with the world.",
+        "The work uses the contrast between colour and black-and-white imagery as a visual metaphor for an inner struggle: between emotional intensity and emptiness, the desire to live and despair, self-expression and the loss of self."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Artists: Ilya Minin (Eli), sasha e b",
+        "Audio: sasha e b",
+        "Video: Ilya Minin (Eli)"
+      ]
     },
     "greater-than-lesser": {
       "work_id": "greater-than-lesser",
@@ -1664,7 +2280,7 @@
       "year": "2024",
       "status": "confirmed",
       "media_dir": "media/works/greater-than-lesser/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=UuNT2WaKdqg"
       ],
@@ -1681,7 +2297,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "UuNT2WaKdqg"
+      ],
+      "source_context": [
+        "Greater Than Lesser is an experimental video art piece that explores the fine line between perception and feeling. Based on the idea that “to see less is to love less,” the work immerses the viewer in a meditative visual space.",
+        "In this video, Ilya Minin (Eli) uses minimalist imagery and metaphors to raise questions about the depth of human relationships and how our vision shapes our hearts."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "vegetables": {
       "work_id": "vegetables",
@@ -1690,7 +2322,7 @@
       "year": "2023",
       "status": "confirmed",
       "media_dir": "media/works/vegetables/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=HZJoPfHkqTU"
       ],
@@ -1707,7 +2339,25 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "HZJoPfHkqTU"
+      ],
+      "source_context": [
+        "A short experimental audiovisual work by Ilya Minin (Eli) and Igor Yanovsky, built around a playful and absurd reflection on vegetables, friendship, kindness, and the strange relationships we create with ordinary objects and images."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Video: Ilya Minin (Eli)",
+        "Music: geztalt"
+      ]
     },
     "agonal-machines": {
       "work_id": "agonal-machines",
@@ -1716,7 +2366,7 @@
       "year": "2023",
       "status": "confirmed",
       "media_dir": "media/works/agonal-machines/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=HSd6hCtQogI"
       ],
@@ -1731,7 +2381,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "industrial-sanitation": {
       "work_id": "industrial-sanitation",
@@ -1740,7 +2401,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/industrial-sanitation/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=5xEy5C2iNIY"
       ],
@@ -1757,7 +2418,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "5xEy5C2iNIY"
+      ],
+      "source_context": [
+        "To see the dynamics and spirituality of industrial sanitation and occupational hygiene, to understand the theme and realize the connection between industrial sanitation and occupational hygiene, watch this video about industrial sanitation and occupational hygiene in the context of art."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "enlightenment-i": {
       "work_id": "enlightenment-i",
@@ -1766,7 +2442,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/enlightenment-i/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=j1hq6xUp420"
       ],
@@ -1783,7 +2459,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "j1hq6xUp420"
+      ],
+      "source_context": [
+        "Просвещение — передача, распространение знаний и культуры, а также и система воспитательно-образовательных мероприятий и учреждений в каком-либо государстве.\n@geztaltlab"
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "ritual-big-fridge": {
       "work_id": "ritual-big-fridge",
@@ -1792,7 +2483,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/ritual-big-fridge/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=omNsIl61tlY"
       ],
@@ -1809,7 +2500,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "omNsIl61tlY"
+      ],
+      "source_context": [
+        "Если вы задобрите его дух, ваша душа больше не голодает. А если не пожалуетесь на еду и получите щедрый дар - он больше не будет вас грызть."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "evocation-turtur": {
       "work_id": "evocation-turtur",
@@ -1818,7 +2524,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/evocation-turtur/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=4Z-8Cek0qP4"
       ],
@@ -1835,7 +2541,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "4Z-8Cek0qP4"
+      ],
+      "source_context": [
+        "Смогут ли трое смертных, отправившихся на поиски простой идеи и располагающих новейшими технологиями, выстоять перед натиском утраченного откровения и не отравиться естественным знанием подобно яду?",
+        "Главный Маг, ассистент и Симпосиарх вызовут дух Большой Черепахи, исполнят ритуал эвокации и задобрят духа щедрыми дарами."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "who-is-vova-lilo": {
       "work_id": "who-is-vova-lilo",
@@ -1844,7 +2566,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/who-is-vova-lilo/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=uYuEx85d8s0"
       ],
@@ -1861,7 +2583,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "uYuEx85d8s0"
+      ],
+      "source_context": [
+        "In this mockumentary, Ilya Minin (Eli) investigates the phenomenon of one of the most mysterious figures of the St. Petersburg underground. Wife-mushroom, an avoska bag full of potatoes, traces leading nowhere — fragments of testimony gradually construct the image of a person who may exist somewhere between reality, rumour and urban legend.",
+        "The film explores elusive reality and the mechanisms through which contemporary myths are created. Rather than providing a definitive answer, the investigation becomes a story about collective memory, underground culture, absurdity and the desire to believe that the legend is real."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "w-video-collage": {
       "work_id": "w-video-collage",
@@ -1870,7 +2608,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/w-video-collage/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=5YdNlRgHuuk"
       ],
@@ -1885,7 +2623,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "baron": {
       "work_id": "baron",
@@ -1894,7 +2643,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/baron/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=JchqmZXJ6vQ"
       ],
@@ -1909,7 +2658,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "bessonitsa": {
       "work_id": "bessonitsa",
@@ -1918,7 +2678,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/bessonitsa/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=C3VIPDPRKlg"
       ],
@@ -1933,7 +2693,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "found-tape": {
       "work_id": "found-tape",
@@ -1942,7 +2713,7 @@
       "year": "2020",
       "status": "confirmed",
       "media_dir": "media/works/found-tape/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=w5zqAkpGa_c"
       ],
@@ -1959,7 +2730,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "w5zqAkpGa_c"
+      ],
+      "source_context": [
+        "Смертоносная видеокассета - зелёная видеокассета, найденная в заброшенном загородном доме. На обороте написано, что она содержит проклятие, убивающее всех, кто её посмотрит, через 777 дней."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "estetish-tape": {
       "work_id": "estetish-tape",
@@ -1968,7 +2754,7 @@
       "year": "2020",
       "status": "confirmed",
       "media_dir": "media/works/estetish-tape/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=cKYk2ivIVfE"
       ],
@@ -1983,7 +2769,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "balance-2020": {
       "work_id": "balance-2020",
@@ -1992,7 +2789,7 @@
       "year": "2020",
       "status": "confirmed",
       "media_dir": "media/works/balance-2020/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=WZVXwfq9-GM"
       ],
@@ -2009,7 +2806,24 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "WZVXwfq9-GM"
+      ],
+      "source_context": [
+        "photo and music by elias adams\n#experimental #ambient #drone #techno #post_genre #noise #soundart #leftfield #field_recordings"
+      ],
+      "source_links": [
+        "https://vk.com/idminish"
+      ],
+      "source_credit_lines": []
     },
     "receiver-2019": {
       "work_id": "receiver-2019",
@@ -2018,7 +2832,7 @@
       "year": "2019",
       "status": "confirmed",
       "media_dir": "media/works/receiver-2019/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=Z85lawGhz7c"
       ],
@@ -2035,7 +2849,19 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "Z85lawGhz7c"
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "nature-2019": {
       "work_id": "nature-2019",
@@ -2044,7 +2870,7 @@
       "year": "2019",
       "status": "confirmed",
       "media_dir": "media/works/nature-2019/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=zHZmUDA9Yao"
       ],
@@ -2061,7 +2887,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "zHZmUDA9Yao"
+      ],
+      "source_context": [
+        "Данный видеоарт имеет структуру японского хайку, с некоторыми незначительными изменениями, и призван передать морфологию японской поэзии хайку на видео.",
+        "В классическом хайку при переводе на другие языки оно делится на три строчки. Тут же оно делится на три абзаца и каждый абзац – равновесомый.\nЦентральное место занимает природный образ, явно или неявно соотнесённый с жизнью человека.\nХайку пишут только в настоящем времени: автор записывает свои непосредственные впечатления от только что увиденного или услышанного. Сказать много, используя лишь немного слов, — главный принцип\nхайку."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "rebirth": {
       "work_id": "rebirth",
@@ -2070,7 +2912,7 @@
       "year": "2019",
       "status": "confirmed",
       "media_dir": "media/works/rebirth/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=sFDSXxvOOHw"
       ],
@@ -2085,7 +2927,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "arctic-2019": {
       "work_id": "arctic-2019",
@@ -2094,7 +2947,7 @@
       "year": "2019",
       "status": "confirmed",
       "media_dir": "media/works/arctic-2019/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=QR332-HNIPU"
       ],
@@ -2111,7 +2964,24 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "QR332-HNIPU"
+      ],
+      "source_context": [
+        "Music and video sequence inspired by new-age style musical DVDs and videotapes filled with nonexistent worlds of ideal shapes, bizarre old-fashioned graphic effect and bright-faded colors. Music has flowing temperate composition using traditional surrounding synths, ambient guitars and experimental harmonies."
+      ],
+      "source_links": [
+        "https://vk.com/eliasadams"
+      ],
+      "source_credit_lines": []
     },
     "frr": {
       "work_id": "frr",
@@ -2120,7 +2990,7 @@
       "year": "2019",
       "status": "confirmed",
       "media_dir": "media/works/frr/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=nWsUhtZun9g"
       ],
@@ -2137,7 +3007,28 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "nWsUhtZun9g"
+      ],
+      "source_context": [
+        "ELIAS ADAMS - FRR\n.\nЧувствуйте себя как дома! \nПодпишитесь на меня:\nГугл - https://plus.google.com/1085510159276...\nВконтакте - https://vk.com/idminish\nКнига-лицо - https://www.facebook.com/elias.consta...\nМоя почта - https://passport.yandex.ru/profile\nГалактикка - https://galactikka.com/106216\n.\nДобавляю всех! Не стесняйтесь - отвечаю на все вопросы!\n.\nЕсли вы вдруг захотите поддержать меня материально, то можете кинуть монетку - от этого канал станет только круче!\nQIWI Wallet +7915224353"
+      ],
+      "source_links": [
+        "https://plus.google.com/1085510159276",
+        "https://vk.com/idminish",
+        "https://www.facebook.com/elias.consta",
+        "https://passport.yandex.ru/profile",
+        "https://galactikka.com/106216"
+      ],
+      "source_credit_lines": []
     },
     "pticess": {
       "work_id": "pticess",
@@ -2146,7 +3037,7 @@
       "year": "2019",
       "status": "confirmed",
       "media_dir": "media/works/pticess/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=Vs-0XkFOY_c"
       ],
@@ -2163,7 +3054,28 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "Vs-0XkFOY_c"
+      ],
+      "source_context": [
+        "ELIAS ADAMS - PTICESS\n.\nЧувствуйте себя как дома! \nПодпишитесь на меня:\nГугл - https://plus.google.com/1085510159276...\nВконтакте - https://vk.com/idminish\nКнига-лицо - https://www.facebook.com/elias.consta...\nМоя почта - https://passport.yandex.ru/profile\nГалактикка - https://galactikka.com/106216\n.\nДобавляю всех! Не стесняйтесь - отвечаю на все вопросы!\n.\nЕсли вы вдруг захотите поддержать меня материально, то можете кинуть монетку - от этого канал станет только круче!\nQIWI Wallet +7915224353"
+      ],
+      "source_links": [
+        "https://plus.google.com/1085510159276",
+        "https://vk.com/idminish",
+        "https://www.facebook.com/elias.consta",
+        "https://passport.yandex.ru/profile",
+        "https://galactikka.com/106216"
+      ],
+      "source_credit_lines": []
     },
     "insects-2018": {
       "work_id": "insects-2018",
@@ -2172,7 +3084,7 @@
       "year": "2018",
       "status": "confirmed",
       "media_dir": "media/works/insects-2018/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=ZmDWPp12Pak"
       ],
@@ -2189,7 +3101,29 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "ZmDWPp12Pak"
+      ],
+      "source_context": [
+        "BAOS © 2016-2018 - https://vk.com/eliasadams\n.\nЧувствуйте себя как дома! \nПодпишитесь на меня:\nГугл - https://plus.google.com/1085510159276...\nВконтакте - https://vk.com/idminish\nКнига-лицо - https://www.facebook.com/elias.consta...\nМоя почта - https://passport.yandex.ru/profile\nГалактикка - https://galactikka.com/106216\n.\nДобавляю всех! Не стесняйтесь - отвечаю на все вопросы!\n.\nЕсли вы вдруг захотите поддержать меня материально, то можете кинуть монетку - от этого канал станет только круче!\nQIWI Wallet +7915224353"
+      ],
+      "source_links": [
+        "https://vk.com/eliasadams",
+        "https://plus.google.com/1085510159276",
+        "https://vk.com/idminish",
+        "https://www.facebook.com/elias.consta",
+        "https://passport.yandex.ru/profile",
+        "https://galactikka.com/106216"
+      ],
+      "source_credit_lines": []
     },
     "idiopathic": {
       "work_id": "idiopathic",
@@ -2198,7 +3132,7 @@
       "year": "2018",
       "status": "confirmed",
       "media_dir": "media/works/idiopathic/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://www.youtube.com/watch?v=_9U7qgEkcpA"
       ],
@@ -2216,7 +3150,34 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "_9U7qgEkcpA",
+        "25iX75ntROo"
+      ],
+      "source_context": [
+        "Brain Activity in Order to the Sky © 2016-2018.\n.\nЧувствуйте себя как дома! \nПодпишитесь на меня:\nГугл - https://plus.google.com/1085510159276...\nВконтакте - https://vk.com/idminish\nКнига-лицо - https://www.facebook.com/elias.consta...\nМоя почта - https://passport.yandex.ru/profile\nГалактикка - https://galactikka.com/106216\n.\nДобавляю всех! Не стесняйтесь - отвечаю на все вопросы!\n.\nЕсли вы вдруг захотите поддержать меня материально, то можете кинуть монетку - от этого канал станет только круче!\nQIWI Wallet +7915224353"
+      ],
+      "source_links": [
+        "https://plus.google.com/1085510159276",
+        "https://vk.com/idminish",
+        "https://www.facebook.com/elias.consta",
+        "https://passport.yandex.ru/profile",
+        "https://galactikka.com/106216",
+        "https://tlerecords.bandcamp.com/track/idiopathic-with-age-dependent-debut",
+        "https://vk.com/eliasadams",
+        "https://vk.com/knobtech"
+      ],
+      "source_credit_lines": [
+        "Video: Idiopathic (with age-dependent debut) (Clip)"
+      ]
     },
     "aint-no-sunshine": {
       "work_id": "aint-no-sunshine",
@@ -2243,7 +3204,27 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "LhG2-rGY2eY"
+      ],
+      "source_context": [
+        "An experimental audiovisual reinterpretation of Bill Withers' \"Ain't No Sunshine,\" featuring Kasane Teto. A blend of surreal storytelling, uncanny liminal visuals, and dark VocalSynth arrangement.",
+        "Original Song: \"Ain't No Sunshine\" by Bill Withers\nVocal: Kasane Teto (重音テト)\nArrangement, Visuals & Video Art: Ilya Minin (Eli)"
+      ],
+      "source_links": [
+        "https://youtu.be/wpBQbRItMnc",
+        "https://youtu.be/OcFF8Med9fQ",
+        "https://youtu.be/gL7di-eXDmE"
+      ],
+      "source_credit_lines": []
     },
     "parallel-vienna-2026": {
       "work_id": "parallel-vienna-2026",
@@ -2267,7 +3248,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "eporgaanisten-rakenteiden-kierratys": {
       "work_id": "eporgaanisten-rakenteiden-kierratys",
@@ -2276,7 +3268,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/eporgaanisten-rakenteiden-kierratys/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official",
         "https://nenrecs.bandcamp.com/album/ep-orgaanistenrakenteidekierr-tys"
@@ -2308,7 +3300,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pattern-generator": {
       "work_id": "pattern-generator",
@@ -2317,7 +3320,7 @@
       "year": "2026",
       "status": "confirmed",
       "media_dir": "media/works/pattern-generator/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-pattern-generator"
       ],
@@ -2338,7 +3341,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "synthv-custom-scripts": {
       "work_id": "synthv-custom-scripts",
@@ -2347,7 +3361,7 @@
       "year": "2026",
       "status": "confirmed",
       "media_dir": "media/works/synthv-custom-scripts/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_sv_scripts"
       ],
@@ -2368,7 +3382,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "multimedia-framework": {
       "work_id": "multimedia-framework",
@@ -2377,7 +3402,7 @@
       "year": "2026",
       "status": "confirmed",
       "media_dir": "media/works/multimedia-framework/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-multimedia-framework"
       ],
@@ -2398,7 +3423,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "assembly-line-challenge": {
       "work_id": "assembly-line-challenge",
@@ -2407,7 +3443,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/assembly-line-challenge/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/Assembly-Line-Challenge"
       ],
@@ -2422,7 +3458,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "bloody": {
       "work_id": "bloody",
@@ -2431,7 +3478,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/bloody/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2446,7 +3493,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "bloody-2": {
       "work_id": "bloody-2",
@@ -2455,7 +3513,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/bloody-2/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2470,7 +3528,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "bonza": {
       "work_id": "bonza",
@@ -2479,7 +3548,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/bonza/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2494,7 +3563,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "portraits-2020": {
       "work_id": "portraits-2020",
@@ -2503,7 +3583,7 @@
       "year": "2020",
       "status": "confirmed",
       "media_dir": "media/works/portraits-2020/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2518,7 +3598,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "unreal-2020": {
       "work_id": "unreal-2020",
@@ -2527,7 +3618,7 @@
       "year": "2020",
       "status": "confirmed",
       "media_dir": "media/works/unreal-2020/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2542,7 +3633,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "serial-experiments-lens": {
       "work_id": "serial-experiments-lens",
@@ -2551,7 +3653,7 @@
       "year": "2021–2023",
       "status": "confirmed",
       "media_dir": "media/works/serial-experiments-lens/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2566,7 +3668,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "serial-experiments-lens-set-one": {
       "work_id": "serial-experiments-lens-set-one",
@@ -2575,7 +3688,7 @@
       "year": "2021–2023",
       "status": "confirmed",
       "media_dir": "media/works/serial-experiments-lens-set-one/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2590,7 +3703,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "uncanny-bar": {
       "work_id": "uncanny-bar",
@@ -2599,7 +3723,7 @@
       "year": "2023",
       "status": "legacy",
       "media_dir": "media/works/uncanny-bar/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2614,7 +3738,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "single-photos-2021-22": {
       "work_id": "single-photos-2021-22",
@@ -2623,7 +3758,7 @@
       "year": "2021–2022",
       "status": "confirmed",
       "media_dir": "media/works/single-photos-2021-22/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2638,7 +3773,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "mixed-technique-2022": {
       "work_id": "mixed-technique-2022",
@@ -2647,7 +3793,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/mixed-technique-2022/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2662,7 +3808,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "painting-studies-2022": {
       "work_id": "painting-studies-2022",
@@ -2671,7 +3828,7 @@
       "year": "2022",
       "status": "confirmed",
       "media_dir": "media/works/painting-studies-2022/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2686,7 +3843,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "refuge-2022": {
       "work_id": "refuge-2022",
@@ -2695,7 +3863,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/refuge-2022/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://kohta.fi/exhibition/sergey-bratkov-harkova-moskova/"
       ],
@@ -2771,7 +3939,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pereizobretenie-punk": {
       "work_id": "pereizobretenie-punk",
@@ -2780,7 +3959,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/pereizobretenie-punk/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://t.me/s/artnagrada?before=7142"
       ],
@@ -2816,7 +3995,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "ppp-2018": {
       "work_id": "ppp-2018",
@@ -2825,7 +4015,7 @@
       "year": "2018",
       "status": "documented",
       "media_dir": "media/works/ppp-2018/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2840,7 +4030,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "muse-2019": {
       "work_id": "muse-2019",
@@ -2849,7 +4050,7 @@
       "year": "2019",
       "status": "documented",
       "media_dir": "media/works/muse-2019/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2864,7 +4065,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pattern-2021": {
       "work_id": "pattern-2021",
@@ -2873,7 +4085,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/pattern-2021/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2888,7 +4100,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "ugol-visual-programming": {
       "work_id": "ugol-visual-programming",
@@ -2897,7 +4120,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/ugol-visual-programming/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2918,7 +4141,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "telegraph-kinetic-coding": {
       "work_id": "telegraph-kinetic-coding",
@@ -2927,7 +4161,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/telegraph-kinetic-coding/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2948,7 +4182,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "system-s3": {
       "work_id": "system-s3",
@@ -2957,7 +4202,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/system-s3/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2978,7 +4223,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "memory-of-touch": {
       "work_id": "memory-of-touch",
@@ -2987,7 +4243,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/memory-of-touch/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3008,7 +4264,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "asc-eight-channel": {
       "work_id": "asc-eight-channel",
@@ -3017,7 +4284,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/asc-eight-channel/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3032,7 +4299,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "holidays-sa-2021": {
       "work_id": "holidays-sa-2021",
@@ -3041,7 +4319,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/holidays-sa-2021/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3056,7 +4334,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "redd-2021": {
       "work_id": "redd-2021",
@@ -3065,7 +4354,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/redd-2021/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3080,7 +4369,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "smoles-2021": {
       "work_id": "smoles-2021",
@@ -3089,7 +4389,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/smoles-2021/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3104,7 +4404,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "meatpacking-part-1": {
       "work_id": "meatpacking-part-1",
@@ -3113,7 +4424,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/meatpacking-part-1/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3134,7 +4445,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "meatpacking-part-2": {
       "work_id": "meatpacking-part-2",
@@ -3143,7 +4465,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/meatpacking-part-2/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3164,7 +4486,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "concert-at-la-2014": {
       "work_id": "concert-at-la-2014",
@@ -3173,7 +4506,7 @@
       "year": "2014",
       "status": "legacy",
       "media_dir": "media/works/concert-at-la-2014/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3188,7 +4521,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "peredelano-conf-2023": {
       "work_id": "peredelano-conf-2023",
@@ -3197,7 +4541,7 @@
       "year": "2023",
       "status": "documented",
       "media_dir": "media/works/peredelano-conf-2023/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3218,7 +4562,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "msu-sound-art-lecture-2023": {
       "work_id": "msu-sound-art-lecture-2023",
@@ -3227,7 +4582,7 @@
       "year": "2023",
       "status": "documented",
       "media_dir": "media/works/msu-sound-art-lecture-2023/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3248,7 +4603,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "seven-hills-m7": {
       "work_id": "seven-hills-m7",
@@ -3257,7 +4623,7 @@
       "year": "2026",
       "status": "candidate",
       "media_dir": "media/works/seven-hills-m7/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/nanatsu-no-oka-no-manko"
       ],
@@ -3272,7 +4638,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "echo-of-eden": {
       "work_id": "echo-of-eden",
@@ -3281,7 +4658,7 @@
       "year": "2020s",
       "status": "private",
       "media_dir": "media/works/echo-of-eden/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/slavabogu"
       ],
@@ -3296,7 +4673,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "frow": {
       "work_id": "frow",
@@ -3305,7 +4693,7 @@
       "year": "2026",
       "status": "candidate",
       "media_dir": "media/works/frow/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://t.me/ilyaminineli"
       ],
@@ -3320,7 +4708,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "opossum": {
       "work_id": "opossum",
@@ -3329,7 +4728,7 @@
       "year": "2026",
       "status": "candidate",
       "media_dir": "media/works/opossum/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://t.me/ilyaminineli"
       ],
@@ -3344,7 +4743,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "birthday-gift-eli-to-elly": {
       "work_id": "birthday-gift-eli-to-elly",
@@ -3353,7 +4763,7 @@
       "year": "2026",
       "status": "candidate",
       "media_dir": "media/works/birthday-gift-eli-to-elly/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://t.me/ilyaminineli"
       ],
@@ -3368,7 +4778,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "saint-sin-gift": {
       "work_id": "saint-sin-gift",
@@ -3377,7 +4798,7 @@
       "year": "2026",
       "status": "candidate",
       "media_dir": "media/works/saint-sin-gift/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://t.me/ilyaminineli"
       ],
@@ -3392,7 +4813,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "geztalt": {
       "work_id": "geztalt",
@@ -3401,7 +4833,7 @@
       "year": "2020s",
       "status": "confirmed",
       "media_dir": "media/works/geztalt/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3433,7 +4865,39 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "dMIQJYp796A",
+        "cK57_pyetCY",
+        "yrhaxUmj_3A",
+        "ivePQpesR0w",
+        "O6SqS3W7WIU",
+        "qsCjrhffYjY",
+        "c9MV8CoR-Ls",
+        "YavJ8I_g74I",
+        "HSd6hCtQogI",
+        "55Hi5qjUAto"
+      ],
+      "source_context": [
+        "In the maze of life, there is a powerful force called temptation.\nPromising pleasure, power, and instant gratification, it lures and entices like the sirens of old. \nTemptation appeals to our desires. \nTemptation preys on our weaknesses. \nIt lays bare a deep, revealing the complex combination of our desires, our worries, our insecurities.",
+        "Temptation ennobles us, increasing self-awareness and empowerment. Resisting temptation is a test of our character and willpower. \nLet us strive to transcend what we want and accept what makes us truly human."
+      ],
+      "source_links": [
+        "https://www.youtube.com/watch?v=yrhaxUmj_3A",
+        "https://vk.com/eliasadams"
+      ],
+      "source_credit_lines": [
+        "Music: geztålt",
+        "Thanks to:",
+        "Lyrics:"
+      ]
     },
     "daly-syndrome": {
       "work_id": "daly-syndrome",
@@ -3442,7 +4906,7 @@
       "year": "2019–present",
       "status": "confirmed",
       "media_dir": "media/works/daly-syndrome/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/Daly-Syndrome"
       ],
@@ -3478,7 +4942,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "desolation-odissey": {
       "work_id": "desolation-odissey",
@@ -3487,7 +4962,7 @@
       "year": "2010s–2020s",
       "status": "candidate",
       "media_dir": "media/works/desolation-odissey/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3502,7 +4977,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "elysium": {
       "work_id": "elysium",
@@ -3511,7 +4997,7 @@
       "year": "2010s–2020s",
       "status": "candidate",
       "media_dir": "media/works/elysium/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3526,7 +5012,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "metaliminal": {
       "work_id": "metaliminal",
@@ -3535,7 +5032,7 @@
       "year": "2010s–2020s",
       "status": "candidate",
       "media_dir": "media/works/metaliminal/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/metaliminal",
         "https://github.com/ilyaminineli/eli_lab_official"
@@ -3551,7 +5048,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "sleepdom": {
       "work_id": "sleepdom",
@@ -3560,7 +5068,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/sleepdom/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/sleepdom"
       ],
@@ -3575,7 +5083,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "night-mafia": {
       "work_id": "night-mafia",
@@ -3584,7 +5103,7 @@
       "year": "legacy",
       "status": "candidate",
       "media_dir": "media/works/night-mafia/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3599,7 +5118,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "spring-story": {
       "work_id": "spring-story",
@@ -3608,7 +5138,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/spring-story/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3625,7 +5155,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "winter-story": {
       "work_id": "winter-story",
@@ -3634,7 +5175,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/winter-story/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3651,7 +5192,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "aibolit-sashaeb": {
       "work_id": "aibolit-sashaeb",
@@ -3660,7 +5212,7 @@
       "year": "2024–2025",
       "status": "documented",
       "media_dir": "media/works/aibolit-sashaeb/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/sashaeb"
       ],
@@ -3691,7 +5243,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "re-punk": {
       "work_id": "re-punk",
@@ -3700,7 +5263,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/re-punk/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/punk_exhibition"
       ],
@@ -3723,7 +5286,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "geztalt-j-2025": {
       "work_id": "geztalt-j-2025",
@@ -3732,7 +5306,7 @@
       "year": "2025",
       "status": "documented",
       "media_dir": "media/works/geztalt-j-2025/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com/album/j"
       ],
@@ -3747,7 +5321,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "geztalt-person-2025": {
       "work_id": "geztalt-person-2025",
@@ -3756,7 +5341,7 @@
       "year": "2025",
       "status": "documented",
       "media_dir": "media/works/geztalt-person-2025/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3771,7 +5356,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "geztalt-delta-2025": {
       "work_id": "geztalt-delta-2025",
@@ -3780,7 +5376,7 @@
       "year": "2025",
       "status": "documented",
       "media_dir": "media/works/geztalt-delta-2025/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3795,7 +5391,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "geztalt-ost-2025": {
       "work_id": "geztalt-ost-2025",
@@ -3804,7 +5411,7 @@
       "year": "2025",
       "status": "documented",
       "media_dir": "media/works/geztalt-ost-2025/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com/album/ost"
       ],
@@ -3819,7 +5426,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "geztalt-other-2025": {
       "work_id": "geztalt-other-2025",
@@ -3828,7 +5446,7 @@
       "year": "2025",
       "status": "documented",
       "media_dir": "media/works/geztalt-other-2025/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3843,7 +5461,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "red-box": {
       "work_id": "red-box",
@@ -3852,7 +5481,7 @@
       "year": "legacy",
       "status": "documented",
       "media_dir": "media/works/red-box/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3867,7 +5496,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "life-in-one-second": {
       "work_id": "life-in-one-second",
@@ -3876,7 +5516,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/life-in-one-second/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com",
         "https://eliasadams.bandcamp.com/track/feg-rune-432"
@@ -3892,7 +5532,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "redux-to-the-breath-2": {
       "work_id": "redux-to-the-breath-2",
@@ -3901,7 +5552,7 @@
       "year": "legacy",
       "status": "documented",
       "media_dir": "media/works/redux-to-the-breath-2/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3916,7 +5567,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "rakkaani": {
       "work_id": "rakkaani",
@@ -3925,7 +5587,7 @@
       "year": "legacy",
       "status": "documented",
       "media_dir": "media/works/rakkaani/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3940,7 +5602,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "amp": {
       "work_id": "amp",
@@ -3949,7 +5622,7 @@
       "year": "legacy",
       "status": "documented",
       "media_dir": "media/works/amp/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3964,7 +5637,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "patanormal": {
       "work_id": "patanormal",
@@ -3973,7 +5657,7 @@
       "year": "legacy",
       "status": "documented",
       "media_dir": "media/works/patanormal/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -3988,7 +5672,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "bad-kase-of-indiscretion": {
       "work_id": "bad-kase-of-indiscretion",
@@ -3997,7 +5692,7 @@
       "year": "legacy",
       "status": "documented",
       "media_dir": "media/works/bad-kase-of-indiscretion/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -4012,7 +5707,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "valera-grandpa-music": {
       "work_id": "valera-grandpa-music",
@@ -4021,7 +5727,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/valera-grandpa-music/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://eliasadams.bandcamp.com"
       ],
@@ -4036,7 +5742,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "london-hello": {
       "work_id": "london-hello",
@@ -4045,7 +5762,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/london-hello/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4060,7 +5777,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "orthofuture": {
       "work_id": "orthofuture",
@@ -4069,7 +5797,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/orthofuture/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4084,7 +5812,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "pacanbalet": {
       "work_id": "pacanbalet",
@@ -4093,7 +5832,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/pacanbalet/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4108,7 +5847,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "cg-design-online-shop": {
       "work_id": "cg-design-online-shop",
@@ -4117,7 +5867,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/cg-design-online-shop/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4132,7 +5882,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "album-covers-archive": {
       "work_id": "album-covers-archive",
@@ -4141,7 +5902,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/album-covers-archive/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4156,7 +5917,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "logo-archive": {
       "work_id": "logo-archive",
@@ -4165,7 +5937,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/logo-archive/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4180,7 +5952,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "cg-3d-design-archive": {
       "work_id": "cg-3d-design-archive",
@@ -4189,7 +5972,7 @@
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/cg-3d-design-archive/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4204,7 +5987,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "teto-character-studies": {
       "work_id": "teto-character-studies",
@@ -4213,7 +6007,7 @@
       "year": "2020s",
       "status": "candidate",
       "media_dir": "media/works/teto-character-studies/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4228,7 +6022,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "ewp-presentation-archive": {
       "work_id": "ewp-presentation-archive",
@@ -4237,7 +6042,7 @@
       "year": "2023",
       "status": "documented",
       "media_dir": "media/works/ewp-presentation-archive/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4252,7 +6057,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "captured-bodies-soundtrack": {
       "work_id": "captured-bodies-soundtrack",
@@ -4261,7 +6077,7 @@
       "year": "2021",
       "status": "documented",
       "media_dir": "media/works/captured-bodies-soundtrack/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://mdfschool.ru/files/catalogs/catalog-2021.pdf"
       ],
@@ -4287,7 +6103,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "who-is-eli": {
       "work_id": "who-is-eli",
@@ -4296,7 +6123,7 @@
       "year": "2026",
       "status": "private",
       "media_dir": "media/works/who-is-eli/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/who-is-eli"
       ],
@@ -4317,7 +6144,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "song-creator": {
       "work_id": "song-creator",
@@ -4326,7 +6164,7 @@
       "year": "2026",
       "status": "private",
       "media_dir": "media/works/song-creator/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
@@ -4341,7 +6179,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "vocaloid-jazz-album-2026": {
       "work_id": "vocaloid-jazz-album-2026",
@@ -4350,7 +6199,7 @@
       "year": "2026",
       "status": "private",
       "media_dir": "media/works/vocaloid-jazz-album-2026/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
@@ -4381,7 +6230,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "parallel-vienna-alexander-zaloopin": {
       "work_id": "parallel-vienna-alexander-zaloopin",
@@ -4411,7 +6271,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "parallel-vienna-oleg-ustinov": {
       "work_id": "parallel-vienna-oleg-ustinov",
@@ -4420,7 +6291,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/parallel-vienna-oleg-ustinov/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-archive"
       ],
@@ -4441,7 +6312,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "no-skin": {
       "work_id": "no-skin",
@@ -4450,7 +6332,7 @@
       "year": "2022",
       "status": "documented",
       "media_dir": "media/works/no-skin/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -4465,7 +6347,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "eli-lab-mv": {
       "work_id": "eli-lab-mv",
@@ -4474,7 +6367,7 @@
       "year": "2026",
       "status": "private",
       "media_dir": "media/works/eli-lab-mv/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_mv"
       ],
@@ -4489,7 +6382,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "eli-lab-mv-titler": {
       "work_id": "eli-lab-mv-titler",
@@ -4498,7 +6402,7 @@
       "year": "2026",
       "status": "documented",
       "media_dir": "media/works/eli-lab-mv-titler/",
-      "media_status": "planned",
+      "media_status": "staged",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab-mv-titler"
       ],
@@ -4513,7 +6417,18 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [],
+      "source_context": [],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "teto-2026-manifesto": {
       "work_id": "teto-2026-manifesto",
@@ -4545,7 +6460,23 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "Bv-4aHjHbf0"
+      ],
+      "source_context": [
+        "Kasane Teto's 2026 Manifesto is a surreal, satirical New Year's address from the voice of Kasane Teto to the chaotic world of UTAU, vocal synthesis, internet communities and digital culture.",
+        "Framed as a fictional political speech, Teto looks back on 2025, declares a new era of vocal synthesis progress, and calls on her imagined comrades to charge into 2026. The work mixes synthetic voice, internet absurdity, community satire and exaggerated manifesto rhetoric."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "kuleshov-effect": {
       "work_id": "kuleshov-effect",
@@ -4600,7 +6531,23 @@
       "archival_notes": [
         "The source explicitly identifies Varvara Kuleshova and Ilya Minin as the video's authors."
       ],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "XKdVkUc8q80"
+      ],
+      "source_context": [
+        "Видеоарт Варвары Кулешовой и Ильи Минина (Eli) использует передовые методы видеомонтажа в интересах создания художественного образа «вселенского сгустка, в который сливаются все смыслы и смыслы», бунтующего бессознательного, рождающегося во снах.",
+        "Для того чтобы подчеркнуть острую и напряженную борьбу человека с хаосом, коммуникационные возможности видео позволяют избежать потери визуальной энергии при использовании технологий, характерных для кино. \nТаким образом, достигается своеобразная «слияние» природы и искусства, что побуждает зрителя внимательно следить за ходом монтажа."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "linearna-zaležnost": {
       "work_id": "linearna-zaležnost",
@@ -4632,7 +6579,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "wvOA4AV6ytU"
+      ],
+      "source_context": [
+        "Linear dependency in sound art refers to the relationship between different sound elements that create a coherent and harmonious composition. \nIt involves the arrangement of sounds in a structured and logical manner, where each sound contributes to the overall narrative or emotional impact of the piece. \nUnderstanding the concept of linear dependency allows sound artists to craft immersive experiences by controlling the progression, development, and interplay of sounds to convey a specific message or evoke particular feelings within the listener. \nMastering linear dependency in sound art can lead to more impactful and resonant sonic creations."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     },
     "serval-man": {
       "work_id": "serval-man",
@@ -4658,7 +6620,25 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "ypP4UKUWvpw"
+      ],
+      "source_context": [
+        "Leptailurus serval is a wild cat native to  ̶R̶u̶s̶s̶i̶a̶  Africa. Across its range, it occurs in protected areas, and hunting it is either prohibited or regulated in range countries."
+      ],
+      "source_links": [],
+      "source_credit_lines": [
+        "Starring: Serval Sirius",
+        "Editing: Eli"
+      ]
     },
     "trurly-fierndship": {
       "work_id": "trurly-fierndship",
@@ -4690,7 +6670,22 @@
       "technical_notes": [],
       "selected_images": [],
       "archival_notes": [],
-      "questions_to_resolve": []
+      "questions_to_resolve": [],
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "source_video_ids": [
+        "B610CDVHkJY"
+      ],
+      "source_context": [
+        "Friendship is a delicate matter, involving the choice of a companion to share the journey of life, which can often lead to moments of confusion and misunderstanding. Those who truly understand us may not always see our quirks in the same way, yet they choose to remain by our side. In the complex dynamics of friendship, there is laughter, there is tears, and there are times when we may find ourselves in disagreement, all while attempting to appear in control. It is perhaps in embracing these paradoxes that we find the true essence of our humanity."
+      ],
+      "source_links": [],
+      "source_credit_lines": []
     }
   }
 }
