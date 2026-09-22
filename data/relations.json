@@ -131,6 +131,31 @@
       "id": "grig-film",
       "name": "GRIG Film",
       "type": "production company"
+    },
+    {
+      "id": "nikolay-alekseev",
+      "name": "Nikolay Alekseev",
+      "type": "collaborator"
+    },
+    {
+      "id": "katerina-beloglazova",
+      "name": "Katerina Beloglazova",
+      "type": "collaborator"
+    },
+    {
+      "id": "jegor-fedorichev",
+      "name": "Jegor Fedorichev",
+      "type": "collaborator"
+    },
+    {
+      "id": "vladislav-mukhanov",
+      "name": "Vladislav Mukhanov",
+      "type": "collaborator"
+    },
+    {
+      "id": "kolya-sadovnik",
+      "name": "Kolya Sadovnik",
+      "type": "collaborator"
     }
   ],
   "places": [
@@ -572,6 +597,123 @@
       "from": "pereizobretenie-punk",
       "relation": "exhibited-at",
       "to": "kupe23"
+    },
+    {
+      "from": "geztalt",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "geztalt",
+      "relation": "related-to",
+      "to": "get-hit-below"
+    },
+    {
+      "from": "geztalt",
+      "relation": "related-to",
+      "to": "fukkireta"
+    },
+    {
+      "from": "geztalt",
+      "relation": "related-to",
+      "to": "pjesma-pro-ljubov"
+    },
+    {
+      "from": "geztalt",
+      "relation": "related-to",
+      "to": "agonal-machines"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "nikolay-alekseev"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "katerina-beloglazova"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "jegor-fedorichev"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "vladislav-mukhanov"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "co-created-with",
+      "to": "kolya-sadovnik"
+    },
+    {
+      "from": "ilya-minin",
+      "relation": "member-of",
+      "to": "parazit"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "produced-by",
+      "to": "grig-film"
+    },
+    {
+      "from": "antokolskyj",
+      "relation": "archive-source",
+      "to": "rodchenko-school"
+    },
+    {
+      "from": "refuge-2022",
+      "relation": "archive-source",
+      "to": "rodchenko-school"
+    },
+    {
+      "from": "jihanki",
+      "relation": "archive-source",
+      "to": "saikoneon"
+    },
+    {
+      "from": "pereizobretenie-punk",
+      "relation": "exhibited-at",
+      "to": "kupe23"
+    },
+    {
+      "from": "the-last-day-of-kasane-teto",
+      "relation": "screened-at",
+      "to": "videodrome"
+    }
+  ],
+  "groups": [
+    {
+      "id": "parazit",
+      "name": "PARAZIT",
+      "type": "artist group / collective"
+    },
+    {
+      "id": "grig-film",
+      "name": "GRIG Film",
+      "type": "production company"
+    },
+    {
+      "id": "rodchenko-school",
+      "name": "Rodchenko School of Photography and Multimedia",
+      "type": "school"
+    },
+    {
+      "id": "saikoneon",
+      "name": "SAIKONEON",
+      "type": "residency / project context"
+    },
+    {
+      "id": "kupe23",
+      "name": "КУПЕ 23",
+      "type": "artist-run space"
+    },
+    {
+      "id": "videodrome",
+      "name": "VIDEODROME",
+      "type": "video-art programme"
     }
   ]
 }
