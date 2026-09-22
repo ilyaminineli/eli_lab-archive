@@ -1,28 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const isInternalPage = window.location.pathname.includes("/pgs/");
+    const base = isInternalPage ? "../" : "";
+
     document.querySelectorAll("[data-year]").forEach((node) => {
         node.textContent = new Date().getFullYear();
     });
 
-    const isInternalPage = window.location.pathname.includes("/pgs/");
-    const base = isInternalPage ? "../" : "";
-
-    const nav = document.querySelector(".terminal-nav");
-    if (nav && !nav.querySelector("[data-nav-map]")) {
-        const docsLink = nav.querySelector('a[href*="documentation.html"]');
-        const mapLink = '<a data-nav-map href="' + base + 'pgs/network.html"><span>03</span> MAP</a>';
-        if (docsLink) docsLink.insertAdjacentHTML("beforebegin", mapLink);
-        else nav.insertAdjacentHTML("beforeend", mapLink);
-    }
-
-    const mobileNav = document.querySelector("#mobile-nav");
-    if (mobileNav && !mobileNav.querySelector("[data-nav-map]")) {
-        const mobileDocs = mobileNav.querySelector('a[href*="documentation.html"]');
-        const mobileMap = '<a data-nav-map href="' + base + 'pgs/network.html">03 / Map</a>';
-        if (mobileDocs) mobileDocs.insertAdjacentHTML("beforebegin", mobileMap);
-        else mobileNav.insertAdjacentHTML("beforeend", mobileMap);
-    }
-
     const toggle = document.querySelector(".nav-toggle");
+    const mobileNav = document.querySelector("#mobile-nav");
     if (toggle && mobileNav) {
         toggle.addEventListener("click", () => {
             const open = toggle.getAttribute("aria-expanded") === "true";
@@ -31,65 +16,104 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    const directoryCounts = document.querySelectorAll("[data-directory-count]");
-
-    const updateDirectoryCounts = (publicWorks) => {
-        const directoryFilters = {
-            all: () => true,
-            visual: (work) => (work.medium || []).some((m) => ["art", "painting", "drawing", "installation", "cgi"].includes(m)),
-            sound: (work) => (work.medium || []).includes("audio"),
-            voice: (work) => (work.medium || []).includes("vocal"),
-            motion: (work) => (work.medium || []).some((m) => ["animation", "video"].includes(m)),
-            systems: (work) => (work.medium || []).some((m) => ["software", "interactive"].includes(m)),
-            documentation: (work) => {
-                const medium = work.medium || [];
-                const context = work.context || [];
-                return medium.some((m) => ["performance", "exhibition", "documentation"].includes(m)) ||
-                    context.some((c) => ["performance", "exhibition", "screening", "lecture", "documentation", "fieldwork", "archive"].includes(c));
-            }
-        };
-        directoryCounts.forEach((node) => {
-            const key = node.dataset.directoryCount;
-            const filter = directoryFilters[key];
-            if (!filter) return;
-            const count = publicWorks.filter(filter).length;
-            node.textContent = String(count).padStart(3, "0") + " RECORDS →";
+    const setText = (selector, value) => {
+        document.querySelectorAll(selector).forEach((node) => {
+            node.textContent = value;
         });
     };
 
-    const workCount = document.querySelector("[data-work-count]");
-    if (workCount) {
-        fetch(base + "data/works.json")
-            .then((response) => response.json())
-            .then((manifest) => {
-                const publicWorks = manifest.works.filter((work) => work.visibility !== "private");
-                workCount.textContent = String(publicWorks.length).padStart(3, "0");
-                updateDirectoryCounts(publicWorks);
+    const directoryCounts = document.querySelectorAll("[data-directory-count]");
 
-                const relationUrl = base + "data/relations.json";
-                fetch(relationUrl)
-                    .then((relationResponse) => relationResponse.ok ? relationResponse.json() : null)
-                    .then((graph) => {
-                        if (!graph) return;
-                        const publicIds = new Set(publicWorks.map((work) => work.id));
-                        directoryCounts.forEach((node) => {
-                            if (node.dataset.directoryCount === "people") {
-                                node.textContent = String(graph.people?.length || 0).padStart(3, "0") + " RECORDS →";
-                            }
-                            if (node.dataset.directoryCount === "network") {
-                                const connected = new Set();
-                                (graph.edges || []).forEach((edge) => {
-                                    if (publicIds.has(edge.from)) connected.add(edge.from);
-                                    if (publicIds.has(edge.to)) connected.add(edge.to);
-                                });
-                                node.textContent = String(connected.size).padStart(3, "0") + " WORKS →";
-                            }
-                        });
-                    })
-                    .catch(() => {});
-            })
-            .catch(() => {
-                workCount.textContent = "--";
-            });
-    }
+    const directoryFilters = {
+        all: () => true,
+        visual: (work) => (work.medium || []).some((m) => ["art", "painting", "drawing", "installation", "cgi"].includes(m)),
+        sound: (work) => (work.medium || []).includes("audio"),
+        voice: (work) => (work.medium || []).includes("vocal"),
+        motion: (work) => (work.medium || []).some((m) => ["animation", "video"].includes(m)),
+        systems: (work) => (work.medium || []).some((m) => ["software", "interactive"].includes(m)),
+        documentation: (work) => {
+            const medium = work.medium || [];
+            const context = work.context || [];
+            return medium.some((m) => ["performance", "exhibition", "documentation"].includes(m)) ||
+                context.some((c) => ["performance", "exhibition", "screening", "lecture", "documentation", "fieldwork", "archive"].includes(c));
+        }
+    };
+
+    const updateDirectoryCounts = (publicWorks, graph) => {
+        directoryCounts.forEach((node) => {
+            const key = node.dataset.directoryCount;
+
+            if (key === "people") {
+                node.textContent = String(graph?.people?.length || 0).padStart(3, "0") + " RECORDS →";
+                return;
+            }
+
+            if (key === "network") {
+                const publicIds = new Set(publicWorks.map((work) => work.id));
+                const connected = new Set();
+                (graph?.edges || []).forEach((edge) => {
+                    if (publicIds.has(edge.from)) connected.add(edge.from);
+                    if (publicIds.has(edge.to)) connected.add(edge.to);
+                });
+                node.textContent = String(connected.size).padStart(3, "0") + " WORKS →";
+                return;
+            }
+
+            const filter = directoryFilters[key];
+            if (!filter) return;
+            node.textContent = String(publicWorks.filter(filter).length).padStart(3, "0") + " RECORDS →";
+        });
+    };
+
+    const updateSystemUI = (status) => {
+        const state = String(status.state || "ONLINE").toUpperCase();
+        const year = String(status.updated || new Date().getFullYear()).slice(0, 4);
+
+        const terminal = document.querySelector(".terminal-status");
+        if (terminal) {
+            terminal.innerHTML =
+                '<span class="status-led" aria-hidden="true"></span>' +
+                '<span data-status-state>' + state + '</span><span>/</span>' +
+                '<span data-status-system>ARCHIVE</span><span>/</span>' +
+                '<span data-status-year>' + year + '</span>';
+        }
+
+        setText("[data-status-state]", state);
+        setText("[data-status-system]", "ARCHIVE");
+        setText("[data-status-year]", year);
+        setText("[data-status-version]", String(status.version || "01"));
+        setText("[data-status-public]", String(status.records?.public ?? "—"));
+        setText("[data-status-total]", String(status.records?.total ?? "—"));
+        setText("[data-status-private]", String(status.records?.private ?? "—"));
+        setText("[data-status-relations]", String(status.network?.relations ?? "—"));
+        setText("[data-status-people]", String(status.network?.people ?? "—"));
+        setText("[data-status-groups]", String(status.network?.groups ?? "—"));
+        setText("[data-status-places]", String(status.network?.places ?? "—"));
+        setText("[data-status-sources]", String(status.sources ?? "—"));
+        setText("[data-status-repositories]", String(status.repositories ?? "—"));
+        setText("[data-status-assets]", String(status.visual_assets ?? "—"));
+        setText("[data-status-video]", String(status.video_source_rows ?? "—"));
+        setText("[data-status-sync]", String(status.updated || "—"));
+    };
+
+    const statusUrl = base + "data/site_status.json";
+    const worksUrl = base + "data/works.json";
+    const relationsUrl = base + "data/relations.json";
+
+    Promise.all([
+        fetch(statusUrl).then((response) => response.ok ? response.json() : null),
+        fetch(worksUrl).then((response) => response.ok ? response.json() : null),
+        fetch(relationsUrl).then((response) => response.ok ? response.json() : null)
+    ]).then(([status, manifest, graph]) => {
+        if (status) updateSystemUI(status);
+
+        if (manifest) {
+            const publicWorks = manifest.works.filter((work) => work.visibility !== "private");
+            const workCount = document.querySelector("[data-work-count]");
+            if (workCount) workCount.textContent = String(publicWorks.length).padStart(3, "0");
+            updateDirectoryCounts(publicWorks, graph || {});
+        }
+    }).catch(() => {
+        setText("[data-status-state]", "OFFLINE");
+    });
 });
