@@ -47,7 +47,7 @@ The expansion guidance is intentionally data-driven so a sparse entry can be exp
 data/site_status.json is the single current snapshot used by the interface.
 
 Current values:
-- 148 total records
+- 153 total records
 - 148 public / 5 private
 - 164 relations
 - 42 people / 9 groups / 10 places
