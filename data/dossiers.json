@@ -6686,6 +6686,179 @@
       ],
       "source_links": [],
       "source_credit_lines": []
+    },
+    "thirty-five-elias-adams": {
+      "work_id": "thirty-five-elias-adams",
+      "title": "35",
+      "summary": "ELIAS ADAMS ambient / experimental release from the R11Я album context, published through BAOS in 2018.",
+      "year": "2018",
+      "status": "documented",
+      "media_dir": "media/works/thirty-five-elias-adams/",
+      "media_status": "staged",
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://vk.com/eliasadams"
+      ],
+      "video_source_ids": [
+        "qn902QYS6ik"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [
+        "digital audio release",
+        "source artwork / cover — pending recovery"
+      ],
+      "chronology": [
+        {
+          "year": "2018",
+          "note": "Historical release documented in the current YouTube source export."
+        }
+      ],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [
+        "The release is retained as historical ELIAS ADAMS material; source-level naming is preserved."
+      ],
+      "questions_to_resolve": [],
+      "source_context": [
+        "The source identifies 35 as a track on the R11Я album and gives BAOS / Helsingborg release metadata.",
+        "The archive retains the original ELIAS ADAMS naming as a documented historical release context."
+      ],
+      "source_links": [
+        "https://vk.com/eliasadams"
+      ],
+      "source_credit_lines": [
+        "Artist: ELIAS ADAMS",
+        "Album: R11Я",
+        "Label: BAOS",
+        "Country: Helsingborg"
+      ]
+    },
+    "hehd": {
+      "work_id": "hehd",
+      "title": "HEHD (High End Hard Dead)",
+      "summary": "ELIAS ADAMS track from the album HEHD (The First Place For You), released through BAOS in 2018.",
+      "year": "2018",
+      "status": "documented",
+      "media_dir": "media/works/hehd/",
+      "media_status": "staged",
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://vk.com/eliasadams"
+      ],
+      "video_source_ids": [
+        "155inL5YMjI"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [
+        "digital audio release",
+        "source artwork / cover — pending recovery"
+      ],
+      "chronology": [
+        {
+          "year": "2018",
+          "note": "Historical release documented in the current YouTube source export."
+        }
+      ],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [
+        "The release is retained as historical ELIAS ADAMS material; source-level naming is preserved."
+      ],
+      "questions_to_resolve": [],
+      "source_context": [
+        "The source identifies HEHD as the title track of HEHD (The First Place For You), with BAOS release metadata.",
+        "Genre tags in the source are ambient, experimental and analogue."
+      ],
+      "source_links": [
+        "https://vk.com/eliasadams"
+      ],
+      "source_credit_lines": [
+        "Artist: ELIAS ADAMS",
+        "Album: HEHD (The First Place For You)",
+        "Label: BAOS",
+        "Country: Helsingborg"
+      ]
+    },
+    "m3adows": {
+      "work_id": "m3adows",
+      "title": "m3adows",
+      "summary": "ELIAS ADAMS single released through BAOS in Helsingborg in 2018.",
+      "year": "2018",
+      "status": "documented",
+      "media_dir": "media/works/m3adows/",
+      "media_status": "staged",
+      "media_slots": [
+        "01-cover.*",
+        "02-documentation-*.*",
+        "03-process-*.*",
+        "04-still-*.*",
+        "05-context-*.*"
+      ],
+      "sources": [
+        "https://github.com/ilyaminineli/eli_lab_official"
+      ],
+      "external_sources": [
+        "https://vk.com/eliasadams"
+      ],
+      "video_source_ids": [
+        "m5F8hrWrmro"
+      ],
+      "credits": [],
+      "process": [],
+      "materials": [
+        "digital audio release",
+        "source artwork / cover — pending recovery"
+      ],
+      "chronology": [
+        {
+          "year": "2018",
+          "note": "Historical release documented in the current YouTube source export."
+        }
+      ],
+      "exhibitions": [],
+      "publications": [],
+      "technical_notes": [],
+      "selected_images": [],
+      "archival_notes": [
+        "The release is retained as historical ELIAS ADAMS material; source-level naming is preserved."
+      ],
+      "questions_to_resolve": [],
+      "source_context": [
+        "The source identifies m3adows as a single released through BAOS in Helsingborg.",
+        "The source tags the release as ambient, experimental and analogue."
+      ],
+      "source_links": [
+        "https://vk.com/eliasadams"
+      ],
+      "source_credit_lines": [
+        "ELIAS ADAMS — m3adows (single)",
+        "BAOS",
+        "Helsingborg"
+      ]
     }
   }
 }
