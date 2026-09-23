@@ -72,5 +72,7 @@ The work metadata layer is now in place: `data/works.json`, `data/relations.json
 - 126 YouTube source rows
 - 105 normalized YouTube title signatures
 - 79 canonical YouTube-to-work joins / 47 source-only rows awaiting manual normalization
+- 156 staged work media folders / 0 selected display media files
+- 156 structured dossiers / 16 unique external links recovered from video descriptions
 - 47 GitHub repositories in the linked account inventory
 
