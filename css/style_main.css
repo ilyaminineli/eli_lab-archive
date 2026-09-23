@@ -4463,3 +4463,20 @@ body::after {
  .media-row-meta{grid-column:2;display:flex;align-items:center;justify-content:flex-start;gap:.4rem;text-align:left;}
  .media-row-actions{grid-column:2;flex-direction:row;align-items:flex-start;justify-content:flex-start;}
 }
+
+
+.network-connection-main {
+    min-width:0;
+    display:grid;
+    gap:.18rem;
+}
+.network-connection-main small {
+    color:#75817c;
+    font:500 .43rem/1.25 "DM Mono",monospace;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+@media(max-width:760px){
+    .network-connection-main small { white-space:normal; }
+}
