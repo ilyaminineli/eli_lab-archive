@@ -3491,6 +3491,93 @@
         "B610CDVHkJY"
       ],
       "media_status": "staged"
+    },
+    {
+      "id": "thirty-five-elias-adams",
+      "title": "35",
+      "year": "2018",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "personal release",
+        "ELIAS ADAMS",
+        "BAOS",
+        "Helsingborg"
+      ],
+      "status": "documented",
+      "description": "ELIAS ADAMS ambient / experimental release from the R11Я album context, published through BAOS in 2018. The source describes it as analogue-leaning experimental ambient material from Helsingborg.",
+      "sources": [
+        "https://www.youtube.com/watch?v=qn902QYS6ik",
+        "https://vk.com/eliasadams"
+      ],
+      "external_sources": [
+        "https://vk.com/eliasadams"
+      ],
+      "video_source_ids": [
+        "qn902QYS6ik"
+      ],
+      "media_dir": "media/works/thirty-five-elias-adams/",
+      "media_status": "staged"
+    },
+    {
+      "id": "hehd",
+      "title": "HEHD (High End Hard Dead)",
+      "year": "2018",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "personal release",
+        "ELIAS ADAMS",
+        "BAOS",
+        "Helsingborg"
+      ],
+      "status": "documented",
+      "description": "ELIAS ADAMS track from the album HEHD (The First Place For You), released through BAOS in 2018. The source classifies the work as ambient, experimental and analogue.",
+      "sources": [
+        "https://www.youtube.com/watch?v=155inL5YMjI",
+        "https://vk.com/eliasadams"
+      ],
+      "external_sources": [
+        "https://vk.com/eliasadams"
+      ],
+      "video_source_ids": [
+        "155inL5YMjI"
+      ],
+      "media_dir": "media/works/hehd/",
+      "media_status": "staged"
+    },
+    {
+      "id": "m3adows",
+      "title": "m3adows",
+      "year": "2018",
+      "medium": [
+        "audio",
+        "video"
+      ],
+      "context": [
+        "personal release",
+        "ELIAS ADAMS",
+        "BAOS",
+        "Helsingborg"
+      ],
+      "status": "documented",
+      "description": "ELIAS ADAMS single released through BAOS in Helsingborg in 2018. The source tags it as ambient, experimental and analogue material.",
+      "sources": [
+        "https://www.youtube.com/watch?v=m5F8hrWrmro",
+        "https://vk.com/eliasadams"
+      ],
+      "external_sources": [
+        "https://vk.com/eliasadams"
+      ],
+      "video_source_ids": [
+        "m5F8hrWrmro"
+      ],
+      "media_dir": "media/works/m3adows/",
+      "media_status": "staged"
     }
   ]
 }
