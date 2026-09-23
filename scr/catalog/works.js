@@ -14,16 +14,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 
     try {
-        const [workResponse, relationResponse, videoResponse] = await Promise.all([
+        const [workResponse, relationResponse, videoResponse, dossierResponse] = await Promise.all([
             fetch('../data/works.json'),
             fetch('../data/relations.json'),
-            fetch('../data/video_context.json')
+            fetch('../data/video_context.json'),
+            fetch('../data/dossiers.json')
         ]);
         if (!workResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
 
         const manifest = await workResponse.json();
         const graph = relationResponse.ok ? await relationResponse.json() : { edges: [], people: [], groups: [], places: [] };
         const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
+        const dossierData = dossierResponse.ok ? await dossierResponse.json() : { works: {} };
         const publicWorks = manifest.works.filter((work) => work.visibility !== 'private');
         const workById = new Map(publicWorks.map((work) => [work.id, work]));
         const entityNames = new Map([
@@ -87,6 +89,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             videoSearchText.get(video.canonicalWorkId).push(video.title, video.description, ...(video.links || []), ...(video.creditLines || []));
         });
 
+        const displayDescription = (work) => {
+            const dossier = dossierData.works?.[work.id];
+            return work.description || dossier?.source_context?.[0] || dossier?.summary || '';
+        };
+
         const rows = publicWorks.map((work) => {
             const searchText = [
                 work.id, work.title, work.description, work.year,
@@ -103,7 +110,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 '<span>' + escapeHTML(work.year) + '</span>' +
                 '<strong>' + escapeHTML(work.title) + '</strong>' +
                 '<span>' + escapeHTML((work.medium?.[0] || 'archive').toUpperCase()) + '</span>' +
-                '<span>' + escapeHTML(work.description || '') + '</span><span>↗</span></a>';
+                '<span>' + escapeHTML(displayDescription(work)) + '</span><span>↗</span></a>';
         }).join('');
 
         archiveTable.innerHTML = rows;
