@@ -4403,3 +4403,28 @@ body::after {
 .credit-open {justify-self:start;color:#8f4c3c;font:500 .46rem/1 "DM Mono",monospace;}
 @media (max-width:760px){.credit-controls{grid-template-columns:1fr}.credit-list{grid-template-columns:1fr}}
 @media (max-width:480px){.credit-row{grid-template-columns:1fr;gap:.2rem}}
+
+
+/* Canonical archive imagery: never crop recovered artwork or documentation. */
+.archive-work-media--image {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#b9c1bb;
+}
+.archive-work-media--image img {
+    display:block;
+    width:100%;
+    height:100%;
+    min-height:32rem;
+    object-fit:contain;
+    object-position:center;
+    padding:.45rem;
+    background:#cbd1cc;
+}
+.medium-grid[data-catalog-context="documentation"] .archive-work-media--image img {
+    min-height:0;
+    height:auto;
+    max-height:100%;
+    padding:.3rem;
+}
