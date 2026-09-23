@@ -22,3 +22,6 @@ The recheck surfaced explicit naming / credit forms including **DYNAKYRIS / ダ�
 The same pass promoted clear video-to-work matches for EWP Project, Kasane Teto's 2026 Manifesto, Serval Man, linearna zaležnosť, Эффект Кулешовой, Trurly Fierndship, Bogorodskoye and an additional Get Hit Below upload.
 
 Video descriptions are now available inside canonical record pages as expandable source context, including links embedded in the original description.
+
+
+The description layer also preserves **16 unique external URLs** found inside video descriptions; these are aggregated in `data/video_external_links.json`. This includes current/recent links as well as historical social/profile destinations such as VK, old Facebook/Google+ pages, Galactikka, Telegram, and a TLE Records Bandcamp track. They are preserved as provenance until their present status can be verified.
