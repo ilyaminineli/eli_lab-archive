@@ -75,6 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 };
             });
 
+        const params = new URLSearchParams(location.search);
+        if (search) search.value = params.get("q") || "";
+
         [...new Set(records.map((r) => r.date?.slice(0, 4)).filter(Boolean))]
             .sort((a, b) => Number(b) - Number(a))
             .forEach((year) => yearSelect.insertAdjacentHTML("beforeend", '<option value="' + escapeHTML(year) + '">' + escapeHTML(year) + '</option>'));
@@ -110,9 +113,25 @@ document.addEventListener("DOMContentLoaded", () => {
             }).join("") || '<p class="small-note" style="padding:1rem">No matching source rows.</p>';
         };
 
-        search.addEventListener("input", render);
-        yearSelect.addEventListener("change", render);
-        linkFilter.addEventListener("change", render);
+        const writeUrl = () => {
+            const next = new URL(location.href);
+            if (search.value.trim()) next.searchParams.set("q", search.value.trim());
+            else next.searchParams.delete("q");
+            if (yearSelect.value !== "all") next.searchParams.set("year", yearSelect.value);
+            else next.searchParams.delete("year");
+            if (linkFilter.value !== "all") next.searchParams.set("link", linkFilter.value);
+            else next.searchParams.delete("link");
+            history.replaceState(null, "", next);
+        };
+
+        const initialYear = params.get("year");
+        if (initialYear && [...yearSelect.options].some(option => option.value === initialYear)) yearSelect.value = initialYear;
+        const initialLink = params.get("link");
+        if (initialLink && [...linkFilter.options].some(option => option.value === initialLink)) linkFilter.value = initialLink;
+
+        search.addEventListener("input", () => { writeUrl(); render(); });
+        yearSelect.addEventListener("change", () => { writeUrl(); render(); });
+        linkFilter.addEventListener("change", () => { writeUrl(); render(); });
         render();
     }).catch((error) => {
         console.error(error);
