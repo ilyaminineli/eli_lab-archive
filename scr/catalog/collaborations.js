@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const list = document.querySelector('#people-list');
     const input = document.querySelector('#people-search');
     const count = document.querySelector('#people-count');
+    const type = document.querySelector('#people-type');
     if (!list) return;
 
     const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
@@ -62,8 +63,22 @@ document.addEventListener('DOMContentLoaded', async () => {
               return b.projects.length - a.projects.length || a.name.localeCompare(b.name);
           });
 
+        const types = [...new Set(people.map(person => person.type).filter(Boolean))].sort();
+        types.forEach(value => {
+            if (!type) return;
+            const option = document.createElement('option');
+            option.value = value;
+            option.textContent = value.toUpperCase();
+            type.appendChild(option);
+        });
+
+        const params = new URLSearchParams(location.search);
+        if (input) input.value = params.get('q') || '';
+        if (type && types.includes(params.get('type'))) type.value = params.get('type');
+
         const draw = () => {
             const query = (input?.value || '').trim().toLowerCase();
+            const typeFilter = type?.value || 'all';
             let visible = 0;
 
             list.innerHTML = people.map(person => {
@@ -76,7 +91,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     ...(observation?.roles_observed || []),
                     observation?.persona_notes || ''
                 ].join(' ').toLowerCase();
-                const match = !query || blob.includes(query);
+                const matchType = typeFilter === 'all' || person.type === typeFilter;
+                const match = matchType && (!query || blob.includes(query));
                 if (match) visible += 1;
 
                 const projectsHTML = person.projects
@@ -103,7 +119,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (count) count.textContent = String(visible).padStart(3, '0') + ' PEOPLE / ' + String(people.length).padStart(3, '0') + ' INDEXED';
         };
 
-        input?.addEventListener('input', draw);
+        const writeUrl = () => {
+            const next = new URL(location.href);
+            if (input?.value.trim()) next.searchParams.set('q', input.value.trim());
+            else next.searchParams.delete('q');
+            if (type?.value && type.value !== 'all') next.searchParams.set('type', type.value);
+            else next.searchParams.delete('type');
+            history.replaceState(null, '', next);
+        };
+
+        input?.addEventListener('input', () => { writeUrl(); draw(); });
+        type?.addEventListener('change', () => { writeUrl(); draw(); });
         draw();
     } catch (error) {
         if (count) count.textContent = 'SOURCE ERROR';
