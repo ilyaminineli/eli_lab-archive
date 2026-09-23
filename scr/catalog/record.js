@@ -244,8 +244,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             '<div><dt>EXTERNAL</dt><dd>' + (externalRows || '—') + '</dd></div>' +
             '</dl></section>' +
 
-            '<section class="record-panel"><div class="panel-title">RELATIONS</div><div class="record-relations">' +
-            (relationRows || '<p class="small-note">NO EXPLICIT RELATIONS RECORDED.</p>') +
+            '<section class="record-panel"><div class="panel-title">CREDITS / ROLES</div><div class="record-credits">' +
+            (creditHTML || '<p class="small-note">No explicit role credits recorded for this work.</p>') +
+            '</div></section>' +
+
+            '<section class="record-panel"><div class="panel-title">NETWORK / RELATIONS</div><div class="record-relations">' +
+            (relationRows || '<p class="small-note">NO EXPLICIT NETWORK RELATIONS RECORDED.</p>') +
             '</div></section>' +
             '</div>' +
 
