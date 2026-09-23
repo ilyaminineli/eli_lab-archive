@@ -1,0 +1,2652 @@
+{
+  "updated": "2026-09-23",
+  "purpose": "Maintainer queue for enriching public work records. Priority reflects available source evidence and dossier sparsity, not artistic importance.",
+  "summary": {
+    "high": 38,
+    "medium": 107,
+    "low": 6
+  },
+  "works": [
+    {
+      "id": "insects-2018",
+      "title": "1nsects",
+      "year": "2018",
+      "priority": "HIGH",
+      "descriptionLength": 41,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "idiopathic",
+      "title": "Idiopathic (with age-dependent debut)",
+      "year": "2018",
+      "priority": "HIGH",
+      "descriptionLength": 76,
+      "videoSourceCount": 2,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "arctic-2019",
+      "title": "arctic",
+      "year": "2019",
+      "priority": "HIGH",
+      "descriptionLength": 82,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "frr",
+      "title": "FRR",
+      "year": "2019",
+      "priority": "HIGH",
+      "descriptionLength": 42,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "nature-2019",
+      "title": "nature",
+      "year": "2019",
+      "priority": "HIGH",
+      "descriptionLength": 56,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pticess",
+      "title": "PTICESS",
+      "year": "2019",
+      "priority": "HIGH",
+      "descriptionLength": 36,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "receiver-2019",
+      "title": "receiver",
+      "year": "2019",
+      "priority": "HIGH",
+      "descriptionLength": 88,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "balance-2020",
+      "title": "balance 2020",
+      "year": "2020",
+      "priority": "HIGH",
+      "descriptionLength": 88,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "found-tape",
+      "title": "Found Tape",
+      "year": "2020",
+      "priority": "HIGH",
+      "descriptionLength": 74,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "geztalt",
+      "title": "Geztålt",
+      "year": "2020s",
+      "priority": "HIGH",
+      "descriptionLength": 151,
+      "videoSourceCount": 10,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pleiir",
+      "title": "Pleiir",
+      "year": "2020s",
+      "priority": "HIGH",
+      "descriptionLength": 87,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "enlightenment-i",
+      "title": "Enlightenment I",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 48,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "evocation-turtur",
+      "title": "Evocation Turtur — The Great Turtle Summoning Ritual",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 78,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "industrial-sanitation",
+      "title": "Industrial Sanitation and Occupational Hygiene",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 99,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "taming-the-serpent",
+      "title": "Taming the Serpent",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 95,
+      "videoSourceCount": 2,
+      "mediaSelected": 0,
+      "missingSections": [
+        "publications",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "trurly-fierndship",
+      "title": "Trurly Fierndship",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 198,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "who-is-vova-lilo",
+      "title": "Who is Vova Lilo? The Myth of a Man",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 83,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "muyskaya-depressiya",
+      "title": "Мужская депрессия / Male Depression",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 93,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "ritual-big-fridge",
+      "title": "Ритуал для Большого Холодильника / Ritual for the Big Refrigerator",
+      "year": "2022",
+      "priority": "HIGH",
+      "descriptionLength": 84,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "vegetables",
+      "title": "Овощи / Vegetables",
+      "year": "2023",
+      "priority": "HIGH",
+      "descriptionLength": 74,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "dymohod",
+      "title": "Dymohod",
+      "year": "2024",
+      "priority": "HIGH",
+      "descriptionLength": 44,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "greater-than-lesser",
+      "title": "Greater Than Lesser",
+      "year": "2024",
+      "priority": "HIGH",
+      "descriptionLength": 110,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "mudak",
+      "title": "Mudak",
+      "year": "2024",
+      "priority": "HIGH",
+      "descriptionLength": 42,
+      "videoSourceCount": 2,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "serval-man",
+      "title": "Serval Man",
+      "year": "2024",
+      "priority": "HIGH",
+      "descriptionLength": 208,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "showreel-2024",
+      "title": "Showreel 2024",
+      "year": "2024",
+      "priority": "HIGH",
+      "descriptionLength": 74,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "get-hit-below",
+      "title": "Get Hit Below",
+      "year": "2025",
+      "priority": "HIGH",
+      "descriptionLength": 70,
+      "videoSourceCount": 9,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pjesma-pro-ljubov",
+      "title": "Pjesma pro Ljubov",
+      "year": "2025",
+      "priority": "HIGH",
+      "descriptionLength": 102,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "tetopocalypsis",
+      "title": "Tetopocalypsis",
+      "year": "2025",
+      "priority": "HIGH",
+      "descriptionLength": 56,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "the-last-day-of-kasane-teto",
+      "title": "The Last Day of Kasane Teto",
+      "year": "2025",
+      "priority": "HIGH",
+      "descriptionLength": 36,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "triple-baka",
+      "title": "Triple Baka",
+      "year": "2025",
+      "priority": "HIGH",
+      "descriptionLength": 31,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "kagome-kagome",
+      "title": "かごめかごめ / Kagome Kagome",
+      "year": "2025",
+      "priority": "HIGH",
+      "descriptionLength": 64,
+      "videoSourceCount": 6,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "aint-no-sunshine",
+      "title": "Ain't No Sunshine",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 102,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "afraid-of-happiness",
+      "title": "しあわせがこわい / I'm Afraid of Happiness",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 39,
+      "videoSourceCount": 5,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "someones-voice",
+      "title": "だれかの声 / Someone's Voice",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 96,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "in-her-20s",
+      "title": "二十歳 / In Her 20-s",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 129,
+      "videoSourceCount": 5,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "childs-sky",
+      "title": "子供の空 / Child's Sky",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 126,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "six-yokai",
+      "title": "富士山六大妖怪 / Six Yokai of Mount Fuji",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 84,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "mountain-remembers",
+      "title": "山は覚えている / The Mountain Remembers",
+      "year": "2026",
+      "priority": "HIGH",
+      "descriptionLength": 140,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "desolation-odissey",
+      "title": "Desolation Odissey",
+      "year": "2010s–2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 182,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "elysium",
+      "title": "Elysium",
+      "year": "2010s–2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 125,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "metaliminal",
+      "title": "Metaliminal",
+      "year": "2010s–2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 137,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "concert-at-la-2014",
+      "title": "Concert at LA",
+      "year": "2014",
+      "priority": "MEDIUM",
+      "descriptionLength": 87,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "thirty-five-elias-adams",
+      "title": "35",
+      "year": "2018",
+      "priority": "MEDIUM",
+      "descriptionLength": 195,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "exhibitions",
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "hehd",
+      "title": "HEHD (High End Hard Dead)",
+      "year": "2018",
+      "priority": "MEDIUM",
+      "descriptionLength": 165,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "exhibitions",
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "m3adows",
+      "title": "m3adows",
+      "year": "2018",
+      "priority": "MEDIUM",
+      "descriptionLength": 131,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "exhibitions",
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "magic-orgy",
+      "title": "Magic Orgy",
+      "year": "2018",
+      "priority": "MEDIUM",
+      "descriptionLength": 34,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "ppp-2018",
+      "title": "PPP performance",
+      "year": "2018",
+      "priority": "MEDIUM",
+      "descriptionLength": 55,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "muse-2019",
+      "title": "MUSE performance",
+      "year": "2019",
+      "priority": "MEDIUM",
+      "descriptionLength": 55,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "rebirth",
+      "title": "REBIRTH",
+      "year": "2019",
+      "priority": "MEDIUM",
+      "descriptionLength": 100,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "teqcnuilogiogistie",
+      "title": "Teqcnuilogiogistie",
+      "year": "2019",
+      "priority": "MEDIUM",
+      "descriptionLength": 34,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "daly-syndrome",
+      "title": "Daly Syndrome",
+      "year": "2019–present",
+      "priority": "MEDIUM",
+      "descriptionLength": 149,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "estetish-tape",
+      "title": "estetish tape",
+      "year": "2020",
+      "priority": "MEDIUM",
+      "descriptionLength": 93,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "portraits-2020",
+      "title": "Portraits",
+      "year": "2020",
+      "priority": "MEDIUM",
+      "descriptionLength": 88,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "unreal-2020",
+      "title": "Unreal",
+      "year": "2020",
+      "priority": "MEDIUM",
+      "descriptionLength": 123,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "3d-essentials",
+      "title": "3D Essentials",
+      "year": "2020–2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 69,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "album-covers-archive",
+      "title": "Album Covers Archive",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 126,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "antokolskyj",
+      "title": "Antokolskyj",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 69,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "assembly-line-challenge",
+      "title": "Assembly Line Challenge",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 86,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "bloody",
+      "title": "Bloody",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 57,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "bloody-2",
+      "title": "Bloody 2",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 68,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "bonza",
+      "title": "Bonza",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 61,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "cg-3d-design-archive",
+      "title": "CG / 3D Design Archive",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 114,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "cg-design-online-shop",
+      "title": "CG Design / Online Shop",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 153,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "gonki-i-tochka",
+      "title": "Gonki i Tochka",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 83,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "teto-character-studies",
+      "title": "Kasane Teto Character Studies",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 147,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "logo-archive",
+      "title": "Logo Archive",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 119,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "london-hello",
+      "title": "London Hello",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 70,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "orthofuture",
+      "title": "Orthofuture",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 70,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pacanbalet",
+      "title": "Pacanbalet",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 70,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "semi-spatial-apartment",
+      "title": "Semi-spatial Apartment",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 44,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "sleepdom",
+      "title": "Sleepdom",
+      "year": "2020s",
+      "priority": "MEDIUM",
+      "descriptionLength": 36,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "asc-eight-channel",
+      "title": "ASC Museum eight-channel audio capsule",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 81,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "captured-bodies-soundtrack",
+      "title": "Captured Bodies and Their Surroundings / soundtrack",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 111,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "holidays-sa-2021",
+      "title": "Holidays SA)) / 2021",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 114,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "life-in-one-second",
+      "title": "life in one second",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 60,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "live-one-gog",
+      "title": "Live in One Gog Center",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 68,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "memory-of-touch",
+      "title": "Memory of Touch",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 73,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pattern-2021",
+      "title": "PATTERN / industrial fabrics",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 39,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "redd-2021",
+      "title": "REDD experimental music festival",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 48,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "smoles-2021",
+      "title": "SMOLES",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 36,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "system-s3",
+      "title": "System S3",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 65,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "telegraph-kinetic-coding",
+      "title": "Telegraph. Kinetic coding of the expected signal",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 87,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "ugol-visual-programming",
+      "title": "UGOL real-time visual programming",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 63,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "winter-story",
+      "title": "Зимняя Сказка / Winter Story",
+      "year": "2021",
+      "priority": "MEDIUM",
+      "descriptionLength": 102,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "single-photos-2021-22",
+      "title": "Single Photos / 2021–2022",
+      "year": "2021–2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 164,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "serial-experiments-lens",
+      "title": "Serial Experiments Lens",
+      "year": "2021–2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 111,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "serial-experiments-lens-set-one",
+      "title": "Serial Experiments Lens / Set 1",
+      "year": "2021–2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 175,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "jewish-gift",
+      "title": "A gift to a Jewish fund",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 67,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "eporgaanisten-rakenteiden-kierratys",
+      "title": "Epäorgaanisten Rakenteiden Kierrätys",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 135,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "meatpacking-part-1",
+      "title": "Meatpacking Biennale / Part 1",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 112,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "meatpacking-part-2",
+      "title": "Meatpacking Biennale / Part 2",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 88,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "mixed-technique-2022",
+      "title": "Mixed Technique / 2022",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 86,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "no-skin",
+      "title": "No Skin",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 114,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "painting-studies-2022",
+      "title": "Painting Studies / Heads 1–3",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 59,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "refuge-2022",
+      "title": "Refuge",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 188,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "w-video-collage",
+      "title": "W",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 70,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "baron",
+      "title": "Баронъ",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 42,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "untitled-3",
+      "title": "Без названия 3 / Untitled 3",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 33,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "bessonitsa",
+      "title": "Бессоница / Insomnia",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 70,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "spring-story",
+      "title": "Весенняя Сказка / Spring Story",
+      "year": "2022",
+      "priority": "MEDIUM",
+      "descriptionLength": 106,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "agonal-machines",
+      "title": "Agonal Machines",
+      "year": "2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 112,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "ewp-presentation-archive",
+      "title": "EWP Project / Presentation Archive",
+      "year": "2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 109,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "lab-announcement-3",
+      "title": "Lab Announcement 3",
+      "year": "2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 132,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "msu-sound-art-lecture-2023",
+      "title": "Moscow State University / Sound Art & generative systems",
+      "year": "2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 86,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "peredelano-conf-2023",
+      "title": "Peredelano Conf lecture / generative systems",
+      "year": "2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 90,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "uncanny-bar",
+      "title": "Uncanny Bar",
+      "year": "2023",
+      "priority": "MEDIUM",
+      "descriptionLength": 138,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "belial",
+      "title": "Belial",
+      "year": "2023–",
+      "priority": "MEDIUM",
+      "descriptionLength": 254,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "linearna-zaležnost",
+      "title": "linearna zaležnosť",
+      "year": "2024",
+      "priority": "MEDIUM",
+      "descriptionLength": 230,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "aibolit-sashaeb",
+      "title": "Айболит / Aibolit",
+      "year": "2024–2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 147,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "fukkireta",
+      "title": "Fukkireta / 吹っ切れた",
+      "year": "2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 62,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "geztalt-delta-2025",
+      "title": "ΔҒϮΩϷΔϮΙ",
+      "year": "2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 25,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "geztalt-j-2025",
+      "title": "ᏒᚣᚺᚺᚣJᚣ ᚹᛠᚣᛢᛈꖾᛕᚣ",
+      "year": "2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 25,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "geztalt-ost-2025",
+      "title": "ᖘĬᙏꗞᙁ OST",
+      "year": "2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 52,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "geztalt-other-2025",
+      "title": "ᛔㄖ㇄丂⼕廾㠪乃𝓝ㄚ丿 ለቴር",
+      "year": "2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 67,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "geztalt-person-2025",
+      "title": "人刄厂刄山长刄",
+      "year": "2025",
+      "priority": "MEDIUM",
+      "descriptionLength": 25,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "blue-neon",
+      "title": "Blue Neon",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 68,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "eli-lab-mv-titler",
+      "title": "ELI LAB MV TITLER",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 111,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "multimedia-framework",
+      "title": "eli_lab Multimedia Framework",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 146,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pattern-generator",
+      "title": "eli_lab Pattern Generator",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 158,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pipeline-hub",
+      "title": "eli_lab Pipeline Hub",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 106,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "synthv-custom-scripts",
+      "title": "eli_lab SynthV Custom Scripts / VOCALOID Tuning Lab",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 161,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "fighting-postmodernism",
+      "title": "Fighting Postmodernism",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 275,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "frow",
+      "title": "FROW",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 71,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "saint-sin-gift",
+      "title": "Gift work for SAINT SIN",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 100,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "teto-2026-manifesto",
+      "title": "Kasane Teto's 2026 Manifesto",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 243,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "no-one-is-listening",
+      "title": "NO ONE IS LISTENING",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 50,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "parallel-vienna-2026",
+      "title": "Parallel Vienna 2026",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 123,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "parallel-vienna-alexander-zaloopin",
+      "title": "PARALLEL VIENNA 2026 — Alexander Zaloopin / Live Performance",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 88,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "parallel-vienna-oleg-ustinov",
+      "title": "PARALLEL VIENNA 2026 — Oleg Ustinov / Artist Statement",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 86,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "re-punk",
+      "title": "Re-Punk / Re-Punk Room",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 219,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "videodrome",
+      "title": "VIDEODROME screening trace",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 72,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "pereizobretenie-punk",
+      "title": "Переизобретая панк / Re-inventing Punk",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 168,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "valera-grandpa-music",
+      "title": "ヴァレラおじいちゃんへ の音楽集",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 61,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "birthday-gift-eli-to-elly",
+      "title": "エリからエリーへの誕生日プレゼント",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 64,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "opossum",
+      "title": "オポッサム",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 71,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "seven-hills-m7",
+      "title": "七つの丘のマンコ / M7 Archive Series",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 167,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "abnormal-reflective-girl",
+      "title": "異常な反射少女 / Abnormal Reflective Girl",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 116,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "hiro",
+      "title": "響 Hiro",
+      "year": "2026",
+      "priority": "MEDIUM",
+      "descriptionLength": 231,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "amp",
+      "title": "amp",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 58,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "bad-kase-of-indiscretion",
+      "title": "Bad Kase of Indiscretion",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 58,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "night-mafia",
+      "title": "Night Mafia",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 132,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "patanormal",
+      "title": "patanormal",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 58,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "rakkaani",
+      "title": "rakkaani",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 58,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "redux-to-the-breath-2",
+      "title": "Redux To The Breath - Part 2",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 58,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "red-box",
+      "title": "unreleased sound: red box",
+      "year": "legacy",
+      "priority": "MEDIUM",
+      "descriptionLength": 66,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "process",
+        "materials",
+        "chronology",
+        "exhibitions",
+        "publications",
+        "technical_notes",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "bogorodskoe",
+      "title": "Bogorodskoe",
+      "year": "2022",
+      "priority": "LOW",
+      "descriptionLength": 312,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications"
+      ]
+    },
+    {
+      "id": "kuleshov-effect",
+      "title": "Эффект Кулешовой / Kuleshov Effect",
+      "year": "2022",
+      "priority": "LOW",
+      "descriptionLength": 306,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "publications",
+        "technical_notes"
+      ]
+    },
+    {
+      "id": "ewp-project",
+      "title": "EWP Project",
+      "year": "2023",
+      "priority": "LOW",
+      "descriptionLength": 251,
+      "videoSourceCount": 1,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications"
+      ]
+    },
+    {
+      "id": "iirai",
+      "title": "イーライ / Iirai family",
+      "year": "2025–",
+      "priority": "LOW",
+      "descriptionLength": 211,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications",
+        "archival_notes"
+      ]
+    },
+    {
+      "id": "jihanki",
+      "title": "JIHANKI",
+      "year": "2026",
+      "priority": "LOW",
+      "descriptionLength": 286,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "publications"
+      ]
+    },
+    {
+      "id": "eugene",
+      "title": "友人 / Eugene",
+      "year": "2026",
+      "priority": "LOW",
+      "descriptionLength": 284,
+      "videoSourceCount": 0,
+      "mediaSelected": 0,
+      "missingSections": [
+        "exhibitions",
+        "publications"
+      ]
+    }
+  ]
+}
