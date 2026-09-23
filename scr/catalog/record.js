@@ -71,6 +71,20 @@ document.addEventListener('DOMContentLoaded', async () => {
                 escapeHTML(resolveEntity(targetId)) + '</strong><em>→</em></a>';
         }).join('');
 
+        const creditLines = (dossier?.source_credit_lines || []).filter(Boolean);
+        const dossierCredits = (dossier?.credits || []).map(credit =>
+            String(credit.name || resolveEntity(credit.entityId || '') || '') + ' / ' +
+            String(credit.relation || '')
+        );
+        const displayedCredits = creditLines.length ? creditLines : dossierCredits;
+        const creditHTML = displayedCredits.map(line => {
+            const parts = String(line).split(':');
+            const label = parts.length > 1 ? parts.shift() : 'CREDIT';
+            const value = parts.join(':').trim() || String(line);
+            return '<div class="credit-record-row"><span>' + escapeHTML(label.toUpperCase()) +
+                '</span><strong>' + escapeHTML(value) + '</strong></div>';
+        }).join('');
+
         const sourceRows = (work.sources || []).map((source) =>
             '<a class="text-link" target="_blank" rel="noopener" href="' +
             escapeHTML(source) + '">' + escapeHTML(source.replace(/^https?:\/\//, '')) + ' ↗</a>'
