@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eli_lab archive detail and recovery queue.">
+    <title>eli_lab — Detail Queue</title>
+    <link rel="stylesheet" href="../css/measures.css">
+    <link rel="stylesheet" href="../css/style_main.css">
+</head>
+<body>
+<header class="site-header console-header u-container">
+    <div class="terminal-brand"><a class="wordmark" href="../index.html">eli_lab</a><span class="terminal-sub">MULTIDISCIPLINARY ARCHIVE / SYSTEM 01</span></div>
+    <div class="terminal-status"><span class="status-led" aria-hidden="true"></span><span>ONLINE</span><span>/</span><span>ARCHIVE</span><span>/</span><span>2026</span></div>
+    <nav class="site-nav terminal-nav" aria-label="Primary navigation"><a href="../index.html"><span>01</span> INDEX</a><a href="archive.html"><span>02</span> WORKS</a><a href="network.html"><span>03</span> MAP</a><a href="documentation.html"><span>04</span> DOCS</a><a href="collaborations.html"><span>05</span> PEOPLE</a><a href="cv.html"><span>06</span> CV</a></nav>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span class="sr-only">Menu</span></button>
+</header>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation"><a href="../index.html">01 / Index</a><a href="archive.html">02 / Works</a><a href="network.html">03 / Map</a><a href="documentation.html">04 / Docs</a><a href="collaborations.html">05 / People</a><a href="cv.html">06 / Cv</a></nav>
+
+<main>
+    <section class="page-intro u-container">
+        <div><p class="eyebrow">archive / maintainer queue</p><h1>DETAIL,<br><em>RECOVER.</em></h1></div>
+        <p class="page-lead">A generated worklist for entries that need richer description, process history, technical detail, provenance or recovered media. Priority reflects evidence available to the archive, not artistic importance.</p>
+    </section>
+
+    <section class="queue-shell u-container">
+        <div class="queue-controls">
+            <label class="terminal-field">SEARCH <input id="queue-search" type="search" autocomplete="off" placeholder="work / id / year"></label>
+            <label class="terminal-field">PRIORITY <select id="queue-priority"><option value="all">ALL QUEUE ITEMS</option><option value="HIGH">HIGH / SOURCE EVIDENCE</option><option value="MEDIUM">MEDIUM / SPARSE DOSSIER</option><option value="LOW">LOW / MAINTENANCE</option></select></label>
+            <span class="archive-count" id="queue-count">—</span>
+        </div>
+        <div id="queue-list" class="queue-list"></div>
+    </section>
+</main>
+
+<footer class="site-footer u-container"><span>ELI_LAB / DETAIL QUEUE</span><a href="media.html">MEDIA ↗</a><a href="archive.html">WORKS ↗</a><a href="search.html">SEARCH ↗</a></footer>
+<script src="../scr/script_main.js"></script>
+<script src="../scr/catalog/queue.js"></script>
+</body>
+</html>
