@@ -20,6 +20,9 @@
   "video_source_rows": 126,
   "video_canonical_joins": 79,
   "video_source_only": 47,
-  "media_work_folders": 25,
-  "asset_candidate_works": 19
+  "media_work_folders": 156,
+  "asset_candidate_works": 19,
+  "media_selected": 0,
+  "dossiers": 156,
+  "video_external_links": 16
 }
