@@ -88,7 +88,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (/^https?:\/\//i.test(value)) return value;
             return '../' + value.replace(/^\/+/, '');
         };
-        let resolvedThumbnail = work.thumbnail || '';
+        const coverItem = mediaItems.find(item => item.role === 'cover') || mediaItems[0];
+        let resolvedThumbnail = coverItem?.path ? mediaUrl(coverItem.path) : (work.thumbnail || '');
         if (!resolvedThumbnail && mediaEntry.folder) {
             const extensions = ['webp', 'jpg', 'jpeg', 'png'];
             for (const extension of extensions) {
@@ -102,9 +103,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 } catch (_) {}
             }
         }
-
-        const coverItem = mediaItems.find(item => item.role === 'cover') || mediaItems[0];
-        const resolvedThumbnail = coverItem?.path ? mediaUrl(coverItem.path) : (work.thumbnail || '');
 
         const thumbnail = resolvedThumbnail
             ? '<a class="record-hero-media" target="_blank" rel="noopener" href="' + escapeHTML(resolvedThumbnail) + '">' +
