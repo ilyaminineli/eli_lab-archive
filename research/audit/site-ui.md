@@ -56,6 +56,8 @@ Current values:
 - 595 visual assets
 - 126 YouTube source rows
 - 79 canonical YouTube joins / 47 source-only rows
+- 156 staged media folders / 0 selected display files
+- 156 dossiers / 16 recovered external links
 
 ## Scope boundary
 PARAZIT and the Oleg Ustinov website are retained only in data/client_orders.json and repository provenance. They are excluded from:
