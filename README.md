@@ -17,7 +17,10 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `pgs/interactive.html` — interactive archive
 - `pgs/games.html` — games archive
 - `pgs/vocal.html` — vocal synthesis / voicebank archive
-- `pgs/search.html` — unified search across public works and network entities
+- `pgs/search.html` — unified search across public works, people, sources and video rows
+- `pgs/entity.html` — canonical people / group / place detail record
+- `pgs/credits.html` — source-derived credits and naming index
+- `pgs/media.html` — media recovery / folder staging index
 - `pgs/sources.html` — searchable provenance/source register
 - `pgs/documentation.html` — documentation, exhibition and field records
 - `pgs/collaborations.html` — people / collaborator index
@@ -30,6 +33,8 @@ Personal digital archive for multidisciplinary work by eli_lab.
 - `data/assets.json` — 595-image asset inventory
 - `data/video_context.json` — structured YouTube descriptions, links and credit context
 - `data/video_links.json` — cross-video links extracted from descriptions
+- `data/video_external_links.json` — aggregate external URLs recovered from video descriptions
+- `data/media.json` — selected local archive media manifest
 - `data/dossiers.json` — structured dossier scaffold for every work
 - `data/csv_entities.json` — exact CSV-derived naming/role observations
 - `data/asset_candidates.json` — conservative visual asset candidates for manual review
@@ -56,7 +61,7 @@ The visual language is intentionally minimal and tactile, using a serious analog
 
 ## Future data layer
 
-The work metadata layer is now in place: `data/works.json`, `data/relations.json`, `data/aliases.json`, `data/sources.json`, `data/assets.json` and the video/source join maps separate canonical works from documents, people, places and provenance. The next step is deeper asset-level mapping and richer per-work dossiers.
+The work metadata layer is now in place: `data/works.json`, `data/relations.json`, `data/aliases.json`, `data/sources.json`, `data/assets.json` and the video/source join maps separate canonical works from documents, people, places and provenance. The next step is deeper asset-level mapping, recovered media uploads and richer per-work dossiers.
 
 ## Current data snapshot
 
