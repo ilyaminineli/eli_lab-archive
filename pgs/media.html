@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eli_lab archival media recovery index.">
+    <title>eli_lab — Media Recovery</title>
+    <link rel="stylesheet" href="../css/measures.css">
+    <link rel="stylesheet" href="../css/style_main.css">
+</head>
+<body>
+<header class="site-header console-header u-container">
+    <div class="terminal-brand"><a class="wordmark" href="../index.html">eli_lab</a><span class="terminal-sub">MULTIDISCIPLINARY ARCHIVE / SYSTEM 01</span></div>
+    <div class="terminal-status"><span class="status-led" aria-hidden="true"></span><span>ONLINE</span><span>/</span><span>ARCHIVE</span><span>/</span><span>2026</span></div>
+    <nav class="site-nav terminal-nav" aria-label="Primary navigation"><a href="../index.html"><span>01</span> INDEX</a><a href="archive.html"><span>02</span> WORKS</a><a href="network.html"><span>03</span> MAP</a><a href="documentation.html"><span>04</span> DOCS</a><a href="collaborations.html"><span>05</span> PEOPLE</a><a href="cv.html"><span>06</span> CV</a></nav>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span class="sr-only">Menu</span></button>
+</header>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation"><a href="../index.html">01 / Index</a><a href="archive.html">02 / Works</a><a href="network.html">03 / Map</a><a href="documentation.html">04 / Docs</a><a href="collaborations.html">05 / People</a><a href="cv.html">06 / Cv</a></nav>
+
+<main>
+    <section class="page-intro u-container">
+        <div><p class="eyebrow">archive / media recovery</p><h1>THE<br><em>MEDIA SHELF.</em></h1></div>
+        <p class="page-lead">A work-by-work staging index for recovered photographs, scans, screenshots, stills and documentation. Every canonical record has a stable folder ready for real assets.</p>
+    </section>
+
+    <section class="media-index u-container">
+        <div class="media-index-controls">
+            <label class="terminal-field">SEARCH <input id="media-search" type="search" autocomplete="off" placeholder="work title / id / year"></label>
+            <label class="terminal-field">STATE <select id="media-state"><option value="all">ALL FOLDERS</option><option value="empty">EMPTY / READY</option><option value="selected">HAS SELECTED MEDIA</option></select></label>
+            <span id="media-count" class="archive-count">—</span>
+        </div>
+        <div class="media-index-note">
+            <span>FOLDER RULE</span>
+            <strong>media/works/&lt;work-id&gt;/</strong>
+            <span>DISPLAY RULE</span>
+            <strong>data/media.json</strong>
+            <a href="../media/README.md">READ MEDIA GUIDE ↗</a>
+        </div>
+        <div id="media-list" class="media-list"></div>
+    </section>
+</main>
+
+<footer class="site-footer u-container"><span>ELI_LAB / MEDIA RECOVERY</span><a href="documentation.html">DOCS ↗</a><a href="archive.html">WORKS ↗</a></footer>
+<script src="../scr/script_main.js"></script>
+<script src="../scr/catalog/media.js"></script>
+</body>
+</html>
