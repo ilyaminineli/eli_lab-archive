@@ -1158,6 +1158,36 @@
       "from": "bogorodskoe",
       "relation": "created-by",
       "to": "ilya-minin"
+    },
+    {
+      "from": "thirty-five-elias-adams",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "thirty-five-elias-adams",
+      "relation": "released-on",
+      "to": "baos"
+    },
+    {
+      "from": "hehd",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "hehd",
+      "relation": "released-on",
+      "to": "baos"
+    },
+    {
+      "from": "m3adows",
+      "relation": "created-by",
+      "to": "ilya-minin"
+    },
+    {
+      "from": "m3adows",
+      "relation": "released-on",
+      "to": "baos"
     }
   ],
   "groups": [
@@ -1210,6 +1240,11 @@
         "geztålt lab",
         "geztålt"
       ]
+    },
+    {
+      "id": "baos",
+      "name": "BAOS",
+      "type": "label / release context"
     }
   ]
 }
