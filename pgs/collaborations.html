@@ -28,14 +28,15 @@
 
     <section class="people-shell u-container">
         <div class="people-controls">
-            <label class="terminal-field">SEARCH <input id="people-search" type="search" placeholder="name / role / project"></label>
+            <label class="terminal-field">SEARCH <input id="people-search" type="search" autocomplete="off" placeholder="name / alias / role / project"></label>
+            <label class="terminal-field">TYPE <select id="people-type"><option value="all">ALL PEOPLE / ENTITIES</option></select></label>
             <span class="archive-count" id="people-count">—</span>
         </div>
         <div id="people-list" class="people-list"></div>
     </section>
 </main>
 
-<footer class="site-footer u-container"><span>ELI_LAB / PEOPLE INDEX</span><a href="network.html">OPEN NETWORK ↗</a></footer>
+<footer class="site-footer u-container"><span>ELI_LAB / PEOPLE INDEX</span><a href="credits.html">CREDITS / SOURCE NAMES ↗</a><a href="network.html">OPEN NETWORK ↗</a></footer>
 <script src="../scr/script_main.js"></script>
 <script src="../scr/catalog/collaborations.js"></script>
 </body>
