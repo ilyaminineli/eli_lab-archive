@@ -1,6 +1,6 @@
 # Audit: missing, ambiguous and duplicate archive material
 
-Current structured work manifest: **153 records** (148 public + 5 private).
+Current structured work manifest: **153 records** (151 public + 5 private).
 
 ## Added during the second-pass audit
 - Daly Syndrome (long-form film)
