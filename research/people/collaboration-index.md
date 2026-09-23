@@ -10,7 +10,7 @@ This is a maintainer-facing index. People are entities; collaborations and event
 - **Julia Baranyuk** — Bogorodskoe, JIHANKI context, Taming the Serpent, Re-Punk exhibition, other shared projects.
 - **Anna Yuytova** — Antokolskyj.
 - **Mikhail Tenkovsky / Artyom Merkushev** — Gonki i Tochka.
-- **Marusia Izdebska** — EWP.
+- **Marysia Izdebska** — EWP narration / voiceover; source spelling “Marusia Izdebska” retained as an alias.
 - **Possum Eugene / eikton / Schenchik** — Eugene/Iirai voicebank production.
 - **Sergey Bratkov + Rodchenko students** — Refuge.
 - **sasha e b** — Aibolit exhibition collaboration and shared video-art practice.
