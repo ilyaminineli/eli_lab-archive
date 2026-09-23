@@ -25,13 +25,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         const [workResponse, relationResponse, videoResponse] = await Promise.all([
             fetch('../data/works.json'),
             fetch('../data/relations.json'),
-            fetch('../data/video_context.json')
+            fetch('../data/video_context.json'),
+            fetch('../data/dossiers.json')
         ]);
         if (!workResponse.ok) throw new Error('WORK DATABASE UNAVAILABLE.');
 
         const manifest = await workResponse.json();
         const graph = relationResponse.ok ? await relationResponse.json() : { edges: [], people: [], groups: [], places: [] };
         const videoContext = videoResponse.ok ? await videoResponse.json() : { rows: [] };
+        const dossierData = dossierResponse.ok ? await dossierResponse.json() : { works: {} };
         const works = manifest.works.filter((work) => work.visibility !== 'private');
         const entityNames = new Map([
             ...(graph.people || []).map((item) => [item.id, item.name]),
