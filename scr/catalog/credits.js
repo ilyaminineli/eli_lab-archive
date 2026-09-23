@@ -8,9 +8,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     const normalize=value=>String(value??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
 
     try{
-        const response=await fetch('../data/csv_entities.json');
+        const [response, relationResponse]=await Promise.all([
+            fetch('../data/csv_entities.json'),
+            fetch('../data/relations.json')
+        ]);
         if(!response.ok)throw new Error('CREDIT DATA UNAVAILABLE.');
         const data=await response.json();
+        const graph=relationResponse.ok?await relationResponse.json():{people:[],groups:[],places:[]};
+        const canonicalEntityIds=new Set([
+            ...(graph.people||[]).map(entity=>entity.id),
+            ...(graph.groups||[]).map(entity=>entity.id),
+            ...(graph.places||[]).map(entity=>entity.id)
+        ]);
         const entities=data.entities||[];
         const kinds=[...new Set(entities.map(e=>e.kind).filter(Boolean))].sort();
         kinds.forEach(value=>{
@@ -29,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return (kindFilter==='all'||entity.kind===kindFilter)&&(!query||hay.includes(query));
             });
             list.innerHTML=visible.map(entity=>{
-                const target=entity.canonical_id && ['person','group','place'].includes(entity.kind)
+                const target=entity.canonical_id && canonicalEntityIds.has(entity.canonical_id)
                     ? 'entity.html?id='+encodeURIComponent(entity.canonical_id)
                     : 'video.html?q='+encodeURIComponent(entity.source_forms?.[0]||entity.canonical_id);
                 return '<article class="credit-card">'+
