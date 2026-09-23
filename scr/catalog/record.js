@@ -88,6 +88,21 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (/^https?:\/\//i.test(value)) return value;
             return '../' + value.replace(/^\/+/, '');
         };
+        let resolvedThumbnail = work.thumbnail || '';
+        if (!resolvedThumbnail && mediaEntry.folder) {
+            const extensions = ['webp', 'jpg', 'jpeg', 'png'];
+            for (const extension of extensions) {
+                const candidate = '../' + String(mediaDir).replace(/\/+$/, '') + '/01-cover.' + extension;
+                try {
+                    const probe = await fetch(candidate, { method: 'HEAD' });
+                    if (probe.ok) {
+                        resolvedThumbnail = candidate;
+                        break;
+                    }
+                } catch (_) {}
+            }
+        }
+
         const coverItem = mediaItems.find(item => item.role === 'cover') || mediaItems[0];
         const resolvedThumbnail = coverItem?.path ? mediaUrl(coverItem.path) : (work.thumbnail || '');
 
