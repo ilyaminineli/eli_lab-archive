@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
     }[char]));
 
+    const normalize = (value) => String(value ?? '')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+
     try {
         const [workResponse, relationResponse, videoResponse] = await Promise.all([
             fetch('../data/works.json'),
@@ -29,16 +32,25 @@ document.addEventListener('DOMContentLoaded', async () => {
             ...(graph.places || []).map((item) => [item.id, item.name]),
             ...publicWorks.map((item) => [item.id, item.title])
         ]);
+
         const relationNames = new Map();
+        const relationAliases = new Map();
+        [...(graph.people || []), ...(graph.groups || []), ...(graph.places || [])].forEach((entity) => {
+            relationAliases.set(entity.id, entity.aliases || []);
+        });
+
         (graph.edges || []).forEach((edge) => {
             const workId = workById.has(edge.from) ? edge.from : workById.has(edge.to) ? edge.to : null;
             if (!workId) return;
             const targetId = edge.from === workId ? edge.to : edge.from;
             if (!relationNames.has(workId)) relationNames.set(workId, []);
-            relationNames.get(workId).push(entityNames.get(targetId) || targetId);
+            relationNames.get(workId).push(
+                entityNames.get(targetId) || targetId,
+                ...(relationAliases.get(targetId) || [])
+            );
         });
 
-        const directoryFilters = {
+        const filterFunctions = {
             visual: (work) => (work.medium || []).some((m) => ['art', 'painting', 'drawing', 'installation', 'cgi'].includes(m)),
             sound: (work) => (work.medium || []).includes('audio'),
             voice: (work) => (work.medium || []).includes('vocal'),
@@ -53,24 +65,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         };
 
+        const directMediumFilters = new Set(['art','painting','drawing','installation','animation','cgi','audio','video','vocal','interactive','software','games','performance','exhibition','documentation']);
+        const recognizedFilters = new Set([...Object.keys(filterFunctions), ...directMediumFilters]);
+
         const directoryNames = {
-            visual: 'VISUAL',
-            sound: 'SOUND',
-            voice: 'VOICE',
-            motion: 'MOTION',
-            systems: 'SYSTEMS',
-            games: 'GAMES',
-            documentation: 'DOCUMENTS'
+            visual: 'VISUAL', sound: 'SOUND', voice: 'VOICE', motion: 'MOTION', systems: 'SYSTEMS', games: 'GAMES',
+            documentation: 'DOCUMENTS', art: 'ART', painting: 'PAINTING', drawing: 'DRAWING', installation: 'INSTALLATION',
+            animation: 'ANIMATION', cgi: 'CGI / 3D', audio: 'AUDIO', video: 'VIDEO', vocal: 'VOCAL SYNTH',
+            interactive: 'INTERACTIVE', software: 'SOFTWARE', performance: 'PERFORMANCE', exhibition: 'EXHIBITION'
         };
 
         const params = new URLSearchParams(location.search);
-        let activePreset = params.get('medium');
-        if (!directoryFilters[activePreset]) activePreset = null;
-
-        const updateDirectoryLabel = () => {
-            if (!directoryLabel) return;
-            directoryLabel.textContent = activePreset ? directoryNames[activePreset] + ' / DIRECTORY' : 'ALL / WORKS';
-        };
+        let activeFilter = params.get('medium');
+        if (!recognizedFilters.has(activeFilter)) activeFilter = null;
+        if (search) search.value = params.get('q') || '';
 
         const videoSearchText = new Map();
         (videoContext.rows || []).forEach((video) => {
@@ -81,75 +89,78 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const rows = publicWorks.map((work) => {
             const searchText = [
-                work.title,
-                work.description,
-                ...(work.medium || []),
-                ...(work.context || []),
-                ...(work.sources || []),
-                ...(work.external_sources || []),
+                work.id, work.title, work.description, work.year,
+                ...(work.medium || []), ...(work.context || []),
+                ...(work.sources || []), ...(work.external_sources || []),
                 ...(relationNames.get(work.id) || []),
                 ...(videoSearchText.get(work.id) || [])
-            ].join(' ').toLowerCase();
+            ].join(' ');
 
             return '<a class="archive-row" data-work data-work-id="' + escapeHTML(work.id) + '" data-medium="' +
                 escapeHTML([...(work.medium || []), ...(work.context || [])].join(' ')) +
-                '" data-search="' + escapeHTML(searchText) +
+                '" data-search="' + escapeHTML(normalize(searchText)) +
                 '" href="record.html?id=' + encodeURIComponent(work.id) + '">' +
                 '<span>' + escapeHTML(work.year) + '</span>' +
                 '<strong>' + escapeHTML(work.title) + '</strong>' +
                 '<span>' + escapeHTML((work.medium?.[0] || 'archive').toUpperCase()) + '</span>' +
-                '<span>' + escapeHTML(work.description || '') + '</span>' +
-                '<span>↗</span></a>';
+                '<span>' + escapeHTML(work.description || '') + '</span><span>↗</span></a>';
         }).join('');
 
         archiveTable.innerHTML = rows;
 
+        const matchesFilter = (work, filter) => {
+            if (!filter) return true;
+            if (filterFunctions[filter]) return filterFunctions[filter](work);
+            return (work.medium || []).map(normalize).includes(normalize(filter)) ||
+                (work.context || []).map(normalize).includes(normalize(filter));
+        };
+
         const update = () => {
-            const filter = document.querySelector('[data-filter].is-active')?.dataset.filter || 'all';
-            const query = (search?.value || '').trim().toLowerCase();
-            const allRows = archiveTable.querySelectorAll('[data-work]');
+            const query = normalize(search?.value || '');
             let visible = 0;
+            const allRows = archiveTable.querySelectorAll('[data-work]');
 
             allRows.forEach((row) => {
                 const work = workById.get(row.dataset.workId);
-                const media = row.dataset.medium || '';
-                const hay = row.dataset.search || '';
-                const matchFilter = activePreset
-                    ? directoryFilters[activePreset](work || {})
-                    : filter === 'all' || media.split(' ').includes(filter) ||
-                        (filter === 'documentation' && /(performance|exhibition|screening|lecture|documentation|fieldwork|archive)/.test(media));
-                const matchSearch = !query || hay.includes(query);
-                const match = matchFilter && matchSearch;
+                const match = matchesFilter(work || {}, activeFilter) &&
+                    (!query || (row.dataset.search || '').includes(query));
                 row.classList.toggle('is-hidden', !match);
                 if (match) visible += 1;
             });
 
-            updateDirectoryLabel();
-            if (count) count.textContent = String(visible).padStart(3, '0') + ' records';
+            if (directoryLabel) {
+                directoryLabel.textContent = activeFilter ? directoryNames[activeFilter] + ' / DIRECTORY' : 'ALL / WORKS';
+            }
+            if (count) count.textContent = String(visible).padStart(3, '0') + ' RECORDS';
+
+            filters.forEach(button => button.classList.toggle('is-active', button.dataset.filter === (activeFilter || 'all')));
         };
 
         filters.forEach((button) => {
             button.addEventListener('click', () => {
-                filters.forEach((item) => item.classList.remove('is-active'));
-                button.classList.add('is-active');
-                activePreset = directoryFilters[button.dataset.filter] ? button.dataset.filter : null;
+                const selected = button.dataset.filter;
+                activeFilter = selected === 'all' ? null : (recognizedFilters.has(selected) ? selected : null);
+
                 const next = new URL(location.href);
-                if (activePreset) next.searchParams.set('medium', activePreset);
+                if (activeFilter) next.searchParams.set('medium', activeFilter);
                 else next.searchParams.delete('medium');
+                if (search?.value.trim()) next.searchParams.set('q', search.value.trim());
+                else next.searchParams.delete('q');
                 history.replaceState(null, '', next);
                 update();
             });
         });
 
-        const activeButton = activePreset
-            ? document.querySelector('[data-filter="' + activePreset + '"]')
-            : document.querySelector('[data-filter="all"]');
-        if (activeButton) {
-            filters.forEach((item) => item.classList.remove('is-active'));
-            activeButton.classList.add('is-active');
-        }
+        search?.addEventListener('input', () => {
+            const next = new URL(location.href);
+            if (search.value.trim()) next.searchParams.set('q', search.value.trim());
+            else next.searchParams.delete('q');
+            if (activeFilter) next.searchParams.set('medium', activeFilter);
+            else next.searchParams.delete('medium');
+            history.replaceState(null, '', next);
+            update();
+        });
 
-        search?.addEventListener('input', update);
         update();
     } catch (error) {
         console.error(error);
