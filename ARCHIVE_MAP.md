@@ -10,6 +10,8 @@
 - `VIDEO_CATALOG_MAP.md` — normalized YouTube discovery map.
 - `data/themes/` — thematic work indexes.
 - `data/assets.json` — 595-image visual inventory.
+- 156 staged work media folders live under `media/works/<work-id>/`; `data/media.json` controls selected display files.
+- `data/video_external_links.json` preserves 16 unique URLs found inside video descriptions.
 - `data/sources.json` — structured source registry.
 - `data/client_orders.json` — private client-site traces excluded from the art-practice graph.
 - `data/site_status.json` — canonical UI status snapshot.
