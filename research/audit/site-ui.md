@@ -1,7 +1,7 @@
 # Site UI / navigation / search audit — 2026-09-23
 
 ## Navigation
-All 19 HTML pages now use the same six primary items:
+All 21 HTML pages now use the same six primary items:
 
 1. INDEX
 2. WORKS
@@ -47,7 +47,7 @@ The expansion guidance is intentionally data-driven so a sparse entry can be exp
 data/site_status.json is the single current snapshot used by the interface.
 
 Current values:
-- 153 total records
+- 156 total records
 - 151 public / 5 private
 - 170 relations
 - 42 people / 10 groups / 10 places
@@ -68,7 +68,7 @@ Oleg Ustinov the collaborator remains where documented through actual shared pro
 ## Remaining content work
 The current structural/UI layer is coherent enough to support the next archive pass. The main remaining weakness is depth rather than navigation:
 
-- 57 YouTube rows still need manual canonical normalization.
+- 47 YouTube rows still need manual canonical normalization.
 - Only a subset of works currently have mapped preview images.
 - Major historical projects still need richer dossier content.
 - Asset-level mapping remains separate from the canonical work manifest.
