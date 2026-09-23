@@ -4,22 +4,22 @@
   "state": "ONLINE",
   "version": "01",
   "records": {
-    "total": 153,
-    "public": 148,
+    "total": 156,
+    "public": 151,
     "private": 5
   },
   "network": {
-    "relations": 164,
+    "relations": 170,
     "people": 42,
-    "groups": 9,
+    "groups": 10,
     "places": 10
   },
   "sources": 40,
   "repositories": 47,
   "visual_assets": 595,
   "video_source_rows": 126,
-  "video_canonical_joins": 76,
-  "video_source_only": 50,
+  "video_canonical_joins": 79,
+  "video_source_only": 47,
   "media_work_folders": 25,
   "asset_candidate_works": 19
 }
