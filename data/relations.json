@@ -362,7 +362,8 @@
     {
       "from": "ewp-project",
       "relation": "co-created-with",
-      "to": "marusia-izdebska"
+      "to": "marusia-izdebska",
+      "credit": "Narration: Marysia Izdebska"
     },
     {
       "from": "ewp-project",
@@ -667,12 +668,14 @@
     {
       "from": "taming-the-serpent",
       "relation": "co-created-with",
-      "to": "julia-baranyuk"
+      "to": "julia-baranyuk",
+      "credit": "Authors: Julia Baranyuk, Ilya Minin (Eli)"
     },
     {
       "from": "taming-the-serpent",
       "relation": "performed-with",
-      "to": "ilya-minin"
+      "to": "ilya-minin",
+      "credit": "Authors: Julia Baranyuk, Ilya Minin (Eli)"
     },
     {
       "from": "meatpacking-part-1",
@@ -1077,7 +1080,8 @@
     {
       "from": "ewp-project",
       "relation": "narrated-by",
-      "to": "marusia-izdebska"
+      "to": "marusia-izdebska",
+      "credit": "Narration: Marysia Izdebska"
     },
     {
       "from": "fighting-postmodernism",
@@ -1107,12 +1111,14 @@
     {
       "from": "get-hit-below",
       "relation": "co-created-with",
-      "to": "geztalt-project"
+      "to": "geztalt-project",
+      "credit": "Music: geztålt"
     },
     {
       "from": "get-hit-below",
       "relation": "programmed-by",
-      "to": "dynakyris"
+      "to": "dynakyris",
+      "credit": "SV Vocal Programming: DYNAKYRIS"
     },
     {
       "from": "teto-2026-manifesto",
@@ -1162,7 +1168,8 @@
     {
       "from": "thirty-five-elias-adams",
       "relation": "created-by",
-      "to": "ilya-minin"
+      "to": "ilya-minin",
+      "credit": "Artist: ELIAS ADAMS"
     },
     {
       "from": "thirty-five-elias-adams",
@@ -1172,7 +1179,8 @@
     {
       "from": "hehd",
       "relation": "created-by",
-      "to": "ilya-minin"
+      "to": "ilya-minin",
+      "credit": "Artist: ELIAS ADAMS"
     },
     {
       "from": "hehd",
@@ -1182,7 +1190,8 @@
     {
       "from": "m3adows",
       "relation": "created-by",
-      "to": "ilya-minin"
+      "to": "ilya-minin",
+      "credit": "ELIAS ADAMS — m3adows (single)"
     },
     {
       "from": "m3adows",
