@@ -116,7 +116,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             return '<a class="network-connection" href="' + entityHref(targetId) + '">' +
                 '<span class="network-connection-arrow">' + arrow + '</span>' +
                 '<span class="network-connection-label">' + escapeHTML(label) + '</span>' +
-                '<strong>' + escapeHTML(target) + '</strong>' +
+                '<div class="network-connection-main"><strong>' + escapeHTML(target) + '</strong>' +
+                (edge.credit ? '<small>' + escapeHTML(edge.credit) + '</small>' : '') +
+                '</div>' +
                 '<em class="network-entity network-entity--' + escapeHTML(type) + '">' + escapeHTML(type) + '</em>' +
                 '</a>';
         };
