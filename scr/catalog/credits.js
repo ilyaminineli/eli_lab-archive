@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const count=document.querySelector('#credit-count');
     if(!list)return;
     const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-    const normalize=value=>String(value??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+    const normalize=value=>String(value??'').toLowerCase().trim();
 
     try{
         const [response, relationResponse]=await Promise.all([
