@@ -2247,7 +2247,7 @@
         "legacy"
       ],
       "status": "legacy",
-      "description": "Historical live-event record preserved in the old Eli Lab site; details are incomplete.",
+      "description": "Historical live-event record preserved in the old eli_lab site; details are incomplete.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2504,7 +2504,7 @@
         "legacy"
       ],
       "status": "candidate",
-      "description": "Game/project record preserved by the historical Eli Lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
+      "description": "Game/project record preserved by the historical eli_lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2523,7 +2523,7 @@
         "legacy"
       ],
       "status": "candidate",
-      "description": "Game/project record from the historical Eli Lab site. Project-specific metadata remains to be recovered from source material.",
+      "description": "Game/project record from the historical eli_lab site. Project-specific metadata remains to be recovered from source material.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2962,7 +2962,7 @@
         "photography"
       ],
       "status": "documented",
-      "description": "Photographic series preserved in the historical Eli Lab image archive.",
+      "description": "Photographic series preserved in the historical eli_lab image archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -2982,7 +2982,7 @@
         "photography"
       ],
       "status": "documented",
-      "description": "Photographic series preserved in the historical Eli Lab image archive.",
+      "description": "Photographic series preserved in the historical eli_lab image archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3002,7 +3002,7 @@
         "photography"
       ],
       "status": "documented",
-      "description": "Photographic series preserved in the historical Eli Lab image archive.",
+      "description": "Photographic series preserved in the historical eli_lab image archive.",
       "sources": [
         "https://github.com/ilyaminineli/eli_lab_official"
       ],
@@ -3339,7 +3339,7 @@
     },
     {
       "id": "eli-lab-mv-titler",
-      "title": "ELI LAB MV TITLER",
+      "title": "eli_lab MV TITLER",
       "year": "2026",
       "medium": [
         "software",

@@ -1642,7 +1642,7 @@
       "process": [
         "Original UTAU song built around Eugene as a voice that has been restored from fragments yet remains deliberately unfinished.",
         "The Forest of White Bells and recurring images of fox footprints, bells, birds, red fruit and moonlight frame the search for warmth, freedom, a name or happiness.",
-        "The source describes the work as part of the broader ELI LAB exploration of UTAU, CGI, animation, sound art and audiovisual experiments."
+        "The source describes the work as part of the broader eli_lab exploration of UTAU, CGI, animation, sound art and audiovisual experiments."
       ],
       "materials": [
         "Eugene / 友人",
@@ -4502,7 +4502,7 @@
     "concert-at-la-2014": {
       "work_id": "concert-at-la-2014",
       "title": "Concert at LA",
-      "summary": "Historical live-event record preserved in the old Eli Lab site; details are incomplete.",
+      "summary": "Historical live-event record preserved in the old eli_lab site; details are incomplete.",
       "year": "2014",
       "status": "legacy",
       "media_dir": "media/works/concert-at-la-2014/",
@@ -4958,7 +4958,7 @@
     "desolation-odissey": {
       "work_id": "desolation-odissey",
       "title": "Desolation Odissey",
-      "summary": "Game/project record preserved by the historical Eli Lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
+      "summary": "Game/project record preserved by the historical eli_lab site; the old description shares generic liminal-space material with other game pages and needs project-specific verification.",
       "year": "2010s–2020s",
       "status": "candidate",
       "media_dir": "media/works/desolation-odissey/",
@@ -4993,7 +4993,7 @@
     "elysium": {
       "work_id": "elysium",
       "title": "Elysium",
-      "summary": "Game/project record from the historical Eli Lab site. Project-specific metadata remains to be recovered from source material.",
+      "summary": "Game/project record from the historical eli_lab site. Project-specific metadata remains to be recovered from source material.",
       "year": "2010s–2020s",
       "status": "candidate",
       "media_dir": "media/works/elysium/",
@@ -5758,7 +5758,7 @@
     "london-hello": {
       "work_id": "london-hello",
       "title": "London Hello",
-      "summary": "Photographic series preserved in the historical Eli Lab image archive.",
+      "summary": "Photographic series preserved in the historical eli_lab image archive.",
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/london-hello/",
@@ -5793,7 +5793,7 @@
     "orthofuture": {
       "work_id": "orthofuture",
       "title": "Orthofuture",
-      "summary": "Photographic series preserved in the historical Eli Lab image archive.",
+      "summary": "Photographic series preserved in the historical eli_lab image archive.",
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/orthofuture/",
@@ -5828,7 +5828,7 @@
     "pacanbalet": {
       "work_id": "pacanbalet",
       "title": "Pacanbalet",
-      "summary": "Photographic series preserved in the historical Eli Lab image archive.",
+      "summary": "Photographic series preserved in the historical eli_lab image archive.",
       "year": "2020s",
       "status": "documented",
       "media_dir": "media/works/pacanbalet/",
@@ -6397,7 +6397,7 @@
     },
     "eli-lab-mv-titler": {
       "work_id": "eli-lab-mv-titler",
-      "title": "ELI LAB MV TITLER",
+      "title": "eli_lab MV TITLER",
       "summary": "Dependency-free browser tool for generating animated Japanese subtitle typography from SRT/SBV timing and text.",
       "year": "2026",
       "status": "documented",

@@ -275,7 +275,7 @@
     },
     {
       "id": "discord",
-      "name": "ELI LAB Discord",
+      "name": "eli_lab Discord",
       "type": "community",
       "url": "https://discord.gg/elilab",
       "status": "linked-from-profile",
@@ -283,7 +283,7 @@
     },
     {
       "id": "tumblr",
-      "name": "ELI LAB Tumblr",
+      "name": "eli_lab Tumblr",
       "type": "tumblr",
       "url": "https://eli-lab.tumblr.com/",
       "status": "linked-from-repository",

@@ -31,7 +31,7 @@ Added canonical `record.html?id=WORK_ID` pages and a searchable `network.html`. 
 - Current private Song Creator system.
 - Current private Vocaloid Jazz Album project.
 - PARALLEL VIENNA 2026 event-side records for Alexander Zaloopin and Oleg Ustinov.
-- ELI LAB MV private editor and public MV TITLER tool.
+- eli_lab MV private editor and public MV TITLER tool.
 
 ## Major cross-project connections
 

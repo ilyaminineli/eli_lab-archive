@@ -1,4 +1,4 @@
-# ELI LAB MV TITLER
+# eli_lab MV TITLER
 
 Media folder for canonical archive record eli-lab-mv-titler (2026).
 
